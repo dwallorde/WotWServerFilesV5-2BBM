@@ -1,0 +1,452 @@
+<xui>
+	<ruleset name="default" scale="1.255" stackpanel_scale="1.05">
+	
+<!-- <<< SMX A16.3B12R2 START - BY SIRILLION >>> -->
+
+		<window_group name="crafting" controller="XUiC_CraftingWindowGroup">
+			<window name="SMXCraftingList" /> 																<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
+<!--		<window name="windowCraftingList" /> -->														<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
+			<window name="craftingInfoPanel" />
+			<window name="SMXCraftingQueue" />																<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
+<!--		<window name="windowCraftingQueue" /> -->
+		</window_group>
+		
+		<window_group name="character" controller="XUiC_CharacterSheetWindowGroup">
+			<window name="CharacterFrameWindow"/>
+			<window name="buffInfoPanel"/>
+			<window name="PlayerStatsWindow" />
+			<window name="ActiveBuffsWindow" />
+		</window_group>		
+		
+		<window_group name="workstation_campfire" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" />																<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
+<!--		<window name="windowCraftingList" /> -->														<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
+			<window name="craftingInfoPanel" />
+			<window name="SMXCraftingQueue" /> 																<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
+<!--		<window name="windowCraftingQueue" /> -->
+			<window name="windowToolsCampfire" />
+			<window name="windowFuel" />
+			<window name="windowOutputLarge" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_forge" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" /> 																<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
+<!--		<window name="windowCraftingList" /> -->														<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
+			<window name="craftingInfoPanel" />
+			<window name="SMXCraftingQueue" /> 																<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
+<!--		<window name="windowCraftingQueue" /> 	-->														<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
+			<window name="windowToolsForge" />
+			<window name="windowFuel" />
+			<window name="SMXForgeInput" />																	<!-- Enable this if you want to use the increased FORGE INPUT -->
+<!--		<window name="windowForgeInput" /> -->
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_cementMixer" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" /> 																<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
+<!--		<window name="windowCraftingList" /> -->														<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
+			<window name="craftingInfoPanel" />
+			<window name="SMXCraftingQueue" /> 																<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
+<!--		<window name="windowCraftingQueue" /> -->
+			<window name="windowOutputLarge" />
+			<window name="windowNonPagingHeader" />
+		</window_group>		
+		
+		<window_group name="workstation_workbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" /> 																<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
+<!-- 		<window name="windowCraftingList" /> -->														<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
+			<window name="craftingInfoPanel" />
+			<window name="SMXCraftingQueue" />																<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
+<!--		<window name="windowCraftingQueue" /> -->
+			<window name="windowOutputLarge" />
+			<window name="windowNonPagingHeader" />
+			<window name="windowCombine" />
+		</window_group>				
+
+		<window_group name="workstation_chemistryStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" />																<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
+<!--		<window name="windowCraftingList" /> -->														<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
+			<window name="craftingInfoPanel" />
+			<window name="SMXCraftingQueue" />																<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
+<!--		<window name="windowCraftingQueue" /> -->
+			<window name="windowFuel" />
+			<window name="windowOutputLarge" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+<!-- <<< SMX A16.3B12R2 END - BY SIRILLION >>> -->
+		
+<!-- War of the Walkers Mod Custom Window Groups Start -->
+		
+		<window_group name="workstation_BuildersForge" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" />
+<!--		<window name="windowCraftingList"/> -->
+			<window name="craftingInfoPanel"/>
+			<window name="SMXCraftingQueue" />
+<!--		<window name="windowCraftingQueue"/> -->
+			<window name="windowToolsForge" />
+			<window name="windowFuel" />
+			<window name="windowBuildersForgeInput" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_MortarandPestle" controller="XUiC_WorkstationWindowGroup">
+<!--		<window name="windowMortarCraftingList"/> -->
+			<window name="SMXCraftingList" />
+			<window name="craftingInfoPanel"/>
+			<window name="SMXCraftingQueue" />
+<!--		<window name="windowCraftingQueue"/> -->
+			<window name="windowToolsMortarandPestle"/>
+			<window name="windowOutputLarge" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_ArmorSmithingWorkstation" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" />
+<!--		<window name="windowCraftingList"/> -->
+			<window name="craftingInfoPanel"/>
+			<window name="SMXCraftingQueue" />
+<!--		<window name="windowCraftingQueue"/> -->
+			<window name="windowOutputLarge" />
+			<window name="windowNonPagingHeader" />
+			<window name="windowCombine" />
+		</window_group>
+		
+		<window_group name="workstation_AdvancedToolWorkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" />
+<!-- 		<window name="windowCraftingList"/> -->
+			<window name="craftingInfoPanel"/>
+			<window name="SMXCraftingQueue" />
+<!--		<window name="windowCraftingQueue"/> -->
+			<window name="windowOutputLarge" />
+			<window name="windowNonPagingHeader" />
+			<window name="windowCombine" />
+		</window_group>
+		
+		<window_group name="workstation_buildersWorkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" />
+<!--		<window name="windowCraftingList"/> -->
+			<window name="craftingInfoPanel"/>
+			<window name="SMXCraftingQueue" />
+<!--		<window name="windowCraftingQueue"/> -->
+			<window name="windowToolsBuildersWorkbench" />
+			<window name="windowOutputLarge" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+		<window_group name="workstation_BlueprintWorkStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" />
+<!--		<window name="windowCraftingList"/> -->
+			<window name="craftingInfoPanel"/>
+			<window name="SMXCraftingQueue" />
+<!--		<window name="windowCraftingQueue"/> -->
+			<window name="windowFuel" />
+			<window name="windowToolsBlueprintStation" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_gunSmithingWorkstation" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" />
+<!-- 		<window name="windowCraftingList"/> -->
+			<window name="craftingInfoPanel"/>
+			<window name="SMXCraftingQueue" />
+<!--		<window name="windowCraftingQueue"/> -->
+			<window name="windowToolsWeaponSmith" />
+			<window name="windowFuel" />
+			<window name="windowWeaponSmithInput" />
+			<window name="windowWeaponSmithOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<!--<window_group name="workstation_TailorsWorkStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" />
+			<window name="craftingInfoPanel"/>
+			<window name="SMXCraftingQueue" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="windowCombine" />
+		</window_group> -->
+		
+		<window_group name="workstation_ClothingWorkStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" />
+<!--		<window name="windowCraftingList"/> -->
+			<window name="craftingInfoPanel"/>
+			<window name="SMXCraftingQueue" />
+<!--		<window name="windowCraftingQueue"/> -->
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="windowCombine" />
+		</window_group>
+		
+		<window_group name="workstation_oilPump" controller="XUiC_WorkstationWindowGroup">
+			<window name="SMXCraftingList" />
+<!--		<window name="windowCraftingList"/> -->
+			<window name="craftingInfoPanel"/>
+			<window name="SMXCraftingQueue" />
+<!--		<window name="windowCraftingQueue"/> -->
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_wallTorchStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowFuel" />
+			<window name="windowNonPagingHeader" />
+			<window name="craftingInfoPanel"/>
+			<window name="SMXCraftingList" />
+<!--		<window name="windowCraftingList"/> -->
+		</window_group>
+		
+		<!-- War of the Walkers Mod Custom Window Groups End -->
+		
+		<window_group name="looting" left_panel_valign_top="false" controller="XUiC_LootWindowGroup">
+			<window name="windowLooting"/>
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="creative" controller="XUiC_CreativeWindowGroup">
+			<window name="windowCreative" />
+		</window_group>
+		
+		<!--#$-IGS BEGIN: Needed to disable input in new system -$#-->
+		<window_group name="backpack" actionSet="false">	
+			<window name="itemInfoPanel"/>
+			<window name="emptyInfoPanel" />
+			<window name="windowBackpack"/>
+		</window_group>
+		
+		<window_group name="dragAndDrop" actionSet="false">
+			<window name="dragAndDropItemStack" />
+		</window_group>
+		
+<!-- <<< SMX A16.3B12R2 START - BY SIRILLION >>> -->
+		
+		<window_group name="compass" actionSet="false">
+<!--		<window name="SMXCompass1SMX" anchor="CenterTop" />	-->			<!-- SMX UI -->					<!-- Disable this if you want to use the VALMOD or SIRMOD designs -->
+			<window name="SMXCompass2VALMOD" anchor="CenterTop" /> 			<!-- VALMOD UI -->				<!-- Disable this if you want to use the SMX or SIRMOD designs -->
+<!--		<window name="SMXCompass3SIRMOD" anchor="CenterTop" /> --> 		<!-- SIRMOD UI -->				<!-- Disable this if you want to use the SMX or VALMOD designs -->
+<!--		<window name="windowCompass" /> -->								<!-- STANDARD UI -->			<!-- Enable this for 7DTD standard compass. Disable all of the above! -->
+			<window name="SMXDayTimeFrame1SMX" anchor="LeftTop" />			<!-- SMX & VALMOD UI -->		<!-- Disable this if you want to use the SIRMOD design -->
+<!--		<window name="SMXDayTimeFrame3SIRMOD" /> -->					<!-- SIRMOD UI -->				<!-- Disable this if you want to use SMX or VALMOD designs -->
+			<window name="SMX" anchor="RightTop" />							<!-- SMX UI -->					<!-- Disable this if you don't want the SMX - Enhanced logo -->
+<!--		<window name="SIRMOD" anchor="RightTop" /> -->					<!-- SIRMOD UI -->				<!-- Disable this if you don't want the SIRMOD logo -->
+<!--		<window name="VALMOD" anchor="RightTop" /> 	-->					<!-- VALMOD UI -->				<!-- Disable this if you don't want the VALMOD fedora -->
+<!--		<window name="TRUESURVIVAL" anchor="RightTop" /> -->			<!-- TS UI -->					<!-- Disable this if you don't want the TRUE SURVIVAL logo  -->
+			<window name="WotW" anchor="RightTop" />						<!-- WotW UI -->				<!-- Disable this if you don't want the War of the Walkers logo  -->
+<!--		<window name="CRAFTWORX" anchor="RightTop" /> -->				<!-- Craftworx UI -->																							  
+<!--		<window name="SMXLevelXPUF1SMX" anchor="LeftTop" /> -->			<!-- SMX UI -->					<!-- Disable this if you want to use the VALMOD or SIRMOD designs -->
+			<window name="SMXLevelXPUF2VALMOD" anchor="LeftTop" /> 			<!-- VALMOD UI -->				<!-- Disable this if you want to use the SMX or SIRMOD designs -->
+<!--		<window name="SMXLevelXPUF3SIRMOD" anchor="LeftTop" /> -->		<!-- SIRMOD UI -->				<!-- Disable this if you want to use the SMX or VALMOD designs -->
+		</window_group>
+		
+<!-- <<< SMX A16.3B12R2 END - BY SIRILLION >>> -->
+		
+		<window_group name="toolTip" actionSet="false">
+			<window name="toolTip" />
+			<window name="popupMenu" />
+		</window_group>
+		
+		<window_group name="tipWindow">
+			<window name="windowTip" />
+		</window_group>
+		
+		<window_group name="questOffer">
+			<window name="windowQuestOffer" />
+		</window_group>
+		
+		<window_group name="timer">
+			<window name="windowTimer"/>
+		</window_group>
+		
+<!-- <<< SMX A16.3B12R2 START - BY SIRILLION >>> -->
+		
+		<window_group name="toolbelt" actionSet="false">
+<!--		<window name="SMXToolbelt1SMX" anchor="CenterBottom" /> -->		<!-- SMX UI -->					<!-- Disable this if you want to use the VALMOD or SIRMOD designs -->
+			<window name="SMXToolbelt2VALMOD" anchor="CenterBottom" /> 		<!-- VALMOD UI -->				<!-- Disable this if you want to use the SMX or SIRMOD designs -->
+			<window name="SMXToolbeltNumbersVALMOD" /> 						<!-- VALMOD UI -->				<!-- Disable this if you want to use the SMX or SIRMOD designs -->
+<!--		<window name="SMXToolbelt3SIRMOD" anchor="CenterBottom" /> -->	<!-- SIRMOD UI -->				<!-- Disable this if you want to use the SMX or VALMOD designs -->
+<!--		<window name="windowToolbelt" anchor="CenterBottom" /> -->		<!-- STANDARD UI -->			<!-- Enable this for 7DTD standard toolbelt. Disable all of the above! -->
+<!--		<window name="SMXUnitFrame1SMX" anchor="LeftBottom" /> -->		<!-- SMX UI -->					<!-- Disable this if you want to use the VALMOD, SIRMOD or SMX2 designs -->
+			<window name="SMXUnitFrame2VALMOD" anchor="LeftBottom" /> 		<!-- VALMOD UI -->				<!-- Disable this if you want to use the SIRMOD, SMX or SMX2 designs -->
+<!--		<window name="SMXUnitFrame3SIRMOD" anchor="LeftBottom" /> -->	<!-- SIRMOD UI -->				<!-- Disable this if you want to use the VALMOD, SMX or SMX2 designs -->
+<!--		<window name="SMXUnitFrame4SMX2" anchor="LeftBottom" /> -->		<!-- SMX2 UI -->				<!-- Disable this if you want to use the VALMOD, SIRMOD or SMX designs -->
+			<window name="ZombieKillTrackerVALMOD" /> 						<!-- VALMOD UI -->				<!-- Disable this if you want to use the SIRMOD design -->
+<!--		<window name="ZombieKillTrackerSIRMOD" /> -->					<!-- SIRMOD UI -->				<!-- Disable this if you want to use the VALMOD design -->
+<!--		<window name="SMXBuffFrame1" anchor="LeftBottom" /> -->			<!-- SMX UI -->					<!-- Standard Buff Frames - BIG - Disable this is you want to use any other design -->
+<!-- 		<window name="SMXBuffFrame2" anchor="LeftBottom" />	-->			<!-- SMX UI -->					<!-- Standard Buff Frames - SMALL - Disable this is you want to use any other design -->
+<!--		<window name="SMXBuffFrame3" anchor="LeftBottom" />	-->			<!-- SMX UI -->					<!-- Enhanced Buff Frames - BIG - Disable this is you want to use any other design -->
+<!--		<window name="SMXBuffFrame4" anchor="LeftBottom" /> -->			<!-- SMX UI -->					<!-- Enhanced Buff Frames - SMALL - Disable this is you want to use any other design -->
+			<window name="SMXBuffFrame5VALMOD" anchor="LeftBottom" /> 		<!-- VALMOD UI -->				<!-- Disable this if you want to use SMX, SMX2 or SIRMOD designs -->
+<!--		<window name="SMXBuffFrame6SIRMOD" anchor="LeftBottom" /> -->	<!-- SIRMOD UI -->				<!-- Disable this if you want to use SMX, SMX2 or VALMOD designs -->
+<!--		<window name="SMXBuffFrame7SMX2" anchor="LeftBottom" />	-->		<!-- SMX2 UI -->				<!-- Disable this if you want to use SMX, SIRMOD or VALMOD designs -->
+<!--		<window name="HUDLeftStatBars" anchor="LeftBottom" /> -->		<!-- STANDARD UI -->			<!-- Enable this for 7DTD standard UNITFRAMES and BUFFS. Disable all of the above!(Between this and the STANDARD UI frame above) -->
+			<window name="SMXHudOther" anchor="RightBottom" /> 				<!-- SMX & VALMOD UI -->		<!-- Disable this if you want to use the SIRMOD design -->
+<!--		<window name="HUDRightStatBars" anchor="RightBottom" /> -->		<!-- STANDARD & SIRMOD UI -->	<!-- Enable this for 7DTD standard AMMO, PICKUP and MINIBIKE. Disable the one above! -->
+<!--		<window name="SMXTempFrameUF1SMX" /> -->						<!-- SMX UI -->					<!-- Disable this if you want to use the SMX2, SIRMOD or VALMOD designs -->
+			<window name="SMXTempFrameUF2VALMOD" /> 						<!-- VALMOD UI -->				<!-- Disable this if you want to use the SMX, SMX2 or SIRMOD designs -->
+<!--		<window name="SMXTempFrameUF3SMX2" /> -->						<!-- SMX2 UI -->				<!-- Disable this if you want to use the SMX, SIRMOD or VALMOD designs -->
+			<window name="SMXQuestTracker" anchor="RightTop" /> 			<!-- SMX & VALMOD UI -->		<!-- Disable this if you want to use the SIRMOD design -->
+<!--		<window name="SMXQuestTracker3SIRMOD" anchor="RightTop" /> -->	<!-- SIRMOD UI -->				<!-- Disable this if you want to use the SMX or VALMOD designs -->
+<!--		<window name="windowQuestTracker" anchor="RightTop" /> -->		<!-- STANDARD UI -->			<!-- Enable this for 7DTD standard QUEST TRACKER. Disable all of the above!(Between this and the STANDARD UI frame above) -->
+		</window_group>
+		
+		<window_group name="vehicle" controller="XUiC_VehicleWindowGroup">
+<!--		<window name="windowVehicle"/> -->
+			<window name="SMXVehicle"/>
+			<window name="windowNonPagingHeader" />
+<!--		<window name="windowVehicleStats" />
+			<window name="windowVehicleStorage" /> -->
+			<window name="SMXVehicleStorage" />
+		</window_group>
+		
+<!-- <<< SMX A16.3B12R2 END - BY SIRILLION >>> -->
+		<window_group name="windowpaging" actionSet="false">
+			<window name="windowPagingHeader" anchor="CenterTop"/>
+		</window_group>
+
+		<window_group name="map">
+			<window name="mapTrackingPopup" />			<!-- keep this on top -->			
+			<window name="mapAreaSetWaypoint" />		<!-- keep this on top -->
+			<window name="mapAreaChooseWaypoint" />		<!-- keep this on top -->
+			<window name="mapAreaEnterWaypointName" />	<!-- keep this on top -->
+			<window name="mapArea" />
+			<window name="mapTracking" />
+			<window name="mapInvites" />
+		</window_group>
+		
+		<window_group name="players">
+			<window name="players" />
+		</window_group>
+		
+		<window_group name="assemble" controller="XUiC_AssembleWindowGroup">
+			<window name="windowAssemble" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+		<window_group name="radial" actionSet="keyboard">
+			<window name="windowRadial"/>
+		</window_group>
+		
+		<window_group name="skills" controller="XUiC_SkillWindowGroup">
+			<window name="windowSkillList"/>
+			<window name="windowSkillInfo"/>
+			<!-- <window name="windowSkillStats"/> -->
+		</window_group>
+		<!--#$-IGS END-$#-->
+		
+		<window_group name="quests" controller="XUiC_QuestWindowGroup">
+			<window name="windowQuestList" />
+			<window name="windowQuestDescription" />
+			<window name="windowQuestObjectives" />
+			<window name="windowQuestRewards" />
+		</window_group>
+		
+		<window_group name="journal" controller="XUiC_JournalWindowGroup">
+			<window name="windowJournalList" />
+			<window name="windowJournalEntryDescription" />
+		</window_group>
+		
+		<window_group name="profiles">
+			<window name="windowArchetypePreview"/>
+		</window_group>
+		
+		<window_group name="archetypes" controller="XUiC_ArchetypesWindowGroup" stack_panel_y_offset="332">
+			<window name="windowArchetypePreview2"/>
+			<window name="windowSliders"/>
+			<window name="windowColorPicker"/>
+		</window_group>
+		
+		<!--#$-IGS BEGIN: Adding window to hold gampad callouts -$#-->
+		<window_group name="CalloutGroup"  actionSet="false">
+			<window name="GamepadCallouts" />
+		</window_group>
+		<!--*#$-IGS END.-$#-->
+
+		<window_group name="trader" controller="XUiC_TraderWindowGroup">
+			<window name="windowTrader"/>
+			<window name="windowNonPagingHeader" />
+			<window name="serviceInfoPanel"/>
+		</window_group>
+		
+		<window_group name="sign">
+			<window name="windowSignEdit" />
+		</window_group>
+		
+		<window_group name="powersource" controller="XUiC_PowerSourceWindowGroup">
+			<window name="windowPowerSourceStats" />
+			<window name="windowPowerSourceSlots" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="powertrigger" controller="XUiC_PowerTriggerWindowGroup">
+			<window name="windowPowerTriggerOptions" />
+			<window name="windowPowerCameraControlPreview" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="powerrangedtrap" controller="XUiC_PowerRangedTrapWindowGroup">
+			<window name="windowPowerRangedTrapOptions" />
+			<window name="windowPowerTrapSlots" />
+			<window name="windowPowerCameraControlPreview" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="powercamera" controller="XUiC_PowerCameraWindowGroup" actionSet="controller">
+			<window name="windowPowerCameraControl" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="powerspotlight" controller="XUiC_PoweredSpotlightWindowGroup">
+			<window name="windowPowerCameraControlPreview" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+		<window_group name="materials">
+			<window name="windowMaterials" />
+			<window name="windowMaterialInfo" />
+		</window_group>
+
+		<window_group name="spawnMenu">
+			<window name="spawnMenu" />
+		</window_group>
+		
+<!-- <<< SMX A16.3B12R2 START - BY SIRILLION >>> -->
+		
+		<window_group name="ingameMenu">
+<!--		<window name="ingameMenu" /> -->
+<!--		<window name="SMXingameMenu" /> -->
+<!--		<window name="SIRMODingameMenu" /> -->
+<!--		<window name="VALMODingameMenu" /> -->
+<!-- 		<window name="WOTWingameMenu" /> -->
+<!--		<window name="TRUESURVIVALingameMenu" /> -->
+			<window name="WotWingameMenu" />
+<!--		<window name="CRAFTWORXingameMenu" /> -->
+		</window_group>
+		
+<!-- <<< SMX A16.3B12R2 END - BY SIRILLION >>> -->
+		
+		<window_group name="woPropsSleeperVolume">
+			<window name="woPropsSleeperVolume" />
+		</window_group>
+		
+		<window_group name="editorPanelSelector">
+			<window name="editorPanelSelector" />
+		</window_group>
+		
+		<window_group name="ingameDebugMenu">
+			<window name="ingameDebugMenu" />
+		</window_group>
+		
+		<window_group name="levelTools">
+			<window name="levelTools" />
+		</window_group>
+		
+		<window_group name="prefabList">
+			<window name="prefabList" />
+		</window_group>
+		
+	</ruleset>
+</xui>

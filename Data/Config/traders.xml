@@ -1,0 +1,1956 @@
+<traders buy_markup="3.0" sell_markdown="0.2" quality_mod="1,2" currency_item="casinoCoin" >
+<!--
+When adding items or blocks to the list, check if they have an "EconomicValue".
+Most world-decoration blocks like "cntSuitcase" or "airConditioner" do not have values set.
+
+quality_mod: adjusts the price range of all items with a quality level.
+	Price of QL 1 item =  item.EconomicValue * traders.quality_mod(low)
+	Price of QL 600 item =  item.EconomicValue * traders.quality_mod(high)
+-->
+
+	<!-- <trader_economy_limits>
+		<item name="hazmatBoots" min="2" max="10"/>
+		<item name="hazmatPants" min="2" max="10"/>
+		<item name="arrow" min="1" max="100"/>
+		<item name="steelArrow" min="1" max="100"/>
+	</trader_economy_limits>
+
+-->
+
+	<trader_item_groups>
+		<trader_item_group name="tshirtAll">
+			<item name="tshirtBlack"/>
+			<item name="tshirtBlue"/>
+			<item name="tshirtBrown"/>
+			<item name="tshirtGreen"/>
+			<item name="tshirtRed"/>
+			<item name="tshirtWhite"/>
+		</trader_item_group>
+
+		<trader_item_group name="bandanaAll">
+			<item name="bandana"/>
+			<item name="bandanaBlack"/>
+			<item name="bandanaBlue"/>
+			<item name="bandanaBrown"/>
+			<item name="bandanaGreen"/>
+			<item name="bandanaRed"/>
+		</trader_item_group>
+
+		<trader_item_group name="suitAll">
+			<item name="suitPantsBlack"/>
+			<item name="suitJacketBlack"/>
+			<item name="dressShoesBlack"/>
+		</trader_item_group>
+		
+		<trader_item_group name="FaceMaskAll">
+			<item name="FaceMask"/>
+			<item name="FaceMaskRed"/>
+			<item name="FaceMaskGreen"/>
+			<item name="FaceMaskBlue"/>
+			<item name="FaceMaskBrown"/>
+			<item name="FaceMaskBlack"/>
+		</trader_item_group>
+
+		<trader_item_group name="pantsAll">
+			<item name="denimPants"/>
+			<item name="blackDenimPants"/>
+			<item name="brownDenimPants"/>
+			<item name="redDenimPants"/>
+			<item name="armyPants"/>
+		</trader_item_group>
+
+		<trader_item_group name="pantsFlannelAll">
+			<item name="FlannelPants"/>
+			<item name="BlackFlannelPants"/>
+			<item name="WhiteFlannelPants"/>
+			<item name="RedFlannelPants"/>
+			<item name="GreenFlannelPants"/>
+			<item name="GreyFlannelPants"/>
+		</trader_item_group>
+		<trader_item_group name="skirtsAll">
+			<item name="skirt"/>
+			<item name="skirtRed"/>
+			<item name="skirtBrown"/>
+			<item name="skirtGreen"/>
+			<item name="skirtBlue"/>
+			<item name="skirtBlack"/>
+		</trader_item_group>
+
+		<trader_item_group name="denimShortsPantsAll">
+			<item name="denimShortsPants"/>
+			<item name="denimShortsPantsRed"/>
+			<item name="denimShortsPantsBrown"/>
+			<item name="denimShortsPantsGreen"/>
+			<item name="denimShortsPantsBlue"/>
+			<item name="denimShortsPantsBlack"/>
+		</trader_item_group>
+
+		<trader_item_group name="pufferCoatAll">
+			<item name="pufferCoat"/>
+			<item name="pufferCoatBlack"/>
+			<item name="pufferCoatBrown"/>
+			<item name="pufferCoatGreen"/>
+			<item name="pufferCoatRed"/>
+		</trader_item_group>
+
+		<trader_item_group name="lightCoatAll">
+			<item name="LightCoat"/>
+			<item name="LightCoatRed"/>
+			<item name="LightCoatGreen"/>
+			<item name="leatherDuster" prob=".2"/>
+			<item name="leatherDusterBlack" prob=".1"/>
+		</trader_item_group>
+		<trader_item_group name="shirtLongAll">
+			<item name="shirt"/>
+			<item name="shirtBlack"/>
+			<item name="shirtBlue"/>
+			<item name="shirtBrown"/>
+			<item name="shirtGreen"/>
+			<item name="shirtRed"/>
+			<item name="armyShirt"/>
+		</trader_item_group>
+
+		<trader_item_group name="skullCapAll">
+			<item name="skullCap"/>
+			<item name="skullCapBlack"/>
+			<item name="skullCapBlue"/>
+			<item name="skullCapBrown"/>
+			<item name="skullCapGreen"/>
+			<item name="skullCapRed"/>
+		</trader_item_group>
+
+		<trader_item_group name="ballCapAll">
+			<item name="ballCap"/>
+			<item name="ballCapBlack"/>
+			<item name="ballCapBlue"/>
+			<item name="ballCapBrown"/>
+			<item name="ballCapGreen"/>
+			<item name="ballCapRed"/>
+		</trader_item_group>
+
+		<trader_item_group name="pressboyCapAll">
+			<item name="pressboyCapBlack"/>
+			<item name="pressboyCapBlue"/>
+			<item name="pressboyCapBrown"/>
+			<item name="pressboyCapGreen"/>
+			<item name="pressboyCapRed"/>
+			<item name="pressboyCapWhite"/>
+		</trader_item_group>
+
+		<trader_item_group name="sweatshirtAll">
+			<item name="sweatshirt"/>
+			<item name="sweatshirtBlack"/>
+			<item name="sweatshirtBlue"/>
+			<item name="sweatshirtBrown"/>
+			<item name="sweatshirtGreen"/>
+			<item name="sweatshirtRed"/>
+		</trader_item_group>
+
+		<trader_item_group name="hoodedSweatshirtAll">
+			<item name="hoodedSweatshirtBlack"/>
+			<item name="hoodedSweatshirtBlue"/>
+			<item name="hoodedSweatshirtBrown"/>
+			<item name="hoodedSweatshirtGreen"/>
+			<item name="hoodedSweatshirtRed"/>
+			<item name="hoodedSweatshirtWhite"/>
+		</trader_item_group>
+
+		<trader_item_group name="tankTopAll">
+			<item name="tankTopBlue"/>
+			<item name="tankTopGreen"/>
+			<item name="tankTopPurple"/>
+			<item name="tankTopRed"/>
+			<item name="tankTopWhite"/>
+		</trader_item_group>
+
+		<trader_item_group name="cowboyHatAll">
+			<item name="cowboyHat"/>
+			<item name="blackCowboyHat"/>
+		</trader_item_group>
+
+		<trader_item_group name="overallsAll">
+			<item name="overalls"/>
+		</trader_item_group>
+
+		<trader_item_group name="hazmatGear" count="1,2">
+			<item name="hazmatBoots"/>
+			<item name="hazmatPants"/>
+			<item name="hazmatShirt"/>
+			<item name="hazmatGloves"/>
+			<item name="hazmatMask"/>
+			<item name="militaryFiber" count="1,6" prob="2"/>
+		</trader_item_group>
+
+		<trader_item_group name="banditArmor">
+			<item name="heavyBanditGloves"/>
+			<item name="heavyBanditGasmask"/>
+			<item name="heavyBanditBoots"/>
+			<item name="heavyBanditLegArmor"/>
+			<item name="heavyBanditChestArmor"/>
+		</trader_item_group>
+
+		<trader_item_group name="hats">
+			<item group="cowboyHatAll"/>
+			<item group="skullCapAll"/>
+			<item group="ballCapAll"/>
+			<item group="pressboyCapAll"/>
+			<item name="clothHat"/>
+			<item name="footballHelmet"/>
+			<item name="miningHelmet" prob="0.5"/>
+		</trader_item_group>
+		
+		<trader_item_group name="faceItems">
+			<item group="bandanaAll"/>
+			<item group="FaceMaskAll"/>
+			<item name="shades"/>
+			<item name="aviatorGoggles"/>
+			<item name="facialPiercings" prob=".1"/>
+			<item name="nightvisionGoggles" prob="0.5"/>
+		</trader_item_group>
+
+		<trader_item_group name="clothes">
+			<item group="pufferCoatAll"/>
+			<item group="shirtLongAll"/>
+			<item group="pantsAll"/>
+			<item group="skirtsAll" prob="0.5"/>
+			<item group="tankTopAll"/>
+			<item group="pantsFlannelAll"/>
+			<item group="lightCoatAll"/>
+			<item group="sweatshirtAll"/>
+			<item group="hats"/>
+			<item name="cowboyBootsBrown"/>
+			<item name="cowboyBootsBlack"/>
+			<item name="wornBoots"/>
+			<item group="tshirtAll"/>
+			<item group="hoodedSweatshirtAll"/>
+			<item group="suitAll" prob="0.2"/>
+			<item group="faceItems"/>
+			<item name="leatherDuster" prob="0.2"/>
+			<item name="leatherDusterBlack" prob="0.1"/>
+			<item group="hazmatGear" prob="0.1"/>
+		</trader_item_group>
+
+		<trader_item_group name="warmClothes">
+			<item group="pufferCoatAll"/>
+			<item group="lightCoatAll"/>
+			<item group="skullCapAll"/>
+			<item group="shirtLongAll"/>
+			<item group="pantsAll"/>
+			<item group="pantsFlannelAll"/>
+			<item group="sweatshirtAll"/>
+			<item group="hoodedSweatshirtAll"/>
+			<item name="leatherDuster" prob="0.6"/>
+			<item name="leatherDusterBlack" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="lightArmor">
+			<item name="clothPants"/>
+			<item name="clothJacket"/>
+			<item name="clothBoots"/>
+			<item name="clothGloves"/>
+			<item name="leatherBoots"/>
+			<item name="leatherPants"/>
+			<item name="leatherJacket"/>
+			<item name="leatherGloves"/>
+			<item name="animalHideBoots"/>
+			<item name="animalHideLegArmor"/>
+			<item name="animalHideChestArmor"/>
+			<item name="animalHideHood"/>
+			<item name="animalHideGloves"/>
+			<item name="animalHidePoncho"/>
+			<item name="goggles"/>
+			<item name="KevlarBoots" prob="0.2"/>
+			<item name="KevlarGloves" prob="0.2"/>
+			<item name="KevlarVest" prob="0.2"/>
+			<item name="KevlarLegArmor" prob="0.2"/>
+			<item name="KevlarHelmet" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="heavyArmor">
+			<item name="scrapBoots"/>
+			<item name="scrapLegArmor"/>
+			<item name="scrapChestArmor"/>
+			<item name="scrapHelmet"/>
+			<item name="scrapGloves"/>
+			<item name="ironBoots"/>
+			<item name="ironLegArmor"/>
+			<item name="ironChestArmor"/>
+			<item name="ironGloves"/>
+			<item name="swatHelmet"/>
+			<item name="swatHelmetLight"/>
+			<item name="SteelBoots" prob="0.2"/>
+			<item name="SteelLegArmor" prob="0.2"/>
+			<item name="SteelChestArmor" prob="0.2"/>
+			<item name="SteelGloves" prob="0.2"/>
+			<item name="SteelHelmet" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="militaryArmor">
+			<item name="militaryGloves"/>
+			<item name="militaryHelmet"/>
+			<item name="militaryBoots"/>
+			<item name="militaryLegArmor"/>
+			<item name="militaryVest"/>
+			<item name="militaryFiber" count="1,5" prob="2"/>
+			<item name="nightvisionGoggles"/>
+			<item name="TungstenBoots" prob="0.2"/>
+			<item name="TungstenLegArmor" prob="0.2"/>
+			<item name="TungstenChestArmor" prob="0.2"/>
+			<item name="TungstenGloves" prob="0.2"/>
+			<item name="TungstenHelmet" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="Armor">
+			<item group="clothes"/>
+			<item group="lightArmor" prob="0.1"/>
+			<item group="heavyArmor" prob="0.05"/>
+		</trader_item_group>
+
+		<trader_item_group name="GunAttachments">
+			<item name="flashlight02"/>
+			<item name="Scope"/>
+			<item name="ExtendedScope"/>
+			<item name="Silencer"/>
+			<item name="ExtendedMagazine"/>
+		</trader_item_group>
+		
+		<trader_item_group name="weaponsCommonParts">
+			<item name="partsPistol_barrel"/>
+			<item name="partsPistol_parts"/>
+			<item name="partsPistol_receiver"/>
+			<item name="partsPistol_grip"/>
+			<item name="partsPumpShotgun_barrel"/>
+			<item name="partsPumpShotgun_parts"/>
+			<item name="partsPumpShotgun_barrelShort"/>
+			<item name="partsPumpShotgun_stockShort"/>
+			<item name="partsPumpShotgun_stock"/>
+			<item name="partsPumpShotgun_receiver"/>
+			<item name="partsHuntingRifle_barrel"/>
+			<item name="partsHuntingRifle_stock"/>
+			<item name="partsHuntingRifle_receiver"/>
+			<item name="partsHuntingRifle_parts"/>
+			<item name="Remington8_Barrel"/>
+			<item name="Remington8_Stock"/>
+			<item name="Remington8_Receiver"/>
+			<item name="Remington8_Parts"/>
+			<item name="DesertEagle_Barrel" prob="0.4"/>
+			<item name="DesertEagle_Parts" prob="0.4"/>
+			<item name="DesertEagle_Receiver" prob="0.4"/>
+			<item name="DesertEagle_Grip" prob="0.4"/>
+			<item name="parts44Magnum_cylinder" prob="0.3"/>
+			<item name="parts44Magnum_frame" prob="0.3"/>
+			<item name="parts44Magnum_grip" prob="0.3"/>
+			<item name="parts44Magnum_parts" prob="0.3"/>
+			<item name="BarettaShotgun_Stock" prob="0.3"/>
+			<item name="BarettaShotgun_Receiver" prob="0.3"/>
+			<item name="BarettaShotgun_Barrel" prob="0.3"/>
+			<item name="BarettaShotgun_Parts" prob="0.3"/>
+		</trader_item_group>
+
+		<trader_item_group name="weaponsMilitaryParts">
+			<item name="partsMP5_barrel"/>
+			<item name="partsMP5_stock"/>
+			<item name="partsMP5_receiver"/>
+			<item name="partsMP5_parts"/>
+			<item name="partsAK47_barrel"/>
+			<item name="partsAK47_stock"/>
+			<item name="partsAK47_receiver"/>
+			<item name="partsAK47_parts"/>
+			<item name="FAMAS_Parts"/>
+			<item name="FAMAS_Barrel"/>
+			<item name="FAMAS_Stock"/>
+			<item name="FAMAS_Receiver"/>
+			<item name="partsSniperRifle_barrel"/>
+			<item name="partsSniperRifle_stock"/>
+			<item name="partsSniperRifle_receiver"/>
+			<item name="partsSniperRifle_parts"/>
+			<item name="partsRocketLauncher_barrel"/>
+			<item name="partsRocketLauncher_stock"/>
+			<item name="partsRocketLauncher_receiver"/>
+			<item name="partsRocketLauncher_parts"/>
+			<item name="rocketLauncherSchematic"/>
+			<item name="M25SniperRifle_Stock" prob="0.3"/>
+			<item name="M25SniperRifle_Receiver" prob="0.3"/>
+			<item name="M25SniperRifle_Barrel" prob="0.3"/>
+			<item name="M25SniperRifle_Parts" prob="0.3"/>
+		</trader_item_group>
+
+		<trader_item_group name="weaponsCompoundBowParts">
+			<item name="partsCompoundBow_body"/>
+			<item name="partsCompoundBow_grip"/>
+			<item name="partsCompoundBow_parts"/>
+			<item name="partsCompoundBow_string"/>
+		</trader_item_group>
+		
+		<trader_item_group name="weaponsMelee">
+			<item name="clubIron"/>
+			<item name="clubBarbed" prob="0.7"/>
+			<item name="clubSpiked" prob="0.5"/>
+			<item name="huntingKnife" prob="0.5"/>
+			<item name="machete" prob="0.2"/>
+			<item name="SteelMachete" prob="0.1"/>
+			<item name="TungstenMachete" prob="0.05"/>
+			<item name="ClubTungsten" prob="0.1"/>
+			<item name="GoldTippedKnife" prob="0.05"/>
+			<item name="GoldTippedMachete" prob="0.025"/>
+		</trader_item_group>
+
+		<trader_item_group name="weaponsCrossbow+ammo" count="all">
+			<item name="crossbow" count="1"/>
+			<item name="ironCrossbowBolt" count="10,30"/>
+		</trader_item_group>
+
+		<trader_item_group name="steelcrossbowammo" count="1">
+			<item name="ironCrossbowBolt" count="30"/>
+			<item name="steelCrossbowBolt" count="20" prob="0.15"/>
+			<item name="explodingCrossbowBolt" count="5" prob="0.1"/>
+			<item name="TungstenCrossbowBolt" count="20" prob="0.075"/>
+			<item name="FlamingTungstenCrossbowBolt" count="10" prob="0.05"/>
+		</trader_item_group>
+		
+		<trader_item_group name="steelcrossbow+ammo" count="all">
+			<item name="SteelCrossbow" count="1"/>
+			<item group="steelcrossbowammo" count="1,2"/>
+		</trader_item_group>
+		
+		<trader_item_group name="longbowammo" count="1">
+			<item name="ironArrow" count="30"/>
+			<item name="steelArrow" count="20" prob="0.15"/>
+			<item name="flamingArrow" count="5" prob="0.1"/>
+			<item name="TungstenArrow" count="10" prob="0.075"/>
+			<item name="ExplodingTungstenArrow" count="10" prob="0.05"/>
+		</trader_item_group>
+		
+		<trader_item_group name="longbow+ammo" count="all">
+			<item name="Longbow" count="1"/>
+			<item group="longbowammo" count="1,2"/>
+		</trader_item_group>
+		<trader_item_group name="rareMedicine" count="1">
+			<item name="firstAidKit"/>
+			<item name="beaker"/>
+			<item name="antibiotics"/>
+			<item name="herbalAntibiotics"/>
+			<item name="bloodDrawKit"/>
+			<item name="firstAidKitSchematic"/>
+			<item name="ImmunizationShot" prob="0.15"/>
+			<item name="TraumaFirstAidKit" prob="0.1"/>
+		</trader_item_group>
+
+		<trader_item_group name="medicine" count="1">
+			<item name="painkillers"/>
+			<item name="firstAidBandage"/>
+			<item name="bandage"/>
+			<item name="emptyJar"/>
+			<item name="bloodBag"/>
+			<item name="vitamins"/>
+			<item name="VitaminA"/>
+			<item name="VitaminB"/>
+			<item name="VitaminC"/>
+			<item name="VitaminD"/>
+			<item name="grainAlcohol"/>
+			<item name="splint"/>
+			<item name="AdvancedSplint"/>
+			<item name="LegBoosterShot"/>
+			<item name="ZincPowder" count="5,10"/>
+			<item name="ExtraStrengthPainkillers"/>
+			<item name="TraumaFirstAidBandage" prob="0.1"/>
+			<item group="rareMedicine"/>
+		</trader_item_group>
+
+		<trader_item_group name="questChallenge" count="1">
+			<item name="qc_silenceofthelambs" count="1"/>
+			<item name="qc_drunkanddisorderly" count="1"/>
+			<item name="qc_nurseyoubacktohealth" count="1"/>
+			<item name="qc_copanattitude" count="1"/>
+			<item name="qc_dogdaysareover" count="1"/>
+			<item name="qc_itsbitsyspider" count="1"/>
+			<item name="qc_ladykiller" count="1"/>
+			<item name="qc_maneater" count="1"/>
+			<item name="qc_imalumberjackandimokay" count="1"/>
+			<item name="qc_yournothingspecial" count="1"/>
+			<item name="qc_killthewabbit" count="1"/>
+			<item name="qc_nailsomechicks" count="1"/>
+			<item name="qc_thatlldopig" count="1"/>
+			<item name="qc_stagparty" count="1"/>
+			<item name="qc_dontfeedthebears" count="1"/>
+			<item name="qc_buythefarm" count="1"/>
+			<item name="Challenge_BaconAndEggs" count="1"/>
+			<item name="Challenge_Coffee" count="1"/>
+			<item name="Challenge_GreenTea" count="1"/>
+			<item name="Challenge_Bandage" count="1"/>
+			<item name="Challenge_Splint" count="1"/>
+			<item name="Challenge_Vitamins" count="1"/>
+			<item name="Challenge_WoodFrames" count="1"/>
+			<item name="Challenge_ScrapFrames" count="1"/>
+			<item name="Challenge_RebarFrames" count="1"/>
+			<item name="Challenge_Windows" count="1"/>
+			<item name="Challenge_WoodSpikes" count="1"/>
+			<item name="Challenge_IronTools" count="1"/>
+			<item name="Challenge_WoodenClub" count="1"/>
+			<item name="Challenge_IronClub" count="1"/>
+			<item name="Challenge_BarbedClub" count="1"/>
+			<item name="Challenge_SpikedClub" count="1"/>
+			<item name="Challenge_TungstenClub" count="1"/>
+			<item name="Challenge_SteelMachete" count="1"/>
+			<item name="Challenge_TungstenMachete" count="1"/>
+			<item name="Challenge_CrawlerZombies" count="1"/>
+			<item name="Challenge_MushroomStew" count="1"/>
+			<item name="Challenge_MeatPie" count="1"/>
+			<item name="Challenge_MeatStew" count="1"/>
+			<item name="Challenge_MossyBrew" count="1"/>
+			<item name="Challenge_VegetableStew" count="1"/>
+			<item name="Challenge_BlueberryPie" count="1"/>
+			<item name="Challenge_FirstAidBandage" count="1"/>
+			<item name="Challenge_FirstAidKit" count="1"/>
+			<item name="Challenge_HerbalAntibiotics" count="1"/>
+			<item name="Challenge_SteelTools" count="1"/>
+			<item name="Challenge_ApplePieandJuice" count="1"/>
+			<item name="Challenge_Antibiotics" count="1"/>
+			<item name="Challenge_Crates" count="1"/>
+			<item name="Challenge_RedWoodenBowKills" count="1"/>
+			<item name="Challenge_SteelCrossbowKills" count="1"/>
+			<item name="Challenge_TungstenTools" count="1"/>
+			<item name="Challenge_CopZombie" count="1"/>
+			<item name="Challenge_FeralZombie" count="1"/>
+			<item name="Challenge_DogKill" count="1"/>
+			<item name="Challenge_NurseZombie" count="1"/>
+			<item name="Challenge_ScreamerZombie" count="1"/>
+			<item name="Challenge_MeleeCrawlerZombies" count="1"/>
+			<item name="qt_taylor" count="1" prob="0.2"/>
+			<item name="qt_nickole" count="1" prob="0.2"/>
+			<item name="qt_stephan" count="1" prob="0.2"/>
+			<item name="qt_jennifer" count="1" prob="0.2"/>
+			<item name="qt_claude" count="1" prob="0.2"/>
+			<item name="qt_sarah" count="1" prob="0.2"/>
+			<item name="qt_raphael" count="1" prob="0.2"/>
+			<item name="Treasure_DwallsLostGoods" count="1" prob="0.2"/>
+			<item name="Treasure_HealthSupplies" count="1" prob="0.2"/>
+			<item name="Treasure_BuildingSupplies" count="1" prob="0.2"/>
+			<item name="Treasure_AmmoSupplies" count="1" prob="0.2"/>
+			<item name="Treasure_FoodandDrinkSupplies" count="1" prob="0.2"/>
+			<item name="Treasure_MidTierWeaponsSupplies" count="1" prob="0.2"/>
+			<item name="Treasure_HighTierWeaponsSupplies" count="1" prob="0.2"/>
+			<item name="Treasure_LowTierWeaponsSupplies" count="1" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="commonBooks" count="1">
+			<item name="crossbowSchematic"/>
+			<item name="huntingKnifeBook"/>
+			<item name="huntingRifleSchematic"/>
+			<item name="leatherBootsSchematic"/>
+			<item name="leatherGlovesSchematic"/>
+			<item name="leatherHoodSchematic"/>
+			<item name="leatherJacketSchematic"/>
+			<item name="leatherPantsSchematic"/>
+			<item name="pistolBook"/>
+			<item name="pumpShotgunSchematic"/>
+			<item name="scrapBootsSchematic" prob="0.7"/>
+			<item name="scrapLegArmorSchematic" prob="0.7"/>
+			<item name="scrapChestArmorSchematic" prob="0.7"/>
+			<item name="scrapHelmetSchematic" prob="0.7"/>
+			<item name="scrapGlovesSchematic" prob="0.7"/>
+			<item name="wrenchSchematic"/>
+			<item name="clawHammerSchematic"/>
+			<item name="SettingTheTrap"/>
+			<item name="FireTrapSchematic"/>
+			<item name="BreadRecipe"/>
+			<item name="RoastedMeatPieRecipe"/>
+			<item name="MossyBrewPieRecipe"/>
+			<item name="MushroomStewRecipe"/>
+			<item name="HollowPointAmmunitionBook"/>
+			<item name="32mmBulletSchematic"/>
+			<item name="44HollowPointMagBulletSchematics"/>
+			<item name="556mmBulletSchematic"/>
+			<item name="9mmHollowPointBulletSchematic"/>
+			<item name="TailoringPoncho"/>
+			<item name="TailoringLeatherDuster"/>
+			<item name="TailoringPufferCoat"/>
+			<item name="TailoringLightCoat"/>
+			<item name="augerSchematic"/>
+			<item name="chainsawSchematic"/>
+		</trader_item_group>
+
+		<trader_item_group name="rareBooks" count="1">
+			<item name="TNTBook"/>
+			<item name="ak47Schematic"/>
+			<item name="clubSpikedSchematic"/>
+			<item name="explodingCrossbowBoltSchematic"/>
+			<item name="firstAidKitSchematic"/>
+			<item name="flamingArrowSchematic"/>
+			<item name="gasCanSchematic"/>
+			<item name="ironBootsSchematic"/>
+			<item name="ironChestArmorSchematic"/>
+			<item name="ironGlovesSchematic"/>
+			<item name="ironHelmetSchematic"/>
+			<item name="ironLegArmorSchematic"/>
+			<item name="minibikesForDumbshits"/>
+			<item name="rocketLauncherSchematic"/>
+			<item name="shotgunSlugSchematic"/>
+			<item name="sledgehammerSchematic"/>
+			<item name="smgSchematics"/>
+			<item name="sniperRifleSchematic"/>
+			<item name="theEnforcerMagazine"/>
+			<item name="compoundBowSchematic"/>
+			<item name="SteelCrossbowSchematic"/>
+			<item name="TungstenArrowHeadSchematic"/>
+			<item name="ExplodingTungstenArrowSchematic"/>
+			<item name="FlamingTungstenCrossbowBoltSchematic"/>
+			<item name="556mmNATOBulletSchematic"/>
+			<item name="IncendiaryShotgunSlugSchematic"/>
+			<item name="762mmHollowPointBulletSchematic"/>
+			<item name="SteelMacheteSchematic"/>
+			<item name="FishingBook"/>
+			<item name="FishStewRecipe"/>
+			<item name="steelClawHammerSchematic"/>
+		</trader_item_group>
+
+		<trader_item_group name="paintMagazines" count="1">
+			<item name="paintMagazineDecorations"/> <!-- traders -->
+			<item name="paintMagazineFaux"/> <!-- cntBookcase -->
+			<item name="paintMagazineMasonry"/> <!-- workingStiffs -->
+			<item name="paintMagazineMetal"/> <!-- garage -->
+			<item name="paintMagazineWallCoverings"/> <!-- nightstands -->
+			<item name="paintMagazineWoodAndRoofing"/> <!-- lumberjacks -->
+		</trader_item_group>
+
+		<trader_item_group name="books" count="1">
+			<item group="questChallenge" prob="0.2"/>
+			<item group="rareBooks" prob="0.3"/>
+			<item group="commonBooks"/>
+			<item group="paintMagazines" prob="0.09"/>
+			<item name="paintMagazineDecorations" prob="0.09"/>
+		</trader_item_group>
+
+		<trader_item_group name="weaponsGunsCommon">
+			<item name="gunPistol"/>
+			<item name="gunSawedOffPumpShotgun"/>
+			<item name="gunPumpShotgun" prob="0.8"/>
+			<item name="gunHuntingRifle" prob="0.7"/>
+			<item name="Remington8" prob="0.5"/>
+			<item name="DesertEagle" prob="0.3"/>
+		</trader_item_group>
+
+		<trader_item_group name="weaponsGunsMilitary">
+			<item name="BarettaShotgun" prob="0.85"/>
+			<item name="gunMP5" prob="0.8"/>
+			<item name="gunSniperRifle" prob="1"/>
+			<item name="FAMAS" prob="0.7"/>
+			<item name="gunAK47" prob="0.6"/>
+			<item name="gunRocketLauncher" prob="0.4"/>
+			<item name="M25SniperRifle" prob="0.3"/>
+		</trader_item_group>
+
+		<trader_item_group name="weaponsMixedParts">
+			<item group="weaponsCommonParts" prob="3"/>
+			<item group="weaponsMilitaryParts" prob="1"/>
+			<item group="weaponsCompoundBowParts" prob="1"/>
+		</trader_item_group>
+
+		<trader_item_group name="weaponsGunsMixed">
+			<item group="weaponsGunsCommon" prob="3"/>
+			<item group="weaponsGunsMilitary" prob="1"/>
+			<item name="compoundBow" prob="0.15"/>
+		</trader_item_group>
+
+		<trader_item_group name="ammo">
+			<item name="9mmBullet" count="40,120"/>
+			<item name="9mmHollowPointBullet" count="10,80" prob="0.2"/>
+			<item name="762mmBullet" count="20,80"/>
+			<item name="762mmHollowPointBullet" count="10,40" prob="0.2"/>
+			<item name="556mmBullet" count="10,60"/>
+			<item name="556mmNATOBullet" count="10,40" prob="0.2"/>
+			<item name="32mmBullet" count="10,60"/>
+			<item name="44MagBullet" count="15,50" prob="0.5"/>
+			<item name="44HollowPointMagBullet" count="10,50" prob="0.5"/>
+			<item name="shotgunShell" count="15,50"/>
+			<item name="shotgunSlug" count="6,18" prob="0.1"/>
+			<item name="rocket" count="1,4"/>
+			<item name="ironArrow" count="20,60"/>
+			<item name="steelArrow" count="20,60"/>
+			<item name="ironCrossbowBolt" count="20,60"/>
+			<item name="steelCrossbowBolt" count="20,60"/>
+			<item name="explodingCrossbowBolt" count="10,30" prob="0.1"/>
+			<item name="ExplodingTungstenArrow" count="10,30" prob="0.1"/>
+			<item name="IncendiaryShotgunSlug" count="10,30" prob="0.1"/>
+			<item name="TungstenArrow" count="10,40" prob="0.15"/>
+			<item name="TungstenCrossbowBolt" count="10,40" prob="0.15"/>
+			<item name="FlamingTungstenCrossbowBolt" count="10,30" prob="0.1"/>
+		</trader_item_group>
+
+		<trader_item_group name="ammoSupplies">
+			<item name="bulletCasing" count="8,40"/> <!-- 5 -->
+			<item name="bulletTip" count="20,80"/> <!-- 5 -->
+			<item name="buckshot" count="20,60"/> <!-- 5 -->
+			<item name="gunPowder" count="5,30"/> <!-- 10 -->
+			<item name="paper" count="10,30"/> <!-- 10 -->
+			<item name="ironArrowHead" count="5,25" prob="0.05"/> <!-- 5 -->
+			<item name="steelArrowHead" count="5,25" prob="0.05"/> <!-- 5 -->>
+			<item name="feather" count="10,45"/> <!-- 5 -->
+			<item name="HollowPointBulletTip" count="20,80"/>
+			<item name="TungstenArrowHead" count="5,25" prob="0.025"/>
+		</trader_item_group>
+
+
+		<trader_item_group name="seeds">
+			<item name="plantedPotato1"/>
+			<item name="plantedCoffee1"/>
+			<item name="plantedAppleTree1"/>
+			<item name="plantedWheat1"/>
+			<item name="plantedCorn1"/>
+			<item name="plantedBlueberry1"/>
+			<item name="plantedCotton1" prob="0.5"/>
+			<item name="plantedGoldenrod1"/>
+			<item name="plantedAloe1"/>
+			<item name="plantedMushroom1"/>
+			<item name="plantedYucca1"/>
+			<item name="plantedChrysanthemum1" prob="0.5"/>
+			<item name="treePlantedMountainPine1m" prob="0.3"/>
+			<item name="treePlantedMaple1m" prob="0.3"/>
+			<item name="treePlantedWinterPine1m" prob="0.3"/>
+		</trader_item_group>
+
+		<trader_item_group name="cannedfood">
+			<item name="canBeef"/>
+			<item name="canCatfood"/>
+			<item name="canChicken"/>
+			<item name="canChili"/>
+			<item name="canDogfood"/>
+			<item name="canHam"/>
+			<item name="canLamb"/>
+			<item name="canMiso"/>
+			<item name="canPasta"/>
+			<item name="canPeas"/>
+			<item name="canSalmon"/>
+			<item name="canSoup"/>
+			<item name="canStock"/>
+			<item name="canTuna"/>
+			<item name="canPears"/>
+		</trader_item_group>
+
+		<trader_item_group name="foodSupplies">
+			<item name="egg" count="2,6"/>
+			<item name="rawWhiteMeat" count="2,4"/>
+			<item name="rawRedMeat" count="2,4"/>
+			<item name="corn" count="4,12"/>
+			<item name="potato" count="4,12"/>
+			<item name="blueberries" count="5,15"/>
+			<item name="snowberryPlant" count="4,8"/>
+			<item name="snowberryExtract" count="1,5"/>
+			<item name="cornMeal" count="5,15"/>
+			<item name="mushrooms" count="4,8"/>
+			<item name="foodHoney" count="1,2"/>
+		</trader_item_group>
+
+		<trader_item_group name="preparedFood">
+			<item name="ChickenGrilled"/>
+			<item name="ChickenPotPie"/>
+			<item name="VenisonGrilled"/>
+			<item name="VenisonStew"/>
+			<item name="PorkGrilled"/>
+			<item name="RabbitonaStick"/>
+			<item name="RabbitGrilled"/>
+			<item name="RabbitBoiled"/>
+			<item name="BearGrilled"/>
+			<item name="BearBoiled"/>
+			<item name="blueberryPie"/>
+			<item name="meatStew"/>
+			<item name="cornBread"/>
+			<item name="FishStew"/>
+			<item name="eggboiled"/>
+			<item name="bakedPotato"/>
+			<item name="baconAndEggs"/>
+			<item name="vegetableStew"/>
+			<item name="MeatPie"/>
+			<item name="ApplePie"/>
+			<item name="MushroomStew"/>
+			<item name="BaconMushroomSandwich"/>
+			<item name="strawberryJamSandwich"/>
+			<item name="strawberryJam"/>
+		</trader_item_group>
+
+		<trader_item_group name="preparedDrink">
+			<item name="foodYuccaJuice"/>
+			<item name="bottledWater"/>
+			<item name="goldenRodTea"/>
+			<item name="redTea"/>
+			<item name="coffee"/>
+			<item name="beer"/>
+			<item name="grainAlcohol"/>
+			<item name="snowberryJuice"/>
+			<item name="AppleJuice"/>
+			<item name="GreenTea"/>
+			<item name="MossyBrew"/>
+			<item name="blackberryJuice"/>
+		</trader_item_group>
+
+		<trader_item_group name="landMines" count="1">
+			<item name="mineCandyTin" count="1,6"/>
+			<item name="mineHubcap" count="1,5"/>
+			<item name="mineAirFilter" count="1,4"/>
+		</trader_item_group>
+		
+		<trader_item_group name="building_RebarFrames" count="1,2">
+			<item name="rebar" count="20,70"/>
+			<item name="rebarFrameBlock" count="10,50"/>
+			<item name="rebarFrameRamp" count="5,25" prob="0.2"/>
+			<item name="rebarFrameCNRInside" count="1,6" prob="0.05"/>
+			<item name="rebarFrameArch" count="1,6" prob="0.05"/>
+			<item name="rebarFrameCNRFull" count="1,6" prob="0.05"/>
+			<item name="rebarFrameCTRPlate" count="1,6" prob="0.05"/>
+			<item name="rebarFrameCTRPole" count="1,6" prob="0.05"/>
+			<item name="rebarFrameHalf" count="1,6" prob="0.05"/>
+			<item name="rebarFramePillar50" count="1,6" prob="0.05"/>
+			<item name="rebarFramePlate" count="1,6" prob="0.05"/>
+			<item name="rebarFramePole" count="1,6" prob="0.05"/>
+			<item name="rebarFrameEighth" count="1,6" prob="0.05"/>
+			<item name="rebarFrameQuarter" count="1,6" prob="0.05"/>
+			<item name="rebarFrameCTREighth" count="1,6" prob="0.05"/>
+		</trader_item_group>
+		
+		<trader_item_group name="building_TungstenFrames" count="1,2">
+			<item name="tungstenFrameBlock" count="10,50" prob="1.75"/>
+			<item name="tungstenFrameRamp" count="5,25"/>
+			<item name="tungstenFrameCNRInside" count="4,8" prob="0.05"/>
+			<item name="tungstenFrameArch" count="4,8" prob="0.05"/>
+			<item name="tungstenFrameCNRFull" count="4,8" prob="0.05"/>
+			<item name="tungstenFrameCTRPlate" count="4,8" prob="0.05"/>
+			<item name="tungstenFrameCTRPole" count="4,8" prob="0.05"/>
+			<item name="tungstenFrameHalf" count="4,8" prob="0.05"/>
+			<item name="tungstenFramePillar50" count="4,8" prob="0.05"/>
+			<item name="tungstenFramePillar100" count="4,8" prob="0.05"/>
+			<item name="tungstenFramePlate" count="4,8" prob="0.05"/>
+			<item name="tungstenFramePole" count="4,8" prob="0.05"/>
+			<item name="tungstenFrameEighth" count="4,8" prob="0.05"/>
+			<item name="tungstenFrameQuarter" count="4,8" prob="0.05"/>
+			<item name="tungstenFrameCTREighth" count="4,8" prob="0.05"/>
+			<item name="ForgedTungsten" count="15,40" prob="0.05"/>
+		</trader_item_group>
+
+		<trader_item_group name="constructionSupplies">
+			<item name="cement" count="10,30"/> <!-- 70 -->
+			<item name="cobblestones" count="75,500"/> <!-- 70 -->
+			<item name="concreteMix" count="75,500"/> <!-- 20 -->
+			<item name="nail" count="10,100"/> <!-- 10 -->
+			<item group="building_RebarFrames" count="20,75"/> <!-- 10 -->
+			<item group="building_TungstenFrames" count="20,75" prob="0.1"/> <!-- 10 -->
+			<item name="steelPolish" count="50,250" prob="2"/>
+			<item group="landMines" count="1" prob="0.3"/>
+		</trader_item_group>
+
+		<trader_item_group name="generalResources"> <!-- bundle size -->
+			<item name="wood" count="10,50"/> <!-- 50 -->
+			<item name="yuccaFibers" count="5,40"/> <!-- 50 -->
+			<item name="crushedSand" count="10,40"/> <!-- 50 -->
+			<item name="scrapIron" count="20,200"/> <!-- 10 -->
+			<item name="scrapPlastics" count="30,150"/>
+			<item name="forgedIron" count="10,75"/>
+			<item name="forgedSteel" count="10,75"/>
+			<item name="ForgedTungsten" count="10,75"/>
+			<item name="shortMetalPipe" count="5,20"/>
+			<item name="macheteBlade" count="1,3"/>
+			<item name="oilShale" count="20,80"/> <!-- 50 -->
+			<item name="animalHide" count="10,40"/>
+			<item name="leather" count="15,50"/>
+			<item name="scrapBrass" count="15,80"/> <!-- 10 -->
+			<item name="clayLump" count="5,25"/> <!-- 150 -->
+			<item name="scrapLead" count="5,90"/> <!-- 5 -->
+			<item name="cloth" count="5,100"/>
+			<item name="militaryFiber" count="5,20" prob="0.6"/>
+			<item name="coal" count="30,100"/> <!-- 10 -->
+			<item name="potassiumNitratePowder" count="30,100"/> <!-- 10 -->
+			<item name="gunPowder" count="30,100"/> <!-- 10 -->
+			<item name="oil" count="30,100"/>
+			<item name="animalFat" count="5,40"/>
+			<item name="bucket" prob="0.6"/>
+			<item name="candle" count="5,25"/>
+			<item name="headlight" count="5,25" prob="0.6"/>
+			<item name="ductTape" count="5,25"/>
+			<item name="spring" count="5,25"/>
+			<item name="mechanicalParts" count="15,80" prob="0.8"/>
+			<item name="electricParts" count="15,50" prob="0.7"/>
+			<item name="electronicParts" count="10,30" prob="0.6"/>
+			<item name="insulator" count="20,60" prob="0.6"/>
+			<item name="lockPick" count="10,20" prob="0.45"/>
+		</trader_item_group>
+
+		<trader_item_group name="rareTools" count="1">
+			<item name="chainsaw"/>
+			<item name="auger" prob="0.3"/>
+			<item name="partsChainsaw_parts"/>
+			<item name="partsAuger_parts"/>
+			<item name="partsAuger_blade"/>
+			<item name="partsChainsaw_blade"/>
+			<item name="ECOAuger"/>
+			<item name="HDAuger"/>
+			<item name="ECOAuger_Parts"/>
+			<item name="ECOAuger_Blade"/>
+			<item name="HDAuger_Parts"/>
+			<item name="HDAuger_Blade"/>
+			<item name="ECOChainsaw"/>
+			<item name="HDChainsaw"/>
+			<item name="ECOChainsaw_Parts"/>
+			<item name="ECOChainsaw_Blade"/>
+			<item name="HDChainsaw_Parts"/>
+			<item name="HDChainsaw_Blade"/>
+			<item name="nailgun"/>
+			<item name="partsNailgun_frame"/>
+			<item name="partsNailgun_receiver"/>
+			<item name="partsNailgun_parts"/>
+			<item name="partsNailgun_battery"/>
+			<item name="smallEngine"/>
+			<item name="HDSmallEngine" prob="0.2"/>
+			<item name="ECOSmallEngine" prob="0.3"/>
+			<item name="carBattery"/>
+			<item name="ECOBattery" prob="0.3"/>
+			<item name="HDBattery" prob="0.2"/>
+			<item name="pickaxeSteel"/>
+			<item name="fireaxeSteel"/>
+			<item name="shovelSteel"/>
+			<item name="HDNailgun" prob="0.6"/>
+			<item name="HDNailgun_Frame"/>
+			<item name="HDNailgun_Receiver"/>
+			<item name="HDNailgun_Parts"/>
+			<item name="HDNailgun_Battery"/>
+			<item name="steelClawHammer" prob="0.19"/>
+			<item name="ShovelTungsten" prob="0.3"/>
+			<item name="FireaxeTungsten" prob="0.3"/>
+			<item name="PickaxeTungsten" prob="0.3"/>
+			<item name="HDWrench" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="tools" count="1">
+			<item name="pickaxeIron"/>
+			<item name="shovelIron"/>
+			<item name="fireaxeIron"/>
+			<item name="sledgehammer"/>
+			<item name="hoeIron"/>
+			<item name="clawHammer"/>
+			<item name="handWeeder"/>
+			<item name="wrench" prob="0.8"/>
+			<item name="repairKit" count="1,4"/>
+			<item name="wood" count="50,250"/>
+			<item name="anvil" count="1"/>
+			<item name="calipers" prob="0.6"/>
+			<item name="toolAndDieSet" prob="0.6"/>
+			<item name="forgedIron" count="2,10" prob="0.21"/>
+			<item name="forgedSteel" count="2,10" prob="0.12"/>
+			<item name="ForgedTungsten" count="2,10" prob="0.08"/>
+			<item name="fertilizer" count="1,4" prob="0.5"/>
+			<item name="paintTool" prob="0.5"/>
+			<item name="wireTool"/>
+			<item name="lockPick" count="1,6"/>
+		</trader_item_group>
+
+		<trader_item_group name="minibikeParts" count="1">
+			<item name="minibikeWheels"/>
+			<item name="minibikeChassis"/>
+			<item name="minibikeSeat"/>
+			<item name="minibikeHandlebars"/>
+			<item name="smallEngine" prob="0.3"/>
+			<item name="shoppingBasketItem" prob="0.3"/>
+			<item name="HDSmallEngine" prob="0.2"/>
+			<item name="ECOSmallEngine" prob="0.3"/>
+			<item name="carBattery"/>
+			<item name="ECOBattery" prob="0.3"/>
+			<item name="HDBattery" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="workstations" count="1">
+			<item name="forge"/>
+			<item name="workbench"/>
+			<item name="cementMixer"/>
+			<item name="ArmorSmithingWorkstation"/>
+			<item name="AdvancedToolWorkbench"/>
+			<item name="buildersWorkbench"/>
+			<item name="gunSmithingWorkstation"/>
+			<item name="BlueprintWorkStation"/>
+		</trader_item_group>
+
+		<trader_item_group name="decorativeCurtains" count="all">
+			<item name="curtain_top1Sheet3" count="4,15"/>
+			<item name="curtain_bottom1Sheet3" count="4,15"/>
+		</trader_item_group>
+
+		<trader_item_group name="decorativeBlinds" count="all">
+			<item name="miniblindTopSheet" count="4,15"/>
+			<item name="miniblindBottomSheet" count="4,15"/>
+		</trader_item_group>
+
+
+		<trader_item_group name="decorativeBlocks" count="5,25">
+			<item group="decorativeCurtains"/>
+			<item group="decorativeBlinds"/>
+			<item name="roadRailing"/>
+			<item name="roadRailingEnd"/>
+			<item name="roadRailingEnd2"/>
+			<item name="roadRailingPole"/>
+			<item name="rebarDestroyed"/>
+			<item name="metalPipeCap"/>
+			<item name="metalPipeCorner"/>
+			<item name="metalPipeFlange"/>
+			<item name="metalPipeJoint"/>
+			<item name="metalPipeStraight"/>
+			<item name="metalPipeValve"/>
+			<item name="airConditioner"/>
+			<item name="chaulkboardPlate"/>
+			<item name="cntBookcase"/>
+			<item name="cntCabinetOldSink"/>
+			<item name="cntCashRegister"/>
+			<item name="cntCooler"/>
+			<item name="cntFileCabinet"/>
+			<item name="cntFurnaceDrawer"/>
+			<item name="cntGasPump"/>
+			<item name="cntGraniteSink"/>
+			<item name="cntGreenDrawer"/>
+			<item name="cntLockers"/>
+			<item name="cntMunitionsBox"/>
+			<item name="cntOven"/>
+			<item name="faucet02"/>
+			<item name="faucet04"/>
+			<item name="faucetBrass02"/>
+			<item name="faucetBrass04"/>
+			<item name="fountain"/>
+			<item name="fusebox"/>
+			<item name="mattress"/>
+			<item name="mattressFlat"/>
+			<item name="metalPipeCap"/>
+			<item name="metalPipeCorner"/>
+			<item name="metalPipeFlange"/>
+			<item name="metalPipeJoint"/>
+			<item name="metalPipeStraight"/>
+			<item name="metalPipeValve"/>
+			<item name="shoppingCartEmpty"/>
+			<item name="treeAzalea"/>
+			<item name="barStool"/>
+			<item name="signShopOpen_player"/>
+			<item name="cntTrash_can01"/>
+			<item name="cntBin"/>
+			<item name="window02" count="4,15"/>
+			<item name="shutters1Plate" count="4,15"/>
+			<item name="signAnselAdamsRiver"/>
+			<item name="signCampFish"/>
+			<item name="signCamping"/>
+			<item name="signInfoCenter"/>
+			<item name="signNationalPark"/>
+			<item name="signNoHazardousWaste"/>
+			<item name="signRoadApacheAZ260"/>
+			<item name="signRoadArrowheadApache"/>
+			<item name="signRoadAZ73north"/>
+			<item name="signRoadAZ73northSpeed65"/>
+			<item name="signRoadAZ73south"/>
+			<item name="signRoadAZ73southSpeed65"/>
+			<item name="signRoadAZ260eastSpeed65"/>
+			<item name="signRoadAZ260west"/>
+			<item name="signRoadAZ260westSpeed65"/>
+			<item name="signRoadBellLake"/>
+			<item name="signRoadCoronado"/>
+			<item name="signRoadCoronadoCourtland"/>
+			<item name="signRoadCourtlandApache"/>
+			<item name="signRoadCourtlandAZ260"/>
+			<item name="signRoadCourtlandAZ260Duplicate"/>
+			<item name="signRoadCourtlandBell"/>
+			<item name="signRoadCourtlandHuenink"/>
+			<item name="signRoadCourtlandMaple"/>
+			<item name="signRoadCourtlandTran"/>
+			<item name="signRoadDavis"/>
+			<item name="signRoadDestinationsEast"/>
+			<item name="signRoadDestinationsWest"/>
+			<item name="signRoadEssig"/>
+			<item name="signRoadLangTran"/>
+			<item name="signRoadMaple"/>
+			<item name="signRoadPrivate"/>
+			<item name="signRoadRoughSurface"/>
+			<item name="signRoadSlow"/>
+			<item name="signRoadSpeed25"/>
+			<item name="signRoadSpeed25noTrucks"/>
+			<item name="signRoadSpeed35"/>
+			<item name="signRoadSpeed45"/>
+			<item name="signRoadSpeed55"/>
+			<item name="signRoadSpeed65"/>
+			<item name="signRoadStop"/>
+			<item name="signRoadStop4way"/>
+			<item name="signRoadTran"/>
+			<item name="signRoadWork"/>
+			<item name="signSchoolZone"/>
+			<item name="signSpillwayLake"/>
+		</trader_item_group>
+
+		<trader_item_group name="traderAlways" count="all">
+			<item name="gunPowder" count="5,50"/> <!-- 10 -->
+			<item group="ammo" count="2,6"/>
+			<item group="ammoSupplies" count="2,6"/>
+			<item name="potassiumNitratePowder" count="10,55"/> <!-- 10 -->
+		</trader_item_group>
+
+		<trader_item_group name="traderGeneral" count="1">
+			<item name="beerBook" count="1" prob="0.3"/>
+			<item name="plantedHop1" count="1,5" prob="0.3"/>
+			<item name="paint" count="1,12"/> <!-- 50 -->
+			<item group="clothes" count="2,4"/>
+			<item group="weaponsCommonParts" count="1,3" prob="0.5"/>
+			<item group="weaponsMelee" count="1,3" prob="1.5"/>
+			<item group="weaponsCrossbow+ammo" count="1"/>
+			<item group="weaponsGunsCommon" count="1" prob="1"/>
+			<item name="flashlight02"/>
+			<item group="books" count="1,2" prob="0.6"/>
+			<item group="ammo" count="2,4" prob="2"/>
+			<item group="ammoSupplies" count="1,3"/>
+			<item group="seeds" count="1,4"/>
+			<item group="cannedfood" count="1,2"/>
+			<item group="foodSupplies" count="1,4"/>
+			<item group="preparedFood" count="1,2"/>
+			<item group="preparedDrink" count="1"/>
+			<item group="constructionSupplies" count="1,3" prob="0.8"/>
+			<item group="rareTools" count="1" prob="0.2"/>
+			<item group="rareMedicine" count="1" prob="0.2"/>
+			<item group="medicine" count="1,2" prob="1"/>
+		</trader_item_group>
+
+		<trader_item_group name="traderElectrical" count="1">
+			<item name="electricParts" count="20,50" prob="1"/>
+			<item name="electronicParts" count="15,35" prob="0.5"/>
+			<item name="generatorbank" count="1" prob="1"/>
+			<item name="batterybank" count="1" prob="0.7"/>
+			<item name="bladeTrap" count="1,3" prob="0.8"/>
+			<item name="tripwirepost" count="1,5" prob="1.0"/>
+			<item name="electricfencepost" count="1,4" prob="1.0"/>
+			<item name="pressureplate" count="1,5" prob="1.0"/>
+			<item name="steelDart" count="15,70" prob="1.0"/>
+			<item name="wallLight01_player" count="1,6" prob="1.0"/>
+			<item name="ceilingLight01_player" count="1,6" prob="1.0"/>
+			<item name="ceilingLight02_player" count="1,6" prob="1.0"/>
+			<item name="ceilingLight07_player" count="1,5" prob="1.0"/>
+			<item name="industrialLight01_player" count="1,5" prob="1.0"/>
+			<item name="spotlightPlayer" count="1,2" prob="1.0"/>
+			<item name="porchLight01_player" count="1,6" prob="1.0"/>
+			<item name="dartTrap" count="1,2" prob="1.0"/>
+			<item name="electrictimerrelay" count="1,3" prob="1.0"/>
+			<item name="electricwirerelay" count="5,15" prob="1.0"/>
+			<item name="motionsensor" count="1,2" prob="1.0"/>
+			<item name="speaker" count="1,2" prob="1.0"/>
+			<item name="switch" count="3,9" prob="1.0"/>
+		</trader_item_group>
+
+		<trader_item_group name="stashOnlyItemsLow" count="1">
+			<item name="beerBook" count="1"/>
+			<item name="plantedHop1" count="1,5"/>
+			<item name="batterybankSchematic" count="1" prob="0.55"/>
+			<item name="autoTurret" count="1,2" prob="0.5"/>
+			<item name="shotgunTurret" count="1,2" prob="0.7"/>
+		</trader_item_group>
+
+		<trader_item_group name="stashOnlyItemsHigh" count="1">
+			<item name="beerBook" count="1"/>
+			<item name="plantedHop1" count="2,8"/>
+			<item name="solarCell" count="1,2"/>
+			<item name="batterybankSchematic" count="1" prob="0.55"/>
+			<item name="autoTurret" count="1,2" prob="0.5"/>
+			<item name="shotgunTurret" count="1,3" prob="0.7"/>
+		</trader_item_group>
+
+	</trader_item_groups>
+
+<!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+tshirtAll
+bandanaAll
+pantsAll
+pufferCoatAll
+shirtLongAll
+skullCapAll
+sweatshirtAll
+tankTopAll
+cowboyHatAll
+hazmatGear
+banditArmor
+hats
+	clothes
+	warmClothes
+	lightArmor
+	heavyArmor
+militaryArmor
+	Armor
+commonWeaponParts
+militaryWeaponParts
+meleeWeapon
+crossbow+ammo
+rareMedicine
+medicine
+questChallenge
+commonBooks
+rareBooks
+books
+guns
+ammo
+ammoSupplies
+seeds
+cannedfood
+foodSupplies
+preparedFood
+preparedDrink
+constructionSupplies
+generalResources
+rareTools
+tools
+workstations
+
+-->
+
+	<!-- Trader 1, carries better weapons at higher levels. -->
+	<!-- Note that all COUNTS are eventually multiplied by an item's EconomicBundleSize so "10 wood" in the list are "500 wood" on the trader. -->
+	<trader_info id="1" min_inventory="40" max_inventory="80" min_items_swapped="20" max_items_swapped="20"
+		reset_interval="3" open_time="6:05" close_time="21:50">
+		<trader_items count="all">
+			<item group="traderAlways"/>
+			<item group="traderGeneral" count="5,9"/>
+			<item group="generalResources" count="10,18"/>
+			<item group="constructionSupplies" count="3,10"/>
+			<item group="decorativeBlocks" count="3,8"/>
+			<item group="tools" count="1,2"/>
+			<item group="weaponsCommonParts" count="1,4"/>
+			<item group="weaponsGunsCommon" count="1,3"/>
+			<item group="lightArmor" count="1,3"/>
+			<item group="heavyArmor" count="0,4"/>
+			<item group="traderElectrical" count="1,3"/>
+		</trader_items>
+
+		<tier_items level="1,499" count="all">  <!-- requires Perk 0 -->
+			<!-- Bug: The count is overridden by "all" anyway so all probabilities are =1 -->
+			<item group="tools" count="1"/>
+			<item group="weaponsCommonParts" count="0,2"/>
+			<item group="weaponsGunsCommon" count="1"/>
+			<item group="ammo" count="1,2"/>
+			<item group="lightArmor" count="1,2"/>
+			<item group="heavyArmor" count="1"/>
+			<item group="paintMagazines" count="1"/>
+			<item group="commonBooks" count="1,2"/>
+			<item group="rareBooks" count="1"/>
+		</tier_items>
+
+		<tier_items level="500,999" count="all">  <!-- requires Perk 1 -->
+			<!-- Bug: The count is overridden by "all" anyway so all probabilities are =1 -->
+			<item group="traderElectrical" count="2,3"/>
+			<item name="cntVendingMachine" count="1" />
+			<item group="tools" count="1"/>
+			<item group="rareTools" count="1"/>
+			<item group="weaponsMixedParts" count="2,4"/>
+			<item group="weaponsGunsMixed" count="1,3"/>
+			<item group="ammo" count="2,5"/>
+			<item group="heavyArmor" count="1,3"/>
+			<item group="banditArmor" count="1,2"/>
+			<item group="paintMagazines" count="1,2"/>
+			<item group="commonBooks" count="2,3"/>
+			<item group="rareBooks" count="1,2"/>
+			<item group="stashOnlyItemsLow" count="1,2"/>
+		</tier_items>
+
+		<tier_items level="1000,1499" count="all"> <!-- requires Perk 2 -->
+			<item group="traderElectrical" count="2,3"/>
+			<item name="cntVendingMachine" count="1" />
+			<item group="tools" count="1,2"/>
+			<item group="rareTools" count="1,2"/>
+			<item group="weaponsMixedParts" count="4,6"/>
+			<item group="weaponsGunsMixed" count="2,4"/>
+			<item group="ammo" count="3,6"/>
+			<item group="heavyArmor" count="2,5"/>
+			<item group="militaryArmor" count="1,2"/>
+			<item group="banditArmor" count="2,3"/>
+			<item group="paintMagazines" count="1,2"/>
+			<item group="commonBooks" count="3,4"/>
+			<item group="rareBooks" count="2"/>
+			<item name="miningHelmet"/>
+			<item group="minibikeParts" count="1,2"/>
+			<item group="stashOnlyItemsHigh" count="2,3"/>
+		</tier_items>
+
+		<tier_items level="1500,-1" count="all"> <!-- requires Perk 3 -->
+			<item group="traderElectrical" count="3,4"/>
+			<item group="tools" count="1,2"/>
+			<item group="rareTools" count="3,4"/>
+			<item name="cntVendingMachine" count="2" />
+			<item group="weaponsMixedParts" count="4,6"/>
+			<item group="weaponsGunsMixed" count="2,3"/>
+			<item group="weaponsMilitaryParts" count="1,2"/>
+			<item group="weaponsGunsMilitary" count="1"/>
+			<item group="ammo" count="5,8"/>
+			<item group="heavyArmor" count="3,5"/>
+			<item group="militaryArmor" count="2,3"/>
+			<item group="banditArmor" count="3,4"/>
+			<item group="paintMagazines" count="1,2"/>
+			<item group="commonBooks" count="4,5"/>
+			<item group="rareBooks" count="2,3"/>
+			<item name="miningHelmet"/>
+			<item group="minibikeParts" count="2,3"/>
+			<item name="nightvisionGoggles" count="1"/>
+			<item name="beerBook" count="1"/>
+			<item name="plantedHop1" count="1,8"/>
+			<item name="solarbank" count="1"/>
+			<item name="solarCell" count="1,3"/>
+			<item name="batterybankSchematic" count="1"/>
+			<item group="stashOnlyItemsHigh" count="3,4"/>
+		</tier_items>
+	</trader_info>
+	
+	<trader_info id="2" min_inventory="10" max_inventory="20" min_items_swapped="10" max_items_swapped="15"
+		reset_interval="2" open_time="6:05" close_time="21:50">
+		<trader_items count="all">
+			<item group="traderAlways"/>
+			<item group="traderGeneral" count="5,9"/>
+			<item group="generalResources" count="10,18"/>
+			<item group="constructionSupplies" count="3,10"/>
+			<item group="decorativeBlocks" count="3,8"/>
+			<item group="tools" count="1,2"/>
+			<item group="weaponsCommonParts" count="1,4"/>
+			<item group="weaponsGunsCommon" count="1,3"/>
+			<item group="lightArmor" count="1,3"/>
+			<item group="heavyArmor" count="0,4"/>
+			<item group="traderElectrical" count="1,3"/>
+		</trader_items>
+
+		<tier_items level="1,499" count="all">  <!-- requires Perk 0 -->
+			<!-- Bug: The count is overridden by "all" anyway so all probabilities are =1 -->
+			<item group="tools" count="1"/>
+			<item group="weaponsCommonParts" count="0,2"/>
+			<item group="weaponsGunsCommon" count="1"/>
+			<item group="ammo" count="1,2"/>
+			<item group="lightArmor" count="1,2"/>
+			<item group="heavyArmor" count="1"/>
+			<item group="paintMagazines" count="1"/>
+			<item group="commonBooks" count="1,2"/>
+			<item group="rareBooks" count="1"/>
+		</tier_items>
+
+		<tier_items level="500,999" count="all">  <!-- requires Perk 1 -->
+			<!-- Bug: The count is overridden by "all" anyway so all probabilities are =1 -->
+			<item group="traderElectrical" count="2,3"/>
+			<item name="cntVendingMachine" count="1" />
+			<item group="tools" count="1"/>
+			<item group="rareTools" count="1"/>
+			<item group="weaponsMixedParts" count="2,4"/>
+			<item group="weaponsGunsMixed" count="1,3"/>
+			<item group="ammo" count="2,5"/>
+			<item group="heavyArmor" count="1,3"/>
+			<item group="banditArmor" count="1,2"/>
+			<item group="paintMagazines" count="1,2"/>
+			<item group="commonBooks" count="2,3"/>
+			<item group="rareBooks" count="1,2"/>
+			<item group="stashOnlyItemsLow" count="1,2"/>
+		</tier_items>
+
+		<tier_items level="1000,1499" count="all"> <!-- requires Perk 2 -->
+			<item group="traderElectrical" count="2,3"/>
+			<item name="cntVendingMachine" count="1" />
+			<item group="tools" count="1,2"/>
+			<item group="rareTools" count="1,2"/>
+			<item group="weaponsMixedParts" count="4,6"/>
+			<item group="weaponsGunsMixed" count="2,4"/>
+			<item group="ammo" count="3,6"/>
+			<item group="heavyArmor" count="2,5"/>
+			<item group="militaryArmor" count="1,2"/>
+			<item group="banditArmor" count="2,3"/>
+			<item group="paintMagazines" count="1,2"/>
+			<item group="commonBooks" count="3,4"/>
+			<item group="rareBooks" count="2"/>
+			<item name="miningHelmet"/>
+			<item group="minibikeParts" count="1,2"/>
+			<item group="stashOnlyItemsHigh" count="2,3"/>
+		</tier_items>
+
+		<tier_items level="1500,-1" count="all"> <!-- requires Perk 3 -->
+			<item group="traderElectrical" count="3,4"/>
+			<item group="tools" count="1,2"/>
+			<item group="rareTools" count="3,4"/>
+			<item name="cntVendingMachine" count="2" />
+			<item group="weaponsMixedParts" count="4,6"/>
+			<item group="weaponsGunsMixed" count="2,3"/>
+			<item group="weaponsMilitaryParts" count="1,2"/>
+			<item group="weaponsGunsMilitary" count="1"/>
+			<item group="ammo" count="5,8"/>
+			<item group="heavyArmor" count="3,5"/>
+			<item group="militaryArmor" count="2,3"/>
+			<item group="banditArmor" count="3,4"/>
+			<item group="paintMagazines" count="1,2"/>
+			<item group="commonBooks" count="4,5"/>
+			<item group="rareBooks" count="2,3"/>
+			<item name="miningHelmet"/>
+			<item group="minibikeParts" count="2,3"/>
+			<item name="nightvisionGoggles" count="1"/>
+			<item name="beerBook" count="1"/>
+			<item name="plantedHop1" count="1,8"/>
+			<item name="solarbank" count="1"/>
+			<item name="solarCell" count="1,3"/>
+			<item name="batterybankSchematic" count="1"/>
+			<item group="stashOnlyItemsHigh" count="3,4"/>
+		</tier_items>
+	</trader_info>
+
+	<!-- Trader 2, carries better tools and construction material at higher levels. -->
+	<!-- Note that all COUNTS are eventually multiplied by an item's EconomicBundleSize so "10 wood" in the list are "500 wood" on the trader. -->
+<!--
+	<trader_info id="2" min_inventory="40" max_inventory="80" min_items_swapped="20" max_items_swapped="20"
+		reset_interval="3" open_time="6:05" close_time="21:50">
+		<trader_items count="all">
+			<item group="traderAlways"/>
+			<item group="traderGeneral" count="4,8"/>
+			<item group="generalResources" count="11,17"/>
+			<item group="constructionSupplies" count="4,12"/>
+			<item group="decorativeBlocks" count="2,7"/>
+			<item group="tools" count="0,2"/>
+			<item group="weaponsCommonParts" count="0,2"/>
+			<item group="lightArmor" count="1,3"/>
+			<item group="traderElectrical" count="0,1"/>
+		</trader_items>
+
+		<tier_items level="1,25" count="1,3">
+			<item group="traderElectrical" count="1,2"/>
+			<item group="weaponsGunsCommon" count="1" prob="0.5"/>
+			<item group="constructionSupplies" count="2,3" prob="1"/>
+			<item group="generalResources" count="4,7" prob="1"/>
+			<item group="tools" count="1,2" prob="1"/>
+			<item group="rareTools" count="1" prob="0.5"/>
+			<item group="ammoSupplies" count="2,3" prob="0.4"/>
+			<item group="banditArmor" count="1" prob="0.4"/>
+			<item name="miningHelmet" prob="0.5"/>
+			<item group="ammo" count="1,2" prob="1"/>
+		</tier_items>
+
+		<tier_items level="25,50" count="1,4">
+			<item group="traderElectrical" count="2,3"/>
+			<item group="weaponsGunsCommon" count="1" prob="0.8"/>
+			<item group="weaponsGunsMilitary" count="1" prob="0.2"/>
+			<item group="constructionSupplies" count="2,3" prob="1"/>
+			<item group="generalResources" count="3,4" prob="1"/>
+			<item group="tools" count="1,2" prob="1"/>
+			<item group="rareTools" count="1" prob="0.5"/>
+			<item group="ammoSupplies" count="2,3" prob="0.4"/>
+			<item group="banditArmor" count="1" prob="0.4"/>
+			<item group="hazmatGear" count="1" prob="0.2"/>
+			<item group="workstations" count="1" prob="0.3"/>
+			<item group="minibikeParts" count="1" prob="0.2"/>
+			<item name="miningHelmet" prob="0.5"/>
+			<item group="ammo" count="1,4" prob="1"/>
+		</tier_items>
+
+		<tier_items level="50,-1" count="2,6">
+			<item group="traderElectrical" count="3"/>
+			<item name="cntVendingMachine" count="1" prob="1" />
+			<item group="weaponsGunsCommon" count="1" prob="1"/>
+			<item group="weaponsGunsMilitary" count="1" prob="0.3"/>
+			<item group="constructionSupplies" count="2,3" prob="1"/>
+			<item group="generalResources" count="3,4" prob="1"/>
+			<item group="tools" count="1,2" prob="0.9"/>
+			<item group="rareTools" count="1" prob="0.6"/>
+			<item group="ammoSupplies" count="2,3" prob="0.4"/>
+			<item group="banditArmor" count="1" prob="0.4"/>
+			<item group="hazmatGear" count="1" prob="0.4"/>
+			<item group="workstations" count="1" prob="0.5"/>
+			<item group="minibikeParts" count="1" prob="0.4"/>
+			<item name="nightvisionGoggles" count="1" prob="0.2" />
+			<item name="miningHelmet" prob="0.5"/>
+			<item group="ammo" count="2,4" prob="1"/>
+		</tier_items>
+	</trader_info>
+-->
+
+	<!-- Player Owned - Vending Machine -->
+	<trader_info id="3" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" player_owned="true" />
+
+	<!-- Vending Machines found in the world. -->
+	<trader_info id="4" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="10">
+			<item name="bottledWater" count="1,2"/>
+			<item name="goldenRodTea" count="1,2"/>
+			<item name="redTea" count="1,2"/>
+			<item name="coffee" count="1,2"/>
+			<item name="beer" count="1,2"/>
+			<item name="canMiso" count="1,2"/>
+			<item name="canPasta" count="1,2"/>
+			<item name="canSoup" count="1,2"/>
+		</trader_items>
+	</trader_info>
+
+	<!-- Rented - Vending Machine -->
+	<trader_info id="5" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" rentable="true" rent_cost="2500" rent_time="30" />
+	
+	<!-- Class Vending Machine (Builder) -->
+	<trader_info id="6" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="10">
+			<item name="wood" count="5000,10000"/>
+			<item name="ironFragment" count="2500,5000"/>
+			<item name="scrapIron" count="5000,10000"/>
+			<item name="forgedIron" count="25,150"/>
+			<item name="forgedSteel" count="20,75"/>
+			<item name="ForgedTungsten" count="20,50" prob="0.15"/>
+			<item name="concreteMix" count="100,600"/>
+			<item name="cobblestones" count="1000"/>
+			<item name="scrapPlastics" count="20,60"/>
+			<item name="electricParts" count="20,60"/>
+			<item name="electronicParts" count="10,30"/>
+			<item name="mechanicalParts" count="20,60"/>
+			<item group="constructionSupplies" count="1,2" prob="0.35"/>
+			<item name="MagazineConstruction" count="1" prob="0.3"/>
+			<item name="nailgunSchematic" count="1" prob="0.25"/>
+			<item name="HDNailgunSchematic" count="1" prob="0.1"/>
+			<item name="buildersWorkbenchSchematic" count="1" prob="0.2"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Survivalist) -->
+	<trader_info id="7" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="10">
+			<item name="aloeCream" count="50,100"/>
+			<item name="cloth" count="50,150"/>
+			<item name="TraumaFirstAidBandage" count="2,5"/>
+			<item name="TraumaFirstAidKit" count="2,5"/>
+			<item name="ExtraStrengthPainkillers" count="2,5"/>
+			<item name="GreenTea" count="5,10"/>
+			<item name="ExplosiveSpeedTrap" count="2,4"/>
+			<item name="LegBoosterShot" count="2,5"/>
+			<item name="SpeedTrap" count="2,4"/>
+			<item name="FireSpeedTrap" count="2,4"/>
+			<item name="herbalAntibioticsRecipe" count="1" prob="0.2"/>
+			<item name="herbalAntibiotics" count="2,5"/>
+			<item name="ironArrow" count="150,250"/>
+			<item name="steelArrow" count="150,250" prob="0.1"/>
+			<item name="TraumaFirstAidBandageSchematic" count="1" prob="0.1"/>
+			<item name="TraumaFirstAidKitSchematic" count="1" prob="0.1"/>
+			<item name="herbalAntibioticsRecipe" count="1" prob="0.1"/>
+			<item name="LongbowSchematic" count="1" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Scholar) -->
+	<trader_info id="8" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="10">
+			<item name="plantedCotton1" count="20,50"/>
+			<item name="plantedGoldenrod1" count="20,50"/>
+			<item name="plantedChrysanthemum1" count="20,50"/>
+			<item name="plantedMushroom1" count="20,50"/>
+			<item name="plantedAloe1" count="20,50"/>
+			<item name="plantedYucca1" count="20,50"/>
+			<item name="plantedHop1" count="20,50"/>
+			<item name="plantedCoffee1" count="20,50"/>
+			<item name="plantedBlueberry1" count="20,50"/>
+			<item name="plantedPotato1" count="20,50"/>
+			<item name="plantedCorn1" count="20,50"/>
+			<item name="BlueprintPaper" count="20,50"/>
+			<item name="pipeBomb" count="2,6"/>
+			<item name="dynamite" count="2,6"/>
+			<item name="tnt" count="2,6"/>
+			<item name="MagazineScience" count="1" prob="0.2"/>
+			<item name="MagazineQuickerCrafting" count="1" prob="0.2"/>
+			<item name="ApplePieRecipe" count="1" prob="0.1"/>
+			<item name="AppleJuiceRecipe" count="1" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Marksman) -->
+	<trader_info id="9" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="10">
+			<item name="9mmBullet" count="25,150"/>
+			<item name="9mmHollowPointBullet" count="25,150" prob="0.25"/>
+			<item name="762mmBullet" count="25,150"/>
+			<item name="762mmHollowPointBullet" count="25,150" prob="0.15"/>
+			<item name="44MagBullet" count="25,150"/>
+			<item name="44HollowPointMagBullet" count="25,150" prob="0.1"/>
+			<item name="556mmBullet" count="25,150"/>
+			<item name="556mmNATOBullet" count="25,150" prob="0.1"/>
+			<item name="32mmBullet" count="25,150"/>
+			<item name="shotgunShell" count="25,150"/>
+			<item name="shotgunSlug" count="25,150" prob="0.15"/>
+			<item name="gunPowder" count="250,1000"/>
+			<item name="bulletTip" count="250,1000"/>
+			<item name="bulletCasing" count="250,1000"/>
+			<item name="scrapBrass" count="250,750"/>
+			<item name="scrapLead" count="250,750"/>
+			<item name="buckshot" count="250,750"/>
+			<item name="repairKit" count="25,50"/>
+			<item name="MagazineGunSmithing" count="1" prob="0.2"/>
+			<item name="BarettaShotgunSchematic" count="1" prob="0.1"/>
+			<item name="DesertEagleSchematic" count="1" prob="0.1"/>
+			<item name="FAMASSchematics" count="1" prob="0.1"/>
+			<item name="Remington8Schematic" count="1" prob="0.1"/>
+			<item name="M25SniperRifleSchematic" count="1" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Tradesman) -->
+	<trader_info id="10" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="10">
+			<item name="forgedIron" count="50,100"/>
+			<item name="forgedSteel" count="40,90"/>
+			<item name="ForgedTungsten" count="20,70"/>
+			<item name="scrapPlastics" count="50,150"/>
+			<item name="electricParts" count="50,150"/>
+			<item name="electronicParts" count="50,150"/>
+			<item name="mechanicalParts" count="50,150"/>
+			<item group="tools" count="1,2" prob="0.2"/>
+			<item group="rareTools" count="1" prob="0.1"/>
+			<item group="minibikeParts" count="1" prob="0.15"/>
+			<item name="MagazineMechanic" count="1" prob="0.2"/>
+			<item name="sledgehammerSchematic" count="1" prob="0.1"/>
+			<item name="MagazineToolSmithing" count="1" prob="0.15"/>
+			<item name="diamondTippedPickaxeSchematic" count="1" prob="0.1"/>
+			<item name="diamondTippedFireaxeSchematic" count="1" prob="0.1"/>
+			<item name="hdWrenchSchematic" count="1" prob="0.1"/>
+			<item name="advancedToolSmithingWorkstationSchematic" count="1" prob="0.2"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Fighter) -->
+	<trader_info id="11" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="10">
+			<item name="forgedIron" count="10,20"/>
+			<item name="forgedSteel" count="5,10"/>
+			<item group="weaponsMelee" count="1,2" prob="0.3"/>
+			<item name="ForgedTungsten" count="2,4" prob="0.1"/>
+			<item name="huntingKnifeBook" count="1" prob="0.25"/>
+			<item name="clubSpikedSchematic" count="1" prob="0.1"/>
+			<item name="GoldTippedKnifeBook" count="1" prob="0.1"/>
+			<item name="ClubTungstenSchematic" count="1" prob="0.1"/>
+			<item name="TungstenMacheteSchematic" count="1" prob="0.1"/>
+			<item name="MagazineWeaponSmithing" count="1" prob="0.2"/>
+			<item name="ClubTungstenSchematic" count="1" prob="0.1"/>
+			<item name="TungstenMacheteSchematic" count="1" prob="0.1"/>
+			<item name="GoldTippedKnifeBook" count="1" prob="0.1"/>
+			<item name="GoldTippedMacheteSchematic" count="1" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Protection) -->
+	<trader_info id="12" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="8">
+			<item name="cloth" count="50,300" />
+			<item name="leather" count="50,300" />
+			<item name="Kevlar" count="50,100" />
+			<item name="forgedIron" count="25,50" />
+			<item name="forgedSteel" count="25,50" />
+			<item name="ForgedTungsten" count="25,50" />
+			<item name="militaryFiber" count="25,50" />
+			<item group="Armor" count="1,3" prob="0.1" />
+			<item group="hazmatGear" count="1" prob="0.1" />
+			<item group="banditArmor" count="1" prob="1" />
+			<item name="MagazineArmorSmithing" count="1" prob="0.2" />
+			<item name="KevlarSchematic" count="1" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Electrician) -->
+	<trader_info id="13" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="10">
+			<item name="forgedIron" count="25"/>
+			<item name="forgedSteel" count="20"/>
+			<item name="scrapPlastics" count="50"/>
+			<item name="electricParts" count="50"/>
+			<item name="electronicParts" count="50"/>
+			<item name="mechanicalParts" count="50"/>
+			<item name="insulator" count="10"/>
+			<item name="wireTool" count="1"/>
+			<item name="electricwirerelay" count="5"/>
+			<item name="ceilingLight01_player" count="5"/>
+			<item name="porchLight01_player" count="5"/>
+			<item name="wallLight01_player" count="5"/>
+			<item name="ceilingLight02_player" count="5"/>
+			<item name="industrialLight01_player" count="5"/>
+			<item name="ceilingLight07_player" count="5"/>
+			<item name="spotlightPlayer" count="5"/>
+			<item name="speaker" count="2"/>
+			<item name="ceilingLight02Brass_player" count="5"/>
+			<item name="porchLight04Brass_player" count="5"/>
+			<item name="porchLight04_player" count="5"/>
+			<item name="ceilingLight04_player" count="5"/>
+			<item name="ceilingLight05_player" count="5"/>
+			<item name="signShopOpen_player" count="1"/>
+			<item name="streetLight01_player" count="2"/>
+			<item name="switch" count="2"/>
+			<item name="tripwirepost" count="2"/>
+			<item name="pressureplate" count="2"/>
+			<item name="electrictimerrelay" count="2"/>
+			<item name="pressureplateLong" count="2"/>
+			<item name="motionsensor" count="2"/>
+			<item name="electricfencepost" count="2,4"/>
+			<item name="bladeTrap" count="1,2"/>
+			<item name="hdBladeTrap" count="1"/>
+			<item name="dartTrap" count="2,3"/>
+			<item name="shotgunTurret" count="2"/>
+			<item name="autoTurret" count="2"/>
+			<item name="hdDartTrap" count="1"/>
+			<item name="tungstenDart" count="1"/>
+			<item name="barettaShotgunTurret" count="1"/>
+			<item name="famasAutoTurret" count="1"/>
+			<item name="generatorbank" count="1"/>
+			<item name="ecoGeneratorbank" count="1"/>
+			<item name="hdGeneratorbank" count="1"/>
+			<item name="batterybank" count="1"/>
+			<item name="ecoBatterybank" count="1"/>
+			<item name="hdBatterybank" count="1"/>
+			<item name="powerpoletopRecipe" count="1" prob="0.2"/>
+			<item name="ecoBatterybankSchematic" count="1" prob="0.1"/>
+			<item name="hdBatterybankSchematic" count="1" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Covert) -->
+	<trader_info id="14" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="8">
+			<item name="nightvisionGoggles" count="1" />
+			<item name="militaryBoots" count="1" />
+			<item name="militaryGloves" count="1" />
+			<item name="militaryHelmet" count="1" />
+			<item name="militaryLegArmor" count="1" />
+			<item name="militaryVest" count="1" />
+			<item name="militaryFiber" count="50,100" />
+			<item name="lockPick" count="3,15" prob="0.3" />
+			<item name="lockPickSafe" count="2,10" prob="0.2" />
+			<item name="nightvisionGogglesSchematic" count="1" prob="0.1"/>
+			<item name="silverBootsSchematic" count="1" prob="0.1"/>
+			<item name="silverPantsSchematic" count="1" prob="0.1"/>
+			<item name="silverJacketSchematic" count="1" prob="0.1"/>
+			<item name="silverHatSchematic" count="1" prob="0.1"/>
+			<item name="silverGlovesSchematic" count="1" prob="0.1"/>
+			<item name="lockpickDoorSchematic" count="1" prob="0.1"/>
+			<item name="lockpickSafeSchematic" count="1" prob="0.075"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Builder) POI -->
+	<trader_info id="15" reset_interval="7" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="6">
+			<item name="wood" count="5000,10000"/>
+			<item name="ironFragment" count="2500,5000"/>
+			<item name="scrapIron" count="5000,10000"/>
+			<item name="forgedIron" count="25,150"/>
+			<item name="forgedSteel" count="20,75"/>
+			<item name="ForgedTungsten" count="20,50" prob="0.15"/>
+			<item name="concreteMix" count="100,600"/>
+			<item name="cobblestones" count="1000"/>
+			<item name="scrapPlastics" count="20,60"/>
+			<item name="electricParts" count="20,60"/>
+			<item name="electronicParts" count="10,30"/>
+			<item name="mechanicalParts" count="20,60"/>
+			<item group="constructionSupplies" count="1,2" prob="0.35"/>
+			<item name="MagazineConstruction" count="1" prob="0.3"/>
+			<item name="nailgunSchematic" count="1" prob="0.25"/>
+			<item name="HDNailgunSchematic" count="1" prob="0.1"/>
+			<item name="buildersWorkbenchSchematic" count="1" prob="0.2"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Survivalist) POI -->
+	<trader_info id="16" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="6">
+			<item name="aloeCream" count="50,100"/>
+			<item name="cloth" count="50,150"/>
+			<item name="TraumaFirstAidBandage" count="2,5"/>
+			<item name="TraumaFirstAidKit" count="2,5"/>
+			<item name="ExtraStrengthPainkillers" count="2,5"/>
+			<item name="GreenTea" count="5,10"/>
+			<item name="ExplosiveSpeedTrap" count="2,4"/>
+			<item name="LegBoosterShot" count="2,5"/>
+			<item name="SpeedTrap" count="2,4"/>
+			<item name="FireSpeedTrap" count="2,4"/>
+			<item name="herbalAntibioticsRecipe" count="1" prob="0.2"/>
+			<item name="herbalAntibiotics" count="2,5"/>
+			<item name="ironArrow" count="150,250"/>
+			<item name="steelArrow" count="150,250" prob="0.1"/>
+			<item name="TraumaFirstAidBandageSchematic" count="1" prob="0.1"/>
+			<item name="TraumaFirstAidKitSchematic" count="1" prob="0.1"/>
+			<item name="herbalAntibioticsRecipe" count="1" prob="0.1"/>
+			<item name="LongbowSchematic" count="1" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Scholar) POI -->
+	<trader_info id="17" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="6">
+			<item name="plantedCotton1" count="20,50"/>
+			<item name="plantedGoldenrod1" count="20,50"/>
+			<item name="plantedChrysanthemum1" count="20,50"/>
+			<item name="plantedMushroom1" count="20,50"/>
+			<item name="plantedAloe1" count="20,50"/>
+			<item name="plantedYucca1" count="20,50"/>
+			<item name="plantedHop1" count="20,50"/>
+			<item name="plantedCoffee1" count="20,50"/>
+			<item name="plantedBlueberry1" count="20,50"/>
+			<item name="plantedPotato1" count="20,50"/>
+			<item name="plantedCorn1" count="20,50"/>
+			<item name="BlueprintPaper" count="20,50"/>
+			<item name="pipeBomb" count="2,6"/>
+			<item name="dynamite" count="2,6"/>
+			<item name="tnt" count="2,6"/>
+			<item name="MagazineScience" count="1" prob="0.2"/>
+			<item name="MagazineQuickerCrafting" count="1" prob="0.2"/>
+			<item name="ApplePieRecipe" count="1" prob="0.1"/>
+			<item name="AppleJuiceRecipe" count="1" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Marksman) POI -->
+	<trader_info id="18" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="6">
+			<item name="9mmBullet" count="25,150"/>
+			<item name="9mmHollowPointBullet" count="25,150" prob="0.25"/>
+			<item name="762mmBullet" count="25,150"/>
+			<item name="762mmHollowPointBullet" count="25,150" prob="0.15"/>
+			<item name="44MagBullet" count="25,150"/>
+			<item name="44HollowPointMagBullet" count="25,150" prob="0.1"/>
+			<item name="556mmBullet" count="25,150"/>
+			<item name="556mmNATOBullet" count="25,150" prob="0.1"/>
+			<item name="32mmBullet" count="25,150"/>
+			<item name="shotgunShell" count="25,150"/>
+			<item name="shotgunSlug" count="25,150" prob="0.15"/>
+			<item name="gunPowder" count="250,1000"/>
+			<item name="bulletTip" count="250,1000"/>
+			<item name="bulletCasing" count="250,1000"/>
+			<item name="scrapBrass" count="250,750"/>
+			<item name="scrapLead" count="250,750"/>
+			<item name="buckshot" count="250,750"/>
+			<item name="repairKit" count="25,50"/>
+			<item name="MagazineGunSmithing" count="1" prob="0.2"/>
+			<item name="BarettaShotgunSchematic" count="1" prob="0.1"/>
+			<item name="DesertEagleSchematic" count="1" prob="0.1"/>
+			<item name="FAMASSchematics" count="1" prob="0.1"/>
+			<item name="Remington8Schematic" count="1" prob="0.1"/>
+			<item name="M25SniperRifleSchematic" count="1" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Tradesman) POI -->
+	<trader_info id="19" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="6">
+			<item name="forgedIron" count="50,100"/>
+			<item name="forgedSteel" count="40,90"/>
+			<item name="ForgedTungsten" count="20,70"/>
+			<item name="scrapPlastics" count="50,150"/>
+			<item name="electricParts" count="50,150"/>
+			<item name="electronicParts" count="50,150"/>
+			<item name="mechanicalParts" count="50,150"/>
+			<item group="tools" count="1,2" prob="0.2"/>
+			<item group="rareTools" count="1" prob="0.1"/>
+			<item group="minibikeParts" count="1" prob="0.15"/>
+			<item name="MagazineMechanic" count="1" prob="0.2"/>
+			<item name="sledgehammerSchematic" count="1" prob="0.1"/>
+			<item name="MagazineToolSmithing" count="1" prob="0.15"/>
+			<item name="diamondTippedPickaxeSchematic" count="1" prob="0.1"/>
+			<item name="diamondTippedFireaxeSchematic" count="1" prob="0.1"/>
+			<item name="hdWrenchSchematic" count="1" prob="0.1"/>
+			<item name="advancedToolSmithingWorkstationSchematic" count="1" prob="0.2"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Fighter) POI -->
+	<trader_info id="20" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="6">
+			<item name="forgedIron" count="10,20"/>
+			<item name="forgedSteel" count="5,10"/>
+			<item group="weaponsMelee" count="1,2" prob="0.3"/>
+			<item name="ForgedTungsten" count="2,4" prob="0.1"/>
+			<item name="huntingKnifeBook" count="1" prob="0.25"/>
+			<item name="clubSpikedSchematic" count="1" prob="0.1"/>
+			<item name="GoldTippedKnifeBook" count="1" prob="0.1"/>
+			<item name="ClubTungstenSchematic" count="1" prob="0.1"/>
+			<item name="TungstenMacheteSchematic" count="1" prob="0.1"/>
+			<item name="MagazineWeaponSmithing" count="1" prob="0.2"/>
+			<item name="ClubTungstenSchematic" count="1" prob="0.1"/>
+			<item name="TungstenMacheteSchematic" count="1" prob="0.1"/>
+			<item name="GoldTippedKnifeBook" count="1" prob="0.1"/>
+			<item name="GoldTippedMacheteSchematic" count="1" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Protection) POI -->
+	<trader_info id="21" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="4">
+			<item name="cloth" count="50,300" />
+			<item name="leather" count="50,300" />
+			<item name="Kevlar" count="50,100" />
+			<item name="forgedIron" count="25,50" />
+			<item name="forgedSteel" count="25,50" />
+			<item name="ForgedTungsten" count="25,50" />
+			<item name="militaryFiber" count="25,50" />
+			<item group="Armor" count="1,3" prob="0.1" />
+			<item group="hazmatGear" count="1" prob="0.1" />
+			<item group="banditArmor" count="1" prob="1" />
+			<item name="MagazineArmorSmithing" count="1" prob="0.2" />
+			<item name="KevlarSchematic" count="1" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Electrician) POI -->
+	<trader_info id="22" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="6">
+			<item name="forgedIron" count="25"/>
+			<item name="forgedSteel" count="20"/>
+			<item name="scrapPlastics" count="50"/>
+			<item name="electricParts" count="50"/>
+			<item name="electronicParts" count="50"/>
+			<item name="mechanicalParts" count="50"/>
+			<item name="insulator" count="10"/>
+			<item name="wireTool" count="1"/>
+			<item name="electricwirerelay" count="5"/>
+			<item name="ceilingLight01_player" count="5"/>
+			<item name="porchLight01_player" count="5"/>
+			<item name="wallLight01_player" count="5"/>
+			<item name="ceilingLight02_player" count="5"/>
+			<item name="industrialLight01_player" count="5"/>
+			<item name="ceilingLight07_player" count="5"/>
+			<item name="spotlightPlayer" count="5"/>
+			<item name="speaker" count="2"/>
+			<item name="ceilingLight02Brass_player" count="5"/>
+			<item name="porchLight04Brass_player" count="5"/>
+			<item name="porchLight04_player" count="5"/>
+			<item name="ceilingLight04_player" count="5"/>
+			<item name="ceilingLight05_player" count="5"/>
+			<item name="signShopOpen_player" count="1"/>
+			<item name="streetLight01_player" count="2"/>
+			<item name="switch" count="2"/>
+			<item name="tripwirepost" count="2"/>
+			<item name="pressureplate" count="2"/>
+			<item name="electrictimerrelay" count="2"/>
+			<item name="pressureplateLong" count="2"/>
+			<item name="motionsensor" count="2"/>
+			<item name="electricfencepost" count="2,4"/>
+			<item name="bladeTrap" count="1,2"/>
+			<item name="hdBladeTrap" count="1"/>
+			<item name="dartTrap" count="2,3"/>
+			<item name="shotgunTurret" count="2"/>
+			<item name="autoTurret" count="2"/>
+			<item name="hdDartTrap" count="1"/>
+			<item name="tungstenDart" count="1"/>
+			<item name="barettaShotgunTurret" count="1"/>
+			<item name="famasAutoTurret" count="1"/>
+			<item name="generatorbank" count="1"/>
+			<item name="ecoGeneratorbank" count="1"/>
+			<item name="hdGeneratorbank" count="1"/>
+			<item name="batterybank" count="1"/>
+			<item name="ecoBatterybank" count="1"/>
+			<item name="hdBatterybank" count="1"/>
+			<item name="powerpoletopRecipe" count="1" prob="0.2"/>
+			<item name="ecoBatterybankSchematic" count="1" prob="0.1"/>
+			<item name="hdBatterybankSchematic" count="1" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+	
+	<!-- Class Vending Machine (Covert) POI -->
+	<trader_info id="23" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="4">
+			<item name="nightvisionGoggles" count="1" />
+			<item name="militaryBoots" count="1" />
+			<item name="militaryGloves" count="1" />
+			<item name="militaryHelmet" count="1" />
+			<item name="militaryLegArmor" count="1" />
+			<item name="militaryVest" count="1" />
+			<item name="militaryFiber" count="50,100" />
+			<item name="lockPick" count="3,15" prob="0.3" />
+			<item name="lockPickSafe" count="2,10" prob="0.2" />
+			<item name="nightvisionGogglesSchematic" count="1" prob="0.1"/>
+			<item name="silverBootsSchematic" count="1" prob="0.1"/>
+			<item name="silverPantsSchematic" count="1" prob="0.1"/>
+			<item name="silverJacketSchematic" count="1" prob="0.1"/>
+			<item name="silverHatSchematic" count="1" prob="0.1"/>
+			<item name="silverGlovesSchematic" count="1" prob="0.1"/>
+			<item name="lockpickDoorSchematic" count="1" prob="0.1"/>
+			<item name="lockpickSafeSchematic" count="1" prob="0.075"/>
+		</trader_items>
+	</trader_info>
+
+</traders>
