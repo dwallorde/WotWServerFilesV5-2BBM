@@ -854,7 +854,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="mechanicalParts" count="4"/>
 </recipe>
 
-<recipe name="HDWrench" count="1" craft_area="workbench" craft_exp_gain="75">
+<recipe name="HDWrench" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="75">
 	<ingredient name="ForgedTungsten" count="20"/>
 	<ingredient name="mechanicalParts" count="6"/>
 </recipe>

@@ -217,7 +217,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="PlaceAsBlock"/>
 		<property name="Delay" value="0.5"/>
-		<property name="Blockname" value="wallTorchStation"/>
+		<property name="Blockname" value="wallTorchPlayer"/>
 	</property>
 	<property name="Group" value="Basics,Decor/Miscellaneous"/>
 	<property name="DescriptionKey" value="torchDesc"/>
@@ -1851,7 +1851,7 @@ Mesh files no longer used:
 		<property name="Upgrade_hit_offset" value="-2"/>
 		<property name="Sound_start" value="repair_block"/>
 		<!-- <property name="Allowed_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,gasCan"/> -->
-		<property name="Restricted_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,gasCan,hoeIron,lockPickSafe,lockPick,ForgedTungsten"/>
+		<property name="Restricted_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,gasCan,hoeIron,lockPickSafe,lockPick,ForgedTungsten,corn"/>
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="4,10"/>
@@ -2267,7 +2267,7 @@ Mesh files no longer used:
 		<property name="Crosshair_min_distance" value="30"/> <!-- 30 -->
 		<property name="Crosshair_max_distance" value="30"/> <!-- 30 -->
 		<property name="Magazine_size" value="1"/>
-		<property name="Magazine_items" value="arrow,ironArrow,steelArrow,flamingArrow"/>
+		<property name="Magazine_items" value="arrow,ironArrow,steelArrow,flamingArrow, TungstenArrow, ExplodingTungstenArrow"/>
 		<property name="Rays_spread" value="0.011"/>
 		<property name="Reload_time" value="0.9"/>
 		<property name="Bullet_icon" value="uzi"/>
@@ -6782,6 +6782,15 @@ Mesh files no longer used:
 	<property name="EconomicValue" value="10"/>
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="CraftingIngredientTime" value="5"/>
+	<property class="Action0"> <!-- UseAction -->
+		<property name="Class" value="Repair"/>
+		<property name="Delay" value="0.4"/>
+		<property name="Repair_amount" value="50"/>
+		<property name="Upgrade_hit_offset" value="0"/>
+		<property name="Sound_start" value="repair_block"/>
+		<property name="Allowed_upgrade_items" value="corn"/>
+		<property name="Restricted_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,gasCan,hoeIron,lockPickSafe,lockPick,ForgedTungsten"/>
+	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -13085,7 +13094,7 @@ Mesh files no longer used:
 	</property>
 	<property name="Group" value="Books" />
 	<property name="DescriptionKey" value="MagazineDesc" />
-	<property name="EconomicValue" value="50" />
+	<property name="EconomicValue" value="250" />
 </item>
 
 <item id="1699" name="MagazineScience"> <!-- Class Reward -->
@@ -13094,6 +13103,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Skills_to_gain" value="craftSkillScience" />
 	</property>
+	<property name="EconomicValue" value="1000" />
 </item>
 
 <item id="1700" name="MagazineMechanic"> <!-- Class Reward -->
@@ -13102,6 +13112,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Skills_to_gain" value="Mechanic" />
 	</property>
+	<property name="EconomicValue" value="1000" />
 </item>
 
 <item id="1701" name="MagazineScavenging">
@@ -13126,6 +13137,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<!-- <property name="Skills_to_gain" value="Health Nut" /> -->
 	</property>
+	<property name="EconomicValue" value="1000" />
 </item>
 
 <item id="1704" name="MagazineClothing/Armor">
@@ -13190,6 +13202,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Skills_to_gain" value="Construction" />
 	</property>
+	<property name="EconomicValue" value="1000" />
 </item>
 
 <item id="1712" name="MagazinePistols">
@@ -13238,6 +13251,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Skills_to_gain" value="craftSkillWeapons" />
 	</property>
+	<property name="EconomicValue" value="1000" />
 </item>
 
 <item id="1718" name="MagazineToolSmithing"> <!-- Class Reward -->
@@ -13246,6 +13260,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Skills_to_gain" value="craftSkillTools" />
 	</property>
+	<property name="EconomicValue" value="1000" />
 </item>
 
 <item id="1719" name="MagazineGunSmithing"> <!-- Class Reward -->
@@ -13254,6 +13269,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Skills_to_gain" value="craftSkillGuns" />
 	</property>
+	<property name="EconomicValue" value="1000" />
 </item>
 
 <item id="1720" name="MagazineAdvancedToolSmithing"> <!-- Class Reward -->
@@ -13262,6 +13278,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<!-- <property name="Skills_to_gain" value="Advanced Tool Smithing" /> -->
 	</property>
+	<property name="EconomicValue" value="1000" />
 </item>
 
 <item id="1721" name="MagazineHeavyGunSmithing">
@@ -13270,6 +13287,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<!-- <property name="Skills_to_gain" value="craftSkillGuns" /> -->
 	</property>
+	<property name="EconomicValue" value="1000" />
 </item>
 
 <!-- Remove -->
@@ -13279,6 +13297,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<!-- <property name="Skills_to_gain" value="Tailoring" /> -->
 	</property>
+	<property name="EconomicValue" value="1000" />
 </item>
 
 <item id="1724" name="MagazineLeatherworking">
@@ -13287,6 +13306,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<!-- <property name="Skills_to_gain" value="Leatherworking" /> -->
 	</property>
+	<property name="EconomicValue" value="1000" />
 </item>
 
 <item id="1725" name="MagazineArmorSmithing"> <!-- Class Reward -->
@@ -13295,6 +13315,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Skills_to_gain" value="craftSkillArmor" />
 	</property>
+	<property name="EconomicValue" value="1000" />
 </item>
 
 <item id="1726" name="MagazineHeavyArmorSmithing">
@@ -13303,6 +13324,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<!-- <property name="Skills_to_gain" value="Heavy Armor Smithing" /> -->
 	</property>
+	<property name="EconomicValue" value="1000" />
 </item>
 
 <item id="1727" name="Quest_DwallsTask">
@@ -15390,10 +15412,10 @@ Mesh files no longer used:
 	<property name="Sound_Sight_Out" value="pistol_sight_out"/>
 	<property class="Action0">
 	<property name="Class" value="Ranged"/>
-	<property name="Delay" value="0.2"/>
+	<property name="Delay" value="0.5"/>
 	<property name="Crosshair_min_distance" value="5"/>
 	<property name="Crosshair_max_distance" value="6"/>
-	<property name="Magazine_size" value="15"/>
+	<property name="Magazine_size" value="10"/>
 	<property name="Magazine_items" value="9mmBanditBullet"/>
 	<property name="Magazine_item_ray_counts" value="1"/>
 	<property name="Magazine_item_ray_spreads" value="0.85"/>
@@ -15648,7 +15670,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Repair_amount" value="600" />
 		<property name="Upgrade_hit_offset" value="-2" />
-		<property name="Restricted_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,gasCan,hoeIron,lockPickSafe,lockPick,ForgedTungsten"/>
+		<property name="Restricted_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,gasCan,hoeIron,lockPickSafe,lockPick,ForgedTungsten,corn"/>
 	</property>
 	<property class="Attributes">
 		<property name="BlockDamage" value="20,32" />
@@ -16035,7 +16057,7 @@ Mesh files no longer used:
 	<property name="Sound_Sight_Out" value="revolver_sight_out"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.34"/>
+		<property name="Delay" value="0.75"/>
 		<property name="Crosshair_min_distance" value="7"/>
 		<property name="Crosshair_max_distance" value="9"/>
 		<property name="Magazine_size" value="6"/>
@@ -16105,14 +16127,14 @@ Mesh files no longer used:
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.5"/>
+		<property name="Delay" value="1.2"/>
 		<property name="Crosshair_min_distance" value="30"/>
 		<property name="Crosshair_max_distance" value="36"/>
 		<property name="Magazine_size" value="1"/>
 		<property name="Magazine_items" value="762mmBulletBandit"/>
 		<property name="Magazine_item_ray_counts" value="1"/>
 		<property name="Magazine_item_ray_spreads" value="0"/>
-		<property name="Reload_time" value="2.66"/>
+		<property name="Reload_time" value="4.1"/>
 		<property name="Bullet_icon" value="uzi"/>
 		<property name="Sound_start" value="hunting_rifle_fire"/>
 		<property name="Sound_repeat" value=""/>
@@ -16197,7 +16219,7 @@ Mesh files no longer used:
 	<property name="Sound_Sight_Out" value="smg_sight_out"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.150"/>
+		<property name="Delay" value="0.45"/>
 		<property name="Auto_fire" value="true"/>
 		<property name="Crosshair_min_distance" value="7"/>
 		<property name="Crosshair_max_distance" value="9"/>
@@ -16205,15 +16227,13 @@ Mesh files no longer used:
 		<property name="Magazine_items" value="9mmBanditBullet"/>
 		<property name="Magazine_item_ray_counts" value="1"/>
 		<property name="Magazine_item_ray_spreads" value="0"/>
-		<property name="Reload_time" value="4.1"/>
+		<property name="Reload_time" value="5.2"/>
 		<property name="Bullet_icon" value="uzi"/>
 		<property name="Sound_start" value="mp5_fire_start"/>
 		<property name="Sound_repeat" value="Weapons/Ranged/MP5/mp5_fire_lp"/>
 		<property name="Sound_end" value="Weapons/Ranged/MP5/mp5_fire_end"/>
 		<property name="Sound_empty" value="weapon_empty"/>
 		<property name="Sound_reload" value="mp5_reload"/>
-		<property name="Horde_meter_rate" value="2.5"/>
-		<property name="Horde_meter_distance" value="20"/>
 		<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 		<property name="DamageBonus.head" value="4"/>
@@ -16221,7 +16241,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.earth" value="0.2"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="Buff" value="critGunMP5"/>
-		<property name="Buff_chance" value="0.1"/>
+		<property name="Buff_chance" value="0.025"/>
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Zoom"/>
@@ -16282,23 +16302,21 @@ Mesh files no longer used:
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.150"/>
+		<property name="Delay" value="0.35"/>
 		<property name="Auto_fire" value="true"/>
 		<property name="Crosshair_min_distance" value="13"/>
 		<property name="Crosshair_max_distance" value="16"/>
-		<property name="Magazine_size" value="30"/>
+		<property name="Magazine_size" value="15"/>
 		<property name="Magazine_items" value="762mmBulletBandit"/>
 		<property name="Magazine_item_ray_counts" value="1"/>
 		<property name="Magazine_item_ray_spreads" value="0"/>
-		<property name="Reload_time" value="3.9"/>
+		<property name="Reload_time" value="5.2"/>
 		<property name="Bullet_icon" value="uzi"/>
 		<property name="Sound_start" value="ak47_fire_start"/>
 		<property name="Sound_repeat" value="Weapons/Ranged/AK47/ak47_fire_lp"/>
 		<property name="Sound_end" value="Weapons/Ranged/AK47/ak47_fire_end"/>
 		<property name="Sound_empty" value="weapon_empty"/>
 		<property name="Sound_reload" value="ak47_reload"/>
-		<property name="Horde_meter_rate" value="2.5"/>
-		<property name="Horde_meter_distance" value="20"/>
 		<property name="Particles_muzzle_fire" value="nozzleflash_ak"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
 		<property name="DamageBonus.head" value="3"/>
@@ -16306,7 +16324,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.earth" value="0.2"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="Buff" value="critGunAK47"/>
-		<property name="Buff_chance" value="0.1"/>
+		<property name="Buff_chance" value="0.025"/>
 		<property name="ActionExp" value="1"/>
 	</property>
 	<property class="Action1">
@@ -16346,10 +16364,10 @@ Mesh files no longer used:
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.8"/>
+		<property name="Delay" value="2.1"/>
 		<property name="Crosshair_min_distance" value="41"/>
 		<property name="Crosshair_max_distance" value="49"/>
-		<property name="Magazine_size" value="8"/>
+		<property name="Magazine_size" value="6"/>
 		<property name="Magazine_items" value="shotgunShellBandit"/>
 		<property name="Magazine_item_ray_counts" value="9"/>
 		<property name="Magazine_item_ray_spreads" value="0.74"/>
@@ -16362,12 +16380,12 @@ Mesh files no longer used:
 		<property name="Sound_reload" value="shotgun_reload"/>
 		<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
-		<property name="DamageBonus.head" value="3"/>
+		<property name="DamageBonus.head" value="1"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.wood" value="2"/>
 		<property name="DamageBonus.earth" value="0.2"/>
 		<property name="Buff" value="shotgunWound"/>
-		<property name="Buff_chance" value="1.0"/>
+		<property name="Buff_chance" value="0.2"/>
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Zoom"/>
@@ -16406,14 +16424,14 @@ Mesh files no longer used:
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.8"/>
+		<property name="Delay" value="2.1"/>
 		<property name="Crosshair_min_distance" value="23"/>
 		<property name="Crosshair_max_distance" value="28"/>
 		<property name="Magazine_size" value="8"/>
 		<property name="Magazine_items" value="shotgunShellBandit"/>
-		<property name="Magazine_item_ray_counts" value="8, 1"/>
-		<property name="Magazine_item_ray_spreads" value="0.835,0.605"/>
-		<property name="Reload_time" value="2.6"/>
+		<property name="Magazine_item_ray_counts" value="8"/>
+		<property name="Magazine_item_ray_spreads" value="0.835"/>
+		<property name="Reload_time" value="3.2"/>
 		<property name="Bullet_icon" value="uzi"/>
 		<property name="Sound_start" value="pump_shotgun_fire"/>
 		<property name="Sound_repeat" value=""/>
@@ -16427,7 +16445,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.wood" value="2"/>
 		<property name="DamageBonus.earth" value="0.2"/>
 		<property name="Buff" value="shotgunWound"/>
-		<property name="Buff_chance" value="1.0"/>
+		<property name="Buff_chance" value="0.1"/>
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Zoom"/>
@@ -16435,7 +16453,7 @@ Mesh files no longer used:
 		<property name="Zoom_max_in" value="40"/>
 	</property>
 	<property class="Attributes">
-		<property name="EntityDamage" value="35,75"/>
+		<property name="EntityDamage" value="15,25"/>
 		<property name="BlockDamage" value="15,25"/>
 		<!-- <property name="Accuracy" value="1,0.1"/> -->
 		<property name="FalloffRange" value="36,60"/>
@@ -16452,7 +16470,7 @@ Mesh files no longer used:
 	<property name="Candrop" value="false"/>
 	<property class="Attributes">
 		<property name="GetQualityFromWeapon" value="true"/>
-		<property name="EntityDamage" value="30,45"/>
+		<property name="EntityDamage" value="15,25"/>
 		<property name="BlockDamage" value="15,25"/>
 	</property>
 	<property name="Stacknumber" value="1000"/>
@@ -16480,14 +16498,14 @@ Mesh files no longer used:
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.5"/>
+		<property name="Delay" value="2.1"/>
 		<property name="Crosshair_min_distance" value="45"/>
 		<property name="Crosshair_max_distance" value="54"/>
 		<property name="Magazine_size" value="5"/>
 		<property name="Magazine_items" value="762mmBulletBandit"/>
 		<property name="Magazine_item_ray_counts" value="1"/>
 		<property name="Magazine_item_ray_spreads" value="0"/>
-		<property name="Reload_time" value="2.5"/>
+		<property name="Reload_time" value="3.5"/>
 		<property name="Bullet_icon" value="uzi"/>
 		<property name="Sound_start" value="sniperrifle_fire"/>
 		<property name="Sound_repeat" value=""/>
@@ -16551,13 +16569,13 @@ Mesh files no longer used:
 	<property name="Sound_Sight_Out" value="launcher_sight_out"/>
 	<property class="Action0">
 		<property name="Class" value="Launcher"/>
-		<property name="Delay" value="2.0"/>
+		<property name="Delay" value="5.0"/>
 		<property name="Crosshair_min_distance" value="29"/>
 		<property name="Crosshair_max_distance" value="34"/>
 		<property name="Magazine_size" value="1"/>
 		<property name="Magazine_items" value="npcRocket"/>
 		<property name="Rays_spread" value="0.095"/>
-		<property name="Reload_time" value="2"/>
+		<property name="Reload_time" value="5"/>
 		<property name="Bullet_icon" value="uzi"/>
 		<property name="Sound_start" value="m136_fire"/>
 		<property name="Sound_repeat" value=""/>
@@ -17265,7 +17283,7 @@ Mesh files no longer used:
 	<property name="PartType" value="Barrel"/>
 	<property name="Weight" value="10"/>
 	<property class="Attributes">
-		<property name="EntityDamage" value="11.4,19"/>
+		<property name="EntityDamage" value="10,15"/>
 		<property name="BlockDamage" value="5,13"/>
 		<property name="DegradationMax" value="2000,5000"/>
 	</property>
@@ -17318,7 +17336,7 @@ Mesh files no longer used:
 	<property name="PartType" value="Barrel"/>
 	<property name="Weight" value="20"/>
 	<property class="Attributes">
-		<property name="EntityDamage" value="27.5,78"/>
+		<property name="EntityDamage" value="12,17"/>
 		<property name="BlockDamage" value="4,8"/>
 		<property name="DegradationMax" value="4000,12500"/>
 	</property>
@@ -17372,7 +17390,7 @@ Mesh files no longer used:
 	<property name="PartType" value="Barrel"/>
 	<property name="Weight" value="35"/>
 	<property class="Attributes">
-		<property name="EntityDamage" value="55,90"/>
+		<property name="EntityDamage" value="15,20"/>
 		<property name="BlockDamage" value="1,5"/>
 		<property name="DegradationMax" value="2500,6250"/>
 	</property>
@@ -17425,7 +17443,7 @@ Mesh files no longer used:
 	<property name="PartType" value="Barrel"/>
 	<property name="Weight" value="25"/>
 	<property class="Attributes">
-		<property name="EntityDamage" value="11.4,19"/>
+		<property name="EntityDamage" value="8,12"/>
 		<property name="BlockDamage" value="5,13"/>
 		<property name="DegradationMax" value="5600,14000"/>
 	</property>
@@ -17480,7 +17498,7 @@ Mesh files no longer used:
 	<property name="PartType" value="Barrel"/>
 	<property name="Weight" value="35"/>
 	<property class="Attributes">
-		<property name="EntityDamage" value="42,70"/>
+		<property name="EntityDamage" value="10,14"/>
 		<property name="BlockDamage" value="5,9.5"/>
 		<property name="DegradationMax" value="5600,14000"/>
 	</property>
@@ -17616,7 +17634,7 @@ Mesh files no longer used:
 	<property name="PartType" value="Barrel"/>
 	<property name="Weight" value="40"/>
 	<property class="Attributes">
-		<property name="EntityDamage" value="55,90"/>
+		<property name="EntityDamage" value="17,22"/>
 		<property name="BlockDamage" value="1,5"/>
 		<property name="DegradationMax" value="3500,8750"/>
 	</property>
@@ -17669,8 +17687,8 @@ Mesh files no longer used:
 	<property name="PartType" value="Barrel"/>
 	<property name="Weight" value="45"/>
 	<property class="Attributes">
-		<property name="EntityDamage" value="250,500"/>
-		<property name="EntityDamage" value="100,300"/>
+		<property name="EntityDamage" value="50,65"/>
+		<property name="BlockDamage" value="500,750"/>
 		<property name="DegradationMax" value="5000,10000"/>
 	</property>
 	<property name="EconomicValue" value="1500"/>
@@ -19224,7 +19242,7 @@ Mesh files no longer used:
 	<property name="DescriptionKey" value="Challenge_LocateTraderDesc" />
 </item>
 
-<item id="2102" name="adminsuperWrench">
+<item id="2103" name="adminsuperWrench">
 	<property name="Extends" value="wrench"/>
 	<property name="CustomIcon" value="wrench"/>
 	<property name="CustomIconTint" value="ffa0a0"/>
@@ -19237,7 +19255,7 @@ Mesh files no longer used:
 </item>
 
 
-<item id="2103" name="admingunSuperDigger">
+<item id="2104" name="admingunSuperDigger">
 	<property name="CustomIcon" value="gunMP5"/>
 	<property name="CustomIconTint" value="ffa0a0"/>
 	<Property name="TintColor" value="255,160,160"/>
@@ -19283,7 +19301,7 @@ Mesh files no longer used:
 	</property>
 </item>
 
-<item id="2104" name="admingunJustDie">
+<item id="2105" name="admingunJustDie">
 	<property name="CustomIcon" value="gunPistol"/>
 	<property name="CustomIconTint" value="ffa0a0"/>
 	<Property name="TintColor" value="255,160,160"/>
@@ -19327,7 +19345,7 @@ Mesh files no longer used:
 	</property>
 </item>
 
-<item id="2105" name="adminhammerOfGod">
+<item id="2106" name="adminhammerOfGod">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="clawHammer"/> <property name="CustomIconTint" value="ffa0a0"/>
 	<property name="Meshfile" value="Items/Tools/hammerPrefab"/>
@@ -19352,7 +19370,7 @@ Mesh files no longer used:
 	</property>
 </item>
 
-<item id="2106" name="condoms">
+<item id="2107" name="condoms">
 	<property name="Extends" value="scrapPlastics" />
 	<property name="CustomIcon" value="condoms" />
 	<property name="Material" value="Mplastics"/>
@@ -19360,13 +19378,25 @@ Mesh files no longer used:
 	<property name="DescriptionKey" value="condomsDesc"/>
 </item>
 
-<item id="2107" name="Quest_TraderLocation">
+<item id="2108" name="Quest_TraderLocation">
 	<property name="Extends" value="challengeQuestMaster" />
 	<property name="CustomIcon" value="questMaster" />
 	<property class="Action1">
 		<property name="QuestGiven" value="quest_whiteRiverCitizen1" />
 	</property>
 	<property name="DescriptionKey" value="Quest_TraderLocationDesc" />
+</item>
+
+<item id="2109" name="ballCapBGGLight">
+	<property name="Extends" value="ballCapBGG"/>
+	<property name="CustomIcon" value="ballCapBGG"/>
+	<property name="Class" value="ItemClassToggle"/>
+	<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+	<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+	<property class="UMA">
+		<property name="Overlay0Tint" value="0,0,0"/>
+	</property>
+	<property name="LightValue" value="0.7"/>
 </item>
 
 </items>

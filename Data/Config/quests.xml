@@ -257,7 +257,7 @@
 		repeatable="true" category_key="challenge" offer_key="challenge_imalumberjackandimokay_offer" difficulty="hard">
 
 		<objective type="Time" value="900" optional="true" />
-		<objective type="ZombieKill" id="zombieSnow,zombieSnowFeral" value="3" />
+		<objective type="ZombieKill" id="zombieSnow,zombieSnowFeral,SnowZombieLarry,SnowZombieSarah" value="3" />
 
 		<requirement type="Group" id="requirementGroupFireaxe" value="OR">
 			<requirement type="Holding" id="fireaxeIron" />
@@ -293,7 +293,7 @@
 
 	<quest id="challenge_thatlldopig" name_key="challenge_thatlldopig" subtitle_key="challenge_thatlldopig_subtitle" description_key="challenge_thatlldopig_offer" icon="ui_game_symbol_knife"
 	repeatable="true" category_key="challenge" offer_key="challenge_thatlldopig_offer" difficulty="easy">
-		<objective type="AnimalKill" id="animalBoar" value="5"  />
+		<objective type="AnimalKill" id="animalBoar,animalPig" value="5"  />
 
 		<reward type="SkillPoints" value="2" />
 	</quest>
@@ -307,7 +307,7 @@
 
 	<quest id="challenge_dontfeedthebears" name_key="challenge_dontfeedthebears" subtitle_key="challenge_dontfeedthebears_subtitle" description_key="challenge_dontfeedthebears_offer" icon="ui_game_symbol_knife"
 	repeatable="true" category_key="challenge" offer_key="challenge_dontfeedthebears_offer" difficulty="hard">
-		<objective type="AnimalKill" id="animalBear" value="3"  />
+		<objective type="AnimalKill" id="animalBear,animalZombieBear" value="3"  />
 
 
 		<reward type="SkillPoints" value="2" />
@@ -861,7 +861,7 @@
 		<objective type="FetchKeep" id="blueberries" value="25" />
 		<objective type="FetchKeep" id="egg" value="5" />
 		<objective type="FetchKeep" id="Dough" value="10" />
-		<objective type="FetchKeep" id="bottledWater" value="5" />
+		<objective type="FetchKeep" id="bottledWater" value="10" />
 		<objective type="Craft" id="blueberryPie" value="5" />
 		<reward type="SkillPoints" value="2" />
 		<reward type="SkillPoints" value="1" optional="true" />
@@ -996,10 +996,10 @@
 	category_key="challenge"
 	difficulty="medium">
 		<objective type="Time" value="600" optional="true" />
-		<objective type="FetchKeep" id="blueberries" value="5" />
-		<objective type="FetchKeep" id="mushrooms" value="5" />
-		<objective type="FetchKeep" id="chrysanthemumPlant" value="5" />
-		<objective type="FetchKeep" id="potassiumNitratePowder" value="5" />
+		<objective type="FetchKeep" id="blueberries" value="25" />
+		<objective type="FetchKeep" id="mushrooms" value="15" />
+		<objective type="FetchKeep" id="chrysanthemumPlant" value="15" />
+		<objective type="FetchKeep" id="potassiumNitratePowder" value="15" />
 		<objective type="Craft" id="herbalAntibiotics" value="5" />
 		<reward type="SkillPoints" value="2" />
 		<reward type="SkillPoints" value="1" optional="true" />

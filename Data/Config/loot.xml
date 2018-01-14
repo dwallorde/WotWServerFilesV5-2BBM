@@ -1489,11 +1489,6 @@
 	<item name="ironLegArmorSchematic" prob="0.0075"/>	
 	<item name="ironBootsSchematic" prob="0.0075"/>
 	<item name="ironGlovesSchematic" prob="0.0075"/>
-	<item name="TungstenGlovesSchematic" prob="0.0025"/>
-	<item name="TungstenBootsSchematic" prob="0.0025"/>
-	<item name="TungstenLegArmorSchematic" prob="0.0025"/>
-	<item name="TungstenChestArmorSchematic" prob="0.0025"/>
-	<item name="TungstenHelmetSchematic" prob="0.0025"/>
 </lootgroup>
 	
 <lootgroup name="rare_weaponsBooks">
@@ -3636,7 +3631,7 @@
 
 <!-- Lootcontainer 43 Locker Loot -->
 <lootcontainer id="43" count="0,1" size="4,3" sound_open="UseActions/open_locker" sound_close="UseActions/close_locker" loot_quality_template="baseTemplate">
-	<item group="clothes" prob="0.3" />
+	<item group="clothes" prob="0.5" />
 	<item group="hats" prob="0.1" />
 	<item group="sportingGoods" prob="0.2" />
 	<item name="paper" count="1,2" prob="0.15" />
@@ -4235,6 +4230,7 @@
 <lootcontainer id="96" count="0,2" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
 	<item group="labEquipment" count="1" prob="16" />
 	<item name="paper" count="5,15" />
+	<item group="ClassFragmentsSurvivalist" count="1" prob="0.039" />
 </lootcontainer>
 
 <!-- Lootcontainer 97 Collapsed Battery Bank Loot -->

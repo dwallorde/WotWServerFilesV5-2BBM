@@ -349,6 +349,7 @@
 		<recipe name="workbench" unlock_level="1"/>
 	</perk>
 	
+	<!-- Class Only -->
 	<perk name="Concrete Mixing" icon="ui_game_symbol_cement" description_key="concreteMixingDesc" title_key="concreteMixing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="crafting">
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="10"/>
 		<requirement skill_level="1" required_skill_name="Mining Tools" required_skill_level="20"/>
@@ -368,7 +369,7 @@
 		<recipe name="forgedSteel" unlock_level="1"/>
 	</perk>
 	
-	<perk name="SteelSmithingClass" icon="ui_game_symbol_forgedSteel" description_key="steelSmithingDesc" title_key="steelSmithing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
+	<perk name="SteelSmithingClass" icon="ui_game_symbol_forgedSteel" description_key="steelSmithingClassDesc" title_key="steelSmithing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
 		<requirement skill_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1"/>
 		<recipe name="forgeCrucible" unlock_level="1"/>
 		<recipe name="forgedSteel" unlock_level="1"/>
@@ -1572,7 +1573,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="ScholarChocolatePerk" icon="ui_game_symbol_ScholarFarming" description_key="ScholarChocolatePerkDesc" title_key="ScholarChocolatePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+<perk name="ScholarChocolatePerk" icon="ui_game_symbol_ScholarFarming" description_key="ScholarChocolatePerkDesc" title_key="ScholarChocolatePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
 	<requirement skill_level="1" required_skill_name="ClassScholarMaster" required_skill_level="1"/>
 	<recipe name="plantedCocoa1" unlock_level="1"/>
 	<recipe name="hotChocolate" unlock_level="1"/>
@@ -1606,7 +1607,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Pistol Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="6" group="firearms">
+<perk name="Pistol Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" title_key="pistolPartsRecipePerk" max_level="1" skill_point_cost_per_level="6" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_skill_name="pistolBookPerk" required_skill_level="1"/>
 	<recipe name="partsPistol_parts" unlock_level="1"/>
@@ -1616,7 +1617,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Pistol Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" max_level="2" skill_point_cost_per_level="5" group="firearms">
+<perk name="Pistol Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" title_key="pistolAttachmentsRecipesPerk" max_level="2" skill_point_cost_per_level="5" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_skill_name="pistolBookPerk" required_skill_level="1"/>
 	<requirement skill_level="1" required_player_level="10"/>
@@ -1633,7 +1634,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Hunting Rifle Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
+<perk name="Hunting Rifle Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" title_key="huntingRiflePartsRecipePerk" max_level="1" skill_point_cost_per_level="5" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_skill_name="huntingRifleSchematicPerk" required_skill_level="1"/>
 	<recipe name="partsHuntingRifle_barrel" unlock_level="1"/>
@@ -1643,7 +1644,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="SawedOff Pump Shotgun Parts Recipe" icon="ui_game_symbol_shotgunparts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
+<perk name="SawedOff Pump Shotgun Parts Recipe" icon="ui_game_symbol_shotgunparts" description_key="gunpartsrecipedesc" title_key="sawedOffPumpShotgunPartsRecipePerk" max_level="1" skill_point_cost_per_level="5" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_skill_name="pumpShotgunSchematicPerk" required_skill_level="1"/>
 	<recipe name="partsPumpShotgun_barrel" unlock_level="1"/>
@@ -1655,12 +1656,12 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Remington8 Recipe" icon="ui_game_symbol_remington8" description_key="Remington8RecipeDesc" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms">
+<perk name="Remington8 Recipe" icon="ui_game_symbol_remington8" description_key="Remington8RecipeDesc" title_key="remington8RecipePerk" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms">
 	<recipe name="Remington8" unlock_level="1"/>
 </perk>
 
 <!-- Class Only -->
-<perk name="Remington8 Parts Recipe" icon="ui_game_symbol_remington8parts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
+<perk name="Remington8 Parts Recipe" icon="ui_game_symbol_remington8parts" description_key="gunpartsrecipedesc" title_key="remington8PartsRecipePerk" max_level="1" skill_point_cost_per_level="5" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<recipe name="Remington8_Stock" unlock_level="1"/>
 	<recipe name="Remington8_Receiver" unlock_level="1"/>
@@ -1669,7 +1670,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Remington8 Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" max_level="3" skill_point_cost_per_level="4" group="firearms">
+<perk name="Remington8 Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" title_key="remington8AttachmentsRecipes" max_level="3" skill_point_cost_per_level="4" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_player_level="35"/>
 	<recipe name="Remington8Scoped" unlock_level="1"/>
@@ -1678,13 +1679,13 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Desert Eagle Recipe" icon="ui_game_symbol_deserteagle" description_key="DesertEagleRecipeDesc" max_level="1" skill_point_cost_per_level="0" group="firearms">
+<perk name="Desert Eagle Recipe" icon="ui_game_symbol_deserteagle" description_key="DesertEagleRecipeDesc" title_key="desertEagleRecipePerk" max_level="1" skill_point_cost_per_level="0" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<recipe name="DesertEagle" unlock_level="1"/>
 </perk>
 
 <!-- Class Only -->
-<perk name="Desert Eagle Parts Recipe" icon="ui_game_symbol_deserteagleparts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
+<perk name="Desert Eagle Parts Recipe" icon="ui_game_symbol_deserteagleparts" description_key="gunpartsrecipedesc" title_key="desertEaglePartsRecipePerk" max_level="1" skill_point_cost_per_level="5" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<recipe name="DesertEagle_Grip" unlock_level="1"/>
 	<recipe name="DesertEagle_Receiver" unlock_level="1"/>
@@ -1693,7 +1694,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="44 Magnum Parts Recipe" icon="ui_game_symbol_44magnumparts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
+<perk name="44 Magnum Parts Recipe" icon="ui_game_symbol_44magnumparts" description_key="gunpartsrecipedesc" title_key="44MagnumPartsRecipePerk" max_level="1" skill_point_cost_per_level="5" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_skill_name="theEnforcerMagazinePerk" required_skill_level="1"/>
 	<recipe name="parts44Magnum_frame" unlock_level="1"/>
@@ -1703,7 +1704,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="MP5 Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
+<perk name="MP5 Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" title_key="MP5PartsRecipePerk" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_skill_name="smgSchematicsPerk" required_skill_level="1"/>
 	<recipe name="partsMP5_stock" unlock_level="1"/>
@@ -1713,7 +1714,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Sniper Rifle Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
+<perk name="Sniper Rifle Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" title_key="sniperRiflePartsRecipePerk" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_skill_name="sniperRifleSchematicPerk" required_skill_level="1"/>
 	<recipe name="partsSniperRifle_barrel" unlock_level="1"/>
@@ -1723,7 +1724,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Sniper Rifle Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" max_level="1" skill_point_cost_per_level="5" group="firearms">
+<perk name="Sniper Rifle Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" title_key="sniperRifleAttachmentsRecipesPerk" max_level="1" skill_point_cost_per_level="5" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_skill_name="sniperRifleSchematicPerk" required_skill_level="1"/>
 	<requirement skill_level="1" required_player_level="65"/>
@@ -1731,7 +1732,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="sniperRifleSilenced" icon="ui_game_symbol_weaponattachments" description_key="silencedGunsPerkDesc" title_key="sniperRifleSilenced" max_level="1" skill_point_cost_per_level="10" group="firearms">
+<perk name="sniperRifleSilenced" icon="ui_game_symbol_weaponattachments" description_key="silencedGunsPerkDesc" title_key="sniperRifleSilencedPerk" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassCovertMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_skill_name="sniperRifleSchematicPerk" required_skill_level="1"/>
 	<requirement skill_level="1" required_player_level="65"/>
@@ -1739,13 +1740,13 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="FAMAS Recipe" icon="ui_game_symbol_famas" description_key="FAMASRecipeDesc" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms">
+<perk name="FAMAS Recipe" icon="ui_game_symbol_famas" description_key="FAMASRecipeDesc" title_key="FAMASRecipePerk" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<recipe name="FAMAS" unlock_level="1"/>
 </perk>
 
 <!-- Class Only -->
-<perk name="FAMAS Parts Recipe" icon="ui_game_symbol_famasparts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
+<perk name="FAMAS Parts Recipe" icon="ui_game_symbol_famasparts" description_key="gunpartsrecipedesc" title_key="FAMASPartsRecipePerk" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<recipe name="FAMAS_Stock" unlock_level="1"/>
 	<recipe name="FAMAS_Receiver" unlock_level="1"/>
@@ -1754,7 +1755,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="FAMAS Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" max_level="2" skill_point_cost_per_level="5" group="firearms">
+<perk name="FAMAS Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" title_key="FAMASAttachmentsRecipesPerk" max_level="2" skill_point_cost_per_level="5" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_player_level="75"/>
 	<recipe name="FAMASExtendedMag" unlock_level="1"/>
@@ -1769,7 +1770,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="AK47 Parts Recipe" icon="ui_game_symbol_ak47parts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
+<perk name="AK47 Parts Recipe" icon="ui_game_symbol_ak47parts" description_key="gunpartsrecipedesc" title_key="AK47PartsRecipePerk" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_skill_name="ak47SchematicPerk" required_skill_level="1"/>
 	<recipe name="partsAK47_stock" unlock_level="1"/>
@@ -1779,7 +1780,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="AK47 Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" max_level="3" skill_point_cost_per_level="5" group="firearms">
+<perk name="AK47 Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" title_key="AK47AttachmentsRecipesPerk" max_level="3" skill_point_cost_per_level="5" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_skill_name="ak47SchematicPerk" required_skill_level="1"/>
 	<requirement skill_level="1" required_player_level="85"/>
@@ -1789,13 +1790,13 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Baretta Shotgun Recipe" icon="ui_game_symbol_barettashotgun" description_key="BarettaShotgunRecipeDesc" max_level="1" skill_point_cost_per_level="0" group="firearms">
+<perk name="Baretta Shotgun Recipe" icon="ui_game_symbol_barettashotgun" description_key="BarettaShotgunRecipeDesc" title_key="barettaShotgunRecipePerk" max_level="1" skill_point_cost_per_level="0" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<recipe name="BarettaShotgun" unlock_level="1"/>
 </perk>
 
 <!-- Class Only -->
-<perk name="Baretta Shotgun Parts Recipe" icon="ui_game_symbol_barettashotgunparts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
+<perk name="Baretta Shotgun Parts Recipe" icon="ui_game_symbol_barettashotgunparts" description_key="gunpartsrecipedesc" title_key="barettaShotgunPartsRecipePerk" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<recipe name="BarettaShotgun_Stock" unlock_level="1"/>
 	<recipe name="BarettaShotgun_Receiver" unlock_level="1"/>
@@ -1804,13 +1805,13 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="M25 Sniper Rifle Recipe" icon="ui_game_symbol_m25sniperrifle" description_key="M25SniperRifleRecipeDesc" max_level="1" skill_point_cost_per_level="0" group="firearms">
+<perk name="M25 Sniper Rifle Recipe" icon="ui_game_symbol_m25sniperrifle" description_key="M25SniperRifleRecipeDesc" title_key="M25SniperRifleRecipePerk" max_level="1" skill_point_cost_per_level="0" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<recipe name="M25SniperRifle" unlock_level="1"/>
 </perk>
 
 <!-- Class Only -->
-<perk name="M25 Sniper Rifle Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
+<perk name="M25 Sniper Rifle Parts Recipe" icon="ui_game_symbol_pistolpartsrecipe" description_key="gunpartsrecipedesc" title_key="M25SniperRiflePartsRecipePerk" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<recipe name="M25SniperRifle_Stock" unlock_level="1"/>
 	<recipe name="M25SniperRifle_Receiver" unlock_level="1"/>
@@ -1819,7 +1820,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="M25 Sniper Rifle Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" max_level="3" skill_point_cost_per_level="5" group="firearms">
+<perk name="M25 Sniper Rifle Attachments Recipes" icon="ui_game_symbol_weaponattachments" description_key="AttachmentsRecipesDesc" title_key="M25SniperRifleAttachmentsRecipesPerk" max_level="3" skill_point_cost_per_level="5" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_player_level="105"/>
 	<recipe name="M25SniperRifleLongScoped" unlock_level="1"/>
@@ -1828,7 +1829,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Rocket Launcher Parts Recipe" icon="ui_game_symbol_rocketlauncherparts" description_key="gunpartsrecipedesc" max_level="1" skill_point_cost_per_level="10" group="firearms">
+<perk name="Rocket Launcher Parts Recipe" icon="ui_game_symbol_rocketlauncherparts" description_key="gunpartsrecipedesc" title_key="RocketLauncherPartsRecipePerk" max_level="1" skill_point_cost_per_level="10" group="firearms">
 	<requirement skill_level="1" required_skill_name="ClassMarksmanMaster" required_skill_level="1"/>
 	<requirement skill_level="1" required_skill_name="rocketLauncherSchematicPerk" required_skill_level="1"/>
 	<recipe name="partsRocketLauncher_stock" unlock_level="1"/>
@@ -1848,7 +1849,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Concrete Construction" icon="ui_game_symbol_rebarframe" description_key="ConcreteConstructionDesc" max_level="1" skill_point_cost_per_level="15" group="crafting">
+<perk name="Concrete Construction" icon="ui_game_symbol_rebarframe" description_key="ConcreteConstructionDesc" title_key="concreteConstruction" max_level="1" skill_point_cost_per_level="15" group="crafting">
 	<requirement skill_level="1" required_player_level="60"/>
 	<requirement skill_level="1" required_skill_name="Construction" required_skill_level="6"/>
 	<requirement skill_level="1" required_skill_name="ClassBuilderMaster" required_skill_level="1"/>
@@ -1902,7 +1903,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Armor Smithing Workstation" icon="ui_game_symbol_workbench1" description_key="ArmorSmithingWorkstationDesc" max_level="1" skill_point_cost_per_level="15" group="crafting">
+<perk name="Armor Smithing Workstation" icon="ui_game_symbol_workbench1" description_key="ArmorSmithingWorkstationDesc" title_key="armorSmithingWorkstationPerk" max_level="1" skill_point_cost_per_level="15" group="crafting">
 	<requirement skill_level="1" required_player_level="30"/>
 	<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="4"/>
 	<requirement skill_level="1" required_skill_name="ClassProtectionMaster" required_skill_level="1"/>
@@ -1954,7 +1955,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Comfortable Sleeping" icon="ui_game_symbol_comfortablesleeping" description_key="ComfortableSleepingDesc" max_level="2" skill_point_cost_multiplier="1" skill_point_cost_per_level="5" group="crafting">
+<perk name="Comfortable Sleeping" icon="ui_game_symbol_comfortablesleeping" description_key="ComfortableSleepingDesc" title_key="comfortableSleeping" max_level="2" skill_point_cost_multiplier="1" skill_point_cost_per_level="5" group="crafting">
 	<requirement skill_level="1" required_player_level="15"/>
 	<requirement skill_level="1" required_skill_name="Construction" required_skill_level="2"/>
 	<requirement skill_level="1" required_skill_name="ClassBuilderMaster" required_skill_level="1"/>
@@ -1982,7 +1983,8 @@
 	<recipe name="antibiotics" unlock_level="1"/>
 </perk>
 
-<perk name="Vitamins" icon="medical" max_level="5" description_key="VitaminsDesc" skill_point_cost_multiplier="0" skill_point_cost_per_level="2" group="health">
+<!-- Class Only -->
+<perk name="Vitamins" icon="medical" max_level="5" description_key="VitaminsDesc" title_key="VitaminsPerk" skill_point_cost_multiplier="0" skill_point_cost_per_level="2" group="health">
 	<requirement skill_level="1" required_player_level="30"/>
 	<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="3"/>
 	<requirement skill_level="1" required_skill_name="Medicine" required_skill_level="25"/>
@@ -1994,7 +1996,8 @@
 	<recipe name="VitaminD" unlock_level="5"/>
 </perk>
 
-<perk name="Health Deploy" icon="ui_game_symbol_healthdeploy" description_key="HealthDeploySkillDesc" max_level="1" skill_point_cost_per_level="10" group="health">
+<!-- Class Only -->
+<perk name="Health Deploy" icon="ui_game_symbol_healthdeploy" description_key="HealthDeploySkillDesc" title_key="healthDeployPerk" max_level="1" skill_point_cost_per_level="10" group="health">
 	<requirement skill_level="1" required_player_level="40"/>
 	<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="4"/>
 	<requirement skill_level="1" required_skill_name="Medicine" required_skill_level="35"/>
@@ -2038,7 +2041,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Kevlar Armor" icon="ui_game_symbol_medium_armor" description_key="KevlarArmorSkillDesc" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
+<perk name="Kevlar Armor" icon="ui_game_symbol_medium_armor" description_key="KevlarArmorSkillDesc" title_key="kevlarArmorPerk" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
 	<requirement skill_level="1" required_player_level="41"/>
 	<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="3"/>
 	<requirement skill_level="1" required_skill_name="ClassProtectionMaster" required_skill_level="1"/>
@@ -2057,8 +2060,8 @@
 	<recipe name="KevlarJacket" unlock_level="5"/>
 </perk>
 
-<!-- Class Only -->
-<perk name="Scrap Iron Armor" icon="armor_iron" description_key="ScrapIronArmorDesc" max_level="1" skill_point_cost_per_level="15" group="clothing">
+<!-- Removed V5.2.1 -->
+<!-- <perk name="Scrap Iron Armor" icon="armor_iron" description_key="ScrapIronArmorDesc" max_level="1" skill_point_cost_per_level="15" group="clothing">
 	<requirement skill_level="1" required_player_level="60"/>
 	<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="2"/>
 	<requirement skill_level="1" required_skill_name="ClassProtectionMaster" required_skill_level="1"/>
@@ -2067,50 +2070,34 @@
 	<recipe name="scrapBoots" unlock_level="1"/>
 	<recipe name="scrapLegArmor" unlock_level="1"/>
 	<recipe name="scrapChestArmor" unlock_level="1"/>
-</perk>
+</perk> -->
 
 <!-- Class Only -->
-<perk name="Iron Armor" icon="armor_iron" description_key="IronArmorDesc" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="6" group="clothing">
-	<requirement skill_level="1" required_player_level="80"/>
+<perk name="Iron Armor" icon="armor_iron" description_key="IronArmorDesc" title_key="ironArmorPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="clothing">
+	<requirement skill_level="1" required_player_level="75"/>
 	<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="4"/>
 	<requirement skill_level="1" required_skill_name="ClassProtectionMaster" required_skill_level="1"/>
-	<requirement skill_level="2" required_player_level="81"/>
-	<requirement skill_level="2" required_skill_name="craftSkillArmor" required_skill_level="4"/>
-	<requirement skill_level="3" required_player_level="82"/>
-	<requirement skill_level="3" required_skill_name="craftSkillArmor" required_skill_level="4"/>
-	<requirement skill_level="4" required_player_level="83"/>
-	<requirement skill_level="4" required_skill_name="craftSkillArmor" required_skill_level="4"/>
-	<requirement skill_level="5" required_player_level="84"/>
-	<requirement skill_level="5" required_skill_name="craftSkillArmor" required_skill_level="4"/>
 	<recipe name="ironHelmet" unlock_level="1"/>
-	<recipe name="ironGloves" unlock_level="2"/>
-	<recipe name="ironBoots" unlock_level="3"/>
-	<recipe name="ironLegArmor" unlock_level="4"/>
-	<recipe name="ironChestArmor" unlock_level="5"/>
+	<recipe name="ironGloves" unlock_level="1"/>
+	<recipe name="ironBoots" unlock_level="1"/>
+	<recipe name="ironLegArmor" unlock_level="1"/>
+	<recipe name="ironChestArmor" unlock_level="1"/>
 </perk>
 
 <!-- Class Only -->
-<perk name="Steel Armor" icon="armor_iron" description_key="SteelArmorSkillDesc" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="8" group="clothing">
+<perk name="Steel Armor" icon="armor_iron" description_key="SteelArmorSkillDesc" title_key="steelArmorPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="clothing">
 	<requirement skill_level="1" required_player_level="100"/>
 	<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="5"/>
 	<requirement skill_level="1" required_skill_name="ClassProtectionMaster" required_skill_level="1"/>
-	<requirement skill_level="2" required_player_level="101"/>
-	<requirement skill_level="2" required_skill_name="craftSkillArmor" required_skill_level="5"/>
-	<requirement skill_level="3" required_player_level="102"/>
-	<requirement skill_level="3" required_skill_name="craftSkillArmor" required_skill_level="5"/>
-	<requirement skill_level="4" required_player_level="103"/>
-	<requirement skill_level="4" required_skill_name="craftSkillArmor" required_skill_level="5"/>
-	<requirement skill_level="5" required_player_level="104"/>
-	<requirement skill_level="5" required_skill_name="craftSkillArmor" required_skill_level="5"/>
 	<recipe name="SteelHelmet" unlock_level="1"/>
-	<recipe name="SteelGloves" unlock_level="2"/>
-	<recipe name="SteelBoots" unlock_level="3"/>
-	<recipe name="SteelLegArmor" unlock_level="4"/>
-	<recipe name="SteelChestArmor" unlock_level="5"/>
+	<recipe name="SteelGloves" unlock_level="1"/>
+	<recipe name="SteelBoots" unlock_level="1"/>
+	<recipe name="SteelLegArmor" unlock_level="1"/>
+	<recipe name="SteelChestArmor" unlock_level="1"/>
 </perk>
 
 <!-- Class Only -->
-<perk name="Military Armor" icon="ui_game_symbol_medium_armor" description_key="MilitaryArmorDesc" max_level="1" skill_point_cost_per_level="20" group="clothing">
+<perk name="Military Armor" icon="ui_game_symbol_medium_armor" description_key="MilitaryArmorDesc" title_key="militaryArmorPerk" max_level="1" skill_point_cost_per_level="20" group="clothing">
 	<requirement skill_level="1" required_player_level="110"/>
 	<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="6"/>
 	<requirement skill_level="1" required_skill_name="ClassProtectionMaster" required_skill_level="1"/>
@@ -2122,9 +2109,9 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Hazmat Armor" icon="ui_game_symbol_hazmatarmor" description_key="HazmatArmorDesc" max_level="1" skill_point_cost_per_level="20" group="clothing">
+<perk name="Hazmat Armor" icon="ui_game_symbol_hazmatarmor" description_key="HazmatArmorDesc" title_key="hazmatArmorPerk" max_level="1" skill_point_cost_per_level="20" group="clothing">
 	<requirement skill_level="1" required_player_level="110"/>
-	<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="6"/>
+	<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="7"/>
 	<requirement skill_level="1" required_skill_name="ClassProtectionMaster" required_skill_level="1"/>
 	<recipe name="hazmatMask" unlock_level="1"/>
 	<recipe name="hazmatGloves" unlock_level="1"/>
@@ -2134,23 +2121,15 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Tungsten Armor" icon="armor_iron" description_key="TungstenArmorSkillDesc" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="clothing">
+<perk name="Tungsten Armor" icon="armor_iron" description_key="TungstenArmorSkillDesc" title_key="tungstenArmorPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="25" group="clothing">
 	<requirement skill_level="1" required_player_level="125"/>
-	<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="7"/>
+	<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="8"/>
 	<requirement skill_level="1" required_skill_name="ClassProtectionMaster" required_skill_level="1"/>
-	<requirement skill_level="2" required_player_level="126"/>
-	<requirement skill_level="2" required_skill_name="craftSkillArmor" required_skill_level="7"/>
-	<requirement skill_level="3" required_player_level="127"/>
-	<requirement skill_level="3" required_skill_name="craftSkillArmor" required_skill_level="7"/>
-	<requirement skill_level="4" required_player_level="128"/>
-	<requirement skill_level="4" required_skill_name="craftSkillArmor" required_skill_level="7"/>
-	<requirement skill_level="5" required_player_level="129"/>
-	<requirement skill_level="5" required_skill_name="craftSkillArmor" required_skill_level="7"/>
 	<recipe name="TungstenHelmet" unlock_level="1"/>
-	<recipe name="TungstenGloves" unlock_level="2"/>
-	<recipe name="TungstenBoots" unlock_level="3"/>
-	<recipe name="TungstenLegArmor" unlock_level="4"/>
-	<recipe name="TungstenChestArmor" unlock_level="5"/>
+	<recipe name="TungstenGloves" unlock_level="1"/>
+	<recipe name="TungstenBoots" unlock_level="1"/>
+	<recipe name="TungstenLegArmor" unlock_level="1"/>
+	<recipe name="TungstenChestArmor" unlock_level="1"/>
 </perk>
 
 <perk name="Red Tea Recipe" icon="ui_game_symbol_redtea" description_key="RedTeaRecipeDesc" max_level="1" skill_point_cost_per_level="5" group="health">
@@ -2159,7 +2138,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="Green Tea Recipe" icon="ui_game_symbol_greentea" description_key="GreenTeaRecipeDesc" max_level="1" skill_point_cost_per_level="5" group="health">
+<perk name="Green Tea Recipe" icon="ui_game_symbol_greentea" description_key="GreenTeaRecipeDesc" title_key="greenTeaRecipePerk" max_level="1" skill_point_cost_per_level="5" group="health">
 	<requirement skill_level="1" required_player_level="10"/>
 	<requirement skill_level="1" required_skill_name="ClassScholarMaster" required_skill_level="1" />
 	<recipe name="GreenTeaExtract" unlock_level="1"/>
@@ -2181,12 +2160,14 @@
 	<recipe name="repairKit" unlock_level="1"/>
 </perk>
 
-<perk name="Vault Door" icon="ui_game_symbol_vaultdoor" description_key="VaultDoorDesc" max_level="1" skill_point_cost_per_level="10" group="crafting">
+<!-- Class Only -->
+<perk name="Vault Door" icon="ui_game_symbol_vaultdoor" description_key="VaultDoorDesc" title_key="vaultDoorPerk" max_level="1" skill_point_cost_per_level="10" group="crafting">
 	<requirement perk_level="1" required_skill_name="ClassBuilderMaster" required_skill_level="1" />
 	<recipe name="doorVault" unlock_level="1"/>
 </perk>
 
-<perk name="Vault Hatch" icon="ui_game_symbol_vaultdoor" description_key="VaultHatchDesc" max_level="1" skill_point_cost_per_level="5" group="crafting">
+<!-- Class Only -->
+<perk name="Vault Hatch" icon="ui_game_symbol_vaultdoor" description_key="VaultHatchDesc" title_key="vaultHatchPerk" max_level="1" skill_point_cost_per_level="5" group="crafting">
 	<requirement perk_level="1" required_skill_name="ClassBuilderMaster" required_skill_level="1" />
 	<recipe name="hatchVault" unlock_level="1"/>
 </perk>
@@ -2219,7 +2200,7 @@
 	<recipe name="shovelSteel" unlock_level="1"/>
 </perk>
 
-<perk name="Tungsten Tool Crafting" icon="ui_game_symbol_tungstentools" description_key="TungstenToolsDesc" max_level="1" skill_point_cost_per_level="15" group="tools">
+<perk name="Tungsten Tool Crafting" icon="ui_game_symbol_tungstentools" description_key="TungstenToolsDesc" title_key="tungstenToolCraftingPerk" max_level="1" skill_point_cost_per_level="15" group="tools">
 	<requirement skill_level="1" required_player_level="100"/>
 	<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="9"/>
 	<requirement skill_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1"/>
@@ -2241,49 +2222,52 @@
 	<recipe name="MortarandPestle" unlock_level="1"/>
 </perk>
 
-<perk name="ECO Auger Recipe" icon="ui_game_symbol_auger" description_key="ECOAugerRecipeDesc" max_level="1" skill_point_cost_per_level="5" group="tools">
+<perk name="ECO Auger Recipe" icon="ui_game_symbol_auger" description_key="ECOAugerRecipeDesc" title_key="ECOAugerRecipePerk" max_level="1" skill_point_cost_per_level="5" group="tools">
 	<requirement perk_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1" />
 	<recipe name="ECOAuger" unlock_level="1"/>
 	<recipe name="ECOAuger_Parts" unlock_level="1"/>
 	<recipe name="ECOAuger_Blade" unlock_level="1"/>
 </perk>
 
-<perk name="HD Auger Recipe" icon="ui_game_symbol_auger" description_key="HDAugerRecipeDesc" max_level="1" skill_point_cost_per_level="5" group="tools">
+<perk name="HD Auger Recipe" icon="ui_game_symbol_auger" description_key="HDAugerRecipeDesc" title_key="HDAugerRecipePerk" max_level="1" skill_point_cost_per_level="5" group="tools">
 	<requirement perk_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1" />
 	<recipe name="HDAuger" unlock_level="1"/>
 	<recipe name="HDAuger_Parts" unlock_level="1"/>
 	<recipe name="HDAuger_Blade" unlock_level="1"/>
 </perk>
 
-<perk name="ECO Chainsaw Recipe" icon="ui_game_symbol_chainsaw" description_key="ECOChainsawRecipeDesc" max_level="1" skill_point_cost_per_level="5" group="tools">
+<perk name="ECO Chainsaw Recipe" icon="ui_game_symbol_chainsaw" description_key="ECOChainsawRecipeDesc" title_key="ECOChainsawRecipePerk" max_level="1" skill_point_cost_per_level="5" group="tools">
 	<requirement perk_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1" />
 	<recipe name="ECOChainsaw" unlock_level="1"/>
 	<recipe name="ECOChainsaw_Parts" unlock_level="1"/>
 	<recipe name="ECOChainsaw_Blade" unlock_level="1"/>
 </perk>
 
-<perk name="HD Chainsaw Recipe" icon="ui_game_symbol_chainsaw" description_key="HDChainsawRecipeDesc" max_level="1" skill_point_cost_per_level="5" group="tools">
+<perk name="HD Chainsaw Recipe" icon="ui_game_symbol_chainsaw" description_key="HDChainsawRecipeDesc" title_key="HDChainsawRecipePerk" max_level="1" skill_point_cost_per_level="5" group="tools">
 	<requirement perk_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1" />
 	<recipe name="HDChainsaw" unlock_level="1"/>
 	<recipe name="HDChainsaw_Parts" unlock_level="1"/>
 	<recipe name="HDChainsaw_Blade" unlock_level="1"/>
 </perk>
 
-<perk name="Speed Trap Recipes" icon="ui_game_symbol_speed1" description_key="SpeedTrapRecipesDesc" max_level="3" skill_point_cost_per_level="10" group="tools">
+<!-- Class Only -->
+<perk name="Speed Trap Recipes" icon="ui_game_symbol_speed1" description_key="SpeedTrapRecipesDesc" title_key="speedTrapRecipesPerk" max_level="3" skill_point_cost_per_level="10" group="tools">
 	<requirement skill_level="1" required_skill_name="ClassSurvivalistMaster" required_skill_level="1" />
 	<recipe name="SpeedTrap" unlock_level="1"/>
 	<recipe name="FireSpeedTrap" unlock_level="2"/>
 	<recipe name="ExplosiveSpeedTrap" unlock_level="3"/>
 </perk>
 
-<perk name="MinibikesForSmartshits" icon="ui_game_symbol_minibikeECO" description_key="MinibikesForSmartshitsPerkDesc" max_level="1" skill_point_cost_per_level="10" group="tools">
+<!-- Class Only -->
+<perk name="MinibikesForSmartshits" icon="ui_game_symbol_minibikeECO" description_key="MinibikesForSmartshitsPerkDesc" title_key="MinibikesForSmartshitsPerk" max_level="1" skill_point_cost_per_level="10" group="tools">
 	<requirement skill_level="1" required_skill_name="ClassBuilderMaster" required_skill_level="1"/>
 	<recipe name="SteelMinibikeChassis" unlock_level="1"/>
 	<recipe name="KevlarMinibikeSeat" unlock_level="1"/>
 	<recipe name="SteelMinibikeHandlebars" unlock_level="1"/>
 </perk>
 
-<perk name="MinibikesForToughshits" icon="ui_game_symbol_minibikeHD" description_key="MinibikesForToughshitsPerkDesc" max_level="1" skill_point_cost_per_level="10" group="tools">
+<!-- Class Only -->
+<perk name="MinibikesForToughshits" icon="ui_game_symbol_minibikeHD" description_key="MinibikesForToughshitsPerkDesc" title_key="MinibikesForToughshitsPerk" max_level="1" skill_point_cost_per_level="10" group="tools">
 	<requirement skill_level="1" required_skill_name="ClassBuilderMaster" required_skill_level="1"/>
 	<recipe name="TungstenMinibikeChassis" unlock_level="1"/>
 	<recipe name="TungstenMinibikeSeat" unlock_level="1"/>
@@ -2466,6 +2450,7 @@
 		<recipe name="firstAidKit" unlock_level="1"/>
 </perk>
 
+<!-- Class Only -->
 <perk name="herbalAntibioticsRecipePerk" icon="ui_game_symbol_schematic" description_key="schematicPerkGroupDesc" title_key="herbalAntibioticsRecipePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
 	<requirement skill_level="0" required_skill_name="craftSkillMiscellaneous" required_skill_level="0"/>
 	<requirement skill_level="1" required_skill_name="ClassSurvivalistMaster" required_skill_level="1"/>
@@ -2691,6 +2676,7 @@
 		<recipe name="steelClawHammer" unlock_level="1"/>
 </perk>
 
+<!-- Class Only -->
 <perk name="HDNailgunSchematicPerk" icon="ui_game_symbol_schematic" description_key="schematicPerkGroupDesc" title_key="HDNailgunSchematicPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
 	<requirement skill_level="0" required_skill_name="craftSkillMiscellaneous" required_skill_level="0"/>
 	<requirement skill_level="1" required_skill_name="ClassBuilderMaster" required_skill_level="1"/>
@@ -2710,7 +2696,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="diamondTippedFireaxeSchematicPerk" icon="ui_game_symbol_schematic" description_key="schematicClassPerkGroupDesc" title_key="steelClawHammerSchematicPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
+<perk name="diamondTippedFireaxeSchematicPerk" icon="ui_game_symbol_schematic" description_key="schematicClassPerkGroupDesc" title_key="diamondTippedFireaxeSchematicPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
 	<requirement skill_level="1" required_player_level="125"/>
 	<requirement skill_level="0" required_skill_name="craftSkillMiscellaneous" required_skill_level="0"/>
 	<requirement skill_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1"/>

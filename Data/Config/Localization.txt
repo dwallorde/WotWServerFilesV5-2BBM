@@ -1,9 +1,9 @@
 Key,Source,Context,Changes,English,French,German,Klingon,Spanish
 keystoneBlockDesc,blocks,Block,EnChanged,A land claim block can be placed to protect an area from other players in PVP. The green box shows the size of the area.\n [ Crafted in Workbench. ],Bloc de revendication de terrain à placer pour fournir à la zone autour une protection supplémentaire contre les autres joueurs en JcJ.,Ein Gebietsschutzblock kann platziert werden um einen Bereich vor anderen Spielern im PvP zu schützen. Die grüne Box zeigt die Grösse des Bereichs an.,,Se puede colocar un bloque para reclamar un territorio y darle al área circundante una protección extra frente a otros jugadores en JcJ.
-scrapFrameGroupDesc,blocks,Block,EnChanged,Used for bases. Upgrade & repair with a construction tool & iron. Upgrade more with concrete mix & others.,,Wird für Basen verwendet. Kann mit Eisen und Bauwerkzeugen aufgewertet und repariert werden. Kann mit Betonmischung und geschmiedetem Stahl weiter aufgewertet werden.,,
+scrapFrameGroupDesc,blocks,Block,EnChanged,Used for bases. Upgrade & repair with a construction tool & iron. Upgrade more with concrete mix & others.  Exclusive to Builder Class.\n[ Crafted in Builders Workbench with a Rivet Gun. ],,Wird für Basen verwendet. Kann mit Eisen und Bauwerkzeugen aufgewertet und repariert werden. Kann mit Betonmischung und geschmiedetem Stahl weiter aufgewertet werden.,,
 scrapHatch_v1Desc,blocks,Block,EnChanged,Press & hold [activate] to lock it or set a combination. Upgrade & repair with iron and a construction tool using the secondary action.,,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten. Kann mit Eisen und Bauwerkzeugen unter Verwendung der sekundären Aktion aufgewertet und repariert werden.,,
 spotlightNailedDownPOI,blocks,Block,EnChanged,Spotlight (POI),Projecteur fixe,Scheinwerfer (POI),,Foco clavado
-woodFrameGroupDesc,blocks,Block,EnChanged,"Used for bases. Upgrade & repair with wood & a construction tool. Upgrade more with iron\n [ Crafted in Workbench. ]\n [ Crafted in Wood Working Workbench. ], concrete mix & others.",,Wird für Basen verwendet. Kann mit Holz und Bauwerkzeugen aufgewertet und repariert werden. Kann unter anderem mit Eisen und Betonmischung weiter aufgewertet werden.,,
+woodFrameGroupDesc,blocks,Block,EnChanged,"Used for bases. Upgrade & repair with wood & a construction tool. Upgrade more with iron, concrete mix & others.",,Wird für Basen verwendet. Kann mit Holz und Bauwerkzeugen aufgewertet und repariert werden. Kann unter anderem mit Eisen und Betonmischung weiter aufgewertet werden.,,
 cntCar03SedanDamage0,blocks,Container,EnChanged,Sedan,Berline bleue,Coupé,,Sedán azul
 cntCar03SedanDamage1,blocks,Container,EnChanged,Damaged Sedan,Berline bleue endommagée,Beschädigtes Coupé,,Sedán azul estropeado
 cntLootCrateShamway,blocks,Container,EnChanged,Shamway Box,Caisse Shamway,Shamway-Schachtel,,Caja de Shamway
@@ -40,7 +40,7 @@ yuccaFibersDesc,items,Item,EnChanged,Plant fibers are acquired from destroying g
 painkillersDesc,items,Medical,EnChanged,Painkillers help you shrug off stunning blows and heal you a little over time. Like all chems they make you thirsty.,Vous avez pris des antidouleurs.,Du hast Schmerzmittel genommen.,,Tomaste analgésicos.
 partsAuger_bladeDesc,items,Part,EnChanged,Used to assemble an auger. If your science skill is high enough you can recraft and improve it at the workbench.\n [ Crafted in Workbench and Weapon Smithing Workstation Schematic with a Anvil. ],,Ein Teil eines Erdbohrers. Wenn du in Wissenschaft gut bist dann kannst du ihn auf einer Werkbank neu fertigen und verbessern.,,
 partsChainsaw_bladeDesc,items,Part,EnChanged,Used to assemble a chainsaw. If your science skill is high enough you can recraft and improve it at the workbench.\n [ Crafted in Workbench and Weapon Smithing Workstation Schematic with a Anvil. ],,Ein Teil einer Kettensäge. Wenn du in Wissenschaft gut bist dann kannst du es auf einer Werkbank neu fertigen und verbessern.,,
-concreteMixingDesc,progression,Perk,EnChanged,Unlocks the ability to make cement. To make concrete you also need a cement mixer.,Déverrouille la possibilité de fabriquer du béton et la bétonnière.,Schaltet die Fertigung von Zement frei. Um Beton herzustellen benötigst du zusätzlich einen Zementmischer.,,Desbloquea la habilidad de crear hormigón y el mezclador de cemento.
+concreteMixingDesc,progression,Perk,EnChanged,"Unlocks the ability to make cement. To make concrete you also need a cement mixer.  Builder Class Exclusive",Déverrouille la possibilité de fabriquer du béton et la bétonnière.,Schaltet die Fertigung von Zement frei. Um Beton herzustellen benötigst du zusätzlich einen Zementmischer.,,Desbloquea la habilidad de crear hormigón y el mezclador de cemento.
 deadShotDesc,progression,Perk,EnChanged,Shoot them dead with style!  Every rank increases your chance to blow off heads and limbs with pistols and revolvers.,Tuez-les avec classe ! Améliorez vos chances d'exploser des têtes et des membres avec votre pistolet au fil des rangs.,Erschieße sie mit Stil mit Pistolen und Revolvern! Jeder Rang erhöht die Chance Köpfe und Gliedmaßen abzuschießen.,,¡Mátalos con estilo! Aumenta las posibilidades de que el revólver haga que los sesos y las extremidades de los enemigos salgan volando con nada nivel.
 theOutlawDesc,progression,Perk,EnChanged,You broke the laws of logic. Your pistol or revolver does more damage with every rank.,La logique n'a plus d'effet sur vous. Votre pistolet inflige de plus en plus de dégâts au fil des rangs.,Du hast die Gesetze der Logik gebrochen. Pistolen und Revolver verursachen mit jedem Rang mehr Schaden.,,Has quebrantado las leyes de la lógica. El revólver inflige más daño con cada nivel.
 44MagnumRoundCraftingDesc,progression,Skill,EnChanged,Learn to craft .44 magnum rounds at a workbench.,Apprenez à fabriquer des cartouches de .44 magnum.,"Lerne, wie .44 Magnum Patronen gefertigt werden.",,Aprende a fabricar balas para Magnum 44.
@@ -936,7 +936,7 @@ cementMixerDesc,blocks,Workstation,KgNone,A cement mixer needs a solid foundatio
 forge,blocks,Workstation,KgNone,Forge,Forge,Schmiede,,Fragua
 forgeDesc,blocks,Workstation,EnChanged,"Used to smelt metals into tools and weapons. Unlock more recipes by adding an anvil, crucible or tool and die set.","Sert à faire fondre des métaux pour en faire des outils ou des armes. Déverrouillez d'autres compositions en ajoutant une enclume, un pied à coulisse ou un lot de matrices et d'outils.","Dient zum Einschmelzen von Metallen für Werkzeuge und Waffen. Schalte mehr Rezepte frei, indem du einen Amboss, einen Messschieber oder eine Werkzeugkiste hinzufügst.",,"Se usa para fundir metales y convertirlos en herramientas y armas. Añade un yunque, calibradores o herramientas y un juego de ajuste para desbloquear más recetas."
 workbench,blocks,Workstation,KgNone,Workbench,Établi,Werkbank,,Mesa de trabajo
-workbenchDesc,blocks,Workstation,EnChanged,A workbench lets you craft items just like you do in your backpack and improve items for up to 100 quality points above your crafting skill.\n [ Crafted in Workbench. ],Un établi vous permet de fabriquer des objets comme vous le faites dans votre sac à dos.,Mit einer Werkbank kannst du genauso wie in deinem Rucksack Gegenstände fertigen.,,"Una mesa de trabajo te permite fabricar objetos, igual que en la mochila."
+workbenchDesc,blocks,Workstation,EnChanged,A workbench lets you craft items just like you do in your backpack and improve items for up to 100 quality points above your crafting skill.,Un établi vous permet de fabriquer des objets comme vous le faites dans votre sac à dos.,Mit einer Werkbank kannst du genauso wie in deinem Rucksack Gegenstände fertigen.,,"Una mesa de trabajo te permite fabricar objetos, igual que en la mochila."
 alcoholPoisoning,buffs,Buff,KgNone,Inebriated,Ébriété,Berauscht,,Embriaguez
 alcoholPoisoningTooltip,buffs,Buff,KgNone,You have alcohol poisoning.,Vous êtes en état d'ébriété.,Du hast eine Alkoholvergiftung.,,Estás borracho.
 arrowCriticalBleedout,buffs,Buff,KgNone,Bleeding,Saignement,Bluten,,Sangrando
@@ -1716,10 +1716,10 @@ partsAK47_stock,items,Part,KgNone,AK-47 Stock,Crosse d'AK-47,AK-47 Schaft,,Canto
 partsAK47GroupDesc,items,Part,KgNone,A part of the AK-47 Assault Rifle. Assemble with other parts to create a complete Ak-47 once you've read the schematic.,Une pièce du fusil d'assaut AK-47. À assembler à d'autres pièces pour fabriquer un fusil d'assaut AK-47 une fois que vous avez lu le schéma.,"Ein Teil von einem AK-47-Sturmgewehr. Setze es mit den anderen Teilen zu einer AK-47 zusammen, wenn du den Bauplan gelesen hast.",,"Una parte de un rifle de asalto AK-47. Una vez que hayas leído el esquema, ármala con otras partes para crear un AK-47 completo."
 partsAuger_blade,items,Part,KgNone,Auger Blade,Foret de foreuse,Erdbohrer-Bohrkopf,,Cuchilla de barrena
 partsAuger_parts,items,Part,KgNone,Auger Parts,Pièces de foreuse,Erdbohrerteile,,Partes de la barrena
-partsAuger_partsDesc,items,Part,KgNone,A part of a an auger. Assemble with other parts to create a complete auger once you've read the schematic.\n [ Crafted in Workbench and Weapon Smithing Workstation Schematic with a Calipers. ],Une pièce de foreuse. À assembler à d'autres pièces pour fabriquer une foreuse complète une fois que vous avez lu le schéma.,"Ein Teil eines Erdbohrers. Setze es mit den anderen Teilen zu einem Erdbohrer zusammen, wenn du den Bauplan gelesen hast.",,"Una parte de un taladro. Una vez que has leído el esquema, ármalo con otras partes para crear un taladro completo."
+partsAuger_partsDesc,items,Part,KgNone,A part of a an auger. Assemble with other parts to create a complete auger once you've read the schematic.\n [ Crafted in Advanced Tool Workbench ],Une pièce de foreuse. À assembler à d'autres pièces pour fabriquer une foreuse complète une fois que vous avez lu le schéma.,"Ein Teil eines Erdbohrers. Setze es mit den anderen Teilen zu einem Erdbohrer zusammen, wenn du den Bauplan gelesen hast.",,"Una parte de un taladro. Una vez que has leído el esquema, ármalo con otras partes para crear un taladro completo."
 partsChainsaw_blade,items,Part,KgNone,Chainsaw Blade,Chaîne de tronçonneuse,Kettensägenblatt,,Hoja de motosierra
 partsChainsaw_parts,items,Part,KgNone,Chainsaw Parts,Pièces de tronçonneuse,Kettensägenteile,,Partes de motosierra
-partsChainsaw_partsDesc,items,Part,KgNone,A part of a chainsaw. Assemble with other parts to create a complete chainsaw once you've read the chainsaw schematic.\n [ Crafted in Workbench and Weapon Smithing Workstation Schematic with a Calipers. ],Une pièce de tronçonneuse. À assembler à d'autres pièces pour fabriquer une tronçonneuse une fois que vous avez lu le schéma de la tronçonneuse.,"Ein Teil einer Kettensäge. Setze es mit den anderen Teilen zu einer Kettensäge zusammen, wenn du den Bauplan für Kettensägen gelesen hast.",,"Una parte de una motosierra. Una vez que hayas leído el esquema de motosierra, ármala con otras partes para crear una motosierra completa."
+partsChainsaw_partsDesc,items,Part,KgNone,A part of a chainsaw. Assemble with other parts to create a complete chainsaw once you've read the chainsaw schematic.\n [ Crafted in Advanced Tool Workbench ],Une pièce de tronçonneuse. À assembler à d'autres pièces pour fabriquer une tronçonneuse une fois que vous avez lu le schéma de la tronçonneuse.,"Ein Teil einer Kettensäge. Setze es mit den anderen Teilen zu einer Kettensäge zusammen, wenn du den Bauplan für Kettensägen gelesen hast.",,"Una parte de una motosierra. Una vez que hayas leído el esquema de motosierra, ármala con otras partes para crear una motosierra completa."
 partsHandlebars,items,Part,KgNone,Handlebars,Guidon,Handgriffe,,Manillar
 partsHandlebarsDesc,items,Part,KgNone,A common part for a chainsaw or auger. Assemble with other parts to create a complete tool once you've read the right schematic.\n [ Crafted in Workbench. ],Une pièce commune aux tronçonneuses et foreuses. À assembler à d'autres pièces pour fabriquer un outil une fois que vous avez lu le bon schéma.,"Ein gewöhnliches Teil einer Kettensäge oder eines Erdbohrers. Setze es mit den anderen Teilen zu einem Werkzeug zusammen, wenn du den richtigen Bauplan gelesen hast.",,"Una parte común a las motosierras y taladros. Una vez que hayas leído el esquema correcto, se puede armar con otras partes para crear una herramienta completa."
 partsHuntingRifle_barrel,items,Part,KgNone,Hunting Rifle Barrel,Canon de fusil de chasse,Jagdgewehrlauf,,Cañón de rifle de caza
@@ -1815,7 +1815,7 @@ qc_ZombieGroupDesc,items,Zombie Challenge Note,KgNone,A strange note I found whi
 betterLeadThanDead,progression,Perk,KgNone,Better Lead Than Dead,Du plomb dans la cervelle,Besser als Blei in der Birne,,Mejor con plomo que sin aplomo
 boomStick,progression,Perk,KgNone,Boom Stick,Le bâton qui fait boom,Schießeisen,,Escoba de fuego
 boomStickDesc,progression,Perk,KgNone,Your aim may be so-so but you do more damage with every rank.,"Vous ne visez pas très bien, mais vous infligez de plus en plus de dégâts au fil des rangs.","Du zielst vielleicht nicht so gut, aber mit jedem Rang verursachst du mehr Schaden.",,"Puede que la precisión no sea la mejor, pero infliges más daño con cada nivel."
-concreteMixing,progression,Perk,KgNone,Concrete Mixing,Mélanger du béton,Betonmischerei,,Mezcla de hormigón
+concreteMixing,progression,Perk,KgNone,Concrete Mixing (Class Only),Mélanger du béton,Betonmischerei,,Mezcla de hormigón
 deadShot,progression,Perk,KgNone,Dead Shot,Dans le mille,Volltreffer,,Buena puntería
 leatherTanningPerk,progression,Perk,KgNone,Leather Tanning,« Tanner le cuir »,Leder gerben,,Curtido de cuero
 leatherTanningPerkDesc,progression,Perk,KgNone,Unlocks the ability to craft leather from animal hides or by scrapping leather items.,Déverrouille la possibilité de fabriquer du cuir avec des peaux de bête ou en recyclant des objets en cuir.,Schaltet die Gewinnung von Leder durch Tierhäute oder zerlegte Ledergegenstände frei.,,Desbloquea la habilidad de fabricar cuero a partir de pieles de animales o reutilizando objetos de cuero.
@@ -4270,7 +4270,7 @@ xuiWPjournal,UI,Quests Window Paging in Game,New,Journal,,,,
 devOnlyGroupDesc,blocks,Block,New,Only use for development and testing.,,,,
 sleeperGroupDesc,blocks,SleeperSpawn,New,"Regular: 20-7% empty, XS 1-2, S 2-4, M 3-7, L 4-9, XL 5-11.  LootRoom: 0% empty, XS 1-2, S 3-4, M 5-7, L 6-9, XL 8-11.  Abandoned: 1, high decoy %",,,,
 spawnTraderDesc,blocks,Block,New,"Navezgane Traders: 1394,1324 / -1052,951 / 318,107 / -771,-1305 / 1002,-1308",,,,
-rebarFrameGroupDesc,blocks,Block,New,Place and upgrade with concrete mix and a construction tool using the secondary action. Upgrade more when dry.\n [ Crafted in Forge with a Anvil. ],"Sert à construire des bases. Se construit à l'aide de bois, de mélange à béton et d'un outil de construction, et ce grâce à l'action secondaire. Une fois sèche, elle s'améliore à l'aide d'acier forgé.",Kann mit Betonmischung und Bauwerkzeugen unter Verwendung der sekundären Aktion gebaut werden. Werte nach dem Trocknen mit geschmiedetem Stahl weiter auf.,,"Se usa como cimiento. Usa la acción secundaria para construir con madera, mezcla de hormigón y una herramienta de construcción. Mejóralo aún más con acero forjado una vez que esté seco."
+rebarFrameGroupDesc,blocks,Block,New,Place and upgrade with concrete mix and a construction tool using the secondary action. Upgrade more when dry.  Exclusive to Builder Class\n [ Crafted in Builders Workbench with a Rebar Bender. ],"Sert à construire des bases. Se construit à l'aide de bois, de mélange à béton et d'un outil de construction, et ce grâce à l'action secondaire. Une fois sèche, elle s'améliore à l'aide d'acier forgé.",Kann mit Betonmischung und Bauwerkzeugen unter Verwendung der sekundären Aktion gebaut werden. Werte nach dem Trocknen mit geschmiedetem Stahl weiter auf.,,"Se usa como cimiento. Usa la acción secundaria para construir con madera, mezcla de hormigón y una herramienta de construcción. Mejóralo aún más con acero forjado una vez que esté seco."
 concreteGroupDesc,blocks,Block,New,A very flexible building material. Place and wait for the concrete to set. Can be upgraded to reinforced concrete.\n [ Crafted in Wood Working Workbench. ],"Offrant une bonne protection, le béton est un matériau de construction très souple qui vous permet de fabriquer de nombreuses formes. Peut être amélioré.",Ein sehr flexibles Baumaterial. Braucht Zeit zum Aushärten. Kann zu verstärktem Beton aufgewertet werden.,,"El hormigón ofrece una buena protección y es un material de construcción muy flexible, por lo que se puede moldear mientras se usa. Se puede mejorar."
 ttRepairBeforePickup,UI,Tooltip,New,You must repair this before picking it up.,,,,
 electricBasicsName,progression,Perk,New,Electricity Basics,,,,
@@ -5460,33 +5460,33 @@ MinibikesForToughshitsDesc,items,Item,KgNone,Schematic for Assembling a Tungsten
 ECOAuger,items,Item,KgNone,ECO Auger,,,,
 ECOAugerDesc,items,Item,KgNone,A Economic Auger\n [ Crafted in assembly. ],A Auger économique,Eine wirtschaftliche Auger,,A Auger económico
 ECOAuger_Parts,items,Item,KgNone,ECO Auger Parts,,,,
-ECOAuger_PartsDesc,items,Item,KgNone,Parts for Assembling a ECO Auger\n [ Crafted in Weapon Smithing Workstation Schematic with a Calipers. ],Pièces pour l'assemblage d'un ECO Auger,Teile für die Montage einer ECO-Schnecke,,Piezas para ensamblar un ECO Auger
+ECOAuger_PartsDesc,items,Item,KgNone,Parts for Assembling a ECO Auger\n [ Crafted in Advanced Tool Workbench ],Pièces pour l'assemblage d'un ECO Auger,Teile für die Montage einer ECO-Schnecke,,Piezas para ensamblar un ECO Auger
 ECOAuger_Blade,items,Item,KgNone,ECO Auger Blade,,,,
-ECOAuger_BladeDesc,items,Item,KgNone,Blade for Assembling a ECO Auger\n [ Crafted in Weapon Smithing Workstation Schematic with a Anvil. ],Lame pour l'assemblage d'un ECO Auger,Klinge für die Montage einer ECO-Schnecke,,Cuchilla para montar un ECO Auger
+ECOAuger_BladeDesc,items,Item,KgNone,Blade for Assembling a ECO Auger\n [ Crafted in Advanced Tool Workbench ],Lame pour l'assemblage d'un ECO Auger,Klinge für die Montage einer ECO-Schnecke,,Cuchilla para montar un ECO Auger
 ECOAugerSchematic,items,Item,KgNone,ECO Auger Schematic,,,,
 ECOAugerSchematicDesc,items,Item,KgNone,Schematic for Assembling a ECO Auger,Schéma de montage d'un ECO Auger,Schema für die Montage einer ECO-Schnecke,,Esquema para montar un ECO Auger
 HDAuger,items,Item,KgNone,HD Auger,,,,
 HDAugerDesc,items,Item,KgNone,A Heavy Duty Auger\n [ Crafted in assembly. ],Un tarière robuste,Eine Hochleistungsschnecke,,Una barrena de servicio pesado
 HDAuger_Parts,items,Item,KgNone,HD Auger Parts,,,,
-HDAuger_PartsDesc,items,Item,KgNone,Parts for Assembling a HD Auger\n [ Crafted in Weapon Smithing Workstation Schematic with a Calipers. ],Pièces pour l'assemblage d'une vis sans fin HD,Teile für die Montage eines HD Augers,,Piezas para ensamblar un sinfín HD
+HDAuger_PartsDesc,items,Item,KgNone,Parts for Assembling a HD Auger\n [ Crafted in Advanced Tool Workbench ],Pièces pour l'assemblage d'une vis sans fin HD,Teile für die Montage eines HD Augers,,Piezas para ensamblar un sinfín HD
 HDAuger_Blade,items,Item,KgNone,HD Auger Blade,,,,
-HDAuger_BladeDesc,items,Item,KgNone,Blade for Assembline a HD Auger\n [ Crafted in Weapon Smithing Workstation Schematic with a Anvil. ],Lame pour montage d'une vis sans fin HD,Klingen für Assembline eine HD Auger,,Cuchilla para ensamblar un tornillo de alta definición
+HDAuger_BladeDesc,items,Item,KgNone,Blade for Assembline a HD Auger\n [ Crafted in Advanced Tool Workbench ],Lame pour montage d'une vis sans fin HD,Klingen für Assembline eine HD Auger,,Cuchilla para ensamblar un tornillo de alta definición
 HDAugerSchematic,items,Item,KgNone,HD Auger Schematic,,,,
 HDAugerSchematicDesc,items,Item,KgNone,Schematic for Assembling a HD Auger,Schéma d'assemblage d'une vis sans fin HD,Schema für die Montage einer HD-Schnecke,,Esquema para montar un tornillo sinfín HD
 ECOChainsaw,items,Item,KgNone,ECO Chainsaw,,,,
 ECOChainsawDesc,items,Item,KgNone,A Economic Chainsaw\n [ Crafted in assembly. ],Une scie économique,Eine Wirtschaftskettensäge,,Una motosierra económica
 ECOChainsaw_Parts,items,Item,KgNone,ECO Chainsaw Parts,,,,
-ECOChainsaw_PartsDesc,items,Item,KgNone,Parts for Assembling a ECO Chainsaw\n [ Crafted in Weapon Smithing Workstation Schematic with a Calipers. ],Pièces pour assembler une tronçonneuse ECO,Teile für die Montage einer ECO-Motorsäge,,Piezas para montar una motosierra ECO
+ECOChainsaw_PartsDesc,items,Item,KgNone,Parts for Assembling a ECO Chainsaw\n [ Crafted in Advanced Tool Workbench ],Pièces pour assembler une tronçonneuse ECO,Teile für die Montage einer ECO-Motorsäge,,Piezas para montar una motosierra ECO
 ECOChainsaw_Blade,items,Item,KgNone,ECO Chainsaw Blade,,,,
-ECOChainsaw_BladeDesc,items,Item,KgNone,Blade for Assembling a ECO Chainsaw\n [ Crafted in Weapon Smithing Workstation Schematic with a Anvil. ],Lame pour assembler une tronçonneuse ECO,Klinge zur Montage einer ECO-Motorsäge,,Cuchilla para ensamblar una motosierra ECO
+ECOChainsaw_BladeDesc,items,Item,KgNone,Blade for Assembling a ECO Chainsaw\n [ Crafted in Advanced Tool Workbench ],Lame pour assembler une tronçonneuse ECO,Klinge zur Montage einer ECO-Motorsäge,,Cuchilla para ensamblar una motosierra ECO
 ECOChainsawSchematic,items,Item,KgNone,ECO Chainsaw Schematic,,,,
 ECOChainsawSchematicDesc,items,Item,KgNone,Schematic for Assembling a ECO Chainsaw,Schéma pour l'assemblage d'une tronçonneuse ECO,Schema für die Montage einer ECO-Motorsäge,,Esquema para montar una motosierra ECO
 HDChainsaw,items,Item,KgNone,HD Chainsaw,,,,
 HDChainsawDesc,items,Item,KgNone,A Heavy Duty Chainsaw\n [ Crafted in assembly. ],Une tronçonneuse lourde,Eine Heavy Duty Kettensäge,,Una motosierra pesada
 HDChainsaw_Parts,items,Item,KgNone,HD Chainsaw Parts,,,,
-HDChainsaw_PartsDesc,items,Item,KgNone,Parts for Assembling a HD Chainsaw\n [ Crafted in Weapon Smithing Workstation Schematic with a Calipers. ],Pièces pour assembler une tronçonneuse HD,Teile für die Montage einer HD-Motorsäge,,Piezas para montar una motosierra HD
+HDChainsaw_PartsDesc,items,Item,KgNone,Parts for Assembling a HD Chainsaw\n [ Crafted in Advanced Tool Workbench ],Pièces pour assembler une tronçonneuse HD,Teile für die Montage einer HD-Motorsäge,,Piezas para montar una motosierra HD
 HDChainsaw_Blade,items,Item,KgNone,HD Chainsaw Blade,,,,
-HDChainsaw_BladeDesc,items,Item,KgNone,Blade for Assembling a HD Chainsaw\n [ Crafted in Weapon Smithing Workstation Schematic with a Anvil. ],Lame pour assembler une tronçonneuse HD,Klinge zur Montage einer HD-Motorsäge,,Hoja para ensamblar una motosierra HD
+HDChainsaw_BladeDesc,items,Item,KgNone,Blade for Assembling a HD Chainsaw\n [ Crafted in Advanced Tool Workbench ],Lame pour assembler une tronçonneuse HD,Klinge zur Montage einer HD-Motorsäge,,Hoja para ensamblar una motosierra HD
 HDChainsawSchematic,items,Item,KgNone,HD Chainsaw Schematic,,,,
 HDChainsawSchematicDesc,items,Item,KgNone,Schematic for Assembling a HD Chainsaw,Schéma pour assembler une tronçonneuse HD,Schematischer Aufbau einer HD-Motorsäge,,Esquema para ensamblar una motosierra HD
 StarterClassBuilder,items,Item,KgNone,Starter Builder Class,,,,
@@ -5710,7 +5710,7 @@ ScholarClassLevel2,progression,Skill,KgNone,Scholar Class Level 2,,,,
 ScholarClassLevel2Desc,progression,Skill,KgNone,"Scholar Class Level 2 Unlocks the Explosives Perk and Scholar Treasure Hunting Perk.  Can only become a Scholar Class by completing the Scholar Class Training Quests","Scholar Classe Niveau 2 Débloque les explosifs Perk Perk et Scholar la chasse au trésor. Ne peut devenir un chercheur en complétant les quêtes de classe de classe de formation Scholar","Scholar Kategorie Level 2 Unlocks die Sprengstoffe Perk Perk und Scholar Schatzsuche . Kann nur ein Gelehrter werden die Scholar Klasse Trainingsklassenquests durch Ausfüllen",,"Académico Clase Nivel 2 Desbloquea los explosivos Perk y Académico caza del tesoro Perk. Sólo puede convertirse en una clase Académico completando las misiones de entrenamiento de clase Académico"
 ScholarClassLevel3,progression,Skill,KgNone,Scholar Class Level 3,,,,
 ScholarClassLevel3Desc,progression,Skill,KgNone,"Scholar Class Level 3 Unlocks the Hazmat Armor Perk.  Can only become a Scholar Class by completing the Scholar Class Training Quests","Scholar Classe Niveau 3 Débloque Hazmat Armure Perk. Ne peut devenir une classe Scholar en remplissant les quêtes de formation Scholar classe","Scholar Klassenstufe 3 Unlocks die Hazmat Rüstung Perk. Kann nur ein Gelehrter Klasse werden die Scholar Trainingsklassenquests durch Abschließen",,"Académico Clase Nivel 3 desbloquea la Armadura de materiales peligrosos Perk. Sólo puede convertirse en una clase Académico completando la clase misiones de entrenamiento Académico"
-ScholarFarming,progression,Skill,KgNone,Scholar Farming,,,,
+ScholarFarming,progression,Skill,KgNone,Scholar Farming (Class Only),,,,
 ScholarFarmingDesc,progression,Skill,KgNone,"Learn how to craft Aloe, Yucca, Mushroom, Apple and Wheat Seeds.  Can only be purchased by a Scholar Class.","Apprenez à fabriquer Aloe, Yucca, champignons, pommes et blé Semences. Ne peut être acheté par une classe Scholar.","Erfahren Sie, wie Aloe, Yucca, Pilz, Apple und Weizensamen Handwerk . Nur dies durch eine Scholar Klasse erworben werden.",,"Aprender cómo elaborar Semillas Aloe, yuca, setas, manzana y trigo. Sólo puede ser comprado por una clase Académico."
 MarksmanClassLevel1,progression,Skill,KgNone,Marksman Class Level 1,,,,
 MarksmanClassLevel1Desc,progression,Skill,KgNone,"Marksman Class Level 1 Unlocks Pistol, Hunting Rifle and Sawed-off Pump Shotgun Parts Recipe Perks.  Can only become a Marksman Class by completing the Marksman Class Training Quests","Marksman Classe Niveau 1 Unlocks Pistolet, Fusil de chasse et de Perks tronçonné Recette Shotgun Pièces Pompe. Ne peut devenir une classe Marksman en remplissant les quêtes de formation Marksman classe","Klasse Marksman Unlocks Stufe 1 Pistole, Gewehr und Jagd abgesägte Schrotflinte Pumpenteile Rezept Perks. Kann nur eine Marksman-Klasse von der Klasse Marksman Ausbildung werden die Quests abschließen",,"Clase Marksman Desbloquea Nivel 1 pistola, rifle de caza y de la escopeta de cañones recortados piezas de la bomba Perks la receta. Sólo puede convertirse en una clase Tirador Tirador de Formación Clase completar las misiones"
@@ -6081,7 +6081,7 @@ gasCanSchematicPerk,progression,Skill,KgNone,Gas Can Schematic,,,,
 augerSchematicPerk,progression,Skill,KgNone,Auger Schematic,,,,
 chainsawSchematicPerk,progression,Skill,KgNone,Chainsaw Schematic,,,,
 firstAidKitSchematicPerk,progression,Skill,KgNone,First Aid Schematic,,,,
-herbalAntibioticsRecipePerk,progression,Skill,KgNone,Herbal Antibiotics Recipe,,,,
+herbalAntibioticsRecipePerk,progression,Skill,KgNone,Herbal Antibiotics Recipe (Class Only),,,,
 minibikesForDumbshitsPerk,progression,Skill,KgNone,Minibikes For Dumbshits,,,,
 leatherBootsSchematicPerk,progression,Skill,KgNone,Leather Boots Schematic,,,,
 leatherPantsSchematicPerk,progression,Skill,KgNone,Leather Pants Schematic,,,,
@@ -6132,7 +6132,7 @@ AppleJuiceRecipePerk,progression,Skill,KgNone,Apple Juice Recipe (Class Only),,,
 RoastedMeatPieRecipePerk,progression,Skill,KgNone,Roasted Meat Pie Recipe,,,,
 MossyBrewPieRecipePerk,progression,Skill,KgNone,Mossy Brew Recipe,,,,
 MushroomStewRecipePerk,progression,Skill,KgNone,Mushroom Stew Recipe,,,,
-HDNailgunSchematicPerk,progression,Skill,KgNone,HD Nailgun Schematic,,,,
+HDNailgunSchematicPerk,progression,Skill,KgNone,HD Nailgun Schematic (Class Only),,,,
 steelClawHammerSchematicPerk,progression,Skill,KgNone,Steel Claw Hammer Schematic,,,,
 steelClawHammerSchematic,items,Item,KgNone,Steel Claw Hammer Schematic,,,,
 steelClawHammerSchematicDesc,items,Item,KgNone,"Learn how to craft a Steel Claw Hammer.  The Steel Claw Hammer can upgrade some blocks faster with fewer hits","Apprenez à fabriquer un marteau à griffes en acier. The Steel Claw Hammer peut améliorer certains blocs plus rapidement avec moins de hits","Erfahren Sie, wie man einen Stahlklauenhammer herstellt. Der Steel Claw Hammer kann einige Blöcke schneller mit weniger Hits aufrüsten",,"Aprenda cómo hacer un martillo de acero. El Steel Claw Hammer puede actualizar algunos bloques más rápido con menos impactos"
@@ -6152,7 +6152,7 @@ Soberizing,buffs,Buff,KgNone,Soberizing,,,,
 SoberizingDesc,buffs,Buff,KgNone,"You took something that will help you get sober","Vous avez pris quelque chose qui vous aidera à devenir sobre.","Du hast etwas genommen, das dir helfen wird, nüchtern zu werden",,"Tomaste algo que te ayudará a ponerte sobrio"
 SoberizingTooltip,buffs,Buff,KgNone,"You are soberizing","Vous êtes en train de soigner","Sie sind ernüchternd",,"Estás sobria"
 swatHelmetLightDesc,items,Item,KgNone,"A Swat Helmet with a light attached\n [ Crafted in AdvancedToolWorkbench. ]","Un casque Swat avec une lumière attachée","Ein Swat Helm mit einem Licht befestigt",,"Un casco Swat con una luz adjunta"
-tungstenBlocksDesc,blocks,Block,KgNone,"Tough as .... Frames that can be upgraded using Forged Tungsten.  [Crafted in Builders Workbench with Welding Tool]",,,,
+tungstenBlocksDesc,blocks,Block,KgNone,"Tough as .... Frames that can be upgraded using Forged Tungsten.\n  [ Crafted in Builders Workbench using Welding Tool ]",,,,
 tungstenFrameBlock,blocks,Block,KgNone,Tungsten Block Frame,,,,
 tungstenBlock,blocks,Block,KgNone,Tungsten Block,,,,
 tungstenFrameRamp,blocks,Block,KgNone,Tungsten Ramp Frame,,,,
@@ -6242,7 +6242,7 @@ tungstenBarsCentered,blocks,Block,KgNone,Tungsten Bars (Centered),,,,
 tungstenBarsDesc,blocks,Block,KgNone,Tungsten Bars are a lot stronger than Iron Bars and can be shot through,,,,
 tungstenBars,blocks,Block,KgNone,Tungsten Bars,,,,
 treeBirdnest,blocks,Block,KgNone,Birdnest Tree,,,,
-treeBirdnestDesc,blocks,Block,KgNone,Plant this to attract birds to make a nest,,,,
+treeBirdnestDesc,blocks,Block,KgNone,Plant this to attract birds to make a nest.\n[ Crafted at Mortar and Pestle ],,,,
 treeBirdnestLoot,blocks,Block,KgNone,Birdnest Tree (Loot),,,,
 plantedCocoa1,blocks,Block,KgNone,Cocoa Seed,,,,
 plantedCocoa2,blocks,Block,KgNone,Planted Cocoa Stage 2,,,,
@@ -6384,65 +6384,65 @@ TraumaFirstAidKitSchematic,items,Item,KgNone,Trauma First Aid Kit Schematic,,,,
 TraumaFirstAidKitSchematicDesc,items,Item,KgNone,Learn how to craft Trauma First Aid Kits.  Survivalist Class Exclusive,,,,
 AdvancedSplintSchematic,items,Item,KgNone,Advanced Splint Schematic,,,,
 AdvancedSplintSchematicDesc,items,Item,KgNone,Learn how to craft Advanced Splints.  Survivalist Class Exclusive,,,,
-electricianLightsPerk,progression,Skill,KgNone,Electrician Lights,,,,
+electricianLightsPerk,progression,Skill,KgNone,Electrician Lights (Class Only),,,,
 electricianLightsPerkDesc,progression,Skill,KgNone,Unlock more Light Fixture Recipes.  Electrician Class Exclusive,,,,
-hdMeleeTrapsPerk,progression,Skill,KgNone,HD Melee Traps,,,,
+hdMeleeTrapsPerk,progression,Skill,KgNone,HD Melee Traps (Class Only),,,,
 hdMeleeTrapsPerkDesc,progression,Skill,KgNone,Unlock to learn how to craft a Heavy Duty Blade Trap.  Electrician Class Exclusive,,,,
-hdRangedTrapsPerk,progression,Skill,KgNone,HD Ranged Traps,,,,
+hdRangedTrapsPerk,progression,Skill,KgNone,HD Ranged Traps (Class Only),,,,
 hdRangedTrapsPerkDesc,progression,Skill,KgNone,Unlock to learn how to craft some new Heavy Duty Ranged Traps.  Electrician Class Exclusive,,,,
-ecoGeneratorbankSchematicPerk,progression,Skill,KgNone,ECO Generator Bank,,,,
+ecoGeneratorbankSchematicPerk,progression,Skill,KgNone,ECO Generator Bank (Class Only),,,,
 ecoGeneratorbankSchematicPerkDesc,progression,Skill,KgNone,Unlock to learn how to craft a ECO Generator Bank for your ECO Engines.  Electrician Class Exclusive,,,,
-hdGeneratorbankSchematicPerk,progression,Skill,KgNone,HD Generator Bank,,,,
+hdGeneratorbankSchematicPerk,progression,Skill,KgNone,HD Generator Bank (Class Only),,,,
 hdGeneratorbankSchematicPerkDesc,progression,Skill,KgNone,Unlock to learn how to craft a HD Generator Bank for your HD Endinge.  Electrician Class Exclusive,,,,
-ecoBatterybankSchematicPerk,progression,Skill,KgNone,ECO Battery Bank,,,,
+ecoBatterybankSchematicPerk,progression,Skill,KgNone,ECO Battery Bank (Class Only),,,,
 ecoBatterybankSchematicPerkDesc,progression,Skill,KgNone,Learned by reading the Schematic found in the Electrician Class Vending Machine.  Electrician Class Exclusive,,,,
 hdBatterybankSchematicPerk,progression,Skill,KgNone,HD Battery Bank,,,,
 hdBatterybankSchematicPerkDesc,progression,Skill,KgNone,Learned by reading the Schematic found in the Electrician Class Vending Machine.  Electrician Class Exclusive,,,,
-ScholarChocolatePerk,progression,Skill,KgNone,Chocolate Perk,,,,
+ScholarChocolatePerk,progression,Skill,KgNone,Chocolate Perk (Class Only),,,,
 ScholarChocolatePerkDesc,progression,Skill,KgNone,Learn how to Craft and Farm Chocolate!  Scholar Class Exclusive,,,,
 birdNestFarming,progression,Skill,KgNone,Bird Nest Farming,,,,
 birdNestFarmingDesc,progression,Skill,KgNone,Learn how to craft this Bird Nest Tree.  Simply plant it and imagine the birds nesting on your little tree,,,,
-PistolSilencedPerk,progression,Skill,KgNone,Silenced Pistol Recipe,,,,
+PistolSilencedPerk,progression,Skill,KgNone,Silenced Pistol Recipe (Class Only),,,,
 silencedGunsPerkDesc,progression,Skill,KgNone,Silenced Guns Perks can only be purchased by the Covert Class,,,,
-sniperRifleSilenced,progression,Skill,KgNone,Silenced Sniper Rifle Recipe,,,,
-FAMASSilencedPerk,progression,Skill,KgNone,Silenced FAMAS Recipe,,,,
-tungstenBarsPerk,progression,Skill,KgNone,Tungsten Bars Recipe,,,,
+sniperRifleSilencedPerk,progression,Skill,KgNone,Silenced Sniper Rifle Recipe (Class Only),,,,
+FAMASSilencedPerk,progression,Skill,KgNone,Silenced FAMAS Recipe (Class Only),,,,
+tungstenBarsPerk,progression,Skill,KgNone,Tungsten Bars Recipe (Class Only),,,,
 tungstenBarsPerkDesc,progression,Skill,KgNone,Learn how to craft Tungsten Bars both Centered and Standard Versions.  Builder Class Exclusive,,,,
-advancedToolSmithingWorkstationSchematicPerk,progression,Skill,KgNone,Adv. Tool Smithing Workbench,,,,
+advancedToolSmithingWorkstationSchematicPerk,progression,Skill,KgNone,Adv. Tool Smithing Workbench (Class Only),,,,
 advancedToolSmithingWorkstationSchematicPerkDesc,progression,Skill,KgNone,Learn how to craft a Advanced Tool Smithing Workbench.  Tradesman Class Exclusive,,,,
-buildersWorkbenchSchematicPerk,progression,Skill,KgNone,Builders Workbench,,,,
+buildersWorkbenchSchematicPerk,progression,Skill,KgNone,Builders Workbench (Class Only),,,,
 buildersWorkbenchSchematicPerkDesc,progression,Skill,KgNone,Learn how to craft a Builders Workbench.  Builder Class Exclusive,,,,
-gunSmithingWorkstationPerk,progression,Skill,KgNone,Gun Smithing Workstation,,,,
+gunSmithingWorkstationPerk,progression,Skill,KgNone,Gun Smithing Workstation (Class Only),,,,
 gunSmithingWorkstationPerkDesc,progression,Skill,KgNone,Learn how to craft a Gun Smithing Workstation.  Marksman Class Exclusive,,,,
-blueprintWorkstationPerk,progression,Skill,KgNone,Blueprint Workstation,,,,
+blueprintWorkstationPerk,progression,Skill,KgNone,Blueprint Workstation (Class Only),,,,
 blueprintWorkstationPerkDesc,progression,Skill,KgNone,Learn how to craft a Blueprint Workstation.  Scholar Class Exclusive,,,,
-KevlarSchematicPerk,progression,Skill,KgNone,Kevlar Recipe,,,,
+KevlarSchematicPerk,progression,Skill,KgNone,Kevlar Recipe (Class Only),,,,
 KevlarSchematicPerkDesc,progression,Skill,KgNone,Learn how to craft Kevlar.  Protection Class Exclusive,,,,
-diamondTippedPickaxeSchematicPerk,progression,Skill,KgNone,Diamond Tipped Pickaxe,,,,
+diamondTippedPickaxeSchematicPerk,progression,Skill,KgNone,Diamond Tipped Pickaxe (Class Only),,,,
 schematicClassPerkGroupDesc,progression,Skill,KgNone,Reading the schematic found in the world will unlock this (Usually found in the class vending machine).  Cannot be purchased.  Class Exclusive,,,,
-diamondTippedFireaxeSchematicPerk,progression,Skill,KgNone,Diamond Tipped Fireaxe,,,,
-hdWrenchSchematicPerk,progression,Skill,KgNone,HD Wrench,,,,
-TraumaFirstAidBandageSchematicPerk,progression,Skill,KgNone,Trauma First Aid Bandage,,,,
-TraumaFirstAidKitSchematicPerk,progression,Skill,KgNone,Trauma First Aid Kit,,,,
-LongbowSchematicPerk,progression,Skill,KgNone,Longbow,,,,
-AdvancedSplintSchematicPerk,progression,Skill,KgNone,Advanced Splint,,,,
-ClubTungstenSchematicPerk,progression,Skill,KgNone,Tungsten Club,,,,
-TungstenMacheteSchematicPerk,progression,Skill,KgNone,Tungsten Machete,,,,
-GoldTippedKnifeBookPerk,progression,Skill,KgNone,Gold Tipped Knife,,,,
-GoldTippedMacheteSchematicPerk,progression,Skill,KgNone,Gold Tipped Machete,,,,
+diamondTippedFireaxeSchematicPerk,progression,Skill,KgNone,Diamond Tipped Fireaxe (Class Only),,,,
+hdWrenchSchematicPerk,progression,Skill,KgNone,HD Wrench (Class Only),,,,
+TraumaFirstAidBandageSchematicPerk,progression,Skill,KgNone,Trauma First Aid Bandage (Class Only),,,,
+TraumaFirstAidKitSchematicPerk,progression,Skill,KgNone,Trauma First Aid Kit (Class Only),,,,
+LongbowSchematicPerk,progression,Skill,KgNone,Longbow (Class Only),,,,
+AdvancedSplintSchematicPerk,progression,Skill,KgNone,Advanced Splint (Class Only),,,,
+ClubTungstenSchematicPerk,progression,Skill,KgNone,Tungsten Club (Class Only),,,,
+TungstenMacheteSchematicPerk,progression,Skill,KgNone,Tungsten Machete (Class Only),,,,
+GoldTippedKnifeBookPerk,progression,Skill,KgNone,Gold Tipped Knife (Class Only),,,,
+GoldTippedMacheteSchematicPerk,progression,Skill,KgNone,Gold Tipped Machete (Class Only),,,,
 TailoringPonchoPerk,progression,Skill,KgNone,Tailoring - Poncho,,,,
 TailoringLeatherDusterPerk,progression,Skill,KgNone,Tailoring - Leather Duster,,,,
 TailoringPufferCoatPerk,progression,Skill,KgNone,Tailoring - Puffer Coat,,,,
 TailoringLightCoatPerk,progression,Skill,KgNone,Tailoring - Light Coat,,,,
-powerpoletopRecipePerk,progression,Skill,KgNone,Power Pole Top,,,,
-nightvisionGogglesSchematicPerk,progression,Skill,KgNone,Night Vision Goggles,,,,
-lockpickDoorSchematicPerk,progression,Skill,KgNone,Door Lockpick,,,,
-lockpickSafeSchematicPerk,progression,Skill,KgNone,Safe Lockpick,,,,
-silverBootsSchematicPerk,progression,Skill,KgNone,Silver Boots,,,,
-silverPantsSchematicPerk,progression,Skill,KgNone,Silver Leg Armor,,,,
-silverJacketSchematicPerk,progression,Skill,KgNone,Silver Chest Armor,,,,
-silverHatSchematicPerk,progression,Skill,KgNone,Silver Helmet,,,,
-silverGlovesSchematicPerk,progression,Skill,KgNone,Silver Gloves,,,,
+powerpoletopRecipePerk,progression,Skill,KgNone,Power Pole Top (Class Only),,,,
+nightvisionGogglesSchematicPerk,progression,Skill,KgNone,Night Vision Goggles (Class Only),,,,
+lockpickDoorSchematicPerk,progression,Skill,KgNone,Door Lockpick (Class Only),,,,
+lockpickSafeSchematicPerk,progression,Skill,KgNone,Safe Lockpick (Class Only),,,,
+silverBootsSchematicPerk,progression,Skill,KgNone,Silver Boots (Class Only),,,,
+silverPantsSchematicPerk,progression,Skill,KgNone,Silver Leg Armor (Class Only),,,,
+silverJacketSchematicPerk,progression,Skill,KgNone,Silver Chest Armor (Class Only),,,,
+silverHatSchematicPerk,progression,Skill,KgNone,Silver Helmet (Class Only),,,,
+silverGlovesSchematicPerk,progression,Skill,KgNone,Silver Gloves (Class Only),,,,
 ClassBuilderMaster,progression,Skill,KgNone,Builder Class - Master,,,,
 ClassSurvivalistMaster,progression,Skill,KgNone,Survivalist Class - Master,,,,
 ClassScholarMaster,progression,Skill,KgNone,Scholar Class - Master,,,,
@@ -6521,9 +6521,9 @@ classFragmentElectricianA,items,Item,KgNone,Electrician Class Fragment (A),,,,
 classFragmentElectricianB,items,Item,KgNone,Electrician Class Fragment (B),,,,
 classFragmentElectricianC,items,Item,KgNone,Electrician Class Fragment (C),,,,
 ClassPaperElectrician,items,Item,KgNone,Electrician Class Paper,,,,
-compoundBowPartsPerk,progression,Skill,KgNone,Compound Bow Parts,,,,
+compoundBowPartsPerk,progression,Skill,KgNone,Compound Bow Parts (Class Only),,,,
 compoundBowPartsPerkDesc,progression,Skill,KgNone,"Learn how to craft Compound Bow Parts.  Marksman Class Exclusive",,,,
-tungstenConstruction,progression,Skill,KgNone,Tungsten Construction,,,,
+tungstenConstruction,progression,Skill,KgNone,Tungsten Construction (Class Only),,,,
 tungstenConstructionDesc,progression,Skill,KgNone,"Learn how to craft Tungsten Frames. Builder Class Exclusive",,,,
 archerMastery,progression,Skill,KgNone,Master Archer,,,,
 archerMasteryDesc,progression,Skill,KgNone,"Master the skills at archery even further",,,,
@@ -6572,16 +6572,16 @@ MagazineQuickerCrafting,items,Item,KgNone,Magazine - Quicker Crafting,,,,
 cntLootBGGJoe,blocks,Block,KgNone,<BGG> Joe Storage Chest,,,,
 cntLootBGGMatt,blocks,Block,KgNone,<BGG> Matt Storage Chest,,,,
 ClassFighterVendingMachine,blocks,Block,KgNone,Fighter Class Vending Machine,,,,
-storageCrateContainers,progression,Skill,KgNone,Storage Crate Containers,,,,
+storageCrateContainers,progression,Skill,KgNone,Storage Crate Containers (Class Only),,,,
 mineDefusalKit,items,Item,KgNone,Mine Defusal Kit,,,,
 mineDefusalKitDesc,items,Item,KgNone,"Equip to your toolbar and use secondary action key while aiming at a mine to defuse it.  Then Pick up to re-craft into a mine.  Covert Class Exclusive [Crafted at Forge with Anvil]",,,,
 mineDefusalKitSchematicPerk,progression,Skill,KgNone,Mine Defusal Kit Schematic,,,,
 mineDefusalKitSchematicPerkDesc,progression,Skill,KgNone,"Learn how to craft a Mine Defusal Kit that can difuse Land Mines.  Exclusive to Covert Class",,,,
 MinibikesForSmartshitsPerkDesc,progression,Skill,KgNone,"Learn how to craft ECO Minibike Parts.  Exclusive to Builder Class",,,,
 MinibikesForToughshitsPerkDesc,progression,Skill,KgNone,"Learn how to craft HD Minibike Parts.  Exclusive to Builder Class",,,,
-carBatteriesPerk,progression,Skill,KgNone,Battery Recipes,,,,
+carBatteriesPerk,progression,Skill,KgNone,Battery Recipes (Class Only),,,,
 carBatteriesPerkDesc,progression,Skill,KgNone,"Learn how to craft all versions of Batteries.  Exclusive to Builder Class",,,,
-carEnginesPerk,progression,Skill,KgNone,Engine Recipes,,,,
+carEnginesPerk,progression,Skill,KgNone,Engine Recipes (Class Only),,,,
 carEnginesPerkDesc,progression,Skill,KgNone,"Learn how to craft all versions of Engines.  Exclusive to Builder Class",,,,
 silverHelmetLight,items,Item,KgNone,Silver Helmet (Light),,,,
 DroppedLootContainer,entityclasses,Entity,KgNone,Dropped Loot Container,,,,
@@ -6598,3 +6598,56 @@ condoms,items,Item,KgNone,Condoms,,,,
 condomsDesc,items,Item,KgNone,"A box of 40 premium latex condoms.  If found please return to SOM3D1CK",,,,
 Quest_TraderLocation,items,Item,KgNone,Quest - Trader Located,,,,
 Quest_TraderLocationDesc,items,Item,KgNone,"Locate a Trader near you",,,,
+ballCapBGGLight,items,Item,KgNone,BGG Hat (Light),,,,
+concreteConstruction,items,progression,Skill,KgNone,Concrete Construction (Class Only),,,,
+armorSmithingWorkstationPerk,progression,Skill,KgNone,Armor Smithing Workbench (Class Only),,,,
+comfortableSleeping,progression,Skill,KgNone,Comfortable Sleeping (Class Only),,,,
+vaultDoorPerk,progression,Skill,KgNone,Vault Door (Class Only),,,,
+vaultHatchPerk,progression,Skill,KgNone,Vault Hatch (Class Only),,,,
+MinibikesForSmartshitsPerk,progression,Skill,KgNone,Minibikes For Smartshits (Class Only),,,,
+MinibikesForToughshitsPerk,progression,Skill,KgNone,Minibikes For Toughshits (Class Only),,,,
+VitaminsPerk,progression,Skill,KgNone,Vitamins (Class Only),,,,
+healthDeployPerk,progression,Skill,KgNone,Health Deploy (Class Only),,,,
+speedTrapRecipesPerk,progression,Skill,KgNone,Speed Trap Recipes (Class Only),,,,
+greenTeaRecipePerk,progression,Skill,KgNone,Green Tea Recipe (Class Only),,,,
+pistolPartsRecipePerk,progression,Skill,KgNone,Pistol Parts Recipe (Class Only),,,,
+pistolAttachmentsRecipesPerk,progression,Skill,KgNone,Pistol Attachments Recipes (Class Only),,,,
+huntingRiflePartsRecipePerk,progression,Skill,KgNone,Hunting Rifle Parts Recipe (Class Only),,,,
+sawedOffPumpShotgunPartsRecipePerk,progression,Skill,KgNone,SawedOff Pump Shotgun Parts Recipe (Class Only),,,,
+remington8RecipePerk,progression,Skill,KgNone,Remington8 Recipe (Class Only),,,,
+remington8PartsRecipePerk,progression,Skill,KgNone,Remington8 Parts Recipe (Class Only),,,,
+remington8AttachmentsRecipes,progression,Skill,KgNone,Remington8 Attachments Recipes (Class Only),,,,
+desertEagleRecipePerk,progression,Skill,KgNone,Desert Eagle Recipe (Class Only),,,,
+desertEaglePartsRecipePerk,progression,Skill,Desert Eagle Parts Recipe (Class Only),,,,
+44MagnumPartsRecipePerk,progression,Skill,KgNone,44 Magnum Parts Recipe (Class Only),,,,
+MP5PartsRecipePerk,progression,Skill,KgNone,MP5 Parts Recipe (Class Only),,,,
+sniperRiflePartsRecipePerk,progression,Skill,KgNone,Sniper Rifle Parts Recipe (Class Only),,,,
+sniperRifleAttachmentsRecipesPerk,progression,Skill,KgNone,Sniper Rifle Attachments Recipes (Class Only),,,,
+FAMASRecipePerk,progression,Skill,KgNone,FAMAS Recipe (Class Only),,,,
+FAMASPartsRecipePerk,progression,Skill,KgNone,FAMAS Parts Recipe (Class Only),,,,
+FAMASAttachmentsRecipesPerk,progression,Skill,KgNone,FAMAS Attachments Recipes (Class Only),,,,
+AK47PartsRecipePerk,progression,Skill,KgNone,AK47 Parts Recipe (Class Only),,,,
+AK47AttachmentsRecipesPerk,progression,Skill,KgNone,AK47 Attachments Recipes (Class Only),,,,
+barettaShotgunRecipePerk,progression,Skill,KgNone,Baretta Shotgun Recipe (Class Only),,,,
+barettaShotgunPartsRecipePerk,progression,Skill,KgNone,Baretta Shotgun Parts Recipe (Class Only),,,,
+M25SniperRifleRecipePerk,progression,Skill,KgNone,M25 Sniper Rifle Recipe (Class Only),,,,
+M25SniperRiflePartsRecipePerk,progression,Skill,KgNone,M25 Sniper Rifle Parts Recipe (Class Only),,,,
+M25SniperRifleAttachmentsRecipesPerk,progression,Skill,KgNone,M25 Sniper Rifle Attachments Recipes (Class Only),,,,
+RocketLauncherPartsRecipePerk,progression,Skill,KgNone,Rocket Launcher Parts Recipe (Class Only),,,,
+SteelSmithingClassPerk,progression,Skill,KgNone,Steel Smithing (Class Only),,,,
+steelSmithingClassDesc,progression,Skill,EnChanged,"Tradesman Class Early Access to Steel smithing. Upgrade the forge with a crucible to create steel ingots and bulletproof glass.",,,,
+armorSmithingWorkstation,progression,Skill,KgNone,Armor Smithing Workstation (Class Only),,,,
+tungstenToolCraftingPerk,progression,Skill,KgNone,Tungsten Tool Crafting (Class Only),,,,
+ECOAugerRecipePerk,progression,Skill,KgNone,ECO Auger Recipe (Class Only),,,,
+HDAugerRecipePerk,progression,Skill,KgNone,HD Auger Recipe (Class Only),,,,
+ECOChainsawRecipePerk,progression,Skill,KgNone,ECO Chainsaw Recipe (Class Only),,,,
+HDChainsawRecipePerk,progression,Skill,KgNone,HD Chainsaw Recipe (Class Only),,,,
+kevlarArmorPerk,progression,Skill,KgNone,Kevlar Armor (Class Only),,,,
+ironArmorPerk,progression,Skill,KgNone,Iron Armor (Class Only),,,,
+steelArmorPerk,progression,Skill,KgNone,Steel Armor (Class Only),,,,
+militaryArmorPerk,progression,Skill,KgNone,Military Armor (Class Only),,,,
+hazmatArmorPerk,progression,Skill,KgNone,Hazmat Armor (Class Only),,,,
+tungstenArmorPerk,progression,Skill,KgNone,Tungsten Armor (Class Only),,,,
+
+
+

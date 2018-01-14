@@ -3718,7 +3718,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="forgedIron" value="10"/> </property>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="cntDeskSafeInsecure"/>
-		<property name="Item" value="lockPick"/>
+		<property name="Item" value="lockPickSafe"/>
 		<property name="ItemCount" value="1"/>
 		<property name="UpgradeHitCount" value="8"/>
 	</property>
@@ -3745,7 +3745,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="forgedIron" value="10"/> </property>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="cntWallSafeInsecure"/>
-		<property name="Item" value="lockPick"/>
+		<property name="Item" value="lockPickSafe"/>
 		<property name="ItemCount" value="1"/>
 		<property name="UpgradeHitCount" value="8"/>
 	</property>
@@ -6601,7 +6601,7 @@ kind of free
 	<property name="LootList" value="42"/>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="cntGunSafeInsecure"/>
-		<property name="Item" value="lockPick"/>
+		<property name="Item" value="lockPickSafe"/>
 		<property name="ItemCount" value="1"/>
 		<property name="UpgradeHitCount" value="12"/>
 	</property>
@@ -11948,6 +11948,7 @@ kind of free
 	<property name="LootList" value="134" />
 </block>
 
+<!-- To Be Removed Below -->
 <block id="1081" name="cntScholarCrate">
 	<property name="CustomIcon" value="cntStorageFood" />
 	<property name="Material" value="wood" />
@@ -12000,7 +12001,7 @@ kind of free
 	<property name="Class" value="Loot" />
 	<property name="Material" value="wood" />
 	<property name="Texture" value="241,419,419,419,419,419" />
-	<property name="LootList" value="137" />
+	<property name="LootList" value="10" />
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
 	<drop event="Destroy" name="wood" count="2,8" />
 </block>
@@ -14834,6 +14835,7 @@ kind of free
 </block>
 
 <block id="1389" name="hangingMoss">
+	<property name="CustomIcon" value="hangingMossIcon"/>
 	<property name="Material" value="cloth"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="ImposterDontBlock" value="true"/>

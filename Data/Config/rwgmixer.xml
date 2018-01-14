@@ -713,7 +713,6 @@
 			<prefab name="dwalls_Farm_Apple" max_count="1" />
 			<prefab name="dwalls_Farm_Blackberry" max_count="1" />	
 			<prefab name="dwalls_Farm_Strawberry" max_count="1" />
-			<prefab name="Sly_Ship" max_count="1" />	
 		</prefab_rule>
 
 
@@ -755,7 +754,7 @@
 			<prefab name="dwalls_House_Log2" max_count="1" />
 			<prefab name="dwalls_House_Tree1" max_count="1" />
 			<prefab rule="AframeHouses" max_count="1" />
-			<prefab name="Sly_Ship" max_count="1" />
+			<prefab name="Sly_Ship" max_count="1" prob="0.35" />
 			<prefab name="dwalls_Store_Class" max_count="1" />
 		</prefab_rule>		
 
@@ -782,7 +781,7 @@
 			<prefab name="junkyard_lg_01" max_count="1" prob="0.1" />
 			<prefab name="xcostum_TheMill(by_MoNKeYest1)" max_count="1" prob="0.1" />
 			<prefab name="xcostum_Rangercabin(by_Guppycur)" max_count="1" prob="0.2" />	
-			<prefab name="Sly_Ship" max_count="1" />			
+			<prefab name="Sly_Ship" max_count="1" prob="0.35" />			
 		</prefab_rule>
 		
 		<prefab_rule name="W_POIs_common_Set_C">
@@ -808,7 +807,7 @@
 			<prefab name="dwalls_House_Log1" max_count="1" />
 			<prefab name="dwalls_House_Log2" max_count="1" />
 			<prefab name="dwalls_House_Tree1" max_count="1" />
-			<prefab name="Sly_Ship" max_count="1" />
+			<prefab name="Sly_Ship" max_count="1" prob="0.35" />
 		</prefab_rule>
 
 		
