@@ -1973,6 +1973,7 @@
 	<item name="cloth" count="1,4"/>
 	<item name="oil" count="1,3"/>
 	<item name="glue" count="1"/>
+	<item name="dwallsPornStash" prob="0.1"/>
 	<item name="painkillers" count="1,2"/>
 	<item name="cigar" count="1" prob="0.1"/>
 	<item group="cosmeticsPlasticParts" count="1,2" prob="0.2"/>
@@ -1982,6 +1983,7 @@
 	<item name="candyTin"/>
 	<item name="canEmpty" count="1"/>
 	<item name="paper" count="1,6" prob="0.7"/>
+	<item name="dwallsPornStash" prob="0.1"/>
 	<item name="oldCash" count="1,6" prob="0.3"/>
 	<item group="trophyGroup"/>
 	<item name="candleStick"/>

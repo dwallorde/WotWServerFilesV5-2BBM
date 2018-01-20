@@ -6599,7 +6599,7 @@ condomsDesc,items,Item,KgNone,"A box of 40 premium latex condoms.  If found plea
 Quest_TraderLocation,items,Item,KgNone,Quest - Trader Located,,,,
 Quest_TraderLocationDesc,items,Item,KgNone,"Locate a Trader near you",,,,
 ballCapBGGLight,items,Item,KgNone,BGG Hat (Light),,,,
-concreteConstruction,items,progression,Skill,KgNone,Concrete Construction (Class Only),,,,
+concreteConstruction,progression,Skill,KgNone,Concrete Construction (Class Only),,,,
 armorSmithingWorkstationPerk,progression,Skill,KgNone,Armor Smithing Workbench (Class Only),,,,
 comfortableSleeping,progression,Skill,KgNone,Comfortable Sleeping (Class Only),,,,
 vaultDoorPerk,progression,Skill,KgNone,Vault Door (Class Only),,,,
@@ -6648,6 +6648,10 @@ steelArmorPerk,progression,Skill,KgNone,Steel Armor (Class Only),,,,
 militaryArmorPerk,progression,Skill,KgNone,Military Armor (Class Only),,,,
 hazmatArmorPerk,progression,Skill,KgNone,Hazmat Armor (Class Only),,,,
 tungstenArmorPerk,progression,Skill,KgNone,Tungsten Armor (Class Only),,,,
+BarterTradesmanClassBonus,progression,Skill,KgNone,Barter (Tradesman Bonus),,,,
+BarterTradesmanClassBonusDesc,progression,Skill,KgNone,Additional reduction in cost when buying and more dukes for selling.  Exclusive to Tradesman Class,,,,
+dwallsPornStash,items,Item,KgNone,Porn Stash,,,,
+dwallsPornStashDesc,items,Item,KgNone,A fat stack of adult magazines.  Please return to Dwallorde unused if found,,,,
 
 
 

@@ -1525,7 +1525,7 @@
 		</effect>
 	</player_skill>
 	
-	<player_skill name="Barter(TradesmanClassBonus)" max_level="3" skill_point_cost_multiplier="1.23" skill_point_cost_per_level="4" icon="coin" description_key="barterDesc" title_key="barter" group="scavenging" exp_gain_multiplier="0.5">
+	<player_skill name="Barter(TradesmanClassBonus)" max_level="3" skill_point_cost_multiplier="1.23" skill_point_cost_per_level="4" icon="coin" description_key="BarterTradesmanClassBonusDesc" title_key="BarterTradesmanClassBonus" group="scavenging" exp_gain_multiplier="0.5">
 		<requirement perk_level="1" required_skill_name="Barter" required_skill_level="100"/>
 		<requirement perk_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1"/>
 		<effect name="Bartering">

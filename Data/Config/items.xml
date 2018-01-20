@@ -6262,7 +6262,7 @@ Mesh files no longer used:
 		<property name="Gain_water" value="0"/>
 		<property name="Sound_start" value="player_blooddraw"/>
 		<property name="Buff" value="bloodDrawTrigger,lossImmunity_small_Trigger"/>
-		<property name="Consume" value="false"/>
+		<property name="Consume" value="true"/>
 		<property name="Create_item" value="bloodBag"/>
 	</property>
 	<property name="ActionSkillGroup" value="Medicine"/>
@@ -19397,6 +19397,17 @@ Mesh files no longer used:
 		<property name="Overlay0Tint" value="0,0,0"/>
 	</property>
 	<property name="LightValue" value="0.7"/>
+</item>
+
+<item id="2110" name="dwallsPornStash">
+	<property name="CustomIcon" value="dwallsPornStash"/>
+	<property name="Meshfile" value="Items/Misc/Book"/>
+	<property name="Material" value="paper"/>
+	<property name="HoldType" value="21"/>
+	<property name="Stacknumber" value="50"/>
+	<property name="FuelValue" value="20"/>
+	<property name="Weight" value="60"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
 </item>
 
 </items>

@@ -2140,29 +2140,29 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="clayLump" count="900"/>
 </recipe>
 
-<recipe name="stone" count="1" craft_area="cementMixer">
+<recipe name="stone" count="1" craft_area="cementMixer" craft_time="2">
 	<ingredient name="crushedSand" count="10"/>
 	<ingredient name="rockSmall" count="18"/>
 	<ingredient name="cement" count="4"/>
 </recipe>
 
-<recipe name="snow" count="1" craft_exp_gain="0">
+<recipe name="snow" count="1" craft_exp_gain="0" craft_time="1">
 	<ingredient name="snowBall" count="12"/>
 </recipe>
 
-<recipe name="crushedSand" count="1" craft_area="cementMixer">
+<recipe name="crushedSand" count="1" craft_area="cementMixer" craft_time="1">
 	<ingredient name="rockSmall" count="1"/>
 </recipe>
 
-<recipe name="sand" count="1" craft_area="cementMixer">
+<recipe name="sand" count="1" craft_area="cementMixer" craft_time="1">
 	<ingredient name="crushedSand" count="12"/>
 </recipe>
 
-<recipe name="sand" count="1">
+<recipe name="sand" count="1" craft_time="1">
 	<ingredient name="crushedSand" count="12"/>
 </recipe>
 
-<recipe name="asphalt" count="1" craft_area="cementMixer">
+<recipe name="asphalt" count="1" craft_area="cementMixer" craft_time="3">
 	<ingredient name="crushedSand" count="8"/>
 	<ingredient name="rockSmall" count="17"/>
 	<ingredient name="oilShale" count="5"/>
@@ -2172,29 +2172,29 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="rockSmall" count="18"/>
 </recipe>
 
-<recipe name="forestGround" count="1">
+<recipe name="forestGround" count="1" craft_time="2">
 	<ingredient name="dirtFragment" count="12"/>
 </recipe>
 
-<recipe name="burntForestGround" count="1">
+<recipe name="burntForestGround" count="1" craft_time="2">
 	<ingredient name="dirtFragment" count="12"/>
 </recipe>
 
-<recipe name="grass" count="1">
+<recipe name="grass" count="1" craft_time="2">
 	<ingredient name="dirtFragment" count="12"/>
 </recipe>
 
-<recipe name="gravel" count="1" craft_area="cementMixer">
+<recipe name="gravel" count="1" craft_area="cementMixer" craft_time="1">
 	<ingredient name="crushedSand" count="10"/>
 	<ingredient name="rockSmall" count="10"/>
 </recipe>
 
-<recipe name="gravel" count="1">
+<recipe name="gravel" count="1" craft_time="1">
 	<ingredient name="crushedSand" count="10"/>
 	<ingredient name="rockSmall" count="10"/>
 </recipe>
 
-<recipe name="plainsGround" count="1">
+<recipe name="plainsGround" count="1" craft_time="2">
 	<ingredient name="dirtFragment" count="12"/>
 </recipe>
 
