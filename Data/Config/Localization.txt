@@ -1256,7 +1256,7 @@ armyPants,items,Clothes,KgNone,BDU Bottoms,Bas d'uniforme militaire,Kampfanzug (
 armyShirt,items,Clothes,KgNone,BDU Top,Haut d'uniforme militaire,Kampfanzug (Oberteil),,Parte superior de un uniforme de combate
 aviatorGoggles,items,Clothes,KgNone,Aviator Goggles,Lunettes d'aviateur,Fliegerbrille,,Gafas de aviador
 aviatorGogglesDesc,items,Clothes,KgNone,Aviator goggles provide a little face protection and make you look really cool.,Les lunettes d'aviateur protègent légèrement le visage et vous donnent l'air vachement cool.,Fliegerbrillen bieten ein wenig Schutz für das Gesicht und lassen dich richtig cool aussehen.,,Las gafas de aviador proporcionan algo de protección facial y también te hacen ver muy cool.
-ballCapDesc,items,Clothes,KgNone,A baseball cap provides limited warmth and defense against other damage types.\n [ Crafted in Clothing Workstation. ],Une casquette de baseball offrant un minimum de chaleur et de défense contre d'autres sortes de dégâts.,Die Baseballmütze schützt nur leicht vor Kälte und andere Schadensarten.,,La gorra de béisbol proporciona un poco de calor y protección contra otros tipos de daño.
+ballCapDesc,items,Clothes,KgNone,A baseball cap provides limited warmth and defense against other damage types.,Une casquette de baseball offrant un minimum de chaleur et de défense contre d'autres sortes de dégâts.,Die Baseballmütze schützt nur leicht vor Kälte und andere Schadensarten.,,La gorra de béisbol proporciona un poco de calor y protección contra otros tipos de daño.
 bandana,items,Clothes,KgNone,Bandana,Bandana,Halstuch,,Bandana
 bandanaBlack,items,Clothes,KgNone,Black Bandana,Bandana noir,Schwarzes Halstuch,,Bandana negra
 bandanaBlue,items,Clothes,KgNone,Blue Bandana,Bandana bleu,Blaues Halstuch,,Bandana azul
@@ -1361,7 +1361,7 @@ skullCap,items,Clothes,KgNone,Skull Cap,Bonnet,Mütze,,Casquete
 skullCapBlack,items,Clothes,KgNone,Black Skull Cap,Bonnet noir,Schwarze Mütze,,Casquete negro
 skullCapBlue,items,Clothes,KgNone,Blue Skull Cap,Bonnet bleu,Blaue Mütze,,Casquete azul
 skullCapBrown,items,Clothes,KgNone,Brown Skull Cap,Bonnet marron,Braune Mütze,,Casquete marrón
-skullCapDesc,items,Clothes,KgNone,This finely woven piece of headgear will make you wish every day was the first day of winter!\n [ Crafted in Clothing Workstation. ],Ce couvre-chef ouvragé vous fera souhaiter que ce soit tous les jours le premier jour de l'hiver !,"Mit dieser feinmaschigen Kopfbedeckung wirst du dir wünschen, dass der Winter nie endet!",,¡Este magnífico gorro de lana hará que desees que todos los días sean el primer día del invierno!
+skullCapDesc,items,Clothes,KgNone,This finely woven piece of headgear will make you wish every day was the first day of winter!,Ce couvre-chef ouvragé vous fera souhaiter que ce soit tous les jours le premier jour de l'hiver !,"Mit dieser feinmaschigen Kopfbedeckung wirst du dir wünschen, dass der Winter nie endet!",,¡Este magnífico gorro de lana hará que desees que todos los días sean el primer día del invierno!
 skullCapGreen,items,Clothes,KgNone,Green Skull Cap,Bonnet vert,Grüne Mütze,,Casquete verde
 skullCapRed,items,Clothes,KgNone,Red Skull Cap,Bonnet rouge,Rote Mütze,,Casquete rojo
 swatHelmet,items,Clothes,KgNone,SWAT Helmet,Casque du SWAT,SWAT-Helm,,Casco de SWAT
@@ -1546,7 +1546,7 @@ bulletCasingDesc,items,Item,KgNone,Bullet casings can be crafted at the forge af
 bulletTip,items,Item,KgNone,Bullet Tip,Pointe de balle,Geschossspitze,,Punta de bala
 bulletTipDesc,items,Item,KgNone,Bullet tips can be crafted at the forge after buying an ammo perk and are used to craft firearm ammunition.\n [ Crafted in Forge with a Anvil and Weapon Smithing Workstation Schematic with a Anvil. ],Les pointes de balle peuvent être fabriquées à la forge après avoir acheté un avantage de munitions et servent à fabriquer des munitions pour arme à feu.,"Nachdem eine Munitions-Fertigkeit erworben wurde, können Geschossspitzen in der Schmiede gefertigt werden. Mit ihnen kann dann Munition für Schusswaffen gefertigt werden.",,Se pueden fabricar puntas de balas en la fragua tras comprar un beneficio de munición
 calipers,items,Item,KgNone,Calipers,Pied à coulisse,Messschieber,,Calibrador
-calipersDesc,items,Item,KgNone,A tool used in the forge to unlock recipes.,Un outil permettant de déverrouiller des compositions dans la forge.,"Ein Werkzeug, mit dem in der Schmiede Rezepte freigeschaltet werden.",,Una herramienta de la fragua para desbloquear recetas.
+calipersDesc,items,Item,KgNone,"A tool used in the Gun Smithing Workstation or Blueprint Workstation",Un outil permettant de déverrouiller des compositions dans la forge.,"Ein Werkzeug, mit dem in der Schmiede Rezepte freigeschaltet werden.",,Una herramienta de la fragua para desbloquear recetas.
 candle,items,Item,KgNone,Candle,Bougie,Kerze,,Vela
 candleDesc,items,Item,New,A tallow candle can be carried as a light source or placed on walls. This might attract zombies.,Une bougie faite de suif et de fibres végétales peut être transportée ou placée comme source de lumière.,Eine Talg-Kerze kann als Lichtquelle getragen oder an Wänden plaziert werden. Dies kann Zombies anziehen.,,Se puede llevar o colocar una vela hecha de sebo y fibra vegetal para usarla como fuente de luz.
 candleStick,items,Item,KgNone,Brass Candlestick,Bougeoir en laiton,Kerzenhalter aus Messing,,Candelabro de latón
@@ -1556,7 +1556,7 @@ candyTinDesc,items,Item,KgNone,Grandma's candy tin. Good for scrapping or a perf
 canEmpty,items,Item,KgNone,Empty Can,Conserve vide,Leere Dose,,Lata vacía
 canEmptyDesc,items,Item,KgNone,An empty can which you can scrap or fill with water.,Une conserve vide que vous pouvez recycler ou remplir d'eau.,"Eine leere Dose, die zerlegt oder mit Wasser gefüllt werden kann.",,Una lata vacía que puedes desechar o llenar de agua.
 carBattery,items,Item,KgNone,Lead Car Battery,Batterie de voiture en plomb,Bleibatterie für Autos,,Batería de coche de plomo
-carBatteryDesc,items,Item,KgNone,"Car batteries can be used in vehicles, scrapped for lead in your backpack or smelted at the forge for lead.","Les batteries de voiture peuvent être utilisées sur les véhicules, recyclées en plomb dans votre sac à dos ou fondues dans la forge pour obtenir du plomb.","Autobatterien können für Fahrzeuge benutzt, für Blei im Rucksack zerlegt oder in der Schmiede eingeschmolzen werden.",,"Las baterías de coche se pueden usar en vehículos, despedazar para tener plomo en tu mochila o fundir en la fragua para obtener plomo."
+carBatteryDesc,items,Item,KgNone,"Car batteries can be used in vehicles, scrapped for lead in your backpack or smelted at the forge for lead.\n[ Crafted at Advanced Tool Workbench ]","Les batteries de voiture peuvent être utilisées sur les véhicules, recyclées en plomb dans votre sac à dos ou fondues dans la forge pour obtenir du plomb.","Autobatterien können für Fahrzeuge benutzt, für Blei im Rucksack zerlegt oder in der Schmiede eingeschmolzen werden.",,"Las baterías de coche se pueden usar en vehículos, despedazar para tener plomo en tu mochila o fundir en la fragua para obtener plomo."
 casinoCoin,items,Item,KgNone,Duke's Casino Token,Jeton du Duke's Casino,Jeton aus Dukes Kasino,,Ficha del casino de Duke
 casinoCoinDesc,items,Item,KgNone,A Duke's casino coin. After the epidemic and war it became the main currency for trading in Navezgane.,"Une pièce du Duke's Casino. Après l'épidémie et la guerre, ces pièces sont devenues la monnaie principale de Navezgane.",Ein Jeton aus Dukes Kasino. Nach der Seuche und dem Krieg wurden diese Jetons zur Hauptwährung in Navezgane.,,Una moneda del casino de Duke. Se convirtió en la moneda principal para comerciar en Navezgane tras la epidemia y la guerra.
 cement,items,Item,KgNone,Cement,Ciment,Zement,,Cemento
@@ -1702,6 +1702,7 @@ minibikeHandlebars,items,Part,KgNone,Minibike Handlebars,Guidon de mini-moto,Tas
 minibikePartsGroupDesc,items,Part,KgNone,A part of the minibike. Assemble with other parts and set into a placed chassis once you've read the schematic.,Une pièce de la mini-moto. À assembler à d'autres pièces pour constituer le châssis une fois que vous avez lu le schéma.,"Ein Teil von einem Taschenmotorrad. Setze es mit den anderen Teilen zusammen und platziere es in ein Fahrwerk, wenn du den Bauplan gelesen hast.",,"Una parte de una minimoto. Una vez que has leído el esquema, ármala con otras partes e introdúcelas en un chasis."
 minibikeSeat,items,Part,KgNone,Minibike Seat,Siège de mini-moto,Taschenmotorrad-Sitzbank,,Asiento de la minimoto
 minibikeWheels,items,Part,KgNone,Minibike Wheels,Roues de mini-moto,Taschenmotorrad-Räder,,Ruedas de la minimoto
+minibikeWheelsDesc,items,Part,KgNone,"A part of the minibike. Assemble with other parts and set into a placed chassis once you've read the schematic.\n[ Crated at Advanced Tool Workbench ]",,,,
 padlock,items,Part,KgNone,Padlock,Cadenas,Vorhängeschloss,,Candado
 padlockDesc,items,Part,KgNone,A padlock can be used to protect vehicles from theft.\n [ Crafted in Workbench. ],Un cadenas peut servir à empêcher le vol de certains véhicules.,"Ein Vorhängeschloss, mit dem Fahrzeuge gegen Diebstahl geschützt werden können.",,El candado se puede utilizar para evitar que los vehículos sean robados.
 parts44Magnum_cylinder,items,Part,KgNone,.44 Magnum Cylinder,Barillet de .44 magnum,.44 Magnum Trommel,,Cilindro de Magnum 44
@@ -1756,9 +1757,9 @@ partsSniperRifle_receiver,items,Part,KgNone,Sniper Rifle Receiver,Carcasse de fu
 partsSniperRifle_stock,items,Part,KgNone,Sniper Rifle Stock,Crosse de fusil de précision,Scharfschützengewehrschaft,,Cantonera de rifle de francotirador
 partsSniperRifleGroupDesc,items,Part,KgNone,A part of the sniper rifle. Assemble with other parts to create a complete sniper rifle once you've read the schematic.,Une pièce de fusil de précision. À assembler à d'autres pièces pour fabriquer un fusil de précision une fois que vous avez lu le schéma.,"Ein Teil von einem Scharfschützengewehr. Setze es mit den anderen Teilen zu einem Scharfschützengewehr zusammen, wenn du den Bauplan gelesen hast.",,"Una parte de un rifle de francotirador. Una vez que has leído el esquema, ármala con otras partes para crear un rifle de francotirador completo."
 shoppingBasketItem,items,Part,KgNone,Shopping Basket,Panier à provisions,Einkaufskorb,,Cesto de compras
-shoppingBasketItemDesc,items,Part,KgNone,A shopping basket can be used to add storage to minibikes.\n [ Crafted in Workbench. ],Un panier à provisions permet d'ajouter un espace de stockage aux mini-motos.,Ein Einkaufskorb für mehr Platz auf dem Taschenmotorrad.,,Se puede usar un cesto de compras para agregar un espacio de almacenamiento a las minimotos.
+shoppingBasketItemDesc,items,Part,KgNone,A shopping basket can be used to add storage to minibikes.\n[ Crafted at Advanced Tool Workbench ],Un panier à provisions permet d'ajouter un espace de stockage aux mini-motos.,Ein Einkaufskorb für mehr Platz auf dem Taschenmotorrad.,,Se puede usar un cesto de compras para agregar un espacio de almacenamiento a las minimotos.
 smallEngine,items,Part,KgNone,Small Engine,Petit moteur,Kleiner Motor,,Motor pequeño
-smallEngineDesc,items,Part,KgNone,"A common part for a chainsaw, auger or minibike. Can be used to make these items once you've read the schematic.","Une pièce commune aux tronçonneuses, foreuses et mini-motos. Sert à fabriquer ces objets une fois que vous avez lu le schéma.","Ein gewöhnliches Teil einer Kettensäge, eines Erdbohrers oder eines Taschenmotorrads. Kann verwendet werden, um diese Gegenstände zu fertigen, wenn du den richtigen Bauplan gelesen hast.",,"Una parte común de las motosierras, los taladros y las minimotos. Una vez que hayas leído el esquema, úsala para crear estos objetos."
+smallEngineDesc,items,Part,KgNone,"A common part for a chainsaw, auger or minibike. Can be used to make these items once you've read the schematic.\n[ Crated at Advanced Tool Workbench ]","Une pièce commune aux tronçonneuses, foreuses et mini-motos. Sert à fabriquer ces objets une fois que vous avez lu le schéma.","Ein gewöhnliches Teil einer Kettensäge, eines Erdbohrers oder eines Taschenmotorrads. Kann verwendet werden, um diese Gegenstände zu fertigen, wenn du den richtigen Bauplan gelesen hast.",,"Una parte común de las motosierras, los taladros y las minimotos. Una vez que hayas leído el esquema, úsala para crear estos objetos."
 q_basicSurvival,items,Quest Note,KgNone,Basic Survival Quest Note,Note de quête « Les bases de la survie »,Questnotiz – Das 1x1 des Überlebens,,Nota de búsqueda de supervivencia básica
 q_basicSurvivalDesc,items,Quest Note,KgNone,A mysterious note from a stranger. I don't know how I got it.,Un petit mot mystérieux provenant d'un étranger. Je ne sais pas comment je l'ai obtenu.,"Eine geheimnisvolle Notiz von einem Fremden. Ich weiß nicht, woher ich sie habe.",,Una nota misteriosa de un extraño. No sé cómo llegó a mí.
 auger,items,Tool,KgNone,Auger,Foreuse,Erdbohrer,,Taladro
@@ -5098,7 +5099,7 @@ AK47ScopedDesc,items,Item,KgNone,A AK47 with a Scope Attachment\n [ Crafted in a
 AK47ExtendedMagScoped,items,Item,KgNone,AK47 Extended Mag Scoped,,,,
 AK47ExtendedMagScopedDesc,items,Item,KgNone,A AK47 with a Extended Magazine and Scope Attachments\n [ Crafted in assembly. ],Un AK47 avec un étendu et des accessoires de portée,Ein AK47 mit einem Extended Magazine und Scope Attachments,,Un AK47 con una extensión de la revista y el alcance adjuntos
 FAMASExtendedMag,items,Item,KgNone,FAMAS Extended Mag,,,,
-FAMASExtendedMagDesc,A FAMAS Rifle with a Extended Magazine Attachment,Un fusil FAMAS con un accesorio extendido de la revista,Ein FAMAS-Gewehr mit verlängertem Magazin,\n [ Crafted in assembly. ],Un fusil FAMAS con un accesorio extendido de la revista,,,
+FAMASExtendedMagDesc,items,Item,KgNone,"A FAMAS Rifle with a Extended Magazine Attachment\n[ Crafted in assembly. ]",,,,
 FAMASSilenced,items,Item,KgNone,FAMAS Silenced,,,,
 FAMASSilencedDesc,items,Item,KgNone,A FAMAS Rifle with a Silencer Attachment\n [ Crafted in assembly. ],Un fusil FAMAS avec attache silencieuse,Ein FAMAS-Gewehr mit Schalldämpfer-Befestigung,,Un rifle FAMAS con un accesorio de silenciador
 FAMASExtendedMagSilenced,items,Item,KgNone,FAMAS Extended Mag Silenced,,,,
@@ -5133,7 +5134,7 @@ LightCoatRed,items,Item,KgNone,Red Light Coat,,,,
 LightCoatGreen,items,Item,KgNone,Green Light Coat,,,,
 LightCoatBrown,items,Item,KgNone,Brown Light Coat,,,,
 FaceMask,items,Item,KgNone,Face Mask,,,,
-FaceMaskDesc,items,Item,KgNone,A Face Mask that provides some protection against the cold weather\n [ Crafted in Clothing Workstation. ],Una máscara facial que proporciona cierta protección contra el frío,Eine Gesichtsmaske die einen gewissen Schutz gegen das kalte Wetter bietet,,Una máscara facial que proporciona cierta protección contra el frío
+FaceMaskDesc,items,Item,KgNone,A Face Mask that provides some protection against the cold weather,Una máscara facial que proporciona cierta protección contra el frío,Eine Gesichtsmaske die einen gewissen Schutz gegen das kalte Wetter bietet,,Una máscara facial que proporciona cierta protección contra el frío
 FaceMaskRed,items,Item,KgNone,Red Face Mask,,,,
 FaceMaskBlue,items,Item,KgNone,Blue Face Mask,,,,
 FaceMaskGreen,items,Item,KgNone,Green Face Mask,,,,
@@ -5146,7 +5147,7 @@ GreenBallCap,items,Item,KgNone,Green Ball Cap,,,,
 BlackShades,items,Item,KgNone,Black Shades,,,,
 OrangeHDMiningHelmet,items,Item,KgNone,Orange HD Mining Helmet,,,,
 FlannelPants,items,Item,KgNone,Flannel Pants,,,,
-FlannelPantsDesc,items,Item,KgNone,A pair of pants with protection against cold weather\n [ Crafted in Clothing Workstation. ],Une paire de pantalons avec protection contre le froid,Eine Hose mit Schutz vor kaltem Wetter,,Un par de pantalones con protección contra el frío
+FlannelPantsDesc,items,Item,KgNone,A pair of pants with protection against cold weather,Une paire de pantalons avec protection contre le froid,Eine Hose mit Schutz vor kaltem Wetter,,Un par de pantalones con protección contra el frío
 BlackFlannelPants,items,Item,KgNone,Black Flannel Pants,,,,
 WhiteFlannelPants,items,Item,KgNone,White Flannel Pants,,,,
 RedFlannelPants,items,Item,KgNone,Red Flannel Pants,,,,
@@ -5185,7 +5186,7 @@ TailoringBallCapDesc,items,Item,KgNone,Learn how to craft Ball Cap Hats,Apprenez
 HouseholdChemicals,items,Item,KgNone,Household Chemicals,,,,
 HouseholdChemicalsDesc,items,Item,KgNone,Chemicals that can used in several recipes such as Kevlar Crafting and Crafting Batteries\n [ Crafted in Chemistry Station and Mortar and Pestle with a Beaker. ],Produits chimiques qui peuvent être utilisés dans plusieurs recettes telles que Kevlar Crafting et Crafting Batteries,Chemikalien die in mehreren Rezepten wie Kevlar Crafting und Crafting Batteries verwendet werden können,,Productos químicos que se pueden utilizar en varias recetas como Kevlar Crafting y Crafting Baterías
 KevlarDesc,items,Item,KgNone,A Military Grade Material used in many recipes but mainly for Kevlar Armor,A Military Grade Matériel utilisé dans de nombreuses recettes mais principalement pour Kevlar Armor,Ein Militärgüte-Material das in vielen Rezepten aber hauptsächlich für Kevlar-Rüstung verwendet wird,,Un Grado Militar Material utilizado en muchas recetas pero principalmente para Kevlar Armor
-KevlarArmorDesc,items,Item,KgNone,"Kevlar Armor has some good protection to help you survive in the wilderness.  Can only be crafted by The Protection Class or Purchased by a Trader.","Kevlar armure a une bonne protection pour vous aider à survivre dans le désert. Ne peut être conçu par la classe de protection ou achetés par un Trader.","Kevlar-Rüstung hat einige gute Schutz, den Sie in der Wildnis überleben zu helfen. Kann nur durch die Schutzklasse oder gekauften von einem Trader gefertigt werden.",,"Kevlar Armor tiene una buena protección para ayudarle a sobrevivir en el desierto. Sólo puede ser hecho a mano por la clase de protección o comprados por un comerciante."
+KevlarArmorDesc,items,Item,KgNone,"Kevlar Armor has some good protection to help you survive in the wilderness.  Exclusive to Protection Class\n[ Crafted at Armor Smithing Station ]","Kevlar armure a une bonne protection pour vous aider à survivre dans le désert. Ne peut être conçu par la classe de protection ou achetés par un Trader.","Kevlar-Rüstung hat einige gute Schutz, den Sie in der Wildnis überleben zu helfen. Kann nur durch die Schutzklasse oder gekauften von einem Trader gefertigt werden.",,"Kevlar Armor tiene una buena protección para ayudarle a sobrevivir en el desierto. Sólo puede ser hecho a mano por la clase de protección o comprados por un comerciante."
 KevlarBoots,items,Item,KgNone,Kevlar Boots,,,,
 KevlarGloves,items,Item,KgNone,Kevlar Gloves,,,,
 KevlarLegArmor,items,Item,KgNone,Kevlar Leg Armor,,,,
@@ -5197,7 +5198,7 @@ KevlarGlovesSchematic,items,Item,KgNone,Kevlar Gloves Schematic,,,,
 KevlarLegArmorSchematic,items,Item,KgNone,Kevlar Leg Armor Schematic,,,,
 KevlarVestSchematic,items,Item,KgNone,Kevlar Vest Schematic,,,,
 KevlarHelmetSchematic,items,Item,KgNone,Kevlar Helmet Schematic,,,,
-SteelArmorDesc,items,Item,KgNone,"Heavy Armor Made of Steel.  Can only be crafted by a Protection Class or Purchased at a Trader.","Armure lourde en acier. Ne peut être conçu par une classe de protection ou achetés à un Trader.","Schwere Rüstung aus Stahl. Kann nur durch eine Schutzklasse oder gekauften bei einem Händler in Handarbeit gemacht werden.",,"Armadura pesada de acero. Sólo puede ser hecha por una clase de protección o comprados a un comerciante."
+SteelArmorDesc,items,Item,KgNone,"Heavy Armor Made of Steel.  Exclusive to Protection Class\n[ Crafted at Armor Smithing Workstation ]","Armure lourde en acier. Ne peut être conçu par une classe de protection ou achetés à un Trader.","Schwere Rüstung aus Stahl. Kann nur durch eine Schutzklasse oder gekauften bei einem Händler in Handarbeit gemacht werden.",,"Armadura pesada de acero. Sólo puede ser hecha por una clase de protección o comprados a un comerciante."
 SteelBoots,items,Item,KgNone,Steel Boots,,,,
 SteelLegArmor,items,Item,KgNone,Steel Leg Armor,,,,
 SteelChestArmor,items,Item,KgNone,Steel Chest Armor,,,,
@@ -5209,7 +5210,7 @@ SteelLegArmorSchematic,items,Item,KgNone,Steel Leg Armor Schematic,,,,
 SteelChestArmorSchematic,items,Item,KgNone,Steel Chest Armor Schematic,,,,
 SteelHelmetSchematic,items,Item,KgNone,Steel Helmet Schematic,,,,
 SteelGlovesSchematic,items,Item,KgNone,Steel Gloves Schematic,,,,
-TungstenArmorDesc,items,Item,KgNone,"Very Strong Armor made from Tungsten.  Can only be crafted by a Protection Class or Purchased at a Trader.","Très forte Armure fabriqué à partir de tungstène. Ne peut être conçu par une classe de protection ou achetés chez Trader.","Sehr starke Rüstung aus Tungsten. Kann nur durch eine Schutzklasse oder gekauften bei Trader gefertigt werden.",,"Armadura muy fuerte hecha de tungsteno. Sólo puede ser hecha por una clase de protección o comprados a un comerciante."
+TungstenArmorDesc,items,Item,KgNone,"Very Strong Armor made from Tungsten.  Protection Class Exclusive\n[ Crafted at Armor Smithing Workstation ]","Très forte Armure fabriqué à partir de tungstène. Ne peut être conçu par une classe de protection ou achetés chez Trader.","Sehr starke Rüstung aus Tungsten. Kann nur durch eine Schutzklasse oder gekauften bei Trader gefertigt werden.",,"Armadura muy fuerte hecha de tungsteno. Sólo puede ser hecha por una clase de protección o comprados a un comerciante."
 TungstenBoots,items,Item,KgNone,Tungsten Boots,,,,
 TungstenLegArmor,items,Item,KgNone,Tungsten Leg Armor,,,,
 TungstenChestArmor,items,Item,KgNone,Tungsten Chest Armor,,,,
@@ -5235,7 +5236,7 @@ ClubTungsten,items,Item,KgNone,Tungsten Club,,,,
 ClubTungstenDesc,items,Item,KgNone,A really strong Blunt Type Melee Weapon\n [ Crafted in Advanced Tool Workbench. ],Une arme de mêlée de type Blunt vraiment forte,Eine wirklich starke Blunt-Typ-Nahkampfwaffe,,Un arma de cuerpo a cuerpo muy fuerte de tipo embotado
 ClubTungstenSchematic,items,Item,KgNone,Tungsten Club Schematic,,,,
 ClubTungstenSchematicDesc,items,Item,KgNone,Learn how to craft a Tungsten Club,Apprenez à fabriquer un club de tungstène,Erlernen Sie wie man einen Wolfram Verein herstellt,,Aprenda a crear un club de tungsteno
-HDNailgunPartsDesc,items,Item,KgNone,A Part of a HD Nail Gun,Une partie d'un pistolet à clous HD,Ein Teil einer HD-Nagelpistole,,Una parte de una pistola de clavos HD
+HDNailgunPartsDesc,items,Item,KgNone,A Part of a HD Nail Gun\n [ Crafted in Advanced Tool Workbench ],Une partie d'un pistolet à clous HD,Ein Teil einer HD-Nagelpistole,,Una parte de una pistola de clavos HD
 HDNailgun_Frame,items,Item,KgNone,HD Nail Gun Frame,,,,
 HDNailgun_Receiver,items,Item,KgNone,HD Nail Gun Receiver,,,,
 HDNailgun_Parts,items,Item,KgNone,HD Nail Gun Parts,,,,
@@ -5398,11 +5399,11 @@ BaconMushroomSandwichDesc,items,Item,KgNone,A Sandwich made with Meat plus Mushr
 HamSandwich,items,Item,KgNone,Ham Sandwich,,,,
 HamSandwichDesc,items,Item,KgNone,Use a Can of Ham with Bread to make this beast of a sandwich\n [ Crafted in Campfire with a Cooking Grill. ],Utilisez une canette de jambon avec du pain pour faire cette bête d'un sandwich,Verwenden Sie eine Dose von Schinken mit Brot um diese Bestie von einem Sandwich machen,,Use una lata de jamón con pan para hacer esta bestia de un sándwich
 AdvancedSplint,items,Item,KgNone,Advanced Splint,,,,
-AdvancedSplintDesc,items,Item,KgNone,"A Advanced Splint will prevent you from re-spraining your leg.  Can only be crafted by The Survivalist Class or found in loot","Une attelle avancée vous empêcher de re-fouler votre jambe. Ne peut être conçu par la classe Survivant ou trouvé dans le butin","Eine erweiterte Splint wird Prävention Sie von der Wieder verstaucht Ihr Bein zu verhindern. Kann nur durch die Survivalist Klasse Gold in Beute gefunden gefertigt werden",,"Una férula avanzada evitará que la prevención de la re-esguince en la pierna. Sólo puede ser elaborado por el oro Superviviente clase que se encuentra en el botín"
+AdvancedSplintDesc,items,Item,KgNone,"A Advanced Splint will prevent you from re-spraining your leg.  Can only be crafted by The Survivalist Class or found in loot\n[ Crafted in Player Inventory ]","Une attelle avancée vous empêcher de re-fouler votre jambe. Ne peut être conçu par la classe Survivant ou trouvé dans le butin","Eine erweiterte Splint wird Prävention Sie von der Wieder verstaucht Ihr Bein zu verhindern. Kann nur durch die Survivalist Klasse Gold in Beute gefunden gefertigt werden",,"Una férula avanzada evitará que la prevención de la re-esguince en la pierna. Sólo puede ser elaborado por el oro Superviviente clase que se encuentra en el botín"
 TraumaFirstAidBandage,items,Item,KgNone,Trauma First Aid Bandage,,,,
-TraumaFirstAidBandageDesc,items,Item,KgNone,"A Trauma Bandage will stop all bleeding and do a fare amount of healing.  Can only be crafted by The Survivalist Class","Un traumatisme Bandage va arrêter tout saignement et faire une quantité de prix de la guérison. Ne peut être conçu par la classe Survivalist","Ein Trauma-Verband wird alle Blutung zu stoppen und machen Sie einen Tarif Menge an Heilung. Kann nur durch die Survivalist Klasse gefertigt werden",,"Un vendaje traumatismo detendrá todo el sangrado y hacer una cantidad de la tarifa de la curación. Sólo puede ser elaborado por la clase Superviviente"
+TraumaFirstAidBandageDesc,items,Item,KgNone,"A Trauma Bandage will stop all bleeding and do a fare amount of healing.  Can only be crafted by The Survivalist Class\n[ Crafted in Player Inventory ]","Un traumatisme Bandage va arrêter tout saignement et faire une quantité de prix de la guérison. Ne peut être conçu par la classe Survivalist","Ein Trauma-Verband wird alle Blutung zu stoppen und machen Sie einen Tarif Menge an Heilung. Kann nur durch die Survivalist Klasse gefertigt werden",,"Un vendaje traumatismo detendrá todo el sangrado y hacer una cantidad de la tarifa de la curación. Sólo puede ser elaborado por la clase Superviviente"
 TraumaFirstAidKit,items,Item,KgNone,Trauma First Aid Kit,,,,
-TraumaFirstAidKitDesc,items,Item,KgNone,"Trauma Kit gives a huge boost to health and removes bleeding buffs.  Can only be crafted by The Survivalist Class","Trauma Kit donne un énorme coup de pouce à la santé et supprime les amateurs saignements. Ne peut être conçu par la classe Survivalist","Trauma Kit gibt einen enormen Schub für die Gesundheit und Blutungen Buffs Entfernt. Kann nur durch die Survivalist Klasse gefertigt werden",,"Trauma Kit da un gran impulso a la salud y el sangrado Elimina los aficionados. Sólo puede ser elaborado por la clase Superviviente"
+TraumaFirstAidKitDesc,items,Item,KgNone,"Trauma Kit gives a huge boost to health and removes bleeding buffs.  Can only be crafted by The Survivalist Class\n[ Crafted at Chemistry Station ]","Trauma Kit donne un énorme coup de pouce à la santé et supprime les amateurs saignements. Ne peut être conçu par la classe Survivalist","Trauma Kit gibt einen enormen Schub für die Gesundheit und Blutungen Buffs Entfernt. Kann nur durch die Survivalist Klasse gefertigt werden",,"Trauma Kit da un gran impulso a la salud y el sangrado Elimina los aficionados. Sólo puede ser elaborado por la clase Superviviente"
 ExtraStrengthPainkillers,items,Item,KgNone,Extra Strength Painkillers,,,,
 ExtraStrengthPainkillersDesc,items,Item,KgNone,These Painkillers will do more healing than damage and that's a good thing,Ces analgésiques feront plus de guérison que de dommages et c'est une bonne chose,Diese Schmerzmittel werden mehr Heilung als Schaden und das ist eine gute Sache,,Estos analgésicos harán más curación que daño y eso es algo bueno
 ApplePieRecipe,items,Item,KgNone,Apple Pie Recipe,,,,
@@ -5429,18 +5430,18 @@ SteelMinibikeChassis,items,Item,KgNone,Steel Minibike Chassis,,,,
 SteelMinibikeChassisDesc,items,Item,KgNone,Minibike Chassis made from Steel\n [ Crafted in Forge with a Anvil. ],Châssis miniature en acier,Minibike Chassis aus Stahl,,Chasis de Minibike de acero
 TungstenMinibikeChassis,items,Item,KgNone,Tungsten Minibike Chassis,,,,
 TungstenMinibikeChassisDesc,items,Item,KgNone,Minibike Chassis made from Tungsten\n [ Crafted in Forge with a Anvil. ],Châssis miniature en tungstène,Minibike Chassis aus Wolfram,,Chasis Minibike de Tungsteno
-HDSmallEngine,items,Item,KgNone,HD Small Engine,,,,
+HDSmallEngine,items,Item,KgNone,"HD Small Engine\n[ Crated at Advanced Tool Workbench ]",,,,
 HDSmallEngineDesc,items,Item,KgNone,A Heavy Duty Engine,Un moteur robuste,Eine Heavy Duty Engine,,Un motor de trabajo pesado
 ECOSmallEngine,items,Item,KgNone,ECO Small Engine,,,,
-ECOSmallEngineDesc,items,Item,KgNone,A Economic Friendly Engine,Un moteur économique convivial,Ein Wirtschaftsfreundlicher Motor,,Un motor económico amigable
+ECOSmallEngineDesc,items,Item,KgNone,"A Economic Friendly Engine\n[ Crated at Advanced Tool Workbench ]",Un moteur économique convivial,Ein Wirtschaftsfreundlicher Motor,,Un motor económico amigable
 KevlarMinibikeSeat,items,Item,KgNone,Kevlar Minibike Seat,,,,
 KevlarMinibikeSeatDesc,items,Item,KgNone,Minibike seat made with Kevlar\n [ Crafted in Workbench. ],Siège Minibike fabriqué avec Kevlar,Minibikesitz mit Kevlar,,Asiento de minibike hecho con Kevlar
 TungstenMinibikeSeat,items,Item,KgNone,Tungsten Minibike Seat,,,,
-TungstenMinibikeSeatDesc,items,Item,KgNone,Minibike seat made with Steel\n [ Crafted in Workbench. ],Siège miniature en acier,Minibikesitz aus Stahl,,Asiento de Minibike hecho con acero
+TungstenMinibikeSeatDesc,items,Item,KgNone,Minibike seat made with Tungsten\n [ Crafted in Workbench. ],Siège miniature en acier,Minibikesitz aus Stahl,,Asiento de Minibike hecho con acero
 HDMinibikeWheels,items,Item,KgNone,HD Minibike Wheels,,,,
-HDMinibikeWheelsDesc,items,Item,KgNone,Heavy Duty Minibike Wheels,Roues de minibike lourdes,Heavy Duty Minibike Räder,,Ruedas de Minibike para servicio pesado
+HDMinibikeWheelsDesc,items,Item,KgNone,"Heavy Duty Minibike Wheels\n[ Crafted at Advanced Tool Workbench ]",Roues de minibike lourdes,Heavy Duty Minibike Räder,,Ruedas de Minibike para servicio pesado
 TungstenPadlock,items,Item,KgNone,Tungsten Padlock,,,,
-TungstenPadlockDesc,items,Item,KgNone,A Tungsten Padlock for your minibike\n [ Crafted in Workbench. ],Un cadenas en tungstène pour votre minibike,Ein Wolfram Vorhängeschloss für Ihr Minibike,,Un candado de tungsteno para su minibike
+TungstenPadlockDesc,items,Item,KgNone,A Tungsten Padlock for your minibike\n[ Crafted at Advanced Tool Workbench ],Un cadenas en tungstène pour votre minibike,Ein Wolfram Vorhängeschloss für Ihr Minibike,,Un candado de tungsteno para su minibike
 SteelMinibikeHandlebars,items,Item,KgNone,Steel Minibike Handlebars,,,,
 SteelMinibikeHandlebarsDesc,items,Item,KgNone,Minibike handlebars made with Steel\n [ Crafted in Workbench. ],Guidon Minibike en Acier,Minibike Lenker aus Stahl,,Manillar de Minibike fabricado con Acero
 TungstenMinibikeHandlebars,items,Item,KgNone,Tungsten Minibike Handlebars,,,,
@@ -5450,9 +5451,9 @@ SteelHandlebarsDesc,items,Item,KgNone,Handlebars made with Steel\n [ Crafted in 
 TungstenHandlebars,items,Item,KgNone,Tungsten Handlebars,,,,
 TungstenHandlebarsDesc,items,Item,KgNone,Handlebars made with Tungsten\n [ Crafted in Workbench. ],Guidons en tungstène,Lenker aus Wolfram,,Manillares fabricados con Tungsteno
 HDBattery,items,Item,KgNone,HD Battery,,,,
-HDBatteryDesc,items,Item,KgNone,A Heavy Duty Battery,Une batterie lourde,Ein Heavy Duty Akku,,Una batería resistente
+HDBatteryDesc,items,Item,KgNone,"A Heavy Duty Battery\n[ Crafted at Advanced Tool Workbench ]",Une batterie lourde,Ein Heavy Duty Akku,,Una batería resistente
 ECOBattery,items,Item,KgNone,ECO Battery,,,,
-ECOBatteryDesc,items,Item,KgNone,A Economic Battery,Une batterie économique,Eine wirtschaftliche Batterie,,Una batería económica
+ECOBatteryDesc,items,Item,KgNone,"A Economic Battery\n[ Crafted at Advanced Tool Workbench ]",Une batterie économique,Eine wirtschaftliche Batterie,,Una batería económica
 MinibikesForSmartshits,items,Item,KgNone,Minibikes For Smartshits,,,,
 MinibikesForSmartshitsDesc,items,Item,KgNone,Schematic for Assembling a Steel Minibike,Schéma pour l'assemblage d'un minibike en acier,Schematischer Aufbau eines Stahlminibikes,,Esquema para montar un minibike de acero
 MinibikesForToughshits,items,Item,KgNone,Minibikes For Toughshits,,,,
@@ -6002,7 +6003,7 @@ RangedBanditCorpse,blocks,Block,KgNone,Ranged Bandit Loot,Loot de bandit à dist
 MeleeSurvivorCorpse,blocks,Block,KgNone,Melee Survivor Loot,Loot Survivor Mêlée,Nahkampf-Überlebender,,Golpe de superviviente de cuerpo a cuerpo
 RangedSurvivorCorpse,blocks,Block,KgNone,Ranged Survivor Loot,Roulé Survivor Loot,Ranged Survivor Loot,,Botín de superviviente a distancia
 steelClawHammer,items,Item,KgNone,Steel Claw Hammer,,,,
-steelClawHammerDesc,items,Item,KgNone,"Steel Claw Hammer upgrades blocks faster than the Iron Claw Hammer [ Crafted in AdvancedToolWorkbench. ]","Les mises à jour de Steel Claw Hammer se bloquent plus vite que le Marteau de griffe de fer","Steel Claw Hammer verbessert Blöcke schneller als der Eisenkamm Hammer",,"El martillo de la garra de acero mejora los bloques más rápidamente que el martillo de la garra del hierro"
+steelClawHammerDesc,items,Item,KgNone,"Steel Claw Hammer upgrades blocks faster than the Iron Claw Hammer\n[ Crafted at Advanced Tool Workbench ]","Les mises à jour de Steel Claw Hammer se bloquent plus vite que le Marteau de griffe de fer","Steel Claw Hammer verbessert Blöcke schneller als der Eisenkamm Hammer",,"El martillo de la garra de acero mejora los bloques más rápidamente que el martillo de la garra del hierro"
 SkillScienceClassBonusScholar,progression,Skill,KgNone,"Science Skill (Scholar Bonus)",,,,
 SkillScienceClassBonusScholarDesc,progression,Skill,KgNone,"Science Bonus Skill for Scholar Class that will allow you to craft items with quality up to 600, faster item crafting and faster repairs.","Bonus de compétence en sciences Skill for Scholar Class qui vous permettra de fabriquer des objets de qualité jusqu'à 600, une création d'articles plus rapide et des réparations plus rapides.","Science Skill Bonus Skill für Scholar Class, die Ihnen erlaubt, Artikel mit Qualität bis zu 600, schneller Artikel Handwerk und schnellere Reparaturen zu fertigen.",,"Habilidad de Skill de Skill de Ciencia para la Clase de Estudiante que le permitirá elaborar artículos con calidad hasta 600, elaboración de artículos más rápidos y reparaciones más rápidas."
 SkillGunsClassBonusMarksman,progression,Skill,KgNone,Gun Smithing Skill (Marksman Bonus),,,,
@@ -6050,13 +6051,13 @@ strawberriesDesc,items,Item,KgNone,"Strawberries are great for a quick boost to 
 plantedBlackberry1,blocks,Block,KgNone,Blackberry Seed,,,,
 plantedStrawberry1,blocks,Block,KgNone,Strawberry Seed,,,,
 handWeeder,items,Item,KgNone,Hand Weeder,,,,
-handWeederDesc,items,Item,KgNone,"A Hand Weeder can be used to quickly clear out grass.  Also has a chance to harvest berries from grass and small bushes.","Un Hand Weeder peut être utilisé pour éliminer rapidement l'herbe. A également une chance de récolter des baies de l'herbe et des petits buissons.","Ein Hand-Weeder kann verwendet werden, um schnell Gras zu löschen Auch hat eine Chance, Beeren aus Gras und kleinen Büschen zu ernten.",,"Un Weeder mano se puede utilizar para eliminar rápidamente la hierba. También tiene la oportunidad de cosechar bayas de hierba y arbustos pequeños."
+handWeederDesc,items,Item,KgNone,"A Hand Weeder can be used to clear out grass faster.  Has a chance to harvest berries from azalea bushes\n [ Crafted in Player Inventory ]","Un Hand Weeder peut être utilisé pour éliminer rapidement l'herbe. A également une chance de récolter des baies de l'herbe et des petits buissons.","Ein Hand-Weeder kann verwendet werden, um schnell Gras zu löschen Auch hat eine Chance, Beeren aus Gras und kleinen Büschen zu ernten.",,"Un Weeder mano se puede utilizar para eliminar rápidamente la hierba. También tiene la oportunidad de cosechar bayas de hierba y arbustos pequeños."
 strawberryJam,items,Item,KgNone,Strawberry Jam,,,,
-strawberryJamDesc,items,Item,KgNone,"Home made Strawberry Jam can be eaten alone for food and wellness gain or crafted into a Strawberry Jam Sandwich","Le confiture de fraises maison peut être consommée seule pour gagner de la nourriture et du bien-être ou fabriquée dans un Sandwich aux fraises","Home made Strawberry Jam kann allein gegessen werden für Essen und Wellness gewinnen oder in ein Strawberry Jam Sandwich gefertigt",,"El atasco hecho en casa de la fresa se puede comer solo para la ganancia del alimento y del bienestar o ser hecho a mano en un emparedado del atasco de la fresa"
+strawberryJamDesc,items,Item,KgNone,"Home made Strawberry Jam can be eaten alone for food and wellness gain or crafted into a Strawberry Jam Sandwich\n[ Crafted at Campfire with Cooking Pot ]","Le confiture de fraises maison peut être consommée seule pour gagner de la nourriture et du bien-être ou fabriquée dans un Sandwich aux fraises","Home made Strawberry Jam kann allein gegessen werden für Essen und Wellness gewinnen oder in ein Strawberry Jam Sandwich gefertigt",,"El atasco hecho en casa de la fresa se puede comer solo para la ganancia del alimento y del bienestar o ser hecho a mano en un emparedado del atasco de la fresa"
 strawberryJamSandwich,items,Item,KgNone,Strawberry Jam Sandwich,,,,
-strawberryJamSandwichDesc,items,Item,KgNone,"A Strawberry Jam Sandwich like mom used to make, just without the peanut butter.. Sorry","Un Sandwich au confiture de fraises comme la maman faisait, juste sans le beurre d'arachide ... Désolé","Ein Strawberry Jam Sandwich wie Mama verwendet, um einfach ohne die Erdnussbutter .. Sorry",,"A Strawberry Jam Sandwich como mamá se utiliza para hacer, sólo sin la mantequilla de maní .. Lo siento"
+strawberryJamSandwichDesc,items,Item,KgNone,"A Strawberry Jam Sandwich like mom used to make, just without the peanut butter.. Sorry\n[ Crafted in Player Inventory ]","Un Sandwich au confiture de fraises comme la maman faisait, juste sans le beurre d'arachide ... Désolé","Ein Strawberry Jam Sandwich wie Mama verwendet, um einfach ohne die Erdnussbutter .. Sorry",,"A Strawberry Jam Sandwich como mamá se utiliza para hacer, sólo sin la mantequilla de maní .. Lo siento"
 blackberryJuice,items,Item,KgNone,Blackberry Juice,,,,
-blackberryJuiceDesc,items,Item,KgNone,"Blackberry Juice will replenish your hydration some with bonus to your stamina","Le jus de mûre reconstituera votre hydratation avec un bonus à votre endurance","Blackberry Saft wird Ihre Hydratation etwas mit dem Bonus auf Ihre Ausdauer auffüllen",,"El zumo de la zarzamora reabastecerá su hidración algunos con la prima a su stamina"
+blackberryJuiceDesc,items,Item,KgNone,"Blackberry Juice will replenish your hydration some with bonus to your stamina\n [ Crafted at Campfire with Cooking Pot ]","Le jus de mûre reconstituera votre hydratation avec un bonus à votre endurance","Blackberry Saft wird Ihre Hydratation etwas mit dem Bonus auf Ihre Ausdauer auffüllen",,"El zumo de la zarzamora reabastecerá su hidración algunos con la prima a su stamina"
 schematicPerkGroupDesc,progression,Skill,KgNone,"Reading the schematic found in the world will unlock this.  Cannot be purchased","Lire le schéma trouvé dans le monde déverrouillera ceci. Ne peut pas être acheté","Das Lesen des Schemas, der in der Welt gefunden wird, wird das freischalten. Kann nicht gekauft werden",,"Leer el esquema encontrado en el mundo desbloqueará esto. No se puede comprar"
 clubSpikedSchematicPerk,progression,Skill,KgNone,Spiked Club Recipe,,,,
 sledgehammerSchematicPerk,progression,Skill,KgNone,Sledgehammer Recipe,,,,
@@ -6278,7 +6279,7 @@ rebarFrameQuarter,blocks,Block,KgNone,Rebar Quarter Frame,,,,
 rebarFrameCTREighth,blocks,Block,KgNone,Rebar Eighth (Center) Frame,,,,
 pouredRConcreteCTREighth,blocks,Block,KgNone,Poured Reinforced Concrete Eighth (Center),,,,
 tungstenDart,items,Item,KgNone,Tungsten Dart,,,,
-tungstenDartDesc,items,Item,KgNone,Tungsten Darts are ammo for the HD Dart Trap.  Electrician Class Exclusive,,,,
+tungstenDartDesc,items,Item,KgNone,Tungsten Darts are ammo for the HD Dart Trap.  Electrician Class Exclusive\n[ Crafted in Forge with Tool and Die Set ],,,,
 ecoBatterybankSchematic,items,Item,KgNone,ECO Battery Bank Schematic,,,,
 ecoBatterybankSchematicDesc,items,Item,KgNone,Learn how to craft a ECO Battery Bank.  Electrician Class Exclusive,,,,
 hdBatterybankSchematic,items,Item,KgNone,HD Battery Bank Schematic,,,,
@@ -6298,7 +6299,7 @@ lockpickDoorSchematic,items,Item,KgNone,Lockpick (Door) Schematic,,,,
 lockpickDoorSchematicDesc,items,Item,KgNone,Learn how to craft a Lockpick (Door).  Covert Class Exclusive,,,,
 lockpickSafeSchematic,items,Item,KgNone,Lockpick (Safe) Schematic,,,,
 lockpickSafeSchematicDesc,items,Item,KgNone,Learn how to craft a Lockpick (Safe).  Covert Class Exclusive,,,,
-silverArmorDesc,items,Item,KgNone,Silver Armor is particularely good agains melee damage.  [Crafted at Workbench]  Covert Class Exclusive,,,,
+silverArmorDesc,items,Item,KgNone,Silver Armor is particularly good against melee damage.  Covert Class Exclusive\n[ Crafted at Armor Smithing Workstation ],,,,
 silverBoots,items,Item,KgNone,Silver Boots,,,,
 silverPants,items,Item,KgNone,Silver Leg Armor,,,,
 silverJacket,items,Item,KgNone,Silver Chest Armor,,,,
@@ -6313,9 +6314,9 @@ silverGlovesSchematic,items,Item,KgNone,Silver Gloves Schematic,,,,
 cocoaBeans,items,Item,KgNone,Cocoa Beans,,,,
 cocoaBeansDesc,items,Item,KgNone,Crafting Ingredient for Chocolate based Recipes.  What more needs to be said.,,,,
 hotChocolate,items,Item,KgNone,Hot Chocolate,,,,
-hotChocolateDesc,items,Item,KgNone,Unhinge yourself with some Hot Chocolate.  Scholar Class Exclusive,,,,
+hotChocolateDesc,items,Item,KgNone,Unhinge yourself with some Hot Chocolate.  Scholar Class Exclusive\n[ Crafted in Campfire with Cooking Pot ],,,,
 chocolate,items,Item,KgNone,Chocolate,,,,
-chocolateDesc,items,Item,KgNone,Everyone wants a little chocolate during the apocalypse.  Scholar Class Exclusive,,,,
+chocolateDesc,items,Item,KgNone,Everyone wants a little chocolate during the apocalypse.  Scholar Class Exclusive\n[ Crafted in Campfire with Cooking Pot ],,,,
 beerNolsonCanuck,items,Item,KgNone,Nolsons Canuck Beer,,,,
 beerNolsonCanuckDesc,items,Item,KgNone,eh at least its not Piss Water....,,,,
 shivPrisoner,items,Item,KgNone,Prisoner Shiv,,,,
@@ -6599,6 +6600,7 @@ condomsDesc,items,Item,KgNone,"A box of 40 premium latex condoms.  If found plea
 Quest_TraderLocation,items,Item,KgNone,Quest - Trader Located,,,,
 Quest_TraderLocationDesc,items,Item,KgNone,"Locate a Trader near you",,,,
 ballCapBGGLight,items,Item,KgNone,BGG Hat (Light),,,,
+ballCapBGGLightDesc,items,Item,KgNone,"Show your love for Bearded Guys Gaming @ twitch.tv/beardedguysgaming\n[ Crafted in Workbench ]",,,,
 concreteConstruction,progression,Skill,KgNone,Concrete Construction (Class Only),,,,
 armorSmithingWorkstationPerk,progression,Skill,KgNone,Armor Smithing Workbench (Class Only),,,,
 comfortableSleeping,progression,Skill,KgNone,Comfortable Sleeping (Class Only),,,,
@@ -6652,6 +6654,12 @@ BarterTradesmanClassBonus,progression,Skill,KgNone,Barter (Tradesman Bonus),,,,
 BarterTradesmanClassBonusDesc,progression,Skill,KgNone,Additional reduction in cost when buying and more dukes for selling.  Exclusive to Tradesman Class,,,,
 dwallsPornStash,items,Item,KgNone,Porn Stash,,,,
 dwallsPornStashDesc,items,Item,KgNone,A fat stack of adult magazines.  Please return to Dwallorde unused if found,,,,
-
+PrisonerShirt,items,Item,KgNone,Prisoner Shirt,,,,
+PrisonerPants,items,Item,KgNone,Prisoner Pants,,,,
+PrisonerClothingDesc,items,Item,KgNone,Old dirty used prisoner clothing,,,,
+combineBenchPerk,progression,Skill,KgNone,Combine Bench,,,,
+combineBenchPerkDesc,progression,Skill,KgNone,"Learn how to craft a Combine Bench that you can upgrade tool parts with as well as Combine Parts.  Exclusive to Tradesman Class",,,,
+combineBench,blocks,Block,KgNone,Combine Bench,,,,
+combineBenchDesc,blocks,Block,KgNone,Can upgrade tool parts and combine them using this workstation.  Exclusive to the Tradesman Class\n[ Crafted at Workbench ],,,,
 
 

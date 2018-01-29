@@ -1942,6 +1942,14 @@
 	<recipe name="BlueprintWorkStation" unlock_level="1"/>
 </perk>
 
+<!-- Class Only -->
+<perk name="combineBenchPerk" icon="ui_game_symbol_workbench1" description_key="combineBenchPerkDesc" title_key="combineBenchPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="crafting">
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="25"/>
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="2"/>
+		<requirement skill_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1"/>
+		<recipe name="combineBench" unlock_level="1"/>
+</perk>
+
 <perk name="biggerStorage" icon="treasure" description_key="biggerStorageDesc" title_key="biggerStorage" max_level="1" skill_point_cost_multiplier="1" skill_point_cost_per_level="5" group="crafting">
 	<requirement skill_level="1" required_player_level="15"/>
 	<recipe name="StorageChest2Secure" unlock_level="1"/>

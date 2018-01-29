@@ -71,7 +71,15 @@
 	</quest>
 
 	<!-- White River Citizen 1 - Journey to Settlement -->
-	<quest id="quest_whiteRiverCitizen1" group_name_key="quest_WhiteRiverCitizen" name_key="quest_WhiteRiverCitizen1" subtitle_key="quest_WhiteRiverCitizen1_subtitle" description_key="quest_WhiteRiverCitizen1_description" icon="ui_game_symbol_map_trader" category_key="quest" difficulty="medium">
+	<quest id="quest_whiteRiverCitizen1"
+	group_name_key="quest_WhiteRiverCitizen"
+	name_key="quest_WhiteRiverCitizen1"
+	offer_key="quest_whiteRiverCitizen1_offer"
+	subtitle_key="quest_WhiteRiverCitizen1_subtitle"
+	description_key="quest_WhiteRiverCitizen1_description"
+	icon="ui_game_symbol_map_trader"
+	category_key="quest"
+	difficulty="medium">
 		<objective type="Goto" id="trader" value="5" />
 
 		<reward type="SkillPoints" value="5" />
@@ -157,7 +165,7 @@
 		<objective type="Time" value="1200" optional="true" />
 		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral" value="3" />
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="5" />
 		<reward type="SkillPoints" value="1" optional="true" />
 	</quest>
 
@@ -173,7 +181,7 @@
 		</requirement>
 
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="5" />
 		<reward type="SkillPoints" value="1" optional="true" />
 	</quest>
 
@@ -183,7 +191,7 @@
 		<objective type="Time" value="900" optional="true" />
 		<objective type="ZombieKill" id="zombieNurse,zombieNurseFeral" value="3" />
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 	</quest>
 
@@ -192,7 +200,7 @@
 		<objective type="Time" value="1500" optional="true" />
 		<objective type="ZombieKill" id="zombieFatCop,zombieFatCopFeral,zombieFatCopFeralRadiated" value="2" />
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="SkillPoints" value="1" optional="true" />
 	</quest>
 
@@ -201,7 +209,7 @@
 		<objective type="Time" value="1500" optional="true" />
 		<objective type="ZombieKill" id="animalZombieDog" value="4" />
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 	</quest>
 
@@ -210,7 +218,7 @@
 		<objective type="Time" value="900" optional="true" />
 		<objective type="ZombieKill" id="zombieSpider,zombieSpiderFeral,zombieSpiderFeralRadiated" value="3" />
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="SkillPoints" value="1" optional="true" />
 	</quest>
 
@@ -222,7 +230,7 @@
 		<objective type="ZombieKill" id="zombieMarlene,zombieMarleneFeral" value="1" />
 		<objective type="ZombieKill" id="zombieNurse,zombieNurseFeral" value="1" />
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 	</quest>
 
@@ -236,7 +244,7 @@
 		<objective type="ZombieKill" id="zombieYo,zombieYoFeral" value="1" />
 		<objective type="ZombieKill" id="zombieSteve,zombieSteveFeral" value="1" />
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 	</quest>
 
@@ -249,7 +257,7 @@
 		<objective type="ZombieKill" id="zombieScreamer,zombieScreamerFeral" value="1" />
 		<objective type="ZombieKill" id="zombieBurnt" value="1" />
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="5" />
 		<reward type="SkillPoints" value="1" optional="true" />
 	</quest>
 
@@ -266,7 +274,7 @@
 			<requirement type="Holding" id="FireaxeDiamondTipped" />
 		</requirement>
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 	</quest>
 
@@ -281,30 +289,33 @@
 			<requirement type="Holding" id="gunPumpShotgun" />
 		</requirement>
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 	</quest>
 
 	<quest id="challenge_nailsomechicks" name_key="challenge_nailsomechicks" subtitle_key="challenge_nailsomechicks_subtitle" description_key="challenge_nailsomechicks_offer" icon="ui_game_symbol_knife"
 	repeatable="true" category_key="challenge" offer_key="challenge_nailsomechicks_offer" difficulty="medium">
 		<objective type="AnimalKill" id="animalChicken" value="5"  />
 
-		<requirement type="Holding" id="nailgun" />
+		<requirement type="Group" id="requirementGroupNailgun" value="OR">
+			<requirement type="Holding" id="nailgun" />
+			<requirement type="Holding" id="HDNailgun" />
+		</requirement>
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 	</quest>
 
 	<quest id="challenge_thatlldopig" name_key="challenge_thatlldopig" subtitle_key="challenge_thatlldopig_subtitle" description_key="challenge_thatlldopig_offer" icon="ui_game_symbol_knife"
 	repeatable="true" category_key="challenge" offer_key="challenge_thatlldopig_offer" difficulty="easy">
 		<objective type="AnimalKill" id="animalBoar,animalPig" value="5"  />
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 	</quest>
 
 	<quest id="challenge_stagparty" name_key="challenge_stagparty" subtitle_key="challenge_stagparty_subtitle" description_key="challenge_stagparty_offer" icon="ui_game_symbol_knife"
 	repeatable="true" category_key="challenge" offer_key="challenge_stagparty_offer" difficulty="easy">
 		<objective type="AnimalKill" id="animalStag" value="5"  />
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 	</quest>
 
 	<quest id="challenge_dontfeedthebears" name_key="challenge_dontfeedthebears" subtitle_key="challenge_dontfeedthebears_subtitle" description_key="challenge_dontfeedthebears_offer" icon="ui_game_symbol_knife"
@@ -312,7 +323,7 @@
 		<objective type="AnimalKill" id="animalBear,animalZombieBear" value="3"  />
 
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 	</quest>
 
 	<quest id="challenge_buythefarm" name_key="challenge_buythefarm" subtitle_key="challenge_buythefarm_subtitle" description_key="challenge_buythefarm_offer" icon="ui_game_symbol_knife"
@@ -324,7 +335,7 @@
 		<objective type="AnimalKill" id="animalBear" value="1"  />
 
 
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 	</quest>
 
 	<quest id="treasure_taylor" name_key="treasure_taylor" subtitle_key="treasure_taylor_subtitle" description_key="treasure_taylor_offer" icon="ui_game_symbol_treasure"
@@ -701,7 +712,7 @@
 		<objective type="FetchKeep" id="potato" value="50" />
 		<objective type="FetchKeep" id="mushrooms" value="25" />
 		<objective type="Craft" id="MushroomStew" value="5" />
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="1000" />
 		<reward type="Exp" value="250" optional="true" />
@@ -722,7 +733,7 @@
 		<objective type="FetchKeep" id="potato" value="5" />
 		<objective type="FetchKeep" id="mushrooms" value="5" />
 		<objective type="Craft" id="MeatPie" value="5" /> -->
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="1000" />
 		<reward type="Exp" value="250" optional="true" />
@@ -743,7 +754,7 @@
 		<objective type="FetchKeep" id="corn" value="5" />
 		<objective type="FetchKeep" id="bottledWater" value="5" />
 		<objective type="Craft" id="VenisonStew" value="5" />
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="1000" />
 		<reward type="Exp" value="250" optional="true" />
@@ -765,7 +776,7 @@
 		<objective type="FetchKeep" id="bottledWater" value="10" />
 		<objective type="Craft" id="ApplePie" value="5" />
 		<objective type="Craft" id="AppleJuice" value="5" />
-		<reward type="SkillPoints" value="3" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="1500" />
 		<reward type="Exp" value="500" optional="true" />
@@ -784,7 +795,7 @@
 		<objective type="FetchKeep" id="egg" value="10" />
 		<objective type="FetchKeep" id="rawWhiteMeat" value="5" />
 		<objective type="Craft" id="baconAndEggs" value="5" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="500" />
 		<reward type="Exp" value="250" optional="true" />
@@ -804,7 +815,7 @@
 		<objective type="FetchKeep" id="mushrooms" value="5" />
 		<objective type="FetchKeep" id="ZincPowder" value="10" />
 		<objective type="Craft" id="MossyBrew" value="5" />
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="1000" />
 		<reward type="Exp" value="250" optional="true" />
@@ -825,7 +836,7 @@
 		<objective type="FetchKeep" id="mushrooms" value="25" />
 		<objective type="FetchKeep" id="bottledWater" value="5" />
 		<objective type="Craft" id="vegetableStew" value="5" />
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="1000" />
 		<reward type="Exp" value="250" optional="true" />
@@ -844,7 +855,7 @@
 		<objective type="FetchKeep" id="coffeeBeans" value="10" />
 		<objective type="FetchKeep" id="bottledWater" value="5" />
 		<objective type="Craft" id="coffee" value="5" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="500" />
 		<reward type="Exp" value="250" optional="true" />
@@ -865,7 +876,7 @@
 		<objective type="FetchKeep" id="Dough" value="10" />
 		<objective type="FetchKeep" id="bottledWater" value="10" />
 		<objective type="Craft" id="blueberryPie" value="5" />
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="1000" />
 		<reward type="Exp" value="250" optional="true" />
@@ -884,7 +895,7 @@
 		<objective type="FetchKeep" id="GreenTeaExtract" value="10" />
 		<objective type="FetchKeep" id="bottledWater" value="5" />
 		<objective type="Craft" id="GreenTea" value="5" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="500" />
 		<reward type="Exp" value="250" optional="true" />
@@ -902,7 +913,7 @@
 		<objective type="Time" value="600" optional="true" />
 		<objective type="FetchKeep" id="cloth" value="10" />
 		<objective type="Craft" id="bandage" value="5" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="2" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="500" />
 		<reward type="Exp" value="250" optional="true" />
@@ -921,7 +932,7 @@
 		<objective type="FetchKeep" id="aloeCream" value="5" />
 		<objective type="FetchKeep" id="cloth" value="10" />
 		<objective type="Craft" id="firstAidBandage" value="5" />
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="1000" />
 		<reward type="Exp" value="250" optional="true" />
@@ -942,7 +953,7 @@
 		<objective type="FetchKeep" id="bandage" value="5" />
 		<objective type="FetchKeep" id="ductTape" value="5" />
 		<objective type="Craft" id="firstAidKit" value="5" />
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="1000" />
 		<reward type="Exp" value="250" optional="true" />
@@ -952,7 +963,7 @@
 	name="Antibiotics Doctor"
 	subtitle="Craft some Antibiotics"
 	offer="Gather the materials needed to craft 5 Antibiotics.\n\nDwall"
-	description="Gather these items:\n5 Moldy Bread\n5 Pottasium Nitrate Powder\n\nWith those ingredients craft 5 Antibiotics."
+	description="Gather these items:\n20 Moldy Bread\n15 Pottasium Nitrate Powder\n5 Bottled Water\n\nWith those ingredients craft 5 Antibiotics."
 	icon="ui_game_symbol_natural_healing"
 	repeatable="true"
 	category_key="challenge"
@@ -962,7 +973,7 @@
 		<objective type="FetchKeep" id="potassiumNitratePowder" value="15" />
 		<objective type="FetchKeep" id="bottledWater" value="5" />
 		<objective type="Craft" id="antibiotics" value="5" />
-		<reward type="SkillPoints" value="3" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="1500" />
 		<reward type="Exp" value="500" optional="true" />
@@ -982,7 +993,7 @@
 		<objective type="FetchKeep" id="wood" value="10" />
 		<objective type="FetchKeep" id="ductTape" value="5" />
 		<objective type="Craft" id="splint" value="5" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="2" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="500" />
 		<reward type="Exp" value="250" optional="true" />
@@ -992,7 +1003,7 @@
 	name="Herbal Antibiotics Doctor"
 	subtitle="Craft some"
 	offer="Gather the materials needed to craft 5 Herbal Antibiotics.\n\nDwall"
-	description="Gather these items:\n5 Blueberries\n5 Mushrooms\n5 Chrysanthemum Plants\n5 Pottasium Nitrate Powder\n\nWith those ingredients craft 5 Herbal Antibiotics."
+	description="Gather these items:\n25 Blueberries\n15 Mushrooms\n15 Chrysanthemum Plants\n15 Pottasium Nitrate Powder\n\nWith those ingredients craft 5 Herbal Antibiotics."
 	icon="ui_game_symbol_natural_healing"
 	repeatable="true"
 	category_key="challenge"
@@ -1003,7 +1014,7 @@
 		<objective type="FetchKeep" id="chrysanthemumPlant" value="15" />
 		<objective type="FetchKeep" id="potassiumNitratePowder" value="15" />
 		<objective type="Craft" id="herbalAntibiotics" value="5" />
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="1000" />
 		<reward type="Exp" value="250" optional="true" />
@@ -1021,7 +1032,7 @@
 		<objective type="Time" value="600" optional="true" />
 		<objective type="FetchKeep" id="ZincPowder" value="50" />
 		<objective type="Craft" id="vitamins" value="5" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="SkillPoints" value="1" optional="true" />
 		<reward type="Exp" value="500" />
 		<reward type="Exp" value="250" optional="true" />
@@ -1038,7 +1049,7 @@
 	difficulty="easy">
 		<objective type="FetchKeep" id="wood" value="75" />
 		<objective type="Craft" id="woodFrameBlock" value="15" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="2" />
 		<reward type="Exp" value="500" />
 	</quest>
 	
@@ -1053,7 +1064,7 @@
 	difficulty="easy">
 		<objective type="FetchKeep" id="scrapIron" value="45" />
 		<objective type="Craft" id="scrapIronFrameBlock" value="15" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="Exp" value="500" />
 	</quest>
 	
@@ -1067,7 +1078,7 @@
 	category_key="challenge"
 	difficulty="easy">
 		<objective type="Craft" id="rebarFrameBlock" value="15" />
-		<reward type="SkillPoints" id="1" />
+		<reward type="SkillPoints" id="4" />
 		<reward type="Exp" value="500" />
 	</quest>
 	
@@ -1082,7 +1093,7 @@
 	difficulty="easy">
 		<objective type="FetchKeep" id="wood" value="40" />
 		<objective type="Craft" id="window03Wood" value="5" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="2" />
 		<reward type="Exp" value="500" />
 	</quest>
 	
@@ -1098,7 +1109,7 @@
 		<objective type="FetchKeep" id="wood" value="120" />
 		<objective type="FetchKeep" id="nail" value="60" />
 		<objective type="Craft" id="GenericStorage" value="1" />
-		<reward type="SkillPoints" value="3" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="Exp" value="1500" />
 	</quest>
 	
@@ -1113,7 +1124,7 @@
 	difficulty="easy">
 		<objective type="FetchKeep" id="wood" value="60" />
 		<objective type="Craft" id="trapSpikesNew" value="15" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="Exp" value="500" />
 	</quest>
 	
@@ -1149,7 +1160,7 @@
 	difficulty="hard">
 		<objective type="AnimalKill" value="3" />
 			<requirement type="Holding" id="Longbow" />
-		<reward type="SkillPoints" value="3" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="Exp" value="1500" />
 	</quest>
 	
@@ -1185,7 +1196,7 @@
 	difficulty="hard">
 		<objective type="ZombieKill" value="3" />
 			<requirement type="Holding" id="SteelCrossbow" />
-		<reward type="SkillPoints" value="3" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="Exp" value="1500" />
 	</quest>
 	
@@ -1204,7 +1215,7 @@
 		<objective type="Craft" id="pickaxeIron" value="1" />
 		<objective type="Craft" id="shovelIron" value="1" />
 		<objective type="Craft" id="hoeIron" value="1" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="Exp" value="500" />
 	</quest>
 	
@@ -1222,7 +1233,7 @@
 		<objective type="Craft" id="fireaxeSteel" value="1" />
 		<objective type="Craft" id="pickaxeSteel" value="1" />
 		<objective type="Craft" id="shovelSteel" value="1" />
-		<reward type="SkillPoints" value="2" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="Exp" value="1000" />
 	</quest>
 	
@@ -1240,7 +1251,7 @@
 		<objective type="Craft" id="FireaxeTungsten" value="1" />
 		<objective type="Craft" id="PickaxeTungsten" value="1" />
 		<objective type="Craft" id="ShovelTungsten" value="1" />
-		<reward type="SkillPoints" value="3" />
+		<reward type="SkillPoints" value="5" />
 		<reward type="Exp" value="1500" />
 	</quest>
 	
@@ -1271,7 +1282,7 @@
 	difficulty="easy">
 		<objective type="ZombieKill" value="3" />
 			<requirement type="Holding" id="clubWood" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="Exp" value="500" />
 	</quest>
 	
@@ -1303,7 +1314,7 @@
 	difficulty="easy">
 		<objective type="ZombieKill" value="3" />
 			<requirement type="Holding" id="clubIron" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="Exp" value="500" />
 	</quest>
 	
@@ -1335,7 +1346,7 @@
 	difficulty="easy">
 		<objective type="ZombieKill" value="3" />
 			<requirement type="Holding" id="clubBarbed" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="Exp" value="500" />
 	</quest>
 	
@@ -1367,7 +1378,7 @@
 	difficulty="easy">
 		<objective type="ZombieKill" value="3" />
 			<requirement type="Holding" id="clubSpiked" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 		<reward type="Exp" value="500" />
 	</quest>
 	
@@ -1399,7 +1410,7 @@
 	difficulty="easy">
 		<objective type="ZombieKill" value="3" />
 			<requirement type="Holding" id="ClubTungsten" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="5" />
 		<reward type="Exp" value="500" />
 	</quest>
 	
@@ -1429,7 +1440,7 @@
 	difficulty="easy">
 		<objective type="ZombieKill" value="3" />
 			<requirement type="Holding" id="SteelMachete" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="3" />
 		<reward type="Exp" value="500" />
 	</quest>
 	
@@ -1459,7 +1470,7 @@
 	difficulty="easy">
 		<objective type="ZombieKill" value="3" />
 			<requirement type="Holding" id="TungstenMachete" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="4" />
 		<reward type="Exp" value="500" />
 	</quest>
 	
@@ -1493,7 +1504,7 @@
 	difficulty="hard">
 		<objective type="ZombieKill" id="fatzombiecop" value="1" />
 			<requirement type="Holding" id="blunderbuss" />
-		<reward type="Exp" value="1500" />
+		<reward type="Exp" value="5000" />
 	</quest>
 	
 	<quest id="challenge_feralzombie"
@@ -1507,7 +1518,7 @@
 	difficulty="hard">
 		<objective type="ZombieKill" id="zombieferal" value="1" />
 			<requirement type="Holding" id="M25SniperRifle" />
-		<reward type="Exp" value="1500" />
+		<reward type="Exp" value="5000" />
 	</quest>
 	
 	<quest id="challenge_dogkill"
@@ -1521,7 +1532,7 @@
 	difficulty="hard">
 		<objective type="ZombieKill" id="animalZombieDog" value="5" />
 			<requirement type="Holding" id="BarettaShotgun" />
-		<reward type="Exp" value="1500" />
+		<reward type="Exp" value="5000" />
 	</quest>
 	
 	<quest id="challenge_nursezombie"
@@ -1535,7 +1546,7 @@
 	difficulty="hard">
 		<objective type="ZombieKill" id="zombieNurse" value="5" />
 			<requirement type="Holding" id="DesertEagle" />
-		<reward type="Exp" value="1500" />
+		<reward type="Exp" value="5000" />
 		<reward type="Skill" id="Medicine" value="5" />
 	</quest>
 	
@@ -1554,9 +1565,9 @@
 		<objective type="ZombieKill" id="zombieMoeCrawler" value="1" />
 		<objective type="ZombieKill" id="zombieJoeCrawler" value="1" />
 		<objective type="ZombieKill" id="zombieBoeCrawler" value="1" />
-		<reward type="Exp" value="500" />
+		<reward type="Exp" value="2500" />
 		<reward type="Item" id="splint" value="5" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="3" />
 	</quest>
 	
 	<quest id="challenge_meleecrawlerzombies"
@@ -1588,9 +1599,8 @@
 				<requirement type="Holding" id="GoldTippedMachete" />
 				<requirement type="Holding" id="GoldTippedKnife" />
 			</requirement>
-		<reward type="Exp" value="2000" />
+		<reward type="Exp" value="5000" />
 		<reward type="SkillPoints" value="4" />
-		<reward type="Skill" id="Knife Guy" value="1" />
 		<reward type="Skill" id="Blade Weapons" value="5" />
 		<reward type="Skill" id="Blunt Weapons" value="5" />
 	</quest>
@@ -1605,7 +1615,7 @@
 	difficulty="medium">
 		<objective type="Goto" id="trader" value="10" />
 		<reward type="Exp" value="2500" />
-		<reward type="SkillPoints" value="1" />
+		<reward type="SkillPoints" value="3" />
     </quest>
 	
 	<!-- <quest id=""
@@ -1632,8 +1642,8 @@
 		<objective type="TreasureChest" id="lootCrateGeneral" value="750-1250" />
 		<reward type="TreasureItem" id="gunPistol" value="450,600" />
 		<reward type="TreasureItem" id="9mmBullet" value="100" />
-		<reward type="Skill" id="Scavenging" value="5" />
-		<reward type="Exp" value="1250" />
+		<reward type="Skill" id="Scavenging" value="2" />
+		<reward type="Exp" value="1500" />
 	</quest>
 	
 	<quest id="treasure_healthsupplies"
@@ -1648,7 +1658,8 @@
 		<objective type="TreasureChest" id="lootCrateHealthandArmor" value="1000-1750" />
 		<reward type="TreasureItem" id="firstAidKit" value="5" />
 		<reward type="TreasureItem" id="ImmunizationShot" value="2" />
-		<reward type="Exp" value="1250" />
+		<reward type="Skill" id="Scavenging" value="2" />
+		<reward type="Exp" value="1750" />
 	</quest>
 	
 	<quest id="treasure_buildingsupplies"
@@ -1664,7 +1675,8 @@
 		<reward type="TreasureItem" id="forgedIron" value="25" />
 		<reward type="TreasureItem" id="forgedSteel" value="15" />
 		<reward type="TreasureItem" id="ForgedTungsten" value="10" />
-		<reward type="Exp" value="1250" />
+		<reward type="Skill" id="Scavenging" value="2" />
+		<reward type="Exp" value="2000" />
 	</quest>
 	
 	<quest id="treasure_ammosupplies"
@@ -1680,7 +1692,8 @@
 		<reward type="TreasureItem" id="bulletCasing" value="500" />
 		<reward type="TreasureItem" id="bulletTip" value="500" />
 		<reward type="TreasureItem" id="gunPowder" value="500" />
-		<reward type="Exp" value="1250" />
+		<reward type="Skill" id="Scavenging" value="2" />
+		<reward type="Exp" value="2500" />
 	</quest>
 	
 	<quest id="treasure_foodanddrinksupplies"
@@ -1696,7 +1709,8 @@
 		<reward type="TreasureItem" id="MeatPie" value="5" />
 		<reward type="TreasureItem" id="ApplePie" value="5" />
 		<reward type="TreasureItem" id="AppleJuice" value="5" />
-		<reward type="Exp" value="1250" />
+		<reward type="Skill" id="Scavenging" value="2" />
+		<reward type="Exp" value="2500" />
 	</quest>
 	
 	<quest id="treasure_midtierweaponssupplies"
@@ -1711,7 +1725,8 @@
 		<objective type="TreasureChest" id="lootCrateWeaponsDay5" value="1100-1850" />
 		<reward type="TreasureItem" id="gun44Magnum" value="400,550" />
 		<reward type="TreasureItem" id="44MagBullet" value="50" />
-		<reward type="Exp" value="1250" />
+		<reward type="Skill" id="Scavenging" value="2" />
+		<reward type="Exp" value="3000" />
 	</quest>
 	
 	<quest id="treasure_hightierweaponssupplies"
@@ -1726,7 +1741,8 @@
 		<objective type="TreasureChest" id="lootCrateWeaponsDay7" value="1250-1900" />
 		<reward type="TreasureItem" id="BarettaShotgun" value="400,550" />
 		<reward type="TreasureItem" id="shotgunSlug" value="50" />
-		<reward type="Exp" value="1250" />
+		<reward type="Skill" id="Scavenging" value="2" />
+		<reward type="Exp" value="3000" />
 	</quest>
 	
 	<quest id="treasure_lowtierweaponssupplies"
@@ -1741,7 +1757,8 @@
 		<objective type="TreasureChest" id="lootCrateWeaponsDay3" value="1000-1750" />
 		<reward type="TreasureItem" id="Remington8" value="400,550" />
 		<reward type="TreasureItem" id="32mmBullet" value="50" />
-		<reward type="Exp" value="1250" />
+		<reward type="Skill" id="Scavenging" value="2" />
+		<reward type="Exp" value="5000" />
 	</quest>
 	
 	<!-- Class Quests -->

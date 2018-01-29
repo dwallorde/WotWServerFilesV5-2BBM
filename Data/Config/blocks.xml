@@ -10253,7 +10253,7 @@ kind of free
 
 <block id="971" name="BlueprintWorkStation">
 	<property name="CustomIcon" value="BlueprintWorkStation"/>
-    <property name="Class" value="Campfire" />
+    <property name="Class" value="Workstation" />
     <property name="Material" value="metal" />
 	<property name="MaxDamage" value="800"/>
     <property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
@@ -10269,7 +10269,7 @@ kind of free
 	<property name="HeatMapFrequency" value="25"/>
 	<property name="RandomTintColor1" value="0,0,255"/>
 	<property class="Workstation">
-		<property name="Modules" value="tools,output,fuel,input"/>
+		<property name="Modules" value="tools,output"/>
 		<property name="CraftingAreaRecipes" value="BlueprintWorkStation"/>
 	</property>
 	<property class="RepairItems">
@@ -10355,7 +10355,6 @@ kind of free
 	<property name="HeatMapStrength" value="1.5"/>
 	<property name="HeatMapTime" value="1200"/>
 	<property name="HeatMapFrequency" value="25"/>
-	<property name="BuffsWhenWalkedOn" value="burningSmall"/>
 	<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
 	<property class="Workstation">
 	<property name="CraftingAreaRecipes" value="BuildersForge"/>
@@ -10948,12 +10947,14 @@ kind of free
     <property name="Class" value="Damage" />
     <property name="Damage" value="1" />
 	<property name="Damage_received" value="75" /> 
-	<property name="BuffsWhenWalkedOn" value="burning" />
+	<property name="BuffsWhenWalkedOn" value="blockBurn3Trigger" />
     <property name="Material" value="Mmetal_hard" />
 	<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="OutdoorDecor/ember_pile_1" param1="main_mesh"/>
-	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="MultiBlockDim" value="3,2,3"/>
+	<property name="BigDecorationRadius" value="3"/>
     <property name="DowngradeBlock" value="FireTrap(HalfCapacity)" />
 	<property class="RepairItems">
 		<property name="fireLog" value="10" />
@@ -10969,12 +10970,12 @@ kind of free
     <property name="Class" value="Damage" />
     <property name="Damage" value="1" />
 	<property name="Damage_received" value="50" /> 
-	<property name="BuffsWhenWalkedOn" value="burningSmall" />
+	<property name="BuffsWhenWalkedOn" value="blockBurn2Trigger" />
     <property name="Material" value="Mmetal_hard" />
 	<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="OutdoorDecor/ember_pile_1" param1="main_mesh"/>
-	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="MultiBlockDim" value="3,2,3"/>
     <property name="DowngradeBlock" value="FireTrap(Empty)" />
     <property class="UpgradeBlock">
 		<property name="ToBlock" value="FireTrap" />
@@ -10995,7 +10996,7 @@ kind of free
 	<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="OutdoorDecor/ember_pile_1" param1="main_mesh"/>
-	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="MultiBlockDim" value="3,2,3"/>
 	<property class="UpgradeBlock">
       <property name="ToBlock" value="FireTrap(HalfCapacity)" />
       <property name="Item" value="fireLog" />
@@ -14455,7 +14456,49 @@ kind of free
 	<drop event="Destroy" name="oldCash" count="1,3" prob="0.05" tool_category="Disassemble"/>
 	<property name="EconomicValue" value="250"/> <!-- disassemble value -->
 </block>
-	<!-- 5 Free -->
+
+<block id="1341" name="combineBench">
+	<property name="CustomIcon" value="combineBench"/>
+	<property name="Class" value="Workstation"/>
+	<property name="Material" value="metal"/>
+	<property name="MaxDamage" value="800"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="table"/> <property name="IsDecoration" value="true"/>
+	<property name="Texture" value="65"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
+	<property name="HeatMapStrength" value="0.25"/>
+	<property name="HeatMapTime" value="1200"/>
+	<property name="HeatMapFrequency" value="25"/>
+	<!--<property name="RecipeList" value="backpack, workbench"/>-->
+	<!--<property name="CraftTimeMultiplier" value="0.5,1"/>-->
+	<property name="Stacknumber" value="1"/>
+	<property class="Workstation">
+		<property name="Modules" value="output"/>
+		<property name="CraftingAreaRecipes" value="combineBench"/>
+	</property>
+	<property class="RepairItems">
+		<property name="forgedIron" value="20"/>
+		<property name="mechanicalParts" value="10"/>
+		<property name="wood" value="25"/>
+	</property>
+	<drop event="Harvest" name="scrapIron" count="100" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="wood" count="10" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="forgedIron" count="5" tool_category="Disassemble"/>
+	<drop event="Harvest" name="mechanicalParts" count="4" tool_category="Disassemble"/>
+	<drop event="Harvest" name="wood" count="10" tool_category="Disassemble"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="10"/>
+	<property name="Group" value="Building,Science"/>
+	<property name="EconomicValue" value="475"/>
+	<property name="CraftingSkillGroup" value="Construction"/>
+</block>
+	<!-- 4 Free -->
 
 <block id="1346" name="shoppingCartEmpty">
 	<property name="Material" value="metal"/>
@@ -15109,6 +15152,7 @@ kind of free
 	<property name="CustomIcon" value="scrapIronFrameHalf" />
 	<property name="CanPickup" value="false" />
 </block>
+
 <block id="1416" name="woodTable">
 	<property name="Material" value="wood_regular"/>
 	<property name="Shape" value="New"/>
@@ -18502,7 +18546,12 @@ kind of free
 	<property name="ImposterExchange" value="imposterPlate" param1="77"/>
 	<property name="OpenSound" value="open_hatch_vault"/>
 	<property name="CloseSound" value="close_hatch_vault"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="hatchVault_v2"/> </property>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="hatchVault_v2"/>
+		<property name="Item" value="forgedSteel"/>
+		<property name="ItemCount" value="12"/>
+		<property name="UpgradeHitCount" value="6"/>
+	</property>
 	<property name="EconomicValue" value="432"/>
 </block>
 
@@ -18513,7 +18562,12 @@ kind of free
 	<property name="DescriptionKey" value="doorDesc"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Model" value="Entities/Doors/steel_hatch_v2Prefab"/> <property name="ModelOffset" value="0,.5,0"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="hatchVault_v3"/> </property>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="hatchVault_v3"/>
+		<property name="Item" value="forgedSteel"/>
+		<property name="ItemCount" value="12"/>
+		<property name="UpgradeHitCount" value="6"/>
+	</property>
 	<property name="DowngradeBlock" value="hatchVault"/>
 </block>
 

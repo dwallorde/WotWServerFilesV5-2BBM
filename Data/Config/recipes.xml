@@ -220,13 +220,13 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <ingredient name="bulletCasing" count="3"/>
 </recipe>
 
-<recipe name="blunderbussAmmo" count="1">
+<recipe name="blunderbussAmmo" count="2">
 	<ingredient name="rockSmall" count="1"/>
 	<ingredient name="gunPowder" count="1"/>
 	<ingredient name="paper" count="1"/>
 </recipe>
 
-<recipe name="blunderbussAmmo" count="2" craft_area="MortarandPestle">
+<recipe name="blunderbussAmmo" count="3" craft_area="MortarandPestle">
 	<ingredient name="rockSmall" count="2"/>
 	<ingredient name="gunPowder" count="1"/>
 	<ingredient name="paper" count="2"/>
@@ -909,18 +909,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="HDAuger_Blade" count="1"/>
 </recipe>
 
-<recipe name="partsAuger_blade" count="1" craft_area="workbench">
-	<ingredient name="partsAuger_blade" count="1"/>
-	<ingredient name="repairKit" count="1"/>
-	<ingredient name="forgedSteel" count="2"/>
-</recipe>
-
-<recipe name="partsAuger_parts" count="1" craft_area="workbench">
-	<ingredient name="partsAuger_parts" count="1"/>
-	<ingredient name="repairKit" count="1"/>
-	<ingredient name="forgedSteel" count="2"/>
-</recipe>
-
 <recipe name="chainsaw" count="1" craft_area="assembly">
 	<ingredient name="partsHandlebars" count="1"/>
 	<ingredient name="smallEngine" count="1"/>
@@ -940,18 +928,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="HDSmallEngine" count="1"/>
 	<ingredient name="HDChainsaw_Parts" count="1"/>
 	<ingredient name="HDChainsaw_Blade" count="1"/>
-</recipe>
-
-<recipe name="partsChainsaw_blade" count="1" craft_area="workbench">
-	<ingredient name="partsChainsaw_blade" count="1"/>
-	<ingredient name="repairKit" count="1"/>
-	<ingredient name="forgedSteel" count="2"/>
-</recipe>
-
-<recipe name="partsChainsaw_parts" count="1" craft_area="workbench">
-	<ingredient name="partsChainsaw_parts" count="1"/>
-	<ingredient name="repairKit" count="1"/>
-	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
 <recipe name="FishingPole" count="1" craft_exp_gain="50">
@@ -2376,6 +2352,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="cloth" count="4"/>
 </recipe>
 
+<recipe name="ballCapBGGLight" count="1" craft_area="workbench">
+	<ingredient name="ballCapBGGLight" count="1"/>
+	<ingredient name="flashlight02" count="1"/>
+</recipe>
+
 <recipe name="animalHidePoncho" count="1">
 	<ingredient name="leather" count="20"/>
 </recipe>
@@ -2733,31 +2714,31 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="militaryFiber" count="3"/>
 </recipe>
 
-<recipe name="silverBoots" count="1" craft_area="workbench" craft_exp_gain="250">
+<recipe name="silverBoots" count="1" craft_area="ArmorSmithingWorkstation" craft_exp_gain="250">
 	<ingredient name="silverNugget" count="5"/>
 	<ingredient name="forgedIron" count="4"/>
 	<ingredient name="ductTape" count="2"/>
 </recipe>
 
-<recipe name="silverPants" count="1" craft_area="workbench" craft_exp_gain="250">
+<recipe name="silverPants" count="1" craft_area="ArmorSmithingWorkstation" craft_exp_gain="250">
 	<ingredient name="silverNugget" count="10"/>
 	<ingredient name="forgedIron" count="5"/>
 	<ingredient name="ductTape" count="3"/>
 </recipe>
 
-<recipe name="silverJacket" count="1" craft_area="workbench" craft_exp_gain="250">
+<recipe name="silverJacket" count="1" craft_area="ArmorSmithingWorkstation" craft_exp_gain="250">
 	<ingredient name="silverNugget" count="15"/>
 	<ingredient name="forgedIron" count="5"/>
 	<ingredient name="ductTape" count="3"/>
 </recipe>
 
-<recipe name="silverHat" count="1" craft_area="workbench" craft_exp_gain="250">
+<recipe name="silverHat" count="1" craft_area="ArmorSmithingWorkstation" craft_exp_gain="250">
 	<ingredient name="silverNugget" count="5"/>
 	<ingredient name="forgedIron" count="4"/>
 	<ingredient name="ductTape" count="2"/>
 </recipe>
 
-<recipe name="silverGloves" count="1" craft_area="workbench" craft_exp_gain="250">
+<recipe name="silverGloves" count="1" craft_area="ArmorSmithingWorkstation" craft_exp_gain="250">
 	<ingredient name="silverNugget" count="5"/>
 	<ingredient name="forgedIron" count="4"/>
 	<ingredient name="ductTape" count="2"/>
@@ -2814,14 +2795,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="mechanicalParts" count="10"/>
 </recipe>
 
-<recipe name="ClothingWorkStation" count="1" craft_area="workbench" craft_exp_gain="150">
-	<ingredient name="forgedIron" count="35"/>
-	<ingredient name="cloth" count="40"/>
-	<ingredient name="electricParts" count="10"/>
-	<ingredient name="shortMetalPipe" count="5"/>
-	<ingredient name="wood" count="50"/>
-</recipe>
-
 <recipe name="ArmorSmithingWorkstation" count="1" craft_area="workbench" craft_exp_gain="150">
 	<ingredient name="forgedIron" count="35"/>
 	<ingredient name="anvil" count="1"/>
@@ -2867,6 +2840,13 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="electricParts" count="15"/>
 	<ingredient name="electronicParts" count="10"/>
 	<ingredient name="shortMetalPipe" count="15"/>
+</recipe>
+
+<recipe name="combineBench" count="1" craft_area="workbench" craft_exp_gain="200">
+	<ingredient name="forgedIron" count="20"/>
+	<ingredient name="mechanicalParts" count="10"/>
+	<ingredient name="wood" count="25"/>
+	<ingredient name="stoneHammer" count="1"/>
 </recipe>
 
 <!-- * * * * * * * * * * * * Bike/Part Recipes * * * * * * * * * * * * -->
@@ -2954,7 +2934,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="shortMetalPipe" count="6"/>
 </recipe>
 
-<recipe name="smallEngine" count="1" craft_area="workbench" craft_exp_gain="150">
+<recipe name="smallEngine" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="150">
 	<ingredient name="forgedIron" count="200"/>
 	<ingredient name="electricParts" count="50"/>
 	<ingredient name="mechanicalParts" count="75"/>
@@ -2962,7 +2942,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="radiator" count="1"/>
 </recipe>
 
-<recipe name="HDSmallEngine" count="1" craft_area="workbench" craft_exp_gain="500">
+<recipe name="HDSmallEngine" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="500">
 	<ingredient name="ForgedTungsten" count="150"/>
 	<ingredient name="electricParts" count="100"/>
 	<ingredient name="mechanicalParts" count="125"/>
@@ -2970,7 +2950,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="radiator" count="2"/>
 </recipe>
 
-<recipe name="ECOSmallEngine" count="1" craft_area="workbench" craft_exp_gain="300">
+<recipe name="ECOSmallEngine" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="300">
 	<ingredient name="forgedSteel" count="150"/>
 	<ingredient name="electricParts" count="75"/>
 	<ingredient name="mechanicalParts" count="100"/>
@@ -2978,7 +2958,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="radiator" count="1"/>
 </recipe>
 
-<recipe name="minibikeWheels" count="1" craft_area="workbench" craft_exp_gain="150">
+<recipe name="minibikeWheels" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="150">
 	<ingredient name="glue" count="20"/>
 	<ingredient name="yuccaFibers" count="250"/>
 	<ingredient name="leather" count="50"/>
@@ -2986,7 +2966,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="hubcap" count="2"/>
 </recipe>
 
-<recipe name="HDMinibikeWheels" count="1" craft_area="workbench" craft_exp_gain="500">
+<recipe name="HDMinibikeWheels" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="500">
 	<ingredient name="glue" count="45"/>
 	<ingredient name="yuccaFibers" count="500"/>
 	<ingredient name="leather" count="100"/>
@@ -2994,21 +2974,21 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="hubcap" count="2"/>
 </recipe>
 
-<recipe name="carBattery" count="1" craft_area="workbench" craft_exp_gain="150">
+<recipe name="carBattery" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="150">
 	<ingredient name="forgedIron" count="100"/>
 	<ingredient name="scrapLead" count="150"/>
 	<ingredient name="HouseholdChemicals" count="15"/>
 	<ingredient name="electricParts" count="15"/>
 </recipe>
 
-<recipe name="ECOBattery" count="1" craft_area="workbench" craft_exp_gain="300">
+<recipe name="ECOBattery" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="300">
 	<ingredient name="forgedSteel" count="100"/>
 	<ingredient name="scrapLead" count="200"/>
 	<ingredient name="HouseholdChemicals" count="25"/>
 	<ingredient name="electricParts" count="20"/>
 </recipe>
 
-<recipe name="HDBattery" count="1" craft_area="workbench" craft_exp_gain="500">
+<recipe name="HDBattery" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="500">
 	<ingredient name="ForgedTungsten" count="100"/>
 	<ingredient name="scrapLead" count="300"/>
 	<ingredient name="HouseholdChemicals" count="40"/>
@@ -3019,7 +2999,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="scrapIron" count="100"/>
 </recipe>
 
-<recipe name="shoppingBasketItem" count="1" craft_area="workbench" craft_exp_gain="75">
+<recipe name="shoppingBasketItem" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="75">
 	<ingredient name="forgedIron" count="20"/>
 	<ingredient name="scrapPlastics" count="50"/>
 </recipe>
@@ -3036,7 +3016,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="forgedIron" count="30"/>
 </recipe>
 
-<recipe name="TungstenPadlock" count="1" craft_area="workbench">
+<recipe name="TungstenPadlock" count="1" craft_area="AdvancedToolWorkbench">
 	<ingredient name="ForgedTungsten" count="25"/>
 </recipe>
 
@@ -3049,16 +3029,34 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="glue" count="2"/>
 </recipe>
 
+<recipe name="partsNailgun_frame" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="partsNailgun_frame" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
 <recipe name="partsNailgun_receiver" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="75">
 	<ingredient name="forgedIron" count="4"/>
 	<ingredient name="mechanicalParts" count="4"/>
 	<ingredient name="electricParts" count="2"/>
 </recipe>
 
+<recipe name="partsNailgun_receiver" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="partsNailgun_receiver" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
 <recipe name="partsNailgun_parts" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="75">
 	<ingredient name="forgedIron" count="2"/>
 	<ingredient name="electricParts" count="2"/>
 	<ingredient name="electronicParts" count="4"/>
+</recipe>
+
+<recipe name="partsNailgun_parts" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="partsNailgun_parts" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
 <recipe name="partsNailgun_battery" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="75">
@@ -3068,9 +3066,21 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="electricParts" value="2"/>
 </recipe>
 
+<recipe name="partsNailgun_battery" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="partsNailgun_battery" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
 <recipe name="HDNailgun_Frame" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="100">
 	<ingredient name="scrapPlastics" count="8"/>
 	<ingredient name="glue" count="4"/>
+</recipe>
+
+<recipe name="HDNailgun_Frame" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="HDNailgun_Frame" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
 <recipe name="HDNailgun_Receiver" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="100">
@@ -3079,10 +3089,22 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="electricParts" count="4"/>
 </recipe>
 
+<recipe name="HDNailgun_Receiver" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="HDNailgun_Receiver" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
 <recipe name="HDNailgun_Parts" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="100">
 	<ingredient name="forgedIron" count="4"/>
 	<ingredient name="electricParts" count="4"/>
 	<ingredient name="electronicParts" count="6"/>
+</recipe>
+
+<recipe name="HDNailgun_Parts" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="HDNailgun_Parts" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
 <recipe name="HDNailgun_Battery" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="100">
@@ -3092,9 +3114,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="electricParts" value="4"/>
 </recipe>
 
-<recipe name="partsChainsaw_parts" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
-	<ingredient name="forgedIron" count="20"/>
-	<ingredient name="clayLump" count="10"/>
+<recipe name="HDNailgun_Battery" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="HDNailgun_Battery" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
 <recipe name="partsChainsaw_blade" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
@@ -3102,9 +3125,21 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="clayLump" count="5"/>
 </recipe>
 
-<recipe name="partsAuger_parts" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
-	<ingredient name="forgedIron" count="15"/>
-	<ingredient name="clayLump" count="5"/>
+<recipe name="partsChainsaw_blade" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="partsChainsaw_blade" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
+<recipe name="partsChainsaw_parts" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
+	<ingredient name="forgedIron" count="20"/>
+	<ingredient name="clayLump" count="10"/>
+</recipe>
+
+<recipe name="partsChainsaw_parts" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="partsChainsaw_parts" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
 <recipe name="partsAuger_blade" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
@@ -3112,9 +3147,32 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="clayLump" count="10"/>
 </recipe>
 
+<recipe name="partsAuger_blade" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="partsAuger_blade" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
+<recipe name="partsAuger_parts" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
+	<ingredient name="forgedIron" count="15"/>
+	<ingredient name="clayLump" count="5"/>
+</recipe>
+
+<recipe name="partsAuger_parts" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="partsAuger_parts" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
 <recipe name="ECOAuger_Parts" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
 	<ingredient name="forgedSteel" count="20"/>
 	<ingredient name="clayLump" count="10"/>
+</recipe>
+
+<recipe name="ECOAuger_Parts" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="ECOAuger_Parts" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
 <recipe name="ECOAuger_Blade" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
@@ -3122,9 +3180,21 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="clayLump" count="15"/>
 </recipe>
 
+<recipe name="ECOAuger_Blade" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="ECOAuger_Blade" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
 <recipe name="HDAuger_Parts" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
 	<ingredient name="ForgedTungsten" count="25"/>
 	<ingredient name="clayLump" count="15"/>
+</recipe>
+
+<recipe name="HDAuger_Parts" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="HDAuger_Parts" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
 <recipe name="HDAuger_Blade" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
@@ -3132,9 +3202,33 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="clayLump" count="20"/>
 </recipe>
 
+<recipe name="HDAuger_Blade" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="HDAuger_Blade" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
 <recipe name="ECOChainsaw_Parts" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
 	<ingredient name="forgedSteel" count="20"/>
 	<ingredient name="clayLump" count="10"/>
+</recipe>
+
+<recipe name="ECOChainsaw_Parts" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="ECOChainsaw_Parts" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
+<recipe name="HDAuger_Blade" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="HDAuger_Blade" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
+<recipe name="HDAuger_Blade" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="HDAuger_Blade" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
 <recipe name="ECOChainsaw_Blade" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
@@ -3142,14 +3236,32 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="clayLump" count="15"/>
 </recipe>
 
+<recipe name="ECOChainsaw_Blade" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="ECOChainsaw_Blade" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
 <recipe name="HDChainsaw_Parts" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
 	<ingredient name="ForgedTungsten" count="25"/>
 	<ingredient name="clayLump" count="15"/>
 </recipe>
 
+<recipe name="HDChainsaw_Parts" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="HDChainsaw_Parts" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
 <recipe name="HDChainsaw_Blade" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
 	<ingredient name="ForgedTungsten" count="30"/>
 	<ingredient name="clayLump" count="20"/>
+</recipe>
+
+<recipe name="HDChainsaw_Blade" count="1" craft_area="combineBench" craft_exp_gain="250">
+	<ingredient name="HDChainsaw_Blade" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
 <recipe name="flashlight02" count="1" craft_area="workbench">

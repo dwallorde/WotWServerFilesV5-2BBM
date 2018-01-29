@@ -3379,7 +3379,7 @@ Mesh files no longer used:
 	<property name="CraftingSkillGroup" value="Mechanic"/>
 </item>
 <item id="271" name="minibikeWheels">
-	<property name="DescriptionKey" value="minibikePartsGroupDesc"/>
+	<property name="DescriptionKey" value="minibikeWheelsDesc"/>
 	<property name="VehicleSlotType" value="wheel"/>
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
@@ -11580,7 +11580,8 @@ Mesh files no longer used:
 	</property>
 </item>
 
-<item id="1599" name="DyeWhite">
+<item id="1599" name="DyeWhite"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="potassiumNitratePowder" />
     <property name="CustomIconTint" value="FFFFFF" />
     <property name="Meshfile" value="Items/Food/cornmeal" />
@@ -11593,7 +11594,8 @@ Mesh files no longer used:
 	<property name="DescriptionKey" value="DyeDesc" />
 </item>
 
-<item id="1600" name="DyeBlack">
+<item id="1600" name="DyeBlack"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="potassiumNitratePowder" />
     <property name="CustomIconTint" value="000000" />
     <property name="Meshfile" value="Items/Food/cornmeal" />
@@ -11606,7 +11608,8 @@ Mesh files no longer used:
 	<property name="DescriptionKey" value="DyeDesc" />
 </item>
 
-<item id="1601" name="DyeRed">
+<item id="1601" name="DyeRed"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="potassiumNitratePowder" />
     <property name="CustomIconTint" value="FF0000" />
     <property name="Meshfile" value="Items/Food/cornmeal" />
@@ -11619,7 +11622,8 @@ Mesh files no longer used:
 	<property name="DescriptionKey" value="DyeDesc" />
 </item>
 
-<item id="1602" name="DyeBlue">
+<item id="1602" name="DyeBlue"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="potassiumNitratePowder" />
     <property name="CustomIconTint" value="0000FF" />
     <property name="Meshfile" value="Items/Food/cornmeal" />
@@ -11632,7 +11636,8 @@ Mesh files no longer used:
 	<property name="DescriptionKey" value="DyeDesc" />
 </item>
 
-<item id="1603" name="DyeYellow">
+<item id="1603" name="DyeYellow"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="potassiumNitratePowder" />
     <property name="CustomIconTint" value="FFFF00" />
     <property name="Meshfile" value="Items/Food/cornmeal" />
@@ -11645,7 +11650,8 @@ Mesh files no longer used:
 	<property name="DescriptionKey" value="DyeDesc" />
 </item>
 
-<item id="1604" name="DyeOrange">
+<item id="1604" name="DyeOrange"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="potassiumNitratePowder" />
     <property name="CustomIconTint" value="FFA500" />
     <property name="Meshfile" value="Items/Food/cornmeal" />
@@ -11658,7 +11664,8 @@ Mesh files no longer used:
 	<property name="DescriptionKey" value="DyeDesc" />
 </item>
 
-<item id="1605" name="DyeGrey">
+<item id="1605" name="DyeGrey"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="potassiumNitratePowder" />
     <property name="CustomIconTint" value="808080" />
     <property name="Meshfile" value="Items/Food/cornmeal" />
@@ -11671,7 +11678,8 @@ Mesh files no longer used:
 	<property name="DescriptionKey" value="DyeDesc" />
 </item>
 
-<item id="1606" name="DyeGreen">
+<item id="1606" name="DyeGreen"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="potassiumNitratePowder" />
     <property name="CustomIconTint" value="008000" />
     <property name="Meshfile" value="Items/Food/cornmeal" />
@@ -11684,7 +11692,8 @@ Mesh files no longer used:
 	<property name="DescriptionKey" value="DyeDesc" />
 </item>
 
-<item id="1607" name="DyeBrown">
+<item id="1607" name="DyeBrown"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="potassiumNitratePowder" />
     <property name="CustomIconTint" value="A5682A" />
     <property name="Meshfile" value="Items/Food/cornmeal" />
@@ -11697,7 +11706,8 @@ Mesh files no longer used:
 	<property name="DescriptionKey" value="DyeDesc" />
 </item>
 
-<item id="1608" name="BlueprintStationSchematic"> <!-- Class Only -->
+<item id="1608" name="BlueprintStationSchematic"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
     <property name="CustomIcon" value="BlueprintStationSchematic" />
 	<property name="Extends" value="schematicMaster" />
     <property class="Action1">
@@ -14145,6 +14155,7 @@ Mesh files no longer used:
       <property name="Sound_start" value="UseActions/player_drinking" />
       <property name="Gain_wellness" value="1.1" />
 	  <property name="Buff" value="GreenTea,Soberizing,gainImmunity_xsmall_Trigger" />
+	  <property name="Buff_chance" value="0.6,1,1" />
       <property name="Debuff" value="dysentery" />
 	  <property name="Create_item" value="emptyJar" />
     </property>
@@ -14327,9 +14338,9 @@ Mesh files no longer used:
 		<property name="Use_time" value="0" />
 		<property name="Gain_food" value="1" />
 		<property name="Gain_water" value="-1" />
-		<property name="Gain_stamina" value="5" />
-		<property name="Gain_health" value="2" />
-		<property name="Gain_wellness" value="0" />
+		<property name="Gain_stamina" value="0" />
+		<property name="Gain_health" value="0" />
+		<property name="Gain_wellness" value="-0.5" />
 		<property name="Sound_start" value="UseActions/player_eating" />
     </property>
     <property name="Group" value="Food/Cooking" />
@@ -14463,7 +14474,7 @@ Mesh files no longer used:
 		<property name="Class" value="Eat" />
 		<property name="Delay" value="1.0" />
 		<property name="Use_time" value="0" />
-		<property name="Gain_food" value="10" />
+		<property name="Gain_food" value="16" />
 		<property name="Gain_water" value="-2" />
 		<property name="Gain_stamina" value="5" />
 		<property name="Gain_health" value="4" />
@@ -14584,6 +14595,7 @@ Mesh files no longer used:
 	<property name="ActionSkillGroup" value="Medicine"/>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	<property name="ActionExp" value="10"/>
+	<property name="EconomicValue" value="100" />
 </item>
 
 <item id="1820" name="TraumaFirstAidBandage">
@@ -14608,6 +14620,7 @@ Mesh files no longer used:
 		<property name="Debuff" value="bleeding,bleeding2,bleeding3,bleeding4,arrowCriticalBleedout,biteMark" />
 	</property>
 	<property name="DescriptionKey" value="TraumaFirstAidBandageDesc"/>
+	<property name="EconomicValue" value="200" />
 </item>
 
 <item id="1821" name="TraumaFirstAidKit">
@@ -14634,6 +14647,7 @@ Mesh files no longer used:
 		<property name="Debuff" value="bleeding,bleeding2,bleeding3,bleeding4,arrowCriticalBleedout,biteMark" />
 	</property>
 	<property name="DescriptionKey" value="TraumaFirstAidKitDesc"/>
+	<property name="EconomicValue" value="250" />
 </item>
 
 <item id="1822" name="ExtraStrengthPainkillers">
@@ -14670,6 +14684,7 @@ Mesh files no longer used:
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	<property name="Group" value="Medicine" />
 	<property name="ActionExp" value="5"/>
+	<property name="EconomicValue" value="150" />
 </item>
 
 <item id="1823" name="ApplePieRecipe"> <!-- Class Only -->
@@ -14708,7 +14723,8 @@ Mesh files no longer used:
     </property>
 </item>
 
-<item id="1827" name="ImmunizationShotRecipe"> <!-- Class Only -->
+<item id="1827" name="ImmunizationShotRecipe"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
     <property name="CustomIcon" value="bloodDrawKit" />
     <property name="CustomIconTint" value="d4a00e" />
 	<property name="Extends" value="schematicMaster" />
@@ -14718,7 +14734,8 @@ Mesh files no longer used:
     </property>
 </item>
 
-<item id="1828" name="LegBoosterShotRecipe"> <!-- Class Only -->
+<item id="1828" name="LegBoosterShotRecipe"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
     <property name="CustomIcon" value="bloodDrawKit" />
     <property name="CustomIconTint" value="04CCAA" />
 	<property name="Extends" value="schematicMaster" />
@@ -14738,6 +14755,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1830" name="HouseDoorSchematic"> <!-- Remove ? -->
+	<property name="CreativeMode" value="Dev"/>
     <property name="CustomIcon" value="HouseDoorSchematic" />
 	<property name="Extends" value="schematicMaster" />
     <property class="Action1">
@@ -14747,6 +14765,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1831" name="SteelDoorSchematic"> <!-- Remove ? -->
+	<property name="CreativeMode" value="Dev"/>
     <property name="CustomIcon" value="SteelDoorSchematic" />
 	<property name="Extends" value="schematicMaster" />
     <property class="Action1">
@@ -14756,6 +14775,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1832" name="TungstenDoorSchematic"> <!-- Remove ? -->
+	<property name="CreativeMode" value="Dev"/>
     <property name="CustomIcon" value="TungstenDoorSchematic" />
 	<property name="Extends" value="schematicMaster" />
     <property class="Action1">
@@ -15389,6 +15409,7 @@ Mesh files no longer used:
 </item> -->
 
 <item id="1867" name="gunBanditPistol">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="gunPistol"/>
     <property name="Candrop" value="false"/>
 	<property name="IsDeveloper" value="true"/>
@@ -15458,6 +15479,7 @@ Mesh files no longer used:
 </item> -->
 
 <item id="1868" name="9mmBanditBullet">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="9mmBullet"/>
 	<property name="Meshfile" value="Items/Weapons/Ranged/Pistol/9mm_bulletPrefab"/>
 	<property name="Material" value="brass"/>
@@ -15501,6 +15523,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1870" name="StarterClassBuilder"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="MagazineMaster" />
 	<property name="CustomIcon" value="StarterClassBuilder" />
 	<property class="Action1">
@@ -15509,6 +15532,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1871" name="StarterClassSurvivalist"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="MagazineMaster" />
 	<property name="CustomIcon" value="StarterClassSurvivalist" />
 	<property class="Action1">
@@ -15524,7 +15548,8 @@ Mesh files no longer used:
 	</property>
 </item>
 
-<item id="1873" name="ClassPaper">
+<item id="1873" name="ClassPaper"> <!-- Remove -->
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="ClassPaper" />
 	<property name="Extends" value="paper" />
 	<property name="Material" value="ClassPaper" />
@@ -15595,6 +15620,7 @@ Mesh files no longer used:
 	<property class="UMA">
 		<property name="Overlay1Tint" value="210,75,7,255" />
 	</property>
+	<property name="DescriptionKey" value="PrisonerClothingDesc" />
 </item>
 
 <item id="1877" name="PrisonerPants">
@@ -15604,6 +15630,7 @@ Mesh files no longer used:
 	<property class="UMA">
 		<property name="Overlay0Tint" value="210,75,7,255" />
 	</property>
+	<property name="DescriptionKey" value="PrisonerClothingDesc" />
 </item>
 
 <!-- <item id="1878" name="RestReset">
@@ -15656,7 +15683,7 @@ Mesh files no longer used:
 </item> -->
 
 <item id="1880" name="HDWrench">
-	<property name="CustomIcon" value="HDWrench" />\
+	<property name="CustomIcon" value="HDWrench" />
 	<property name="Extends" value="wrench" />
 	<property name="RepairTools" value="ForgedTungsten"/>
 	<property name="EconomicValue" value="560" />
@@ -15682,6 +15709,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1881" name="ChickenRaw">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="rawMeat" />
 	<property name="CustomIcon" value="ChickenRaw" />
 	<property name="Material" value="organic" />
@@ -15721,6 +15749,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1883" name="ChickenGrilled">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="grilledMeat" />
 	<property name="CustomIcon" value="ChickenGrilled" />
 	<property name="EconomicValue" value="22" />
@@ -15755,6 +15784,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1885" name="VenisonRaw">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="rawMeat" />
 	<property name="CustomIcon" value="rawMeat" />
 	<property name="Material" value="organic" />
@@ -15777,6 +15807,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1886" name="VenisonFried">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="charredMeat" />
 	<property name="CustomIcon" value="charredMeat" />
 	<property name="EconomicValue" value="30" />
@@ -15828,6 +15859,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1889" name="PorkRaw">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="rawMeat" />
 	<property name="CustomIcon" value="PorkRaw" />
 	<property name="Material" value="organic" />
@@ -15850,6 +15882,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1890" name="PorkFried">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="charredMeat" />
 	<property name="CustomIcon" value="PorkFried" />
 	<property name="EconomicValue" value="18" />
@@ -15884,6 +15917,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1892" name="RabbitRaw">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="rawMeat" />
 	<property name="CustomIcon" value="RabbitMeatRaw" />
 	<property name="Material" value="organic" />
@@ -15923,6 +15957,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1894" name="RabbitGrilled">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="grilledMeat" />
 	<property name="CustomIcon" value="RabbitGrilled" />
 	<property name="EconomicValue" value="20" />
@@ -15940,6 +15975,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1895" name="RabbitBoiled">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="boiledMeat" />
 	<property name="CustomIcon" value="RabbitBoiled" />
 	<property name="EconomicValue" value="25" />
@@ -15957,6 +15993,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1896" name="BearMeatRaw">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="rawMeat" />
 	<property name="CustomIcon" value="BearMeatRaw" />
 	<property name="Material" value="organic" />
@@ -15979,6 +16016,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1897" name="BearGrilled">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="grilledMeat" />
 	<property name="CustomIcon" value="BearGrilled" />
 	<property name="EconomicValue" value="64" />
@@ -16624,6 +16662,7 @@ Mesh files no longer used:
 </item> -->
 
 <item id="1915" name="ironBlocksSchematic">
+	<property name="CreativeMode" value="Dev"/>
     <property name="CustomIcon" value="ironBlocksSchematic" />
 	<property name="Extends" value="schematicMaster" />
     <property class="Action1">
@@ -16633,6 +16672,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1916" name="tungstenBlocksSchematic">
+	<property name="CreativeMode" value="Dev"/>
     <property name="CustomIcon" value="tungstenBlocksSchematic" />
 	<property name="Extends" value="schematicMaster" />
     <property class="Action1">
@@ -16699,6 +16739,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1925" name="classKey">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="classKey" />
 	<property name="Meshfile" value="Items/Tools/wrenchPrefab" />
 	<property name="Material" value="metal" />
@@ -16863,7 +16904,7 @@ Mesh files no longer used:
 	<!-- <property name="HoldType" value="36"/> -->
 	<property name="HoldType" value="29"/>
 	<property name="Degradation" value="250" param1="true"/>
-	<property name="Stacknumber" value="15"/> <!-- STK resource -->
+	<property name="Stacknumber" value="25"/> <!-- STK resource -->
 	<property class="Action1">
 		<property name="Class" value="Repair"/>
 		<property name="Delay" value="0.4"/>
@@ -16873,9 +16914,9 @@ Mesh files no longer used:
 		<property name="Sound_start" value="UseActions/repair_block"/>
 		<property name="Sound_repeat" value="repair_block"/>
 		<property name="Allowed_upgrade_items" value="lockPick"/>
-		<property name="Restricted_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,gasCan,lockPickSafe,ForgedTungsten"/>
+		<!-- <property name="Restricted_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,gasCan,lockPickSafe,ForgedTungsten"/> -->
 	</property>
-	<property name="Group" value="Ammo/Weapons"/>
+	<property name="Group" value="Tools/Traps"/>
 	<property name="ActionSkillGroup" value="Athletics"/>
 	<property name="CraftingSkillGroup" value="craftSkillTools"/>
 </item>
@@ -18389,7 +18430,7 @@ Mesh files no longer used:
 	<!-- <property name="HoldType" value="36"/> -->
 	<property name="HoldType" value="29"/>
 	<property name="Degradation" value="250" param1="true"/>
-	<property name="Stacknumber" value="15"/> <!-- STK resource -->
+	<property name="Stacknumber" value="25"/> <!-- STK resource -->
 	<property class="Action1">
 		<property name="Class" value="Repair"/>
 		<property name="Delay" value="0.4"/>
@@ -18401,7 +18442,7 @@ Mesh files no longer used:
 		<property name="Allowed_upgrade_items" value="lockPickSafe"/>
 		<property name="Restricted_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,gasCan,lockPick,ForgedTungsten"/>
 	</property>
-	<property name="Group" value="Ammo/Weapons"/>
+	<property name="Group" value="Tools/Traps"/>
 	<property name="ActionSkillGroup" value="Construction Tools"/>
 	<property name="CraftingSkillGroup" value="craftSkillTools"/>
 </item>
@@ -19089,6 +19130,7 @@ Mesh files no longer used:
 	<property class="UMA">
 		<property name="Overlay0Tint" value="0,0,0"/>
 	</property>
+	<property name="DescriptionKey" value="ballCapBGGDesc"/>
 </item>
 
 <item id="2092" name="adminQuestBuilderClass1">
@@ -19397,6 +19439,7 @@ Mesh files no longer used:
 		<property name="Overlay0Tint" value="0,0,0"/>
 	</property>
 	<property name="LightValue" value="0.7"/>
+	<property name="DescriptionKey" value="ballCapBGGLightDesc"/>
 </item>
 
 <item id="2110" name="dwallsPornStash">

@@ -1474,14 +1474,14 @@ workstations
 	<!-- Class Vending Machine (Builder) -->
 	<trader_info id="6" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="10">
-			<item name="wood" count="5000,10000"/>
-			<item name="ironFragment" count="2500,5000"/>
-			<item name="scrapIron" count="5000,10000"/>
-			<item name="forgedIron" count="25,150"/>
-			<item name="forgedSteel" count="20,75"/>
+			<item name="wood" count="2500,5000"/>
+			<item name="ironFragment" count="500,1500"/>
+			<item name="scrapIron" count="2500,5000"/>
+			<item name="forgedIron" count="25,75"/>
+			<item name="forgedSteel" count="20,50"/>
 			<item name="ForgedTungsten" count="20,50" prob="0.15"/>
-			<item name="concreteMix" count="100,600"/>
-			<item name="cobblestones" count="1000"/>
+			<item name="concreteMix" count="100,500"/>
+			<item name="cobblestones" count="250,1000"/>
 			<item name="scrapPlastics" count="20,60"/>
 			<item name="electricParts" count="20,60"/>
 			<item name="electronicParts" count="10,30"/>
@@ -1532,6 +1532,12 @@ workstations
 			<item name="plantedBlueberry1" count="20,50"/>
 			<item name="plantedPotato1" count="20,50"/>
 			<item name="plantedCorn1" count="20,50"/>
+			<item name="plantedWheat1" count="10,25"/>
+			<item name="plantedAppleTree1" count="10,25"/>
+			<item name="plantedBlackberry1" count="10,25"/>
+			<item name="plantedStrawberry1" count="10,25"/>
+			<item name="plantedCocoa1" count="10,25"/>
+			<item name="treeBirdnest" count="1,3" prob="0.1"/>
 			<item name="BlueprintPaper" count="20,50"/>
 			<item name="pipeBomb" count="2,6"/>
 			<item name="dynamite" count="2,6"/>
@@ -1546,25 +1552,25 @@ workstations
 	<!-- Class Vending Machine (Marksman) -->
 	<trader_info id="9" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="10">
-			<item name="9mmBullet" count="25,150"/>
-			<item name="9mmHollowPointBullet" count="25,150" prob="0.25"/>
-			<item name="762mmBullet" count="25,150"/>
-			<item name="762mmHollowPointBullet" count="25,150" prob="0.15"/>
-			<item name="44MagBullet" count="25,150"/>
-			<item name="44HollowPointMagBullet" count="25,150" prob="0.1"/>
-			<item name="556mmBullet" count="25,150"/>
-			<item name="556mmNATOBullet" count="25,150" prob="0.1"/>
-			<item name="32mmBullet" count="25,150"/>
-			<item name="shotgunShell" count="25,150"/>
-			<item name="shotgunSlug" count="25,150" prob="0.15"/>
-			<item name="gunPowder" count="250,1000"/>
-			<item name="bulletTip" count="250,1000"/>
-			<item name="bulletCasing" count="250,1000"/>
-			<item name="scrapBrass" count="250,750"/>
-			<item name="scrapLead" count="250,750"/>
+			<item name="9mmBullet" count="25,75"/>
+			<item name="9mmHollowPointBullet" count="25,75" prob="0.25"/>
+			<item name="762mmBullet" count="25,75"/>
+			<item name="762mmHollowPointBullet" count="25,75" prob="0.15"/>
+			<item name="44MagBullet" count="25,75"/>
+			<item name="44HollowPointMagBullet" count="25,75" prob="0.1"/>
+			<item name="556mmBullet" count="25,75"/>
+			<item name="556mmNATOBullet" count="25,75" prob="0.1"/>
+			<item name="32mmBullet" count="25,75"/>
+			<item name="shotgunShell" count="25,75"/>
+			<item name="shotgunSlug" count="25,75" prob="0.15"/>
+			<item name="gunPowder" count="250,500"/>
+			<item name="bulletTip" count="250,750"/>
+			<item name="bulletCasing" count="250,750"/>
+			<item name="scrapBrass" count="250,500"/>
+			<item name="scrapLead" count="250,500"/>
 			<item name="buckshot" count="250,750"/>
-			<item name="repairKit" count="25,50"/>
-			<item name="MagazineGunSmithing" count="1" prob="0.2"/>
+			<item name="repairKit" count="10,25"/>
+			<item name="MagazineGunSmithing" count="1" prob="0.25"/>
 			<item name="BarettaShotgunSchematic" count="1" prob="0.1"/>
 			<item name="DesertEagleSchematic" count="1" prob="0.1"/>
 			<item name="FAMASSchematics" count="1" prob="0.1"/>
@@ -1626,9 +1632,9 @@ workstations
 			<item name="forgedSteel" count="25,50" />
 			<item name="ForgedTungsten" count="25,50" />
 			<item name="militaryFiber" count="25,50" />
-			<item group="Armor" count="1,3" prob="0.1" />
+			<item group="Armor" count="1,3" prob="0.15" />
 			<item group="hazmatGear" count="1" prob="0.1" />
-			<item group="banditArmor" count="1" prob="1" />
+			<item group="banditArmor" count="1" prob="0.1" />
 			<item name="MagazineArmorSmithing" count="1" prob="0.2" />
 			<item name="KevlarSchematic" count="1" prob="0.1"/>
 		</trader_items>
@@ -1715,19 +1721,19 @@ workstations
 	<!-- Class Vending Machine (Builder) POI -->
 	<trader_info id="15" reset_interval="7" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="6">
-			<item name="wood" count="5000,10000"/>
-			<item name="ironFragment" count="2500,5000"/>
-			<item name="scrapIron" count="5000,10000"/>
+			<item name="wood" count="2500,5000"/>
+			<item name="ironFragment" count="500,1500"/>
+			<item name="scrapIron" count="2500,5000"/>
 			<item name="forgedIron" count="25,150"/>
 			<item name="forgedSteel" count="20,75"/>
 			<item name="ForgedTungsten" count="20,50" prob="0.15"/>
-			<item name="concreteMix" count="100,600"/>
-			<item name="cobblestones" count="1000"/>
+			<item name="concreteMix" count="100,450"/>
+			<item name="cobblestones" count="250,1000"/>
 			<item name="scrapPlastics" count="20,60"/>
 			<item name="electricParts" count="20,60"/>
 			<item name="electronicParts" count="10,30"/>
 			<item name="mechanicalParts" count="20,60"/>
-			<item group="constructionSupplies" count="1,2" prob="0.35"/>
+			<item group="constructionSupplies" count="1,2" prob="0.45"/>
 			<item name="MagazineConstruction" count="1" prob="0.3"/>
 			<item name="nailgunSchematic" count="1" prob="0.25"/>
 			<item name="HDNailgunSchematic" count="1" prob="0.1"/>
@@ -1762,50 +1768,56 @@ workstations
 	<!-- Class Vending Machine (Scholar) POI -->
 	<trader_info id="17" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="6">
-			<item name="plantedCotton1" count="20,50"/>
-			<item name="plantedGoldenrod1" count="20,50"/>
-			<item name="plantedChrysanthemum1" count="20,50"/>
-			<item name="plantedMushroom1" count="20,50"/>
-			<item name="plantedAloe1" count="20,50"/>
-			<item name="plantedYucca1" count="20,50"/>
-			<item name="plantedHop1" count="20,50"/>
-			<item name="plantedCoffee1" count="20,50"/>
-			<item name="plantedBlueberry1" count="20,50"/>
-			<item name="plantedPotato1" count="20,50"/>
-			<item name="plantedCorn1" count="20,50"/>
+			<item name="plantedCotton1" count="10,25"/>
+			<item name="plantedGoldenrod1" count="10,25"/>
+			<item name="plantedChrysanthemum1" count="10,25"/>
+			<item name="plantedMushroom1" count="10,25"/>
+			<item name="plantedAloe1" count="10,25"/>
+			<item name="plantedYucca1" count="10,25"/>
+			<item name="plantedHop1" count="10,25"/>
+			<item name="plantedCoffee1" count="10,25"/>
+			<item name="plantedBlueberry1" count="10,25"/>
+			<item name="plantedPotato1" count="10,25"/>
+			<item name="plantedCorn1" count="10,25"/>
+			<item name="plantedWheat1" count="5,12"/>
+			<item name="plantedAppleTree1" count="5,12"/>
+			<item name="plantedBlackberry1" count="5,12"/>
+			<item name="plantedStrawberry1" count="5,12"/>
+			<item name="plantedCocoa1" count="5,12"/>
+			<item name="treeBirdnest" count="1,2" prob="0.05"/>
 			<item name="BlueprintPaper" count="20,50"/>
 			<item name="pipeBomb" count="2,6"/>
 			<item name="dynamite" count="2,6"/>
 			<item name="tnt" count="2,6"/>
-			<item name="MagazineScience" count="1" prob="0.2"/>
-			<item name="MagazineQuickerCrafting" count="1" prob="0.2"/>
-			<item name="ApplePieRecipe" count="1" prob="0.1"/>
-			<item name="AppleJuiceRecipe" count="1" prob="0.1"/>
+			<item name="MagazineScience" count="1" prob="0.11"/>
+			<item name="MagazineQuickerCrafting" count="1" prob="0.11"/>
+			<item name="ApplePieRecipe" count="1" prob="0.09"/>
+			<item name="AppleJuiceRecipe" count="1" prob="0.09"/>
 		</trader_items>
 	</trader_info>
 	
 	<!-- Class Vending Machine (Marksman) POI -->
 	<trader_info id="18" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="6">
-			<item name="9mmBullet" count="25,150"/>
-			<item name="9mmHollowPointBullet" count="25,150" prob="0.25"/>
-			<item name="762mmBullet" count="25,150"/>
-			<item name="762mmHollowPointBullet" count="25,150" prob="0.15"/>
-			<item name="44MagBullet" count="25,150"/>
-			<item name="44HollowPointMagBullet" count="25,150" prob="0.1"/>
-			<item name="556mmBullet" count="25,150"/>
-			<item name="556mmNATOBullet" count="25,150" prob="0.1"/>
-			<item name="32mmBullet" count="25,150"/>
-			<item name="shotgunShell" count="25,150"/>
-			<item name="shotgunSlug" count="25,150" prob="0.15"/>
-			<item name="gunPowder" count="250,1000"/>
-			<item name="bulletTip" count="250,1000"/>
-			<item name="bulletCasing" count="250,1000"/>
-			<item name="scrapBrass" count="250,750"/>
-			<item name="scrapLead" count="250,750"/>
-			<item name="buckshot" count="250,750"/>
-			<item name="repairKit" count="25,50"/>
-			<item name="MagazineGunSmithing" count="1" prob="0.2"/>
+			<item name="9mmBullet" count="25,75"/>
+			<item name="9mmHollowPointBullet" count="25,75" prob="0.25"/>
+			<item name="762mmBullet" count="25,75"/>
+			<item name="762mmHollowPointBullet" count="25,75" prob="0.15"/>
+			<item name="44MagBullet" count="25,75"/>
+			<item name="44HollowPointMagBullet" count="25,75" prob="0.1"/>
+			<item name="556mmBullet" count="25,75"/>
+			<item name="556mmNATOBullet" count="25,75" prob="0.1"/>
+			<item name="32mmBullet" count="25,75"/>
+			<item name="shotgunShell" count="25,75"/>
+			<item name="shotgunSlug" count="25,75" prob="0.15"/>
+			<item name="gunPowder" count="250,500"/>
+			<item name="bulletTip" count="250,500"/>
+			<item name="bulletCasing" count="250,500"/>
+			<item name="scrapBrass" count="250,500"/>
+			<item name="scrapLead" count="250,500"/>
+			<item name="buckshot" count="250,500"/>
+			<item name="repairKit" count="5,10"/>
+			<item name="MagazineGunSmithing" count="1" prob="0.21"/>
 			<item name="BarettaShotgunSchematic" count="1" prob="0.1"/>
 			<item name="DesertEagleSchematic" count="1" prob="0.1"/>
 			<item name="FAMASSchematics" count="1" prob="0.1"/>
@@ -1817,13 +1829,13 @@ workstations
 	<!-- Class Vending Machine (Tradesman) POI -->
 	<trader_info id="19" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="6">
-			<item name="forgedIron" count="50,100"/>
-			<item name="forgedSteel" count="40,90"/>
-			<item name="ForgedTungsten" count="20,70"/>
-			<item name="scrapPlastics" count="50,150"/>
-			<item name="electricParts" count="50,150"/>
-			<item name="electronicParts" count="50,150"/>
-			<item name="mechanicalParts" count="50,150"/>
+			<item name="forgedIron" count="50,75"/>
+			<item name="forgedSteel" count="40,45"/>
+			<item name="ForgedTungsten" count="20,50"/>
+			<item name="scrapPlastics" count="50,125"/>
+			<item name="electricParts" count="50,125"/>
+			<item name="electronicParts" count="50,125"/>
+			<item name="mechanicalParts" count="50,125"/>
 			<item group="tools" count="1,2" prob="0.2"/>
 			<item group="rareTools" count="1" prob="0.1"/>
 			<item group="minibikeParts" count="1" prob="0.15"/>

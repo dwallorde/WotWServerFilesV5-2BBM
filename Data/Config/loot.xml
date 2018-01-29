@@ -265,7 +265,6 @@
 		<block name="ArmorSmithingWorkstation" prob="0.1"/>
 		<block name="AdvancedToolWorkbench" prob="0.1"/>
 		<block name="buildersWorkbench" prob="0.1"/>
-		<block name="ClothingWorkStation" prob="0.1"/>
 	</placeholder>
 
 	<placeholder name="lootWorkstationsBustedHelper">
@@ -282,7 +281,6 @@
 		<block name="ArmorSmithingWorkstation" prob="0.1"/>
 		<block name="AdvancedToolWorkbench" prob="0.1"/>
 		<block name="buildersWorkbench" prob="0.1"/>
-		<block name="ClothingWorkStation" prob="0.1"/>
 	</placeholder>
 
 	<placeholder name="lootForgeBustedHelper">
@@ -3612,7 +3610,7 @@
 <!-- Enable this if using the increased INVENTORY STORAGE mod -->
 
 
-<lootcontainer id="41" count="0" size="8,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+<lootcontainer id="41" count="0" size="9,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
 </lootcontainer>
 
 

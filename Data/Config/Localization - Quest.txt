@@ -387,6 +387,7 @@ requirementGroupPistol,,Requirement Group,KgNone,Holding any Pistol Type Gun,,,,
 requirementGroupRifle,,Requirement Group,KgNone,Holding any Rifle Type Gun,,,,
 requirementGroupClub,,Requirement Group,KgNone,Holding any Club Type Weapon,,,,
 requirementGroupKnife,,Requirement Group,KgNone,Holding any Knife Type Weapon,,,,
+requirementGroupNailgun,,Requirement Group,KgNone,Holding any Nailgun,,,,
 BuilderClass,,Quest Info,KgNone,Builder Class,,,,
 SurvivalistClass,,Quest Info,KgNone,Survivalist Class,,,,
 ScholarClass,,Quest Info,KgNone,Scholar Class,,,,
@@ -396,9 +397,4 @@ TradesmanClass,,Quest Info,KgNone,Tradesman Class,,,,
 ProtectionClass,,Quest Info,KgNone,Protection Class,,,,
 ElectricianClass,,Quest Info,KgNone,Electrician Class,,,,
 CovertClass,,Quest Info,KgNone,Covert Class,,,,
-
-
-
-
-
-
+quest_whiteRiverCitizen1_offer,,Quest Info,KgNone,"Accept this to locate a trader location near you",,,,
