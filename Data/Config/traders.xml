@@ -495,7 +495,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="Challenge_TungstenMachete" count="1"/>
 			<item name="Challenge_CrawlerZombies" count="1"/>
 			<item name="Challenge_MushroomStew" count="1"/>
-			<item name="Challenge_MeatPie" count="1"/>
 			<item name="Challenge_MeatStew" count="1"/>
 			<item name="Challenge_MossyBrew" count="1"/>
 			<item name="Challenge_VegetableStew" count="1"/>
@@ -1147,6 +1146,96 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="autoTurret" count="1,2" prob="0.5"/>
 			<item name="shotgunTurret" count="1,3" prob="0.7"/>
 		</trader_item_group>
+		
+		<trader_item_group name="stashOnlyItemsLowClassFragments" count="1">
+			<item name="classFragmentBuilderA" count="1" prob="0.9"/>
+			<item name="classFragmentBuilderB" count="1" prob="0.7"/>
+			<item name="classFragmentBuilderC" count="1" prob="0.5"/>
+			<item name="classFragmentSurvivalistA" count="1" prob="0.9"/>
+			<item name="classFragmentSurvivalistB" count="1" prob="0.7"/>
+			<item name="classFragmentSurvivalistC" count="1" prob="0.5"/>
+			<item name="classFragmentScholarA" count="1" prob="0.9"/>
+			<item name="classFragmentScholarB" count="1" prob="0.7"/>
+			<item name="classFragmentScholarC" count="1" prob="0.5"/>
+			<item name="classFragmentMarksmanA" count="1" prob="0.9"/>
+			<item name="classFragmentMarksmanB" count="1" prob="0.7"/>
+			<item name="classFragmentMarksmanC" count="1" prob="0.5"/>
+			<item name="classFragmentFighterA" count="1" prob="0.9"/>
+			<item name="classFragmentFighterB" count="1" prob="0.7"/>
+			<item name="classFragmentFighterC" count="1" prob="0.5"/>
+			<item name="classFragmentTradesmanA" count="1" prob="0.9"/>
+			<item name="classFragmentTradesmanB" count="1" prob="0.7"/>
+			<item name="classFragmentTradesmanC" count="1" prob="0.5"/>
+			<item name="classFragmentProtectionA" count="1" prob="0.9"/>
+			<item name="classFragmentProtectionB" count="1" prob="0.7"/>
+			<item name="classFragmentProtectionC" count="1" prob="0.5"/>
+			<item name="classFragmentElectricianA" count="1" prob="0.9"/>
+			<item name="classFragmentElectricianB" count="1" prob="0.7"/>
+			<item name="classFragmentElectricianC" count="1" prob="0.5"/>
+			<item name="classFragmentCovertA" count="1" prob="0.9"/>
+			<item name="classFragmentCovertB" count="1" prob="0.7"/>
+			<item name="classFragmentCovertC" count="1" prob="0.5"/>
+		</trader_item_group>
+		
+		<trader_item_group name="stashOnlyItemsMediumClassFragments" count="1,2">
+			<item name="classFragmentBuilderA" count="1" prob="0.9"/>
+			<item name="classFragmentBuilderB" count="1" prob="0.7"/>
+			<item name="classFragmentBuilderC" count="1" prob="0.5"/>
+			<item name="classFragmentSurvivalistA" count="1" prob="0.9"/>
+			<item name="classFragmentSurvivalistB" count="1" prob="0.7"/>
+			<item name="classFragmentSurvivalistC" count="1" prob="0.5"/>
+			<item name="classFragmentScholarA" count="1" prob="0.9"/>
+			<item name="classFragmentScholarB" count="1" prob="0.7"/>
+			<item name="classFragmentScholarC" count="1" prob="0.5"/>
+			<item name="classFragmentMarksmanA" count="1" prob="0.9"/>
+			<item name="classFragmentMarksmanB" count="1" prob="0.7"/>
+			<item name="classFragmentMarksmanC" count="1" prob="0.5"/>
+			<item name="classFragmentFighterA" count="1" prob="0.9"/>
+			<item name="classFragmentFighterB" count="1" prob="0.7"/>
+			<item name="classFragmentFighterC" count="1" prob="0.5"/>
+			<item name="classFragmentTradesmanA" count="1" prob="0.9"/>
+			<item name="classFragmentTradesmanB" count="1" prob="0.7"/>
+			<item name="classFragmentTradesmanC" count="1" prob="0.5"/>
+			<item name="classFragmentProtectionA" count="1" prob="0.9"/>
+			<item name="classFragmentProtectionB" count="1" prob="0.7"/>
+			<item name="classFragmentProtectionC" count="1" prob="0.5"/>
+			<item name="classFragmentElectricianA" count="1" prob="0.9"/>
+			<item name="classFragmentElectricianB" count="1" prob="0.7"/>
+			<item name="classFragmentElectricianC" count="1" prob="0.5"/>
+			<item name="classFragmentCovertA" count="1" prob="0.9"/>
+			<item name="classFragmentCovertB" count="1" prob="0.7"/>
+			<item name="classFragmentCovertC" count="1" prob="0.5"/>
+		</trader_item_group>
+		
+		<trader_item_group name="stashOnlyItemsHighClassFragments" count="2,3">
+			<item name="classFragmentBuilderA" count="1" prob="0.9"/>
+			<item name="classFragmentBuilderB" count="1" prob="0.7"/>
+			<item name="classFragmentBuilderC" count="1" prob="0.5"/>
+			<item name="classFragmentSurvivalistA" count="1" prob="0.9"/>
+			<item name="classFragmentSurvivalistB" count="1" prob="0.7"/>
+			<item name="classFragmentSurvivalistC" count="1" prob="0.5"/>
+			<item name="classFragmentScholarA" count="1" prob="0.9"/>
+			<item name="classFragmentScholarB" count="1" prob="0.7"/>
+			<item name="classFragmentScholarC" count="1" prob="0.5"/>
+			<item name="classFragmentMarksmanA" count="1" prob="0.9"/>
+			<item name="classFragmentMarksmanB" count="1" prob="0.7"/>
+			<item name="classFragmentMarksmanC" count="1" prob="0.5"/>
+			<item name="classFragmentFighterA" count="1" prob="0.9"/>
+			<item name="classFragmentFighterB" count="1" prob="0.7"/>
+			<item name="classFragmentFighterC" count="1" prob="0.5"/>
+			<item name="classFragmentTradesmanA" count="1" prob="0.9"/>
+			<item name="classFragmentTradesmanB" count="1" prob="0.7"/>
+			<item name="classFragmentTradesmanC" count="1" prob="0.5"/>
+			<item name="classFragmentProtectionA" count="1" prob="0.9"/>
+			<item name="classFragmentProtectionB" count="1" prob="0.7"/>
+			<item name="classFragmentProtectionC" count="1" prob="0.5"/>
+			<item name="classFragmentElectricianA" count="1" prob="0.9"/>
+			<item name="classFragmentElectricianB" count="1" prob="0.7"/>
+			<item name="classFragmentElectricianC" count="1" prob="0.5"/>
+			<item name="classFragmentCovertA" count="1" prob="0.9"/>
+			<item name="classFragmentCovertB" count="1" prob="0.7"/>
+			<item name="classFragmentCovertC" count="1" prob="0.5"/>
+		</trader_item_group>
 
 	</trader_item_groups>
 
@@ -1241,6 +1330,7 @@ workstations
 			<item group="commonBooks" count="2,3"/>
 			<item group="rareBooks" count="1,2"/>
 			<item group="stashOnlyItemsLow" count="1,2"/>
+			<item group="stashOnlyItemsLowClassFragments" count="1"/>
 		</tier_items>
 
 		<tier_items level="1000,1499" count="all"> <!-- requires Perk 2 -->
@@ -1260,6 +1350,7 @@ workstations
 			<item name="miningHelmet"/>
 			<item group="minibikeParts" count="1,2"/>
 			<item group="stashOnlyItemsHigh" count="2,3"/>
+			<item group="stashOnlyItemsMediumClassFragments" count="1"/>
 		</tier_items>
 
 		<tier_items level="1500,-1" count="all"> <!-- requires Perk 3 -->
@@ -1287,6 +1378,7 @@ workstations
 			<item name="solarCell" count="1,3"/>
 			<item name="batterybankSchematic" count="1"/>
 			<item group="stashOnlyItemsHigh" count="3,4"/>
+			<item group="stashOnlyItemsHighClassFragments" count="1"/>
 		</tier_items>
 	</trader_info>
 	
@@ -1491,6 +1583,10 @@ workstations
 			<item name="nailgunSchematic" count="1" prob="0.25"/>
 			<item name="HDNailgunSchematic" count="1" prob="0.1"/>
 			<item name="buildersWorkbenchSchematic" count="1" prob="0.2"/>
+			<item name="classChallenge_woodframes" count="1" prob="0.25"/>
+			<item name="classChallenge_scrapframes" count="1" prob="0.25"/>
+			<item name="classChallenge_rebarframes" count="1" prob="0.25"/>
+			<item name="classTreasure_buildingsupplies" count="1" prob="0.225"/>
 		</trader_items>
 	</trader_info>
 	
@@ -1515,6 +1611,10 @@ workstations
 			<item name="TraumaFirstAidKitSchematic" count="1" prob="0.1"/>
 			<item name="herbalAntibioticsRecipe" count="1" prob="0.1"/>
 			<item name="LongbowSchematic" count="1" prob="0.1"/>
+			<item name="classChallenge_TraumaFirstAidBandage" count="1" prob="0.25"/>
+			<item name="classChallenge_TraumaFirstAidKit" count="1" prob="0.25"/>
+			<item name="classChallenge_SpeedTraps" count="1" prob="0.25"/>
+			<item name="classTreasure_survivalistsupplies" count="1" prob="0.225"/>
 		</trader_items>
 	</trader_info>
 	
@@ -1546,6 +1646,10 @@ workstations
 			<item name="MagazineQuickerCrafting" count="1" prob="0.2"/>
 			<item name="ApplePieRecipe" count="1" prob="0.1"/>
 			<item name="AppleJuiceRecipe" count="1" prob="0.1"/>
+			<item name="classChallenge_seedcrafting" count="1" prob="0.25"/>
+			<item name="classChallenge_seedcrafting2" count="1" prob="0.25"/>
+			<item name="classChallenge_seedplacing" count="1" prob="0.25"/>
+			<item name="classChallenge_seedplacing2" count="1" prob="0.25"/>
 		</trader_items>
 	</trader_info>
 	
@@ -1576,6 +1680,10 @@ workstations
 			<item name="FAMASSchematics" count="1" prob="0.1"/>
 			<item name="Remington8Schematic" count="1" prob="0.1"/>
 			<item name="M25SniperRifleSchematic" count="1" prob="0.1"/>
+			<item name="classChallenge_deserteagleassemble" count="1" prob="0.25"/>
+			<item name="classChallenge_barettashotgunassemble" count="1" prob="0.25"/>
+			<item name="classChallenge_m25sniperassemble" count="1" prob="0.25"/>
+			<item name="classTreasure_guncrate" count="1" prob="0.225"/>
 		</trader_items>
 	</trader_info>
 	
@@ -1599,6 +1707,10 @@ workstations
 			<item name="diamondTippedFireaxeSchematic" count="1" prob="0.1"/>
 			<item name="hdWrenchSchematic" count="1" prob="0.1"/>
 			<item name="advancedToolSmithingWorkstationSchematic" count="1" prob="0.2"/>
+			<item name="classChallenge_sledgehammer" count="1" prob="0.25"/>
+			<item name="classChallenge_minibikeparts" count="1" prob="0.25"/>
+			<item name="classChallenge_diamondtools" count="1" prob="0.25"/>
+			<item name="classTreasure_tradesmansupplies" count="1" prob="0.225"/>
 		</trader_items>
 	</trader_info>
 	
@@ -1615,10 +1727,11 @@ workstations
 			<item name="ClubTungstenSchematic" count="1" prob="0.1"/>
 			<item name="TungstenMacheteSchematic" count="1" prob="0.1"/>
 			<item name="MagazineWeaponSmithing" count="1" prob="0.2"/>
-			<item name="ClubTungstenSchematic" count="1" prob="0.1"/>
-			<item name="TungstenMacheteSchematic" count="1" prob="0.1"/>
-			<item name="GoldTippedKnifeBook" count="1" prob="0.1"/>
 			<item name="GoldTippedMacheteSchematic" count="1" prob="0.1"/>
+			<item name="classChallenge_goldtippedknife" count="1" prob="0.25"/>
+			<item name="classChallenge_goldtippedmachete" count="1" prob="0.25"/>
+			<item name="classChallenge_meleezombies" count="1" prob="0.25"/>
+			<item name="classTreasure_weaponcrate" count="1" prob="0.225"/>
 		</trader_items>
 	</trader_info>
 	
@@ -1637,6 +1750,10 @@ workstations
 			<item group="banditArmor" count="1" prob="0.1" />
 			<item name="MagazineArmorSmithing" count="1" prob="0.2" />
 			<item name="KevlarSchematic" count="1" prob="0.1"/>
+			<item name="classChallenge_kevlararmor" count="1" prob="0.25"/>
+			<item name="classChallenge_steelarmor" count="1" prob="0.25"/>
+			<item name="classChallenge_tungstenarmor" count="1" prob="0.25"/>
+			<item name="classTreasure_armorcrate" count="1" prob="0.225"/>
 		</trader_items>
 	</trader_info>
 	
@@ -1692,6 +1809,10 @@ workstations
 			<item name="powerpoletopRecipe" count="1" prob="0.2"/>
 			<item name="ecoBatterybankSchematic" count="1" prob="0.1"/>
 			<item name="hdBatterybankSchematic" count="1" prob="0.1"/>
+			<item name="classChallenge_Lighting" count="1" prob="0.25"/>
+			<item name="classChallenge_BaseTraps" count="1" prob="0.25"/>
+			<item name="classChallenge_BaseTraps2" count="1" prob="0.25"/>
+			<item name="classTreasure_BaseTraps2" count="1" prob="0.225"/>
 		</trader_items>
 	</trader_info>
 	
@@ -1715,6 +1836,10 @@ workstations
 			<item name="silverGlovesSchematic" count="1" prob="0.1"/>
 			<item name="lockpickDoorSchematic" count="1" prob="0.1"/>
 			<item name="lockpickSafeSchematic" count="1" prob="0.075"/>
+			<item name="classChallenge_SilverArmorCraft" count="1" prob="0.25"/>
+			<item name="classChallenge_SilverArmored" count="1" prob="0.25"/>
+			<item name="classChallenge_Lockpicking" count="1" prob="0.25"/>
+			<item name="classTreasure_covertarmor" count="1" prob="0.225"/>
 		</trader_items>
 	</trader_info>
 	

@@ -369,7 +369,7 @@
 		<recipe name="forgedSteel" unlock_level="1"/>
 	</perk>
 	
-	<perk name="SteelSmithingClass" icon="ui_game_symbol_forgedSteel" description_key="steelSmithingClassDesc" title_key="steelSmithing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
+	<perk name="SteelSmithingClass" icon="ui_game_symbol_forgedSteel" description_key="steelSmithingClassDesc" title_key="SteelSmithingClassPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
 		<requirement skill_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1"/>
 		<recipe name="forgeCrucible" unlock_level="1"/>
 		<recipe name="forgedSteel" unlock_level="1"/>
@@ -969,7 +969,7 @@
 		</effect>
 	</perk>
 	
-	<crafting_skill name="Ammo Crafting" description_key="AmmoCraftingDesc" max_level="10" skill_point_cost_multiplier="1.26"
+	<crafting_skill name="Ammo Crafting" description_key="AmmoCraftingDesc" max_level="10" skill_point_cost_multiplier="1.05"
 	skill_point_cost_per_level="3" exp_to_level="5000000" icon="ui_game_symbol_ammo_crafting" group="firearms" exp_gain_multiplier="0">
 	<effect name="CraftingTime">
 		<multiply skill_level="0,1" value="1.00,0.70"/>

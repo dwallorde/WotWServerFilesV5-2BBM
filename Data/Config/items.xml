@@ -6782,6 +6782,7 @@ Mesh files no longer used:
 	<property name="EconomicValue" value="10"/>
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="CraftingIngredientTime" value="5"/>
+	<property name="Degradation" value="250" param1="true"/>
 	<property class="Action0"> <!-- UseAction -->
 		<property name="Class" value="Repair"/>
 		<property name="Delay" value="0.4"/>
@@ -7517,7 +7518,7 @@ Mesh files no longer used:
 	<property name="HoldType" value="21"/>
 	<property name="Weight" value="5"/>
 	<property name="FuelValue" value="5"/>
-	<property name="Stacknumber" value="1"/> <!-- STK book -->
+	<property name="Stacknumber" value="25"/> <!-- STK book -->
 	<property name="EconomicValue" value="250"/>
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="LearnRecipe"/>
@@ -13094,7 +13095,7 @@ Mesh files no longer used:
 	<property name="HoldType" value="21" />
 	<property name="Weight" value="5" />
 	<property name="FuelValue" value="5" />
-	<property name="Stacknumber" value="5" />
+	<property name="Stacknumber" value="25" />
     <property class="Action1">
 		<property name="Class" value="LearnRecipe" />
 		<property name="Delay" value="0.3" />
@@ -13361,13 +13362,7 @@ Mesh files no longer used:
 	<property name="DescriptionKey" value="QuestNoteDesc" />
 </item>
 
-<item id="1730" name="Challenge_MeatPie">
-	<property name="Extends" value="challengeQuestMaster" />
-	<property class="Action1">
-		<property name="QuestGiven" value="challenge_meatpie" />
-	</property>
-	<property name="DescriptionKey" value="QuestNoteDesc" />
-</item>
+<!-- 1 Free -->
 
 <item id="1731" name="Challenge_MeatStew">
 	<property name="Extends" value="challengeQuestMaster" />
@@ -18136,7 +18131,7 @@ Mesh files no longer used:
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="HoldType" value="45"/>
 	<property name="Material" value="paper"/>
-	<property name="Stacknumber" value="5"/> <!-- STK resource -->
+	<property name="Stacknumber" value="25"/> <!-- STK resource -->
 	<property name="FuelValue" value="0"/>
 	<property name="Weight" value="0"/>
 	<property name="EconomicValue" value="100"/>
@@ -19451,6 +19446,294 @@ Mesh files no longer used:
 	<property name="FuelValue" value="20"/>
 	<property name="Weight" value="60"/>
 	<property name="Group" value="Decor/Miscellaneous"/>
+</item>
+
+<item id="2111" name="classChallenge_woodframes">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_woodframes" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2112" name="classChallenge_scrapframes">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_scrapframes" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2113" name="classChallenge_rebarframes">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_rebarframes" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2114" name="classTreasure_buildingsupplies">
+	<property name="Extends" value="treasureQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classTreasure_buildingsupplies" />
+	</property>
+	<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" />
+</item>
+
+<item id="2115" name="classChallenge_TraumaFirstAidBandage">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_TraumaFirstAidBandage" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2116" name="classChallenge_TraumaFirstAidKit">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_TraumaFirstAidKit" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2117" name="classChallenge_SpeedTraps">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_SpeedTraps" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2118" name="classTreasure_survivalistsupplies">
+	<property name="Extends" value="treasureQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classTreasure_survivalistsupplies" />
+	</property>
+	<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" />
+</item>
+
+<item id="2119" name="classChallenge_seedcrafting">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_seedcrafting" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2120" name="classChallenge_seedcrafting2">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_seedcrafting2" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2121" name="classChallenge_seedplacing">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_seedplacing" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2122" name="classChallenge_seedplacing2">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_seedplacing2" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2123" name="classChallenge_deserteagleassemble">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_deserteagleassemble" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2124" name="classChallenge_barettashotgunassemble">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_barettashotgunassemble" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2125" name="classChallenge_m25sniperassemble">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_m25sniperassemble" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2126" name="classTreasure_guncrate">
+	<property name="Extends" value="treasureQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classTreasure_guncrate" />
+	</property>
+	<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" />
+</item>
+
+<item id="2127" name="classChallenge_goldtippedknife">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_goldtippedknife" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2128" name="classChallenge_goldtippedmachete">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_goldtippedmachete" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2129" name="classChallenge_meleezombies">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_meleezombies" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2130" name="classTreasure_weaponcrate">
+	<property name="Extends" value="treasureQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classTreasure_weaponcrate" />
+	</property>
+	<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" />
+</item>
+
+<item id="2131" name="classChallenge_sledgehammer">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_sledgehammer" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2132" name="classChallenge_minibikeparts">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_minibikeparts" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2133" name="classChallenge_diamondtools">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_diamondtools" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2134" name="classTreasure_tradesmansupplies">
+	<property name="Extends" value="treasureQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classTreasure_tradesmansupplies" />
+	</property>
+	<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" />
+</item>
+
+<item id="2135" name="classChallenge_kevlararmor">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_kevlararmor" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2136" name="classChallenge_steelarmor">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_steelarmor" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2137" name="classChallenge_tungstenarmor">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_tungstenarmor" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2138" name="classTreasure_armorcrate">
+	<property name="Extends" value="treasureQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classTreasure_armorcrate" />
+	</property>
+	<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" />
+</item>
+
+<item id="2139" name="classChallenge_Lighting">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_Lighting" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2140" name="classChallenge_BaseTraps">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_BaseTraps" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2141" name="classChallenge_BaseTraps2">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_BaseTraps2" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2142" name="classTreasure_BaseTraps2">
+	<property name="Extends" value="treasureQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classTreasure_BaseTraps2" />
+	</property>
+	<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" />
+</item>
+
+<item id="2143" name="classChallenge_SilverArmorCraft">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_SilverArmorCraft" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2144" name="classChallenge_SilverArmored">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_SilverArmored" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2145" name="classChallenge_Lockpicking">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classChallenge_Lockpicking" />
+	</property>
+	<property name="DescriptionKey" value="ClassQuestNoteDesc" />
+</item>
+
+<item id="2146" name="classTreasure_covertarmor">
+	<property name="Extends" value="treasureQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="classTreasure_covertarmor" />
+	</property>
+	<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" />
 </item>
 
 </items>

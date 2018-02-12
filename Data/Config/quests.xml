@@ -306,10 +306,17 @@
 
 	<quest id="challenge_thatlldopig" name_key="challenge_thatlldopig" subtitle_key="challenge_thatlldopig_subtitle" description_key="challenge_thatlldopig_offer" icon="ui_game_symbol_knife"
 	repeatable="true" category_key="challenge" offer_key="challenge_thatlldopig_offer" difficulty="easy">
-		<objective type="AnimalKill" id="animalBoar,animalPig" value="5"  />
+		<objective type="AnimalKill" id="animalBoar" value="5"  />
 
 		<reward type="SkillPoints" value="3" />
 	</quest>
+	
+	<!-- <quest id="challenge_thatlldopig" name_key="challenge_thatlldopig" subtitle_key="challenge_thatlldopig_subtitle" description_key="challenge_thatlldopig_offer" icon="ui_game_symbol_knife"
+	repeatable="true" category_key="challenge" offer_key="challenge_thatlldopig_offer" difficulty="easy">
+		<objective type="AnimalKill" id="animalPig" value="5"  />
+
+		<reward type="SkillPoints" value="3" />
+	</quest> -->
 
 	<quest id="challenge_stagparty" name_key="challenge_stagparty" subtitle_key="challenge_stagparty_subtitle" description_key="challenge_stagparty_offer" icon="ui_game_symbol_knife"
 	repeatable="true" category_key="challenge" offer_key="challenge_stagparty_offer" difficulty="easy">
@@ -320,7 +327,7 @@
 
 	<quest id="challenge_dontfeedthebears" name_key="challenge_dontfeedthebears" subtitle_key="challenge_dontfeedthebears_subtitle" description_key="challenge_dontfeedthebears_offer" icon="ui_game_symbol_knife"
 	repeatable="true" category_key="challenge" offer_key="challenge_dontfeedthebears_offer" difficulty="hard">
-		<objective type="AnimalKill" id="animalBear,animalZombieBear" value="3"  />
+		<objective type="AnimalKill" id="animalBear" value="3"  />
 
 
 		<reward type="SkillPoints" value="3" />
@@ -627,7 +634,7 @@
 	category_key="Quest"
 	difficulty="hard">
 		<objective type="FetchKeep" id="rawWhiteMeat" value="5" />
-		<objective type="FetchKeep" id="egg" value="10" />
+		<objective type="FetchKeep" id="egg" value="5" />
 		<objective type="Craft" id="baconAndEggs" value="5" />
 		<reward type="Quest" id="quest_huntinghidearmorcooking3" />
 	</quest>
@@ -718,27 +725,6 @@
 		<reward type="Exp" value="250" optional="true" />
 	</quest>
 	
-	<quest id="challenge_meatpie"
-	name="Meat Pie Chef"
-	subtitle="Cook some Meat Pie"
-	offer="Gather the materials needed and craft 5 Meat Pies.\n\nDwall"
-	description="Gather these items:\n10 Raw Meat\n10 Dough\n5 Potatoes\n5 Mushrooms\n\nWith those ingredients cook up 5 Meat Pies."
-	icon="ui_game_symbol_spatula"
-	repeatable="true"
-	category_key="challenge"
-	difficulty="medium">
-		<!-- <objective type="Time" value="900" optional="true" />
-		<objective type="FetchKeep" id="rawRedMeat" value="10" />
-		<objective type="FetchKeep" id="Dough" value="10" />
-		<objective type="FetchKeep" id="potato" value="5" />
-		<objective type="FetchKeep" id="mushrooms" value="5" />
-		<objective type="Craft" id="MeatPie" value="5" /> -->
-		<reward type="SkillPoints" value="3" />
-		<reward type="SkillPoints" value="1" optional="true" />
-		<reward type="Exp" value="1000" />
-		<reward type="Exp" value="250" optional="true" />
-	</quest>
-	
 	<quest id="challenge_meatstew"
 	name="Meat Stew Chef"
 	subtitle="Cook some Meat Stew"
@@ -791,8 +777,8 @@
 	repeatable="true"
 	category_key="challenge"
 	difficulty="easy">
-		<objective type="Time" value="900" optional="true" />
-		<objective type="FetchKeep" id="egg" value="10" />
+		<objective type="Time" value="1200" optional="true" />
+		<objective type="FetchKeep" id="egg" value="5" />
 		<objective type="FetchKeep" id="rawWhiteMeat" value="5" />
 		<objective type="Craft" id="baconAndEggs" value="5" />
 		<reward type="SkillPoints" value="3" />
@@ -969,9 +955,6 @@
 	category_key="challenge"
 	difficulty="hard">
 		<objective type="Time" value="600" optional="true" />
-		<objective type="FetchKeep" id="moldyBread" value="20" />
-		<objective type="FetchKeep" id="potassiumNitratePowder" value="15" />
-		<objective type="FetchKeep" id="bottledWater" value="5" />
 		<objective type="Craft" id="antibiotics" value="5" />
 		<reward type="SkillPoints" value="4" />
 		<reward type="SkillPoints" value="1" optional="true" />
@@ -1762,6 +1745,639 @@
 	</quest>
 	
 	<!-- Class Quests -->
+	
+	<!-- Builders Class Quests -->
+	
+	<quest id="classChallenge_woodframes"
+	name="Class Quest: Wood Frame Construction"
+	subtitle="Wood Frame Construction"
+	offer="Craft 50 Wood Frames and Place them.  Then upgrade them a few times."
+	description="Craft 50 Wood Frames and Place them.  Then upgrade them a few times."
+	icon="ui_game_symbol_all_blocks"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Craft" id="woodFrameBlock" value="50" />
+		<objective type="BlockPlace" id="woodFrameBlock" value="50" />
+		<objective type="BlockUpgrade" id="woodFrameBlock" value="50" />
+		<objective type="BlockUpgrade" id="woodBlock" value="50" />
+		<objective type="BlockUpgrade" id="rWoodBlock" value="50" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="3500" />
+	</quest>
+	
+	<quest id="classChallenge_scrapframes"
+	name="Class Quest: Scrap Frame Construction"
+	subtitle="Scrap Frame Construction"
+	offer="Craft 50 Scrap Frames and Place them.  Then upgrade them a few times."
+	description="Craft 50 Scrap Frames and Place them.  Then upgrade them a few times."
+	icon="ui_game_symbol_all_blocks"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Craft" id="scrapIronFrameBlock" value="50" />
+		<objective type="BlockPlace" id="scrapIronFrameBlock" value="50" />
+		<objective type="BlockUpgrade" id="scrapIronFrameBlock" value="50" />
+		<objective type="BlockUpgrade" id="scrapIronBlock" value="50" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="3500" />
+	</quest>
+	
+	<quest id="classChallenge_rebarframes"
+	name="Class Quest: Rebar Frame Construction"
+	subtitle="Rebar Frame Construction"
+	offer="Craft 50 Rebar Frames and Place them.  Then upgrade them a few times."
+	description="Craft 50 Rebar Frames and Place them.  Then upgrade them a few times."
+	icon="ui_game_symbol_all_blocks"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="hard">
+		<objective type="Craft" id="rebarFrameBlock" value="50" />
+		<objective type="BlockPlace" id="rebarFrameBlock" value="50" />
+		<objective type="BlockUpgrade" id="rebarFrameBlock" value="50" />
+		<objective type="BlockUpgrade" id="rConcreteBlock" value="50" />
+		<reward type="SkillPoints" value="4" />
+		<reward type="Exp" value="4000" />
+	</quest>
+	
+	<quest id="classTreasure_buildingsupplies"
+	name="Class Treasure Quest: Building Supplies"
+	subtitle="Builder Class Treasure"
+	offer="Check your map for the location of these Building Supplies."
+	description="Check your map for the location of these Building Supplies."
+	icon="ui_game_symbol_treasure" 
+	repeatable="true"
+	category_key="treasure"
+	difficulty="medium">
+		<objective type="TreasureChest" id="classLootCrateBuildingSupplies" value="750-1500" />
+		<reward type="Skill" id="Construction Tools" value="2" />
+		<reward type="Exp" value="5000" />
+	</quest>
+	
+	<!-- Survivalist Class Quests -->
+	
+	<quest id="classChallenge_TraumaFirstAidBandage"
+	name="Class Quest: Trauma First Aid Bandage Crafting"
+	subtitle="Trauma First Aid Bandage Crafting"
+	offer="Craft 25 Trauma First Aid Bandages."
+	description="Craft 25 Trauma First Aid Bandages."
+	icon="ui_game_symbol_medical"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Craft" id="TraumaFirstAidBandage" value="25" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="3500" />
+	</quest>
+	
+	<quest id="classChallenge_TraumaFirstAidKit"
+	name="Class Quest: Trauma First Aid Kit Crafting"
+	subtitle="Trauma First Aid Kit Crafting"
+	offer="Craft 25 Trauma First Aid Kits."
+	description="Craft 25 Trauma First Aid Kits."
+	icon="ui_game_symbol_medical"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Craft" id="TraumaFirstAidKit" value="25" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="3500" />
+	</quest>
+	
+	<quest id="classChallenge_SpeedTraps"
+	name="Class Quest: Speed Trap Crafting"
+	subtitle="Speed Trap Crafting"
+	offer="Craft 25 Traps and Place them."
+	description="Craft 25 Traps and Place them."
+	icon="ui_game_symbol_all_blocks"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="hard">
+		<objective type="Craft" id="SpeedTrap" value="25" />
+		<objective type="Craft" id="FireSpeedTrap" value="25" />
+		<objective type="Craft" id="ExplosiveSpeedTrap" value="25" />
+		<objective type="BlockPlace" id="SpeedTrap" value="25" />
+		<objective type="BlockPlace" id="FireSpeedTrap" value="25" />
+		<objective type="BlockPlace" id="ExplosiveSpeedTrap" value="25" />
+		<reward type="SkillPoints" value="4" />
+		<reward type="Exp" value="4000" />
+	</quest>
+	
+	<quest id="classTreasure_survivalistsupplies"
+	name="Class Treasure Quest: Survivalist Supplies"
+	subtitle="Builder Class Treasure"
+	offer="Check your map for the location of these Survivalist Supplies."
+	description="Check your map for the location of these Survivalist Supplies."
+	icon="ui_game_symbol_treasure" 
+	repeatable="true"
+	category_key="treasure"
+	difficulty="medium">
+		<objective type="TreasureChest" id="classLootCrateSurvivalistSupplies" value="750-1500" />
+		<reward type="Skill" id="Medicine" value="2" />
+		<reward type="Exp" value="5000" />
+	</quest>
+	
+	<!-- Scholar Class Quests -->
+	
+	<quest id="classChallenge_seedcrafting"
+	name="Class Quest: Seed Crafting"
+	subtitle="Seed Crafting"
+	offer="Craft 50 of these Seeds."
+	description="Craft 50 of these Seeds."
+	icon="ui_game_symbol_campfire"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Craft" id="plantedCorn1" value="50" />
+		<objective type="Craft" id="plantedPotato1" value="50" />
+		<objective type="Craft" id="plantedChrysanthemum1" value="50" />
+		<objective type="Craft" id="plantedBlueberry1" value="50" />
+		<objective type="Craft" id="plantedCotton1" value="50" />
+		<objective type="Craft" id="plantedGoldenrod1" value="50" />
+		<objective type="Craft" id="plantedCoffee1" value="50" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="3500" />
+	</quest>
+	
+	<quest id="classChallenge_seedcrafting2"
+	name="Class Quest: Seed Crafting 2"
+	subtitle="Seed Crafting 2"
+	offer="Craft 50 of these Seeds."
+	description="Craft 50 of these Seeds."
+	icon="ui_game_symbol_campfire"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Craft" id="plantedWheat1" value="50" />
+		<objective type="Craft" id="plantedYucca1" value="50" />
+		<objective type="Craft" id="plantedAloe1" value="50" />
+		<objective type="Craft" id="plantedAppleTree1" value="50" />
+		<objective type="Craft" id="plantedBlackberry1" value="50" />
+		<objective type="Craft" id="plantedStrawberry1" value="50" />
+		<objective type="Craft" id="plantedMushroom1" value="50" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="4000" />
+	</quest>
+	
+	<quest id="classChallenge_seedplacing"
+	name="Class Quest: Seed Planting"
+	subtitle="Seed Planting"
+	offer="Plant 50 of these Seeds."
+	description="Plant 50 of these Seeds."
+	icon="ui_game_symbol_campfire"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="BlockPlace" id="plantedCorn1" value="50" />
+		<objective type="BlockPlace" id="plantedPotato1" value="50" />
+		<objective type="BlockPlace" id="plantedChrysanthemum1" value="50" />
+		<objective type="BlockPlace" id="plantedBlueberry1" value="50" />
+		<objective type="BlockPlace" id="plantedCotton1" value="50" />
+		<objective type="BlockPlace" id="plantedGoldenrod1" value="50" />
+		<objective type="BlockPlace" id="plantedCoffee1" value="50" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="3500" />
+	</quest>
+	
+	<quest id="classChallenge_seedplacing2"
+	name="Class Quest: Seed Planting 2"
+	subtitle="Seed Planting 2"
+	offer="Plant 50 of these Seeds."
+	description="Plant 50 of these Seeds."
+	icon="ui_game_symbol_campfire"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="BlockPlace" id="plantedWheat1" value="50" />
+		<objective type="BlockPlace" id="plantedYucca1" value="50" />
+		<objective type="BlockPlace" id="plantedAloe1" value="50" />
+		<objective type="BlockPlace" id="plantedAppleTree1" value="50" />
+		<objective type="BlockPlace" id="plantedBlackberry1" value="50" />
+		<objective type="BlockPlace" id="plantedStrawberry1" value="50" />
+		<objective type="BlockPlace" id="plantedMushroom1" value="50" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="4000" />
+	</quest>
+	
+	<!-- Marksman Class Quests -->
+	
+	<quest id="classChallenge_deserteagleassemble"
+	name="Class Quest: Assemble a Desert Eagle"
+	subtitle="Assemble a Desert Eagle"
+	offer="Assemble a Desert Eagle."
+	description="Assemble a Desert Eagle."
+	icon="ui_game_symbol_map_cursor"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Assemble" id="DesertEagle" value="1" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="3500" />
+	</quest>
+	
+	<quest id="classChallenge_barettashotgunassemble"
+	name="Class Quest: Assemble a Baretta Shotgun"
+	subtitle="Assemble a Baretta Shotgun"
+	offer="Assemble a Baretta Shotgun."
+	description="Assemble a Baretta Shotgun."
+	icon="ui_game_symbol_map_cursor"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Assemble" id="BarettaShotgun" value="1" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="4000" />
+	</quest>
+	
+	<quest id="classChallenge_m25sniperassemble"
+	name="Class Quest: Assemble a M25 Sniper Rifle"
+	subtitle="Assemble a M25 Sniper Rifle"
+	offer="Assemble a M25 Sniper Rifle."
+	description="Assemble a M25 Sniper Rifle."
+	icon="ui_game_symbol_map_cursor"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Assemble" id="M25SniperRifle" value="1" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="4500" />
+	</quest>
+	
+	<quest id="classTreasure_guncrate"
+	name="Class Treasure Quest: Gun Crate"
+	subtitle="Marksman Class Treasure"
+	offer="Check your map for the location of a Gun Crate."
+	description="Check your map for the location of a Gun Crate."
+	icon="ui_game_symbol_treasure" 
+	repeatable="true"
+	category_key="treasure"
+	difficulty="medium">
+		<objective type="TreasureChest" id="classLootCrateGuns" value="750-1500" />
+		<reward type="Skill" id="Pistols" value="2" />
+		<reward type="Skill" id="Shotguns" value="2" />
+		<reward type="Skill" id="Rifles" value="2" />
+		<reward type="Exp" value="5000" />
+	</quest>
+	
+	<!-- Fighter Class Quests -->
+	
+	<quest id="classChallenge_goldtippedknife"
+	name="Class Quest: Craft a Gold Tipped Knife"
+	subtitle="Craft a Gold Tipped Knife"
+	offer="Craft a Gold Tipped Knife."
+	description="Craft a Gold Tipped Knife."
+	icon="ui_game_symbol_knife"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Craft" id="GoldTippedKnife" value="1" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="3500" />
+	</quest>
+	
+	<quest id="classChallenge_goldtippedmachete"
+	name="Class Quest: Craft a Gold Tipped Machete"
+	subtitle="Craft a Gold Tipped Machete"
+	offer="Craft a Gold Tipped Machete."
+	description="Craft a Gold Tipped Machete."
+	icon="ui_game_symbol_knife"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Craft" id="GoldTippedMachete" value="1" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="4000" />
+	</quest>
+	
+	<quest id="classChallenge_meleezombies"
+	name="Class Quest: Melee Zombies"
+	subtitle="Melee Zombies"
+	offer="Melee 50 Zombies using any Melee Weapons."
+	description="Melee 50 Zombies using any Melee Weapons."
+	icon="ui_game_symbol_knife"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="hard">
+		<objective type="ZombieKill" value="50" />
+			<requirement type="Group" id="MeleeGroup" value="OR">
+				<requirement type="Holding" id="clubWood" />
+				<requirement type="Holding" id="clubIron" />
+				<requirement type="Holding" id="clubBarbed" />
+				<requirement type="Holding" id="clubSpiked" />
+				<requirement type="Holding" id="ClubTungsten" />
+				<requirement type="Holding" id="machete" />
+				<requirement type="Holding" id="SteelMachete" />
+				<requirement type="Holding" id="TungstenMachete" />
+				<requirement type="Holding" id="huntingKnife" />
+				<requirement type="Holding" id="boneShiv" />
+				<requirement type="Holding" id="GoldTippedMachete" />
+				<requirement type="Holding" id="GoldTippedKnife" />
+			</requirement>
+		<reward type="SkillPoints" value="4" />
+		<reward type="Exp" value="4500" />
+	</quest>
+	
+	<quest id="classTreasure_weaponcrate"
+	name="Class Treasure Quest: Weapon Crate"
+	subtitle="Fighter Class Treasure"
+	offer="Check your map for the location of a Weapon Crate."
+	description="Check your map for the location of a Weapon Crate."
+	icon="ui_game_symbol_treasure" 
+	repeatable="true"
+	category_key="treasure"
+	difficulty="medium">
+		<objective type="TreasureChest" id="classLootCrateWeapons" value="750-1500" />
+		<reward type="Skill" id="Blade Weapons" value="2" />
+		<reward type="Skill" id="Blunt Weapons" value="2" />
+		<reward type="Exp" value="5000" />
+	</quest>
+	
+	<!-- Tradesman Class Quests -->
+	
+	<quest id="classChallenge_sledgehammer"
+	name="Class Quest: Craft a Sledgehammer"
+	subtitle="Craft a Sledgehammer"
+	offer="Craft a Sledgehammer."
+	description="Craft a Sledgehammer."
+	icon="ui_game_symbol_sledge"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Craft" id="sledgehammer" value="1" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="3500" />
+	</quest>
+	
+	<quest id="classChallenge_minibikeparts"
+	name="Class Quest: Craft Minibike Parts"
+	subtitle="Craft Minibike Parts"
+	offer="Craft some Minibike Parts."
+	description="Craft some Minibike Parts."
+	icon="ui_game_symbol_minibike"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Craft" id="minibikeChassis" value="1" />
+		<objective type="Craft" id="minibikeSeat" value="1" />
+		<objective type="Craft" id="minibikeHandlebars" value="1" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="4000" />
+	</quest>
+	
+	<quest id="classChallenge_diamondtools"
+	name="Class Quest: Craft Diamond Tools"
+	subtitle="Craft Diamond Tools"
+	offer="Craft a Diamond Tipped Fireaxe and Pickaxe."
+	description="Craft a Diamond Tipped Fireaxe and Pickaxe."
+	icon="ui_game_symbol_irontools"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="hard">
+		<objective type="Craft" id="FireaxeDiamondTipped" value="1" />
+		<objective type="Craft" id="PickaxeDiamondTipped" value="1" />
+		<reward type="SkillPoints" value="4" />
+		<reward type="Exp" value="4500" />
+	</quest>
+	
+	<quest id="classTreasure_tradesmansupplies"
+	name="Class Treasure Quest: Tradesman Supplies"
+	subtitle="Tradesman Class Treasure"
+	offer="Check your map for the location of a Tradesman Supplies."
+	description="Check your map for the location of a Tradesman Supplies."
+	icon="ui_game_symbol_treasure" 
+	repeatable="true"
+	category_key="treasure"
+	difficulty="medium">
+		<objective type="TreasureChest" id="classLootCrateTradesmanSupplies" value="750-1500" />
+		<reward type="Skill" id="Scavenging" value="2" />
+		<reward type="Exp" value="5000" />
+	</quest>
+	
+	<!-- Protection Class Quests -->
+	
+	<quest id="classChallenge_kevlararmor"
+	name="Class Quest: Craft Kevlar Armor"
+	subtitle="Craft Kevlar Armor"
+	offer="Craft a set of Kevlar Armor."
+	description="Craft a set of Kevlar Armor."
+	icon="ui_game_symbol_medium_armor"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Craft" id="KevlarGloves" value="1" />
+		<objective type="Craft" id="KevlarHelmet" value="1" />
+		<objective type="Craft" id="KevlarVest" value="1" />
+		<objective type="Craft" id="KevlarLegArmor" value="1" />
+		<objective type="Craft" id="KevlarBoots" value="1" />
+		<objective type="Wear" id="KevlarGloves" value="1" />
+		<objective type="Wear" id="KevlarHelmet" value="1" />
+		<objective type="Wear" id="KevlarVest" value="1" />
+		<objective type="Wear" id="KevlarLegArmor" value="1" />
+		<objective type="Wear" id="KevlarBoots" value="1" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="3500" />
+	</quest>
+	
+	<quest id="classChallenge_steelarmor"
+	name="Class Quest: Craft Steel Armor"
+	subtitle="Craft Steel Armor"
+	offer="Craft a set of Steel Armor."
+	description="Craft a set of Steel Armor."
+	icon="ui_game_symbol_medium_armor"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="Craft" id="SteelGloves" value="1" />
+		<objective type="Craft" id="SteelHelmet" value="1" />
+		<objective type="Craft" id="SteelChestArmor" value="1" />
+		<objective type="Craft" id="SteelLegArmor" value="1" />
+		<objective type="Craft" id="SteelBoots" value="1" />
+		<objective type="Wear" id="SteelGloves" value="1" />
+		<objective type="Wear" id="SteelHelmet" value="1" />
+		<objective type="Wear" id="SteelChestArmor" value="1" />
+		<objective type="Wear" id="SteelLegArmor" value="1" />
+		<objective type="Wear" id="SteelBoots" value="1" />
+		<reward type="SkillPoints" value="3" />
+		<reward type="Exp" value="4000" />
+	</quest>
+	
+	<quest id="classChallenge_tungstenarmor"
+	name="Class Quest: Craft Tungsten Armor"
+	subtitle="Craft Tungsten Armor"
+	offer="Craft a set of Tungsten Armor."
+	description="Craft a set of Tungsten Armor."
+	icon="ui_game_symbol_mediumarmor"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="hard">
+		<objective type="Craft" id="TungstenGloves" value="1" />
+		<objective type="Craft" id="TungstenHelmet" value="1" />
+		<objective type="Craft" id="TungstenChestArmor" value="1" />
+		<objective type="Craft" id="TungstenLegArmor" value="1" />
+		<objective type="Craft" id="TungstenBoots" value="1" />
+		<objective type="Wear" id="TungstenGloves" value="1" />
+		<objective type="Wear" id="TungstenHelmet" value="1" />
+		<objective type="Wear" id="TungstenChestArmor" value="1" />
+		<objective type="Wear" id="TungstenLegArmor" value="1" />
+		<objective type="Wear" id="TungstenBoots" value="1" />
+		<reward type="SkillPoints" value="4" />
+		<reward type="Exp" value="4500" />
+	</quest>
+	
+	<quest id="classTreasure_armorcrate"
+	name="Class Treasure Quest: Armor Crate"
+	subtitle="Protection Class Treasure"
+	offer="Check your map for the location of a Armor Crate."
+	description="Check your map for the location of a Armor Crate."
+	icon="ui_game_symbol_treasure" 
+	repeatable="true"
+	category_key="treasure"
+	difficulty="medium">
+		<objective type="TreasureChest" id="classLootCrateArmorCrate" value="750-1500" />
+		<reward type="Skill" id="Clothing/Armor" value="2" />
+		<reward type="Exp" value="5000" />
+	</quest>
+	
+	<!-- Electrician Class Quests -->
+	
+	<quest id="classChallenge_Lighting"
+    name="Lighting up the Night"
+    subtitle="lighting up the night"
+    offer="Gather the materials needed and craft some Lighting Fixtures.\n\nOzzylynn"
+    description="Gather these items:\n60 Forged Iron\n130 Electric Parts\n30 Electronic Parts\n10 Scrap Plastics\nWith those materials craft some industrial lights."
+    icon="ui_game_symbol_all_blocks"
+    repeatable="true"
+    category_key="challenge"
+    difficulty="medium">
+        <objective type="Craft" id="electricwirerelay" value="10" />
+        <objective type="Craft" id="industrialLight01_player" value="10" />
+        <objective type="Craft" id="ceilingLight02_player" value="10" />
+		<reward type="SkillPoints" value="3" />
+        <reward type="Exp" value="3500" />
+    </quest>
+	
+	<quest id="classChallenge_BaseTraps"
+    name="Protecting the fort"
+    subtitle="Protecting the fort"
+    offer="Gather the materials needed and craft switches, Speakers, Pressure plates and Motion sensors.\n\nOzzylynn"
+    description="Gather these items:\n180 Forged Iron\n80 Electric Parts\n40 Electronic Parts\n40 Mechanical Parts\nWith those materials craft some Trigger Type Traps."
+    icon="ui_game_symbol_all_blocks"
+    repeatable="true"
+    category_key="challenge"
+    difficulty="medium">
+        <objective type="Craft" id="speaker" value="10" />
+        <objective type="Craft" id="switch" value="10" />
+        <objective type="Craft" id="pressureplate" value="10" />
+        <objective type="Craft" id="motionsensor" value="10" />
+		<reward type="SkillPoints" value="3" />
+        <reward type="Exp" value="4000" />
+    </quest>
+	
+	<quest id="classChallenge_BaseTraps2"
+    name="Protecting the fort 2.0"
+    subtitle="Protecting the fort 2.0"
+    offer="Gather the materials needed and craft SpeedTraps, Explosive Speed Traps and Fire Speed Traps.\n\nOzzylynn"
+    description="Gather these items:\n300 Forged Iron\n30 Barbed Wire Sheets\n30 Glue\n100 Gun Powder\n100 Gas Can\n50 Tallow\nWith those materials craft some Speed Traps."
+    icon="ui_game_symbol_all_blocks"
+    repeatable="true"
+    category_key="challenge"
+    difficulty="hard">
+		<objective type="Craft" id="SpeedTrap" value="10" />
+		<objective type="Craft" id="ExplosiveSpeedTrap" value="10" />
+		<objective type="Craft" id="FireSpeedTrap" value="10" />
+		<reward type="SkillPoints" value="4" />
+		<reward type="Exp" value="4000" />
+    </quest>
+	
+	<quest id="classTreasure_BaseTraps2"
+	name="Class Treasure Quest: Base Traps 2.0"
+	subtitle="Electrician Class Treasure"
+	offer="Check your map for the location of a Base Traps Crate."
+	description="Check your map for the location of a Base Traps Crate."
+	icon="ui_game_symbol_treasure"
+	repeatable="true"
+	category_key="treasure"
+	difficulty="medium">
+		<objective type="TreasureChest" id="lootCrateGeneral" value="750-1250" />
+		<reward type="TreasureItem" id="FireSpeedTrap" value="10" />
+		<reward type="TreasureItem" id="ExplosiveSpeedTrap" value="10" />
+		<reward type="TreasureItem" id="SpeedTrap" value="10" />
+		<reward type="Skill" id="Scavenging" value="2" />
+		<reward type="Exp" value="5000" />
+	</quest>
+	
+	<!-- Covert Class Quests -->
+	
+	<quest id="classChallenge_SilverArmorCraft"
+    name="Class Quest: Silver Armor Master"
+    subtitle="Craft Silver Armor"
+    offer="Gather the materials needed and craft Silver Armor set.\n\nOzzylynn"
+    description="Gather these items:\n40 Silver Nugget\n22 Forged Iron\n12 Duct Tape\n With those materials craft a Silver Armor Set."
+    icon="ui_game_symbol_medium_armor"
+    repeatable="true"
+    category_key="challenge"
+    difficulty="medium">
+		<objective type="Craft" id="silverBoots" value="1" />
+        <objective type="Craft" id="silverPants" value="1" />
+        <objective type="Craft" id="silverJacket" value="1" />
+        <objective type="Craft" id="silverHat" value="1" />
+        <objective type="Craft" id="silverGloves" value="1" />
+		<reward type="SkillPoints" value="3" />
+        <reward type="Exp" value="3500" />
+    </quest>
+	
+	<quest id="classChallenge_SilverArmored"
+    name="Class Quest: Silver Armor Equipped"
+    subtitle="Wear Silver Armor"
+    offer="Equip a Silver Armor set.\n\nOzzylynn"
+    description="Wear a Silver Armor set"
+    icon="ui_game_symbol_medium_armor"
+    repeatable="true"
+    category_key="challenge"
+    difficulty="medium">
+		<objective type="Wear" id="silverBoots" value="1" />
+        <objective type="Wear" id="silverPants" value="1" />
+        <objective type="Wear" id="silverJacket" value="1" />
+        <objective type="Wear" id="silverHat" value="1" />
+        <objective type="Wear" id="silverGloves" value="1" />
+		<reward type="SkillPoints" value="3" />
+        <reward type="Exp" value="4000" />
+    </quest>
+	
+	<quest id="classChallenge_Lockpicking"
+    name="Class Quest: Lock Picking Master"
+    subtitle="Lock Picking Master"
+    offer="Craft lock picks set. Crafted in forge.\n\nOzzylynn"
+    description="Craft lock picks set. Crafted in forge.\n\nOzzylynn"
+    icon="ui_game_symbol_all_blocks"
+    repeatable="true"
+    category_key="challenge"
+    difficulty="medium">
+		<objective type="Craft" id="lockPick" value="25" />
+		<objective type="Craft" id="lockPickSafe" value="25" />
+		<reward type="SkillPoints" value="3" />
+        <reward type="Exp" value="4500" />
+    </quest>
+	
+	<quest id="classTreasure_covertarmor"
+	name="Class Treasure Quest: Silver Armor Crate"
+	subtitle="Covert Class Treasure"
+	offer="Check your map for the location of a Silver Armor Crate."
+	description="Check your map for the location of a Silver Armor Crate."
+	icon="ui_game_symbol_treasure"
+	repeatable="true"
+	category_key="treasure"
+	difficulty="medium">
+		<objective id="lootCrateGeneral" value="750-1250" type="TreasureChest"/>
+		<reward type="TreasureItem" id="silverPants" value="500,600" />
+		<reward type="TreasureItem" id="silverJacket" value="500.600" />
+		<reward type="TreasureItem" id="silverGloves" value="500,600" />
+		<reward type="TreasureItem" id="silverBoots" value="500,600" />
+		<reward type="TreasureItem" id="silverHat" value="500,600" />
+		<reward type="Skill" id="Clothing/Armor" value="2" />
+		<reward type="Exp" value="5000" />
+	</quest>
+
 
 	<!-- V5.2 To Do New Custom Icons -->
 	<!-- Builder Class Training Part 1 Of 5-->

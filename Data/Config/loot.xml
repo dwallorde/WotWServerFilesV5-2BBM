@@ -3087,7 +3087,7 @@
 	<item name="HDNailgunSchematic" count="1"/>
 </lootgroup>
 
-<lootgroup name="ClassCrateSurvivalist" count="all">
+<lootgroup name="ClassCrateSurvivalist" count="1,2">
 	<item name="aloeCream" count="50"/>
 	<item name="cloth" count="50"/>
 	<item name="TraumaFirstAidBandage" count="5"/>
@@ -3098,11 +3098,8 @@
 	<item name="LegBoosterShot" count="5"/>
 	<item name="SpeedTrap" count="2"/>
 	<item name="FireSpeedTrap" count="2"/>
-	<item name="herbalAntibioticsRecipe" count="1"/>
 	<item name="herbalAntibiotics" count="5"/>
 	<item name="ironArrow" count="150"/>
-	<item name="TraumaFirstAidBandageSchematic" count="1" prob="0.1"/>
-	<item name="TraumaFirstAidKitSchematic" count="1" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="ClassCrateScholar" count="all">
@@ -3152,7 +3149,7 @@
 	<item name="casinoCoin" count="5000"/>
 </lootgroup>
 
-<lootgroup name="ClassCrateTradesman" count="all">
+<lootgroup name="ClassCrateTradesman" count="1,2">
 	<item name="forgedIron" count="50"/>
 	<item name="forgedSteel" count="40"/>
 	<item name="ForgedTungsten" count="20"/>
@@ -3160,10 +3157,6 @@
 	<item name="electricParts" count="50"/>
 	<item name="electronicParts" count="50"/>
 	<item name="mechanicalParts" count="50"/>
-	<item name="MagazineMechanic" count="2"/>
-	<item name="sledgehammerSchematic" count="1"/>
-	<item name="MagazineToolSmithing" count="2"/>
-	<item name="casinoCoin" count="5000"/>
 </lootgroup>
 
 <lootgroup name="ClassCrateProtection" count="all">
@@ -4585,6 +4578,53 @@
 <!-- Lootcontainer 153 Player Made Storage Chest Medium -->
 <lootcontainer id="153" count="0" size="7,8" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
 	<item name="cobweb" count="1,2"/>
+</lootcontainer>
+
+<!-- Lootcontainer 154 Class Treasure Crate Building Supplies Loot (Builder) -->
+<lootcontainer id="154" count="2,6" size="10,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="treasureTemplate">
+   	<item group="workingStiffs" />
+</lootcontainer>
+
+<!-- Lootcontainer 155 Class Treasure Crate Survivalist Supplies Loot (Survivalist) -->
+<lootcontainer id="155" count="2,4" size="10,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="treasureTemplate">
+   	<item group="ClassCrateSurvivalist" />
+</lootcontainer>
+
+<!-- Lootcontainer 156 Class Treasure Crate Gun Crate Loot (Marksman) -->
+<lootcontainer id="156" count="2,4" size="10,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="treasureTemplate">
+   	<item group="LowTier_Weapons" prob="0.9" />
+   	<item group="LowTier_WeaponParts" prob="0.5" />
+	<item group="MidTier_Weapons" prob="0.7" />
+	<item group="MidTier_WeaponParts" prob="0.3" />
+	<item group="HighTier_Weapons" prob="0.5" />
+	<item group="HighTier_WeaponParts" prob="0.1" />
+	<item group="WeaponAttachments" count="1" prob="0.1" />
+	<item group="ammo" count="1,2" prob="0.5" />
+</lootcontainer>
+
+<!-- Lootcontainer 157 Class Treasure Crate Weapon Crate Loot (Fighter) -->
+<lootcontainer id="157" count="2,4" size="10,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="treasureTemplate">
+   	<item name="clubIron" prob="0.9" />
+   	<item name="clubBarbed" prob="0.8" />
+	<item name="clubSpiked" prob="0.7" />
+	<item name="ClubTungsten" prob="0.5" />
+	<item name="machete" prob="0.6" />
+	<item name="SteelMachete" prob="0.4" />
+	<item name="TungstenMachete" count="1" prob="0.3" />
+	<item name="huntingKnife" prob="0.7" />
+	<item name="GoldTippedMachete" prob="0.15" />
+	<item name="GoldTippedKnife" prob="0.2" />
+</lootcontainer>
+
+<!-- Lootcontainer 158 Class Treasure Crate Tradesman Supplies Loot (Tradesman) -->
+<lootcontainer id="158" count="2,5" size="10,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="treasureTemplate">
+   	<item group="TradesmanCrate" />
+	<item group="ClassCrateTradesman" prob="0.75" />
+</lootcontainer>
+
+<!-- Lootcontainer 159 Supply Crate Health and Armor Loot -->
+<lootcontainer id="159" count="3,6" size="10,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="treasureTemplate">
+   	<item group="Armor" />
 </lootcontainer>
 
 </lootcontainers>

@@ -31,7 +31,7 @@
 
 	<window name="WotW"> <!-- SIRILLION: DWALLORDE: I added the War of the Walkers logo stuff to the code to ease your workload. Activate it in xui.xml. -->
 		<texture name="WotW" depth="0" size="100,50" texture="@file:Mods\SMX\Textures\Misc\wwhudlogo.png" material="Materials/Transparent Colored" pos="-500,-6" />
-		<label name="ServerInfo" depth="0" size="100,50" text="V5.2.3 (B111) R1/29/2018 BBM" font_size="20" effect="outline" color="[red]" justify="center" pos="-400,-15" overflow="resizeheight" />
+		<label name="ServerInfo" depth="0" size="100,50" text="V5.2.4 (B113) R2/12/2018 BBM" font_size="20" effect="outline" color="[red]" justify="center" pos="-400,-15" overflow="resizeheight" />
 	</window>
 
 	<window name="CRAFTWORX"> <!-- SIRILLION: LATHEOS: I added the Craftworx logo stuff to the code to ease your workload. Activate it in xui.xml. -->
@@ -364,7 +364,7 @@
 		<texture name="SMXHudOther" depth="0" size="316,58" pos="-140,18" texture="@file:Mods\SMX\Textures\QuestTracker\smxquestsbg.png" material="Materials/Transparent Colored" />
 		<label depth="1" text="{questtitle}" font_size="26" effect="outline" justify="center" upper_case="true" pos="-100, -5" height="28" />
 		<sprite pos="-100,-8" depth="1" name="windowIcon" style="icon22px" atlas="ItemIconAtlas" sprite="{questicon}" justify="left" />
-		<grid name="objectiveList" rows="8" cols="1" pos="-60,-44" cell_width="300" cell_height="26" repeat_content="true" arrangement="vertical" controller="QuestTrackerObjectiveList"
+		<grid name="objectiveList" rows="10" cols="1" pos="-60,-44" cell_width="300" cell_height="26" repeat_content="true" arrangement="vertical" controller="QuestTrackerObjectiveList"
 			complete_icon="ui_game_symbol_check" incomplete_icon="ui_game_symbol_x" atlas="ItemIconAtlas" complete_color="[green]" incomplete_color="[red]">
 			<SMX_quest_objective_tracker_entry_uf1 />
 		</grid>
@@ -943,7 +943,7 @@
 
 	<window name="WotWingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="WotW" depth="0" size="999,777" texture="@file:Mods\SMX\Textures\Misc\wwmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
-		<label name="WotWVersion" pos="450, -450" depth="0" size="250,33" text="V5.2.3 B111 BBM" font_size="32" effect="outline" color="[white]" justify="center" /> <!-- SIRILLION: DWALLORDE, change version here if needed! -->
+		<label name="WotWVersion" pos="450, -450" depth="0" size="250,33" text="V5.2.4 B113 BBM" font_size="32" effect="outline" color="[white]" justify="center" /> <!-- SIRILLION: DWALLORDE, change version here if needed! -->
 		<grid name="buttons" pos="0, -475" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
 			<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
 			<simplebutton name="btnSave" depth="3" width="250" height="46" caption_key="xuiMenuSave" font_size="40" />

@@ -18708,9 +18708,9 @@ kind of free
 	<property name="Model" value="Entities/Electrical/generatorPrefab"/> <property name="HandleFace" value="Bottom"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="MaxFuel" value="10000"/>
-	<property name="OutputPerFuel" value="12250"/>
+	<property name="OutputPerFuel" value="14250"/>
 	<property name="MaxPower" value="15000"/>
-	<property name="OutputPerStack" value="100"/>
+	<property name="OutputPerStack" value="125"/>
 	<property name="SlotItem" value="ECOSmallEngine"/>
 	<property name="Group" value="Science"/>
 	<property class="RepairItems">
@@ -18743,8 +18743,8 @@ kind of free
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="MaxFuel" value="7500"/>
 	<property name="OutputPerFuel" value="12250"/>
-	<property name="MaxPower" value="25000"/>
-	<property name="OutputPerStack" value="100"/>
+	<property name="MaxPower" value="30000"/>
+	<property name="OutputPerStack" value="250"/>
 	<property name="SlotItem" value="HDSmallEngine"/>
 	<property name="Group" value="Science"/>
 	<property class="RepairItems">
@@ -18776,10 +18776,10 @@ kind of free
 	<property name="Model" value="Entities/Electrical/battery_bankPrefab"/> <property name="HandleFace" value="Bottom"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="MaxPower" value="600"/>
-	<property name="InputPerTick" value="5"/>
+	<property name="InputPerTick" value="6"/>
 	<property name="ChargePerInput" value="2"/>
-	<property name="OutputPerStack" value="75"/>
-	<property name="OutputPerCharge" value="200"/>
+	<property name="OutputPerStack" value="60"/>
+	<property name="OutputPerCharge" value="250"/>
 	<property name="SlotItem" value="ECOBattery"/>
 	<property name="Group" value="Science"/>
 	<property class="RepairItems">
@@ -18813,8 +18813,8 @@ kind of free
 	<property name="MaxPower" value="1000"/>
 	<property name="InputPerTick" value="5"/>
 	<property name="ChargePerInput" value="1"/>
-	<property name="OutputPerStack" value="60"/>
-	<property name="OutputPerCharge" value="100"/>
+	<property name="OutputPerStack" value="75"/>
+	<property name="OutputPerCharge" value="200"/>
 	<property name="SlotItem" value="HDBattery"/>
 	<property name="Group" value="Science"/>
 	<property class="RepairItems">
@@ -21087,7 +21087,68 @@ kind of free
 	<property name="EconomicValue" value="135"/>
 	<property name="PickupJournalEntry" value="cameraTip,triggerDelayDurationTip,passthroughTriggeringTip"/>
 </block>
-	<!-- 10 Free -->
+
+<block id="2031" name="classLootCrateBuildingSupplies">
+	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+    <property name="Class" value="Loot" />
+    <property name="LootList" value="154" />
+    <property name="Material" value="wood+wood" />
+    <property name="Texture" value="419,419,408,408,408,408" />
+	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab" />
+    <drop event="Destroy" name="wood" count="4" />
+</block>
+
+<block id="2032" name="classLootCrateSurvivalistSupplies">
+	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+    <property name="Class" value="Loot" />
+    <property name="LootList" value="155" />
+    <property name="Material" value="wood+wood" />
+    <property name="Texture" value="284,284,408,408,408,408" />
+	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab" />
+	<drop event="Destroy" name="wood" count="4" />
+</block>
+
+<block id="2033" name="classLootCrateGuns">
+	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+    <property name="Class" value="Loot" />
+    <property name="LootList" value="156" />
+    <property name="Material" value="wood+wood" />
+    <property name="Texture" value="422,422,408,408,408,408" />
+	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab" />
+    <drop event="Destroy" name="wood" count="4" />
+</block>
+
+<block id="2034" name="classLootCrateWeapons">
+	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+    <property name="Class" value="Loot" />
+    <property name="LootList" value="157" />
+    <property name="Material" value="wood+wood" />
+    <property name="Texture" value="422,422,408,408,408,408" />
+	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab" />
+    <drop event="Destroy" name="wood" count="4" />
+</block>
+
+<block id="2035" name="classLootCrateTradesmanSupplies">
+	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+    <property name="Class" value="Loot" />
+    <property name="LootList" value="158" />
+    <property name="Material" value="wood+wood" />
+    <property name="Texture" value="419,419,408,408,408,408" />
+	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab" />
+    <drop event="Destroy" name="wood" count="4" />
+</block>
+
+<block id="2036" name="classLootCrateArmorCrate">
+	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+    <property name="Class" value="Loot" />
+    <property name="LootList" value="159" />
+    <property name="Material" value="wood+wood" />
+    <property name="Texture" value="284,284,408,408,408,408" />
+	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab" />
+	<drop event="Destroy" name="wood" count="4" />
+</block>
+
+	<!-- 4 Free -->
 
 <block id="2041" name="glassShowerRamp">
 	<property name="Material" value="glass"/>
