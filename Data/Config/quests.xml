@@ -1588,6 +1588,80 @@
 		<reward type="Skill" id="Blunt Weapons" value="5" />
 	</quest>
 	
+	<quest id="challenge_HungryZombie"
+	name="Satisfying the need to Feed"
+	subtitle="Kill some Hungry Zombies"
+	offer="Go and kill some Hungry Zombies.\n\nDwall"
+	description="Go and kill some Hungry Zombies."
+	icon="ui_game_symbol_skull"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="easy">
+		<objective type="ZombieKill" id="zombieFemaleFat,zombieFemaleFatRadiated,zombieFemaleFatFeral,zombieFemaleFatFeralRadiated" value="10" />
+		<reward type="Exp" value="2500" />
+		<reward type="SkillPoints" value="3" />
+	</quest>
+	
+	<quest id="challenge_PunkZombies"
+	name="You Punk Ass Bitch"
+	subtitle="Kill some Punk Zombies"
+	offer="Go and kill some Punk Ass Zombies.\n\nDwall"
+	description="Go and kill some Punk Ass Zombies."
+	icon="ui_game_symbol_skull"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="easy">
+		<objective type="ZombieKill" id="zombieSkateboarder,zombieSkateboarderFeral" value="10" />
+		<reward type="Exp" value="2500" />
+		<reward type="SkillPoints" value="3" />
+	</quest>
+	
+	<quest id="challenge_StripperandBiker"
+	name="Every Biker Needs A Stripper"
+	subtitle="Kill some Bikers and Strippers"
+	offer="Go and kill some Bikers and Strippers.\n\nDwall"
+	description="Go and kill some Bikers and Strippers."
+	icon="ui_game_symbol_skull"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="easy">
+		<objective type="ZombieKill" id="zombieBiker" value="10" />
+		<objective type="ZombieKill" id="zombieStripper,zombieStripperFeral" value="10" />
+		<reward type="Exp" value="2500" />
+		<reward type="Item" id="potassiumNitratePowder" value="25" />
+		<reward type="SkillPoints" value="3" />
+	</quest>
+	
+	<quest id="challenge_Farmer"
+	name="Tend To The Farm"
+	subtitle="Kill some Farmers"
+	offer="Go and kill some Farmer Zombies.\n\nDwall"
+	description="Go and kill some Farmer Zombies."
+	icon="ui_game_symbol_skull"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="easy">
+		<objective type="ZombieKill" id="zombieFarmer,zombieFarmerFeral" value="10" />
+		<reward type="Exp" value="2500" />
+		<reward type="Item" id="potassiumNitratePowder" value="25" />
+		<reward type="SkillPoints" value="3" />
+	</quest>
+	
+	<quest id="challenge_BusinessMan"
+	name="Taking Care Of Business"
+	subtitle="Kill some Business Man"
+	offer="Go and kill some Professional Business Zombies.\n\nDwall"
+	description="Go and kill some Professional Business Zombies."
+	icon="ui_game_symbol_skull"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="easy">
+		<objective type="ZombieKill" id="zombieFarmer,zombieFarmerFeral" value="10" />
+		<reward type="Exp" value="2500" />
+		<reward type="Item" id="potassiumNitratePowder" value="25" />
+		<reward type="SkillPoints" value="3" />
+	</quest>
+	
 	<quest id="quest_LocateTrader"
 	name_key="quest_LocateTrader"
 	subtitle_key="quest_LocateTrader_subtitle"

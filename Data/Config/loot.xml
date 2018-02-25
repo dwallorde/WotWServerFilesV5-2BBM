@@ -570,6 +570,11 @@
 	<item name="Challenge_HerbalAntibiotics" count="1"/>
 	<item name="Challenge_SteelTools" count="1"/>
 	<item name="Challenge_LocateTrader" count="1"/>
+	<item name="Challenge_HungryZombie" count="1"/>
+	<item name="Challenge_PunkZombies" count="1"/>
+	<item name="Challenge_StripperandBiker" count="1"/>
+	<item name="Challenge_Farmer" count="1"/>
+	<item name="Challenge_BusinessMan" count="1"/>
 </lootgroup>
 
 <lootgroup name="QuestChallenge_hard">
@@ -1538,7 +1543,7 @@
 	<item group="rare_healthandfoodBooks" prob="0.11"/>
 	<item group="rare_toolsBooks" prob="0.1"/>
 	<item group="rare_weaponsBooks" prob="0.1"/>
-	<item group="QuestChallenge" count="1" prob="0.09"/>
+	<item group="QuestChallenge" count="1" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="herbalRecipes" count="1">
@@ -2023,7 +2028,7 @@
 	<item name="nail" count="1,10"/>
 	<item name="cigar" count="1" prob="0.1"/>
 	<item group="cosmeticsMechanicalParts" count="1" prob="0.2"/>
-	<item group="QuestChallenge" count="1" prob="0.084"/>	<!-- 0.06 = .23 % -->
+	<item group="QuestChallenge" count="1" prob="0.095"/>	<!-- 0.06 = .23 % -->
 	<item group="treasureMaps" count="1" prob="0.084"/>
 </lootgroup>
 	
@@ -2057,7 +2062,7 @@
 	<item name="painkillers" count="1,2"/>
 	<item name="emptyJar" count="1"/>
 	<item group="treasureMaps" count="1" prob="0.084"/>
-	<item group="QuestChallenge" count="1" prob="0.084"/>	<!-- 0.06 = .23 % -->
+	<item group="QuestChallenge" count="1" prob="0.095"/>	<!-- 0.06 = .23 % -->
 	<item group="books" count="1" prob="0.1"/>
 </lootgroup>
 
@@ -2425,12 +2430,12 @@
 </lootgroup>
 	
 <lootgroup name="building_doors" count="1,2">
-	<item name="secureDoorWooden"/>
-	<item name="ironDoor1_v1"/>
-	<item name="vaultDoor01"/>
-	<item name="woodHatch1_v1"/>
-	<item name="scrapHatch_v1"/>
-	<item name="vaultHatch_v1"/>
+	<item name="doorWooden"/>
+	<item name="doorIron"/>
+	<item name="doorVault"/>
+	<item name="hatchWood"/>
+	<item name="hatchScrap"/>
+	<item name="hatchVault"/>
 </lootgroup>
 	
 <lootgroup name="building_windows" count="1">
@@ -2771,7 +2776,7 @@
 	<item name="bandage"/>
 	<item name="vitamins"/>
 	<item group="medicine_rare"/>
-	<item group="QuestChallenge" count="1" prob="0.056"/>
+	<item group="QuestChallenge" count="1" prob="0.069"/>
 	<item group="treasureMaps" count="1" prob="0.084"/>
 </lootgroup>
 
@@ -3013,7 +3018,7 @@
 
 <lootgroup name="SchematicDrop" count="2,3">
 	<item group="books" count="1,2"/>
-	<item group="QuestChallenge" count="1" prob="0.035" />
+	<item group="QuestChallenge" count="1" prob="0.04" />
 	<item group="QuestChain" count="1" prob="0.01" />
 	<item group="treasureMaps" count="1" prob="0.035" />
 </lootgroup>

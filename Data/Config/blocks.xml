@@ -4261,9 +4261,9 @@ group desc for stuff like metal siding
 </block>
 
 <block id="417" name="scrapMetalPile">
-	<property name="Material" value="MmetalNoGlue"/>
+	<property name="Material" value="Mmetal_weak"/>
 	<property name="MaxDamage" value="50"/>
-	<property name="StabilitySupport" value="false"/>
+	<property name="StabilitySupport" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="broken_girder_beam"/>
 	<property name="Texture" value="571"/>
@@ -6051,6 +6051,7 @@ kind of free
 	<property name="Model" value="Entities/Trees/Haunted_Shrub_Wasteland2Prefab"/> <!-- uses dummy texture id from opaque atlas -->
 	<property name="ModelOffset" value="0,-0.15,0"/>
 	<property name="Collide" value="melee"/>
+	<drop event="Destroy" name="yuccaFibers" count="2,3"/>
 	<drop event="Destroy" name="wood" count="2,5" prob="1"/>
 </block>
 
@@ -9169,6 +9170,7 @@ kind of free
 	<property name="Collide" value="melee"/>
 	<property name="CanDecorateOnSlopes" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
+	<drop event="Destroy" name="yuccaFibers" count="2,3"/>
 	<drop event="Destroy" name="wood" count="1,3"/>
 </block>
 
@@ -15115,13 +15117,13 @@ kind of free
 
 <block id="1413" name="window03Wood">
 	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
-	<property name="Material" value="glass"/>
+	<property name="Material" value="glasswindowmat"/>
 	<property name="LightOpacity" value="1"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Buildings/window03WoodPrefab"/>
 	<property name="Place" value="TowardsPlacer"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-	<property name="Weight" value="0"/>
+	<property name="Weight" value="10"/>
 	<property name="FuelValue" value="240"/>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="plainWoodWindowPlug"/>
@@ -16551,6 +16553,7 @@ kind of free
 <block id="1543" name="StorageChest2Secure">
 	<property name="Extends" value="cntChest02"/>
 	<property name="CustomIcon" value="cntChest02"/>
+	<property name="Material" value="playerwood" />
 	<property name="Class" value="SecureLoot"/>
 	<property name="LootList" value="153"/>
 	<property class="RepairItems"> <property name="wood" value="10"/> </property>
@@ -16562,6 +16565,7 @@ kind of free
 <block id="1544" name="StorageChest2Insecure">
 	<property name="Extends" value="cntChest02"/>
 	<property name="CustomIcon" value="cntChest02"/>
+	<property name="Material" value="playerwood" />
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="153"/>
 	<property class="RepairItems"> <property name="wood" value="10"/> </property>
@@ -17823,6 +17827,7 @@ kind of free
 	<property name="ImposterExclude" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+	<property name="Weight" value="50"/>
 	<property name="CreativeMode" value="Player"/>
 	<property class="RepairItems"> <property name="ForgedTungsten" value="1"/> </property>
 	<property class="UpgradeBlock">
@@ -17849,6 +17854,7 @@ kind of free
 	<property name="Texture" value="445,445,531,531,531,531"/>
 	<!-- <property name="ImposterExchange" value="imposterBlock" param1="112"/> -->
 	<property name="CreativeMode" value="Player"/>
+	<property name="Weight" value="50"/>
 	<property class="RepairItems"> <property name="ForgedTungsten" value="10"/> </property>
 	<property name="DowngradeBlock" value="stainlessSteelBlock"/>
 	<property name="CustomUpgradeSound" value="place_block_metal"/>
@@ -18150,6 +18156,7 @@ kind of free
 	<property name="LightOpacity" value="1"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="FuelValue" value="300"/>
+	<property name="Weight" value="10"/>
 	<property name="Tag" value="Door"/>
 	<property name="Place" value="Door"/> <!-- build restriction -->
 	<property name="PlaceEverywhere" value="true"/>
@@ -18258,6 +18265,7 @@ kind of free
 	<property name="DescriptionKey" value="doorDesc"/>
 	<property name="Class" value="DoorSecure"/>
 	<property name="Material" value="Mmetal_hard"/> <!-- 2500 -->
+	<property name="Weight" value="10"/>
 	<property name="PassThroughDamage" value="true"/>
 	<property name="LightOpacity" value="1"/>
 	<property name="Shape" value="ModelEntity"/>
@@ -18323,6 +18331,7 @@ kind of free
 	<property name="DescriptionKey" value="doorDesc"/>
 	<property name="Class" value="DoorSecure"/>
 	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="12"/>
 	<property name="PassThroughDamage" value="true"/>
 	<property name="LightOpacity" value="1"/>
 	<property name="Shape" value="ModelEntity"/>
@@ -18400,6 +18409,7 @@ kind of free
 	<property name="DescriptionKey" value="doorDesc"/>
 	<property name="Class" value="DoorSecure"/>
 	<property name="Material" value="wood_regular"/>
+	<property name="Weight" value="10"/>
 	<property name="PassThroughDamage" value="true"/>
 	<property name="LightOpacity" value="1"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -18475,6 +18485,7 @@ kind of free
 	<property name="DescriptionKey" value="doorDesc"/>
 	<property name="Class" value="DoorSecure"/>
 	<property name="Material" value="Mmetal_medium"/>
+	<property name="Weight" value="10"/>
 	<property name="PassThroughDamage" value="true"/>
 	<property name="LightOpacity" value="1"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -18539,6 +18550,7 @@ kind of free
 <block id="1729" name="hatchVault">
 	<property name="Extends" value="doorVault"/>
 	<property name="CustomIcon" value="vaultHatch_v1"/>
+	<property name="Weight" value="12"/>
 	<property name="DescriptionKey" value="doorDesc"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 	<property name="Model" value="Entities/Doors/steel_hatch_v1Prefab"/> <property name="ModelOffset" value="0,.5,0"/>

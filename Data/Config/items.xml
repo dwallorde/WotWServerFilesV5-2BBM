@@ -1091,7 +1091,7 @@ Mesh files no longer used:
 		<property name="DamageEntity" value="10"/>
 		<property name="DamageBlock" value="20"/>
 		<property name="Buff" value="gainInjury_smallattack_Trigger,infection,stunned,biteMark" />
-		<property name="Buff_chance" value="0.8,0.05,0.5,0.5" />
+		<property name="Buff_chance" value="0.8,0.05,0.45,0.35" />
 	</property>
 </item>
 
@@ -1102,7 +1102,7 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="Delay" value="2.0"/>
 		<property name="Buff" value="gainInjury_smallattack_Trigger,sprainedLeg,infection,biteMark" />
-		<property name="Buff_chance" value="0.8,0.2,0.05,0.5" />
+		<property name="Buff_chance" value="0.8,0.2,0.05,0.4" />
 	</property>
 </item>
 
@@ -1115,7 +1115,7 @@ Mesh files no longer used:
 		<property name="DamageEntity" value="12"/>
 		<property name="DamageBlock" value="2"/>
 		<property name="Buff" value="gainInjury_mediumattack_Trigger,burningSmall,infection,stunned,biteMark" />
-		<property name="Buff_chance" value="0.7,0.5,0.05,0.5,0.5" />
+		<property name="Buff_chance" value="0.7,0.5,0.05,0.5,0.4" />
 	</property>
 </item>
 
@@ -4781,6 +4781,7 @@ Mesh files no longer used:
 	<property name="HoldType" value="45"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="FuelValue" value="3"/>
+	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="50"/>
 	<property name="EquipSlot" value="Face"/>
 	<property class="UMA">
@@ -4794,6 +4795,7 @@ Mesh files no longer used:
 
 <item id="478" name="cigarette">
 	<property name="Extends" value="cigar"/>
+	<property name="Weight" value="5"/>
 	<property class="UMA">
 		<property name="Mesh" value="cigarette"/>
 		<property name="Overlay0" value="cigarette"/>
@@ -14014,6 +14016,8 @@ Mesh files no longer used:
     <property name="Group" value="Medicine" />
 	<property name="DescriptionKey" value="vitaminsDesc" />
 	<property name="EconomicValue" value="75" />
+	<property name="ActionSkillGroup" value="Medicine"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="1794" name="ImmunizationShot">
@@ -14177,8 +14181,8 @@ Mesh files no longer used:
 		<property name="Sound_start" value="UseActions/player_painkillers" />
     </property>
     <property name="Group" value="Medicine" />
-	<property name="CraftingSkillGroup" value="craftSkillScience" />
-	<property name="ActionSkillGroup" value="Medicine" />
+	<property name="ActionSkillGroup" value="Medicine"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	<property name="DescriptionKey" value="vitaminsDesc" />
 	<property name="EconomicValue" value="100" />
 </item>
@@ -19078,9 +19082,10 @@ Mesh files no longer used:
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="cloth"/>
 	<property name="HoldType" value="45"/>
-	<property name="Stacknumber" value="1"/>
+	<property name="Stacknumber" value="50"/>
 	<property name="FuelValue" value="3"/>
-	<property name="EconomicValue" value="75"/>
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="200"/>
 	<property name="Group" value="Resources"/>
 </item>
 
@@ -19092,6 +19097,7 @@ Mesh files no longer used:
 	<property name="Stacknumber" value="50"/>
 	<property name="FuelValue" value="20"/>
 	<property name="Weight" value="20"/>
+	<property name="EconomicValue" value="150"/>
 	<property name="Group" value="Decor/Miscellaneous"/>
 </item>
 
@@ -19450,6 +19456,7 @@ Mesh files no longer used:
 
 <item id="2111" name="classChallenge_woodframes">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_woodframes" />
 	</property>
@@ -19458,6 +19465,7 @@ Mesh files no longer used:
 
 <item id="2112" name="classChallenge_scrapframes">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_scrapframes" />
 	</property>
@@ -19466,6 +19474,7 @@ Mesh files no longer used:
 
 <item id="2113" name="classChallenge_rebarframes">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_rebarframes" />
 	</property>
@@ -19482,6 +19491,7 @@ Mesh files no longer used:
 
 <item id="2115" name="classChallenge_TraumaFirstAidBandage">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_TraumaFirstAidBandage" />
 	</property>
@@ -19490,6 +19500,7 @@ Mesh files no longer used:
 
 <item id="2116" name="classChallenge_TraumaFirstAidKit">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_TraumaFirstAidKit" />
 	</property>
@@ -19498,6 +19509,7 @@ Mesh files no longer used:
 
 <item id="2117" name="classChallenge_SpeedTraps">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_SpeedTraps" />
 	</property>
@@ -19514,6 +19526,7 @@ Mesh files no longer used:
 
 <item id="2119" name="classChallenge_seedcrafting">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_seedcrafting" />
 	</property>
@@ -19522,6 +19535,7 @@ Mesh files no longer used:
 
 <item id="2120" name="classChallenge_seedcrafting2">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_seedcrafting2" />
 	</property>
@@ -19530,6 +19544,7 @@ Mesh files no longer used:
 
 <item id="2121" name="classChallenge_seedplacing">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_seedplacing" />
 	</property>
@@ -19538,6 +19553,7 @@ Mesh files no longer used:
 
 <item id="2122" name="classChallenge_seedplacing2">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_seedplacing2" />
 	</property>
@@ -19546,6 +19562,7 @@ Mesh files no longer used:
 
 <item id="2123" name="classChallenge_deserteagleassemble">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_deserteagleassemble" />
 	</property>
@@ -19554,6 +19571,7 @@ Mesh files no longer used:
 
 <item id="2124" name="classChallenge_barettashotgunassemble">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_barettashotgunassemble" />
 	</property>
@@ -19562,6 +19580,7 @@ Mesh files no longer used:
 
 <item id="2125" name="classChallenge_m25sniperassemble">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_m25sniperassemble" />
 	</property>
@@ -19578,6 +19597,7 @@ Mesh files no longer used:
 
 <item id="2127" name="classChallenge_goldtippedknife">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_goldtippedknife" />
 	</property>
@@ -19586,6 +19606,7 @@ Mesh files no longer used:
 
 <item id="2128" name="classChallenge_goldtippedmachete">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_goldtippedmachete" />
 	</property>
@@ -19594,6 +19615,7 @@ Mesh files no longer used:
 
 <item id="2129" name="classChallenge_meleezombies">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_meleezombies" />
 	</property>
@@ -19610,6 +19632,7 @@ Mesh files no longer used:
 
 <item id="2131" name="classChallenge_sledgehammer">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_sledgehammer" />
 	</property>
@@ -19618,6 +19641,7 @@ Mesh files no longer used:
 
 <item id="2132" name="classChallenge_minibikeparts">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_minibikeparts" />
 	</property>
@@ -19626,6 +19650,7 @@ Mesh files no longer used:
 
 <item id="2133" name="classChallenge_diamondtools">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_diamondtools" />
 	</property>
@@ -19642,6 +19667,7 @@ Mesh files no longer used:
 
 <item id="2135" name="classChallenge_kevlararmor">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_kevlararmor" />
 	</property>
@@ -19650,6 +19676,7 @@ Mesh files no longer used:
 
 <item id="2136" name="classChallenge_steelarmor">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_steelarmor" />
 	</property>
@@ -19658,6 +19685,7 @@ Mesh files no longer used:
 
 <item id="2137" name="classChallenge_tungstenarmor">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_tungstenarmor" />
 	</property>
@@ -19674,6 +19702,7 @@ Mesh files no longer used:
 
 <item id="2139" name="classChallenge_Lighting">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_Lighting" />
 	</property>
@@ -19682,6 +19711,7 @@ Mesh files no longer used:
 
 <item id="2140" name="classChallenge_BaseTraps">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_BaseTraps" />
 	</property>
@@ -19690,6 +19720,7 @@ Mesh files no longer used:
 
 <item id="2141" name="classChallenge_BaseTraps2">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_BaseTraps2" />
 	</property>
@@ -19706,6 +19737,7 @@ Mesh files no longer used:
 
 <item id="2143" name="classChallenge_SilverArmorCraft">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_SilverArmorCraft" />
 	</property>
@@ -19714,6 +19746,7 @@ Mesh files no longer used:
 
 <item id="2144" name="classChallenge_SilverArmored">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_SilverArmored" />
 	</property>
@@ -19722,6 +19755,7 @@ Mesh files no longer used:
 
 <item id="2145" name="classChallenge_Lockpicking">
 	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="classChallenge_Lockpicking" />
 	</property>
@@ -19734,6 +19768,46 @@ Mesh files no longer used:
 		<property name="QuestGiven" value="classTreasure_covertarmor" />
 	</property>
 	<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" />
+</item>
+
+<item id="2147" name="Challenge_HungryZombie">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="challenge_HungryZombie" />
+	</property>
+	<property name="DescriptionKey" value="qc_ZombieGroupDesc" />
+</item>
+
+<item id="2148" name="Challenge_PunkZombies">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="challenge_PunkZombies" />
+	</property>
+	<property name="DescriptionKey" value="qc_ZombieGroupDesc" />
+</item>
+
+<item id="2149" name="Challenge_StripperandBiker">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="challenge_StripperandBiker" />
+	</property>
+	<property name="DescriptionKey" value="qc_ZombieGroupDesc" />
+</item>
+
+<item id="2150" name="Challenge_Farmer">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="challenge_Farmer" />
+	</property>
+	<property name="DescriptionKey" value="qc_ZombieGroupDesc" />
+</item>
+
+<item id="2151" name="Challenge_BusinessMan">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="challenge_BusinessMan" />
+	</property>
+	<property name="DescriptionKey" value="qc_ZombieGroupDesc" />
 </item>
 
 </items>

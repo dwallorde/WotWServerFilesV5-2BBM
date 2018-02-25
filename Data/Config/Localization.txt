@@ -4998,25 +4998,25 @@ M25SniperRifleSchematicDesc,items,Item,KgNone,Learn how to assemble and repair a
 762mmHollowPointBulletSchematic,items,Item,KgNone,762mm Hollow Point Bullet Schematic,762 mm Hollow Point Bullet Esquema,762 mm Hohlkugelschema,,762 mm Hollow Point Bullet Esquema
 762mmHollowPointBulletSchematicDesc,items,Item,KgNone,Learn how to make 762mm Hollow Point Bullets,Apprenez à fabriquer des puces à pointe creuse de 762 mm,Erfahren Sie wie 762 mm Hollow Point Bullets,,Aprenda a hacer 762 mm Hollow Point Bullets
 IncendiaryShotgunSlug,items,Item,KgNone,Incendiary Shotgun Slug,,,,
-IncendiaryShotgunSlugDesc,items,Item,Incendiary Ammunition for Baretta Shotgun,Munitions Incendiaires pour Beretta Shotgun\n [ Crafted in Workbench. ],Brandmunition für Beretta Schrotflinte,,Munición Incendiaria para Escopeta Beretta,
+IncendiaryShotgunSlugDesc,items,Item,Incendiary Ammunition for Beretta Shotgun,Munitions Incendiaires pour Beretta Shotgun\n [ Crafted in Workbench. ],Brandmunition für Beretta Schrotflinte,,Munición Incendiaria para Escopeta Beretta,
 IncendiaryShotgunSlugSchematic,items,Item,KgNone,Incendiary Shotgun Slug Schematic,,,,
 IncendiaryShotgunSlugSchematicDesc,items,Item,KgNone,Learn how to make Incendiary Shotgun Slugs,Apprenez à fabriquer les Slugs Incendiary Shotgun,Erlernen Sie wie man Brennende Schrotflinte-Schnecken bildet,,Aprende a hacer Incendiary Shotgun Slugs
 9mmHollowPointBullet,items,Item,KgNone,9mm Hollow Point Bullet,9mm Hollow Point Bullet,9mm Hohlpunkt Kugel,,9mm Hollow Point Bullet
 9mmHollowPointBulletDesc,items,Item,KgNone,Ammunition for Pistol\n [ Crafted in Workbench. ],Munitions pour Pistolet,Munition für Pistole,,Munición para pistola
 9mmHollowPointBulletSchematic,items,Item,KgNone,9mm Hollow Point Bullet Schematic,9mm Hollow Point Bullet Schéma,9mm Hollow Point Kugelschema,,9mm Hollow Point Bullet Esquema
 9mmHollowPointBulletSchematicDesc,items,Item,KgNone,Learn how to make 9mm Hollow Point Bullets,Apprenez à fabriquer 9mm Hollow Point Bullets,"Erfahren Sie, wie 9mm Hollow Point Bullets",,Aprenda a hacer 9mm Hollow Point Bullets
-BarettaShotgun,items,Item,KgNone,Barretta Shotgun,Beretta fusil de chasse,Beretta Schrotflinte,,Escopeta Beretta
+BarettaShotgun,items,Item,KgNone,Beretta Shotgun,Beretta fusil de chasse,Beretta Schrotflinte,,Escopeta Beretta
 BarettaShotgunDesc,items,Item,KgNone,"Shotgun that uses Shotgun Shells or Slugs as well as Explosive Shotgun Slugs and has a magazine size of 10.  Can only be assembled by The Marksman Class.\n [ Crafted in assembly. ]","Shotgun n'utilise des obus ou des limaces fusil ainsi que d'explosion Slugs Shotgun et a une taille de magazine 10. Ne peut être assemblé par la classe Marksman.","Das Shotgun Shells Shotgun verwendet Gold Slugs sowie Explosive Shotgun Slugs und: ein Magazingröße von 10 hat nur durch den Marksman-Klasse montiert werden.",,"Que utiliza cartuchos de escopeta Escopeta babosas de oro, así como explosivos de la escopeta y babosas: tiene un tamaño de cargador de 10. Sólo puede ser montado por la clase Marksman."
-BarettaShotgun_Stock,items,Item,KgNone,Barretta Shotgun Stock,Barretta Shotgun Stock,Beretta Schrotflinte Vorrat,,Imágenes de Beretta Shotgun
-BarettaShotgun_StockDesc,items,Item,KgNone,Gun Part for Baretta Shotgun\n [ Crafted in Workbench. ],Pistolet pour Beretta Shotgun,Gewehr-Teil für Beretta Schrotflinte,,Pistola para la escopeta Beretta
-BarettaShotgun_Receiver,items,Item,KgNone,Baretta Shotgun Receiver,Récepteur Beretta Shotgun,Beretta Schrotflinte-Empfänger,,Receptor de escopeta Beretta
-BarettaShotgun_ReceiverDesc,items,Item,KgNone,Gun Part for Baretta Shotgun\n [ Crafted in Gun Smithing Workstation with a Anvil. ],Pistolet pour Beretta Shotgun,Gewehr-Teil für Beretta Schrotflinte,,Pistola para la escopeta Beretta
-BarettaShotgun_Barrel,items,Item,KgNone,Baretta Shotgun Barrel,Barillet de fusil Beretta,Beretta Schrotflinte Fass,,Barril de escopeta Beretta
-BarettaShotgun_BarrelDesc,items,Item,KgNone,Gun Part for Baretta Shotgun\n [ Crafted in Gun Smithing Workstation with a Anvil. ],Pistolet pour Beretta Shotgun,Gewehr-Teil für Beretta Schrotflinte,,Pistola para la escopeta Beretta
-BarettaShotgun_Parts,items,Item,KgNone,Baretta Shotgun Parts,Pièces de fusil Beretta,Beretta Schrotflinte-Teile,,Piezas de la escopeta de Beretta
-BarettaShotgun_PartsDesc,items,Item,KgNone,Gun Part for Baretta Shotgun\n [ Crafted in Gun Smithing Workstation with a Anvil. ],Pistolet pour Beretta Shotgun,Gewehr-Teil für Beretta Schrotflinte,,Pistola para la escopeta Beretta
-BarettaShotgunSchematic,items,Item,KgNone,Baretta Shotgun Schematic,Beretta Shotgun Schématique,Beretta Schrotflinte Schema,,Beretta Shotgun Esquema
-BarettaShotgunSchematicDesc,items,Item,KgNone,Learn how to assemble and repair a Baretta Shotgun.  Marksman Class Exclusive.,Apprenez comment assembler et réparer un fusil de chasse Beretta,Erlernen Sie wie man eine Beretta Schrotflinte zusammenbauen und reparieren kann,,Aprenda a montar y reparar una escopeta Beretta
+BarettaShotgun_Stock,items,Item,KgNone,Beretta Shotgun Stock,Beretta Shotgun Stock,Beretta Schrotflinte Vorrat,,Imágenes de Beretta Shotgun
+BarettaShotgun_StockDesc,items,Item,KgNone,Gun Part for Beretta Shotgun\n [ Crafted in Workbench. ],Pistolet pour Beretta Shotgun,Gewehr-Teil für Beretta Schrotflinte,,Pistola para la escopeta Beretta
+BarettaShotgun_Receiver,items,Item,KgNone,Beretta Shotgun Receiver,Récepteur Beretta Shotgun,Beretta Schrotflinte-Empfänger,,Receptor de escopeta Beretta
+BarettaShotgun_ReceiverDesc,items,Item,KgNone,Gun Part for Beretta Shotgun\n [ Crafted in Gun Smithing Workstation with a Anvil. ],Pistolet pour Beretta Shotgun,Gewehr-Teil für Beretta Schrotflinte,,Pistola para la escopeta Beretta
+BarettaShotgun_Barrel,items,Item,KgNone,Beretta Shotgun Barrel,Barillet de fusil Beretta,Beretta Schrotflinte Fass,,Barril de escopeta Beretta
+BarettaShotgun_BarrelDesc,items,Item,KgNone,Gun Part for Beretta Shotgun\n [ Crafted in Gun Smithing Workstation with a Anvil. ],Pistolet pour Beretta Shotgun,Gewehr-Teil für Beretta Schrotflinte,,Pistola para la escopeta Beretta
+BarettaShotgun_Parts,items,Item,KgNone,Beretta Shotgun Parts,Pièces de fusil Beretta,Beretta Schrotflinte-Teile,,Piezas de la escopeta de Beretta
+BarettaShotgun_PartsDesc,items,Item,KgNone,Gun Part for Beretta Shotgun\n [ Crafted in Gun Smithing Workstation with a Anvil. ],Pistolet pour Beretta Shotgun,Gewehr-Teil für Beretta Schrotflinte,,Pistola para la escopeta Beretta
+BarettaShotgunSchematic,items,Item,KgNone,Beretta Shotgun Schematic,Beretta Shotgun Schématique,Beretta Schrotflinte Schema,,Beretta Shotgun Esquema
+BarettaShotgunSchematicDesc,items,Item,KgNone,Learn how to assemble and repair a Beretta Shotgun.  Marksman Class Exclusive.,Apprenez comment assembler et réparer un fusil de chasse Beretta,Erlernen Sie wie man eine Beretta Schrotflinte zusammenbauen und reparieren kann,,Aprenda a montar y reparar una escopeta Beretta
 Longbow,items,Item,KgNone,LongBow,Longue Arc,Langbogen,,Largo Arco
 LongbowDesc,items,Item,KgNone,"A stronger and better version of the bow [ Crafted in Workbench. ]\n Can only be crafted by The Survivalist Class or Found in Loot","Une version plus forte et mieux de l'arc, ne peut être conçu par la classe Survivant ou Trouvé dans Loot","Eine stärkere und bessere Version des Bogens, kann nur durch die Survivalist Klasse oder gefunden in Loot gefertigt werden",,"Una versión más fuerte y mejor del arco, sólo se puede hacer a mano por la clase o el Sobreviviente encontrado en botín"
 TungstenArrow,items,Item,KgNone,Tungsten Arrow,Flèche de tungstène,Tungsten Pfeil,,Flecha de tungsteno
@@ -5576,8 +5576,8 @@ FAMASRecipeDesc,progression,Skill,KgNone,"Learn how to assemble a FAMAS Rifle.  
 FAMASPartsRecipeDesc,progression,Skill,KgNone,Learn how to craft FAMAS Parts using a Weapon Smithing Station,Apprenez à fabriquer des pièces FAMAS à l'aide d'une station de forgeage d'armes,"Erlernen Sie, wie man FAMAS-Teile unter Verwendung einer Waffen-Schmiede-Station herstellt",,Aprenda a fabricar piezas FAMAS usando una estación de Smithing de armas
 AK47RecipeDesc,progression,Skill,KgNone,Learn how to assemble a AK47 Rifle,Apprenez à assembler un fusil AK47,"Erlernen Sie, wie man ein AK47 Gewehr zusammenbaut",,Aprenda a montar un rifle AK47
 AK47PartsRecipeDesc,progression,Skill,KgNone,Learn how to craft AK47 Parts using a Weapon Smithing Station,Apprenez à fabriquer des pièces AK47 à l'aide d'une station de forgeage d'armes,"Erlernen Sie, wie man AK47 Teile mit einer Waffen-Schmiede-Station herstellt",,Aprenda a fabricar piezas AK47 usando una estación de forja de armas
-BarettaShotgunRecipeDesc,progression,Skill,KgNone,"Learn how to assemble a Baretta Shotgun.  Can only be purchased by The Marksman Class.","Apprenez comment assembler un fusil Beretta. Ne peut être acheté par The Class Marksman.","Erfahren Sie, wie eine Beretta Schrotflinte zu montieren. Nur dies durch die Marksman-Klasse erworben werden.",,"Aprender a ensamblar una escopeta Beretta. Sólo puede ser comprado por la clase Marksman."
-BarettaShotgunPartsRecipeDesc,progression,Skill,KgNone,Learn how to craft Baretta Shotgun Parts using a Weapon Smithing Station,Apprenez à fabriquer des pièces de fusil Baretta à l'aide d'une station de forgeage d'armes,"Erlernen Sie, wie man Baretta Schrotflinte-Teile unter Verwendung einer Waffen-Schmieden-Station herstellt",,Aprenda a fabricar Baretta Shotgun Parts usando una estación de Smithing de armas
+BarettaShotgunRecipeDesc,progression,Skill,KgNone,"Learn how to assemble a Beretta Shotgun.  Can only be purchased by The Marksman Class.","Apprenez comment assembler un fusil Beretta. Ne peut être acheté par The Class Marksman.","Erfahren Sie, wie eine Beretta Schrotflinte zu montieren. Nur dies durch die Marksman-Klasse erworben werden.",,"Aprender a ensamblar una escopeta Beretta. Sólo puede ser comprado por la clase Marksman."
+BarettaShotgunPartsRecipeDesc,progression,Skill,KgNone,Learn how to craft Beretta Shotgun Parts using a Weapon Smithing Station,Apprenez à fabriquer des pièces de fusil Baretta à l'aide d'une station de forgeage d'armes,"Erlernen Sie, wie man Baretta Schrotflinte-Teile unter Verwendung einer Waffen-Schmieden-Station herstellt",,Aprenda a fabricar Baretta Shotgun Parts usando una estación de Smithing de armas
 M25SniperRifleRecipeDesc,progression,Skill,KgNone,"Learn how to assemble a M25 Sniper Rifle.  Can only be purchased by the Marksman Class.","Apprenez à assembler un fusil de sniper M25. Ne peut être acheté par la classe Marksman.","Erfahren Sie, wie ein M25 Sniper Rifle zu montieren. Nur dies durch die Marksman-Klasse erworben werden.",,"Aprender a ensamblar un rifle de francotirador M25. Sólo puede ser comprado por la Clase del tirador."
 M25SniperRiflePartsRecipeDesc,progression,Skill,KgNone,Learn how to craft M25 Sniper Rifle Parts using a Weapon Smithing Station,Apprenez à fabriquer des pièces de fusil de sniper M25 à l'aide d'une station de forgeage d'armes,"Erlernen Sie, wie man M25 Scharfschütze-Gewehr-Teile unter Verwendung einer Waffen-Smithing-Station herstellt",,Aprenda cómo hacer las piezas del rifle del francotirador M25 usando una estación de Smithing del arma
 RocketLauncherRecipeDesc,progression,Skill,KgNone,Learn how to assemble a Rocket Launcher,Apprenez à assembler un lance-roquettes,"Erfahren Sie, wie ein Raketenwerfer zusammengebaut wird",,Aprenda cómo ensamblar un lanzador de cohetes
@@ -5718,7 +5718,7 @@ MarksmanClassLevel1Desc,progression,Skill,KgNone,"Marksman Class Level 1 Unlocks
 MarksmanClassLevel2,progression,Skill,KgNone,Marksman Class Level 2,,,,
 MarksmanClassLevel2Desc,progression,Skill,KgNone,"Marksman Class Level 2 Unlocks Pump Shotgun, Remington8, Desert Eagle and 44 Magnum Parts Recipe Perks.  Can only become a Marksman Class by completing the Marksman Class Training Quests","Débloque Marksman Classe Niveau 2 Pompe Shotgun, Remington8, Desert Eagle 44 Pièces Magnum et Perks de recettes. Ne peut devenir une classe Marksman en complétant les quêtes de classe Marksman formation","Unlocks Marksman Kategorie Level 2 Pump Shotgun, Remington8, Desert Eagle 44 Magnum-Teile und Rezept Perks. Kann nur eine Marksman-Klasse werden die Marksman Trainingsklassenquests durch Ausfüllen",,"Tirador Nivel Clase 2 Desbloquea la escopeta de bomba, Remington8, Desert Eagle y 44 Perks Receta Magnum de piezas. Sólo puede convertirse en una clase Marksman completando las misiones de entrenamiento Marksman Clase"
 MarksmanClassLevel3,progression,Skill,KgNone,Marksman Class Level 3,,,,
-MarksmanClassLevel3Desc,progression,Skill,KgNone,"Marksman Class Level 3 Unlocks MP5, Sniper Rifle, FAMAS, AK47, Baretta Shotgun, M25 Sniper Rifle and Rocket Launcher Parts Recipe Perks.  Can only become a Marksman Class by completing the Marksman Class Training Quests","Marksman Classe Niveau 3 Débloque MP5, Sniper Rifle, FAMAS, AK47, fusil de chasse Baretta, fusil de sniper M25 et Rocket Launcher Pièces Recette Perks. Ne peut devenir une classe Marksman en remplissant les quêtes de formation Marksman classe","Marksman Klasse Stufe 3 Unlocks MP5, Scharfschützengewehr , FAMAS, AK47, Schrotflinte Baretta, M25 Sniper Rifle und Raketenwerfer Teile Rezept Perks. Kann nur eine Marksman-Klasse von der Klasse Marksman Ausbildung werden die Quests abschließen",,"Tirador Clase Nivel 3 Desbloquea MP5, rifle de francotirador, FAMAS, AK47, Escopeta Baretta, M25 rifle de francotirador y Rocket Launcher Piezas Perks la receta. Sólo puede convertirse en una clase Tirador Tirador de Formación Clase completar las misiones"
+MarksmanClassLevel3Desc,progression,Skill,KgNone,"Marksman Class Level 3 Unlocks MP5, Sniper Rifle, FAMAS, AK47, Beretta Shotgun, M25 Sniper Rifle and Rocket Launcher Parts Recipe Perks.  Can only become a Marksman Class by completing the Marksman Class Training Quests","Marksman Classe Niveau 3 Débloque MP5, Sniper Rifle, FAMAS, AK47, fusil de chasse Baretta, fusil de sniper M25 et Rocket Launcher Pièces Recette Perks. Ne peut devenir une classe Marksman en remplissant les quêtes de formation Marksman classe","Marksman Klasse Stufe 3 Unlocks MP5, Scharfschützengewehr , FAMAS, AK47, Schrotflinte Baretta, M25 Sniper Rifle und Raketenwerfer Teile Rezept Perks. Kann nur eine Marksman-Klasse von der Klasse Marksman Ausbildung werden die Quests abschließen",,"Tirador Clase Nivel 3 Desbloquea MP5, rifle de francotirador, FAMAS, AK47, Escopeta Baretta, M25 rifle de francotirador y Rocket Launcher Piezas Perks la receta. Sólo puede convertirse en una clase Tirador Tirador de Formación Clase completar las misiones"
 ClassCrateMarksman,blocks,Block,KgNone,Marksman Class Crate,,,,
 gunpartsrecipedesc,progression,Skill,KgNone,"Learn how to craft Parts for these Guns using the Weapon Smithing Station. Can only be purchased by The Marksman Class.","Apprenez à fabriquer des pièces pour l'utilisation des armes à feu Ces stations Smithing Arme. Ne peut être acheté par la classe Marksman.","Erfahren Sie, wie Teile zu fertigen, die Waffen für den Einsatz dieser Waffe Smithing-Station. Kann nur durch die Marksman-Klasse erworben werden.",,"Aprender cómo elaborar piezas para la síntesis de armas usando la estación Arma Smithing. Sólo puede ser comprado por la clase Marksman."
 FighterClassLevel1,progression,Skill,KgNone,Fighter Class Level 1,,,,
@@ -6003,7 +6003,7 @@ RangedBanditCorpse,blocks,Block,KgNone,Ranged Bandit Loot,Loot de bandit à dist
 MeleeSurvivorCorpse,blocks,Block,KgNone,Melee Survivor Loot,Loot Survivor Mêlée,Nahkampf-Überlebender,,Golpe de superviviente de cuerpo a cuerpo
 RangedSurvivorCorpse,blocks,Block,KgNone,Ranged Survivor Loot,Roulé Survivor Loot,Ranged Survivor Loot,,Botín de superviviente a distancia
 steelClawHammer,items,Item,KgNone,Steel Claw Hammer,,,,
-steelClawHammerDesc,items,Item,KgNone,"Steel Claw Hammer upgrades blocks faster than the Iron Claw Hammer\n[ Crafted at Advanced Tool Workbench ]","Les mises à jour de Steel Claw Hammer se bloquent plus vite que le Marteau de griffe de fer","Steel Claw Hammer verbessert Blöcke schneller als der Eisenkamm Hammer",,"El martillo de la garra de acero mejora los bloques más rápidamente que el martillo de la garra del hierro"
+steelClawHammerDesc,items,Item,KgNone,"Steel Claw Hammer upgrades blocks faster than the Iron Claw Hammer\n[ Crafted at Workbench ]","Les mises à jour de Steel Claw Hammer se bloquent plus vite que le Marteau de griffe de fer","Steel Claw Hammer verbessert Blöcke schneller als der Eisenkamm Hammer",,"El martillo de la garra de acero mejora los bloques más rápidamente que el martillo de la garra del hierro"
 SkillScienceClassBonusScholar,progression,Skill,KgNone,"Science Skill (Scholar Bonus)",,,,
 SkillScienceClassBonusScholarDesc,progression,Skill,KgNone,"Science Bonus Skill for Scholar Class that will allow you to craft items with quality up to 600, faster item crafting and faster repairs.","Bonus de compétence en sciences Skill for Scholar Class qui vous permettra de fabriquer des objets de qualité jusqu'à 600, une création d'articles plus rapide et des réparations plus rapides.","Science Skill Bonus Skill für Scholar Class, die Ihnen erlaubt, Artikel mit Qualität bis zu 600, schneller Artikel Handwerk und schnellere Reparaturen zu fertigen.",,"Habilidad de Skill de Skill de Ciencia para la Clase de Estudiante que le permitirá elaborar artículos con calidad hasta 600, elaboración de artículos más rápidos y reparaciones más rápidas."
 SkillGunsClassBonusMarksman,progression,Skill,KgNone,Gun Smithing Skill (Marksman Bonus),,,,
@@ -6221,8 +6221,8 @@ hdDartTrap,blocks,Block,KgNone,HD Dart Trap,,,,
 hdDartTrapDesc,blocks,Block,KgNone,A Heavy Duty Dart Trap that uses Tungsten Darts for ammo.  Exclusive to Electrician Class.  [Crafted at Workbench],,,,
 famasAutoTurret,blocks,Block,KgNone,Auto Turret (FAMAS),,,,
 famasAutoTurretDesc,blocks,Block,KgNone,A Auto Turret using a FAMAS with 5.56mm Bullets.  Exclusive to Electrician Class.  [Crafted at Workbench],,,,
-barettaShotgunTurret,blocks,Block,KgNone,Shotgun Turret (Baretta),,,,
-barettaShotgunTurretDesc,blocks,Block,KgNone,A Shotgun Turret using a Baretta with Shotgun Slugs.  Exclusive to Electrician Class.  [Crafted at Workbench],,,,
+barettaShotgunTurret,blocks,Block,KgNone,Shotgun Turret (Beretta),,,,
+barettaShotgunTurretDesc,blocks,Block,KgNone,A Shotgun Turret using a Beretta with Shotgun Slugs.  Exclusive to Electrician Class.  [Crafted at Workbench],,,,
 ceilingLight02Brass_player,blocks,Block,KgNone,Brass Dome Light,,,,
 ceilingLight05Brass_player,blocks,Block,KgNone,Brass Glass Light,,,,
 porchLight04Brass_player,blocks,Block,KgNone,Brass Porch Light,,,,
@@ -6456,7 +6456,7 @@ ClassCovertMaster,progression,Skill,KgNone,Covert Class - Master,,,,
 ClassBuilderMasterDesc,progression,Skill,KgNone,"Builder Class Exclusives (Perks/Recipes)= Builders Workbench, HD Nailgun, Concrete Mixing, Concrete Construction, Tungsten Construction, Tungsten Bars, Categorized Storage Containers, Comfortable Sleeping, Minibikes for Smartshits and Toughshits, and Steel Doors",,,,
 ClassSurvivalistMasterDesc,progression,Skill,KgNone,"Survivalist Exclusives (Perks/Recipes) = Herbal Antibiotics, Trauma First Aid Bandages, Trauma First Aid Kits, Advanced Splints, Longbow, Vitamins, Health Deploy Block, and Speed Traps",,,,
 ClassScholarMasterDesc,progression,Skill,KgNone,"Scholar Exclusives (Perks/Recipes) = Science Crafting Bonus Skill, Scholar Farming, Chocolate Farming, Chocolate Crafting, Green Tea, and Blueprint Workstation",,,,
-ClassMarksmanMasterDesc,progression,Skill,KgNone,"Marksman Exclusives (Perks/Recipes) = Gun Crafting Bonus Skill, The Outlaw (Level 3+), Dead Shot, Boom Stick (Level 3+), Splatter Gun, Better Lead than Dead (Level 3+), Gun Part Crafting, Gun Attachments, Remington8, Desert Eagle, FAMAS, Baretta Shotgun, M25 Sniper Rifle and Rocket Launcher",,,,
+ClassMarksmanMasterDesc,progression,Skill,KgNone,"Marksman Exclusives (Perks/Recipes) = Gun Crafting Bonus Skill, The Outlaw (Level 3+), Dead Shot, Boom Stick (Level 3+), Splatter Gun, Better Lead than Dead (Level 3+), Gun Part Crafting, Gun Attachments, Remington8, Desert Eagle, FAMAS, Beretta Shotgun, M25 Sniper Rifle and Rocket Launcher",,,,
 ClassFighterMasterDesc,progression,Skill,KgNone,"Fighter Exclusives (Persk/Recipes) = Weapon Crafting Bonus Skill, Pummel Pete (Level 3+), Breaking and Entering (Level 3+), Knife Guy (Level 3+), The Decapitator, Tungsten Club, Tungsten Machete, Gold Tipped Knife and Gold Tipped Machete",,,,
 ClassTradesmanMasterDesc,progression,Skill,KgNone,"Tradesman Exclusives (Perks/Recipes) = Mechanic Crafting Bonus Skill, Tool Crafting Bonus Skill, Barter Bonus Skill, Advanced Tool Smithing Workbench, Tungsten Tools, Diamond Tipped Tools, HD Wrench, Early Access to Steel Smithing, ECO/HD Augers, ECO/HD Chainsaws and Do it Yourself Perk",,,,
 ClassProtectionMasterDesc,progression,Skill,KgNone,"Protection Exclusives (Perks/Recipes) = Clothing/Armor Crafting Bonus Skill, Armor Smithing Station, Kevlar, Kevlar Armor, Scrap Iron Armor, Iron Armor, Steel Armor, Tunsten Armor, Military Armor, and Hazmat Armor",,,,
@@ -6630,8 +6630,8 @@ FAMASPartsRecipePerk,progression,Skill,KgNone,FAMAS Parts Recipe (Class Only),,,
 FAMASAttachmentsRecipesPerk,progression,Skill,KgNone,FAMAS Attachments Recipes (Class Only),,,,
 AK47PartsRecipePerk,progression,Skill,KgNone,AK47 Parts Recipe (Class Only),,,,
 AK47AttachmentsRecipesPerk,progression,Skill,KgNone,AK47 Attachments Recipes (Class Only),,,,
-barettaShotgunRecipePerk,progression,Skill,KgNone,Baretta Shotgun Recipe (Class Only),,,,
-barettaShotgunPartsRecipePerk,progression,Skill,KgNone,Baretta Shotgun Parts Recipe (Class Only),,,,
+barettaShotgunRecipePerk,progression,Skill,KgNone,Beretta Shotgun Recipe (Class Only),,,,
+barettaShotgunPartsRecipePerk,progression,Skill,KgNone,Beretta Shotgun Parts Recipe (Class Only),,,,
 M25SniperRifleRecipePerk,progression,Skill,KgNone,M25 Sniper Rifle Recipe (Class Only),,,,
 M25SniperRiflePartsRecipePerk,progression,Skill,KgNone,M25 Sniper Rifle Parts Recipe (Class Only),,,,
 M25SniperRifleAttachmentsRecipesPerk,progression,Skill,KgNone,M25 Sniper Rifle Attachments Recipes (Class Only),,,,
@@ -6678,7 +6678,7 @@ classChallenge_seedcrafting2,items,Item,KgNone,Class Challenge - Seed Crafting 2
 classChallenge_seedplacing,items,Item,KgNone,Class Challenge - Seed Planting,,,,
 classChallenge_seedplacing2,items,Item,KgNone,Class Challenge - Seed Planting 2,,,,
 classChallenge_deserteagleassemble,items,Item,KgNone,Class Challenge - Desert Eagle Assembly,,,,
-classChallenge_barettashotgunassemble,items,Item,KgNone,Class Challenge - Baretta Shotgun Assembly,,,,
+classChallenge_barettashotgunassemble,items,Item,KgNone,Class Challenge - Beretta Shotgun Assembly,,,,
 classChallenge_m25sniperassemble,items,Item,KgNone,Class Challenge - M25 Sniper Assembly,,,,
 classTreasure_guncrate,items,Item,KgNone,Class Treasure - Gun Crate,,,,
 classLootCrateGuns,blocks,Block,KgNone,Class Treasure Chest - Gun Crate,,,,
@@ -6705,6 +6705,15 @@ classChallenge_SilverArmorCraft,items,Item,KgNone,Class Challenge - Silver Armor
 classChallenge_SilverArmored,items,Item,KgNone,Class Challenge - Silver Armored,,,,
 classChallenge_Lockpicking,items,Item,KgNone,Class Challenge - Lockpicking,,,,
 classTreasure_covertarmor,items,Item,KgNone,Class Treasure - Covert Armor,,,,
+Challenge_HungryZombie,items,Item,KgNone,Challenge - Hungry Zombies,,,,
+Challenge_PunkZombies,items,Item,KgNone,Challenge - Punk Zombies,,,,
+Challenge_StripperandBiker,items,Item,KgNone,Challenge - Strippers and Bikers,,,,
+Challenge_Farmer,items,Item,KgNone,Challenge - Farmer,,,,
+Challenge_BusinessMan,items,Item,KgNone,Challenge - Business Man,,,,
+HDNailgunSchematic,items,Item,KgNone,HD Nailgun Schematic,,,,
+HDNailgunSchematicDesc,items,Item,KgNone,"Learn how to assemble a HD Nailgun.  Builder Class Exclusive",,,,
+furnishingPerk,progression,Skill,KgNone,Furnishing,,,,
+furnishingPerkDesc,progression,Skill,KgNone,"Unlock Several Cosmetic Storage Containers to help decorate your base.  (Exclusive to Builders Class)",,,,
 
 
 

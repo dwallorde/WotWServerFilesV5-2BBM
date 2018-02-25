@@ -620,6 +620,11 @@
 		<entity name="animalChicken" />
 		<entity name="zombieFarmer" />
 	</entitygroup>
+	
+	<entitygroup name="ZombieFarmGroupNoAnimals">
+		<entity name="zombieFarmer" />
+		<entity name="zombieFemaleFat" />
+	</entitygroup>
 
 	<entitygroup name="ZombieSoldierGroup">
 		<entity name="zombieSoldier" />

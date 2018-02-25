@@ -138,7 +138,7 @@ There is a console command: forcegamestage
         <gamestage stage="39"><spawn group="ZombiesBurntForestNoCrawlers"    num="23" maxAlive="30" duration="09"/></gamestage>
         <gamestage stage="40"><spawn group="ZombiesBurntForestNoCrawlers"    num="28" maxAlive="30" duration="09"/></gamestage>
         <gamestage stage="41"><spawn group="ZombieBusinessManGroup"      num="24" maxAlive="30" duration="09"/></gamestage>
-        <gamestage stage="42"><spawn group="ZombieFarmGroup"    num="25" maxAlive="30" duration="09"/></gamestage>
+        <gamestage stage="42"><spawn group="ZombieFarmGroupNoAnimals"    num="25" maxAlive="30" duration="09"/></gamestage>
         <gamestage stage="43"><spawn group="ZombieStripperGroup"    num="25" maxAlive="30" duration="09"/></gamestage>
         <gamestage stage="44"><spawn group="ZombieSoldierGroup"    num="25" maxAlive="30" duration="09"/></gamestage>
         <gamestage stage="45"><spawn group="ZombieStripperGroup"    num="30" maxAlive="30" duration="09"/></gamestage>

@@ -617,7 +617,7 @@
 		</effect>
 	</action_skill>
 	
-	<perk name="archerMastery" icon="archery" description_key="archerMasteryDesc" title_key="archerMastery" max_level="5" skill_point_cost_multiplier="1.43" skill_point_cost_per_level="5" group="firearms">
+	<perk name="archerMastery" icon="archery" description_key="archerMasteryDesc" title_key="archerMastery" max_level="5" skill_point_cost_multiplier="1.43" skill_point_cost_per_level="5" group="weapons">
 		<requirement perk_level="1" required_skill_name="Archery" required_skill_level="1"/>
 		<requirement perk_level="2" required_skill_name="Archery" required_skill_level="10"/>
 		<requirement perk_level="3" required_skill_name="Archery" required_skill_level="20"/>
@@ -1547,7 +1547,7 @@
 		</effect>
 	</perk>
 	
-<perk name="Farming" icon="ui_game_symbol_Farming" description_key="FarmingDesc" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="crafting">
+<perk name="Farming" icon="ui_game_symbol_Farming" description_key="FarmingDesc" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="health">
 	<requirement skill_level="1" required_player_level="1"/>
 	<recipe name="hoeIron" unlock_level="1"/>
 	<recipe name="plantedCorn1" unlock_level="1"/>
@@ -1560,7 +1560,7 @@
 </perk>
 
 <!-- Class Only -->
-<perk name="ScholarFarming" icon="ui_game_symbol_ScholarFarming" description_key="ScholarFarmingDesc" title_key="ScholarFarming" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="crafting">
+<perk name="ScholarFarming" icon="ui_game_symbol_ScholarFarming" description_key="ScholarFarmingDesc" title_key="ScholarFarming" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="health">
 	<requirement skill_level="1" required_skill_name="ClassScholarMaster" required_skill_level="1"/>
 	<recipe name="hoeIron" unlock_level="1"/>
 	<recipe name="plantedWheat1" unlock_level="1"/>
@@ -1963,6 +1963,31 @@
 </perk>
 
 <!-- Class Only -->
+<perk name="furnishingPerk" icon="treasure" description_key="furnishingPerkDesc" title_key="furnishingPerk" max_level="4" skill_point_cost_per_level="5" skill_point_cost_multiplier="1" group="crafting">
+	<requirement skill_level="1" required_skill_name="ClassBuilderMaster" required_skill_level="1"/>
+	<recipe name="cntBookcase" unlock_level="1"/>
+	<recipe name="cntPillCase" unlock_level="1"/>
+	<recipe name="cntCardboardBox" unlock_level="1"/>
+	<recipe name="cntDesk01" unlock_level="1"/>
+	<recipe name="cntDesk02" unlock_level="1"/>
+	<recipe name="cntWallOven" unlock_level="2"/>
+	<recipe name="cntOven" unlock_level="2"/>
+	<recipe name="cntCabinetOldSink" unlock_level="2"/>
+	<recipe name="cntGraniteSink" unlock_level="2"/>
+	<recipe name="cntGreenDrawerSecure" unlock_level="2"/>
+	<recipe name="cntWashingMachine" unlock_level="3"/>
+	<recipe name="cntTrashCompactor" unlock_level="3"/>
+	<recipe name="cntFridge" unlock_level="3"/>
+	<recipe name="cntFridgeBottom" unlock_level="3"/>
+	<recipe name="cntFridgeTop" unlock_level="3"/>
+	<recipe name="cntBeerCooler" unlock_level="4"/>
+	<recipe name="cntLockers" unlock_level="4"/>
+	<recipe name="cntToilet01" unlock_level="4"/>
+	<recipe name="cntToilet02" unlock_level="4"/>
+	<recipe name="cntToilet03" unlock_level="4"/>
+</perk>
+
+<!-- Class Only -->
 <perk name="Comfortable Sleeping" icon="ui_game_symbol_comfortablesleeping" description_key="ComfortableSleepingDesc" title_key="comfortableSleeping" max_level="2" skill_point_cost_multiplier="1" skill_point_cost_per_level="5" group="crafting">
 	<requirement skill_level="1" required_player_level="15"/>
 	<requirement skill_level="1" required_skill_name="Construction" required_skill_level="2"/>
@@ -2022,22 +2047,14 @@
 	<recipe name="clothPants" unlock_level="1"/>
 </perk>
 
-<perk name="Leather Armor" icon="armor_leather" description_key="LeatherArmorDesc" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
+<perk name="Leather Armor" icon="armor_leather" description_key="LeatherArmorDesc" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="clothing">
 	<requirement skill_level="1" required_player_level="20"/>
 	<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="1"/>
-	<requirement skill_level="2" required_player_level="21"/>
-	<requirement skill_level="2" required_skill_name="craftSkillArmor" required_skill_level="1"/>
-	<requirement skill_level="3" required_player_level="22"/>
-	<requirement skill_level="3" required_skill_name="craftSkillArmor" required_skill_level="1"/>
-	<requirement skill_level="4" required_player_level="23"/>
-	<requirement skill_level="4" required_skill_name="craftSkillArmor" required_skill_level="1"/>
-	<requirement skill_level="5" required_player_level="24"/>
-	<requirement skill_level="5" required_skill_name="craftSkillArmor" required_skill_level="1"/>
 	<recipe name="leatherHood" unlock_level="1"/>
-	<recipe name="leatherGloves" unlock_level="2"/>
-	<recipe name="leatherBoots" unlock_level="3"/>
-	<recipe name="leatherPants" unlock_level="4"/>
-	<recipe name="leatherJacket" unlock_level="5"/>
+	<recipe name="leatherGloves" unlock_level="1"/>
+	<recipe name="leatherBoots" unlock_level="1"/>
+	<recipe name="leatherPants" unlock_level="1"/>
+	<recipe name="leatherJacket" unlock_level="1"/>
 </perk>
 
 <!-- Class Only -->
