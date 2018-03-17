@@ -241,18 +241,18 @@
 		<block name="cntShippingCrateWorkingStiffs" prob="30"/>
 		<block name="cntGarageStorage" prob="30"/>
 		<block name="cntCollapsedGeneratorbank" prob="20"/>
-		<block name="forge" prob="30"/>
+		<block name="forge" prob="25"/>
 		<block name="cntCollapsedForge" prob="30"/>
 	</placeholder>
 
 	<placeholder name="lootStoreCratesHelper">
-		<block name="cntShippingCrateShamway" prob="30"/>
+		<block name="cntShippingCrateShamway" prob="28"/>
 		<block name="cntShippingCrateShotgunMessiah" prob="30"/>
 		<block name="cntShippingCrateWorkingStiffs" prob="30"/>
 		<block name="cntShippingCrateCarParts" prob="20"/>
-		<block name="cntAutomotiveStoreLoot" prob="15"/>
-		<block name="cntAutomotiveStoreBookcase" prob="10"/>
-		<block name="cntShippingCrateBrewery" prob="5"/>
+		<block name="cntAutomotiveStoreLoot" prob="20"/>
+		<block name="cntAutomotiveStoreBookcase" prob="15"/>
+		<block name="cntShippingCrateBrewery" prob="10"/>
 	</placeholder>
 
 	<placeholder name="lootWorkstationsHelper">
@@ -575,6 +575,10 @@
 	<item name="Challenge_StripperandBiker" count="1"/>
 	<item name="Challenge_Farmer" count="1"/>
 	<item name="Challenge_BusinessMan" count="1"/>
+	<item name="Challenge_Cowboy" count="1"/>
+	<item name="Challenge_boarmetodeath" count="1"/>
+	<item name="Challenge_wolfhunter" count="1"/>
+	<item name="Challenge_constructionworker" count="1"/>
 </lootgroup>
 
 <lootgroup name="QuestChallenge_hard">
@@ -592,6 +596,7 @@
 	<item name="Challenge_FeralZombie" count="1"/>
 	<item name="Challenge_DogKill" count="1"/>
 	<item name="Challenge_NurseZombie" count="1"/>
+	<item name="Challenge_direwolfhunter" count="1"/>
 </lootgroup>
 
 <lootgroup name="QuestChallenge_insane">
@@ -2618,7 +2623,8 @@
 	<item name="beer"/>
 	<item name="beerNolsonCanuck" prob="0.2"/>
 	<item name="coffee"/>
-	<item name="megaCrush" prob=".045"/>
+	<item name="megaCrush" prob="0.1"/>
+	<item name="energypill" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="beverages" count="1,2">	
@@ -4630,6 +4636,185 @@
 <!-- Lootcontainer 159 Supply Crate Health and Armor Loot -->
 <lootcontainer id="159" count="3,6" size="10,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="treasureTemplate">
    	<item group="Armor" />
+</lootcontainer>
+
+<!-- Lootcontainer 160 Feral Radiated Wight Zombie Loot -->
+<lootcontainer id="160" count="1,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" prob="0.9"/>
+	<item group="weaponsMilitaryGuns+ammo" prob="0.2" />
+	<item group="weaponsMilitaryParts" prob="0.3" />
+	<item group="weaponsBasicGuns+ammo" prob="0.9" />
+	<item group="weaponsCompoundBowParts" prob="0.1" />
+	<item group="WeaponParts" prob="0.2" />
+	<item group="militaryArmor" prob="0.1" />
+	<item group="flares" prob="0.1" />
+	<item group="ClassFragmentsDrop" count="1" prob="0.045" />
+</lootcontainer>
+
+<!-- Lootcontainer 161 Feral Fat Zombie/Fat Hawaiian Zombie Loot -->
+<lootcontainer id="161" count="1,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" prob="0.2" />
+	<item name="shamSandwich" count="1,2" />
+	<item group="cannedfood" count="1" prob="0.2" />
+	<item name="painkillers" count="1,2" prob="0.1" />
+	<item group="weaponsBasicGuns+ammo" prob="0.05" />
+	<item group="hazmatGear" count="1" prob="0.008" />
+	<item group="QuestChallenge" count="1" prob="0.035" />
+	<item group="treasureMaps" count="1" prob="0.035" /> <!-- total 2.2% for a quest thing -->
+	<item group="flares" count="1" prob="0.025" />
+</lootcontainer>
+
+<!-- Lootcontainer 162 Feral Zombie Football Player Loot -->
+<lootcontainer id="162" count="1,2" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" prob="1.1" />
+	<item group="ZombieFootballPlayer" />
+</lootcontainer>
+
+<!-- Lootcontainer 163  Feral Zombie Farmer Loot -->
+<lootcontainer id="163" count="1,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="junk" prob="2" />
+	<item group="tools" prob="1" />
+	<item group="farmCrops" prob="1" />
+	<item group="seeds" prob="1" />
+	<item name="hoeIron" prob="1" />
+	<item name="shovelIron" prob="1" />
+	<item name="shovelSteel" prob="0.5" />
+	<item name="beer" prob="1" />
+	<item group="weaponsCompoundBowParts" prob="0.01" />
+	<item name="compoundBow" prob="0.03" />
+</lootcontainer>
+
+<!-- Lootcontainer 164 Feral General Zombie Loot -->
+<lootcontainer id="164" count="1,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" />
+	<item group="clothes" prob="0.19" />
+	<item group="rottenFood" prob="0.062" />
+	<item group="hazmatGear" count="1" prob="0.008" />
+	<item group="sportingGoods" prob="0.1" />
+	<item group="weaponsMelee" count="1" prob="0.075" />
+	<item group="tools" prob="0.05" />
+	<item group="QuestChallenge" count="1" prob="0.0105" />
+	<item group="treasureMaps" count="1" prob="0.0105" /> <!-- total 2% for a quest thing -->
+	<item name="facialPiercings" prob="0.008" />
+	<item group="ClassFragmentsFighter" count="1" prob="0.04" />
+	<item group="ClassFragmentsCovert" count="1" prob="0.04" />
+	<item group="ClassFragmentsProtection" count="1" prob="0.0375" />
+</lootcontainer>
+
+<!-- Lootcontainer 165 Feral Zombie BusinessMan Loot -->
+<lootcontainer id="165" count="1,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" prob="4" />
+	<item group="suitAll" prob="2" />
+	<item name="oldCash" count="14,60" prob="2" />
+	<item name="paper" count="10,25" prob="0.66" />
+	<item group="QuestChallenge" count="1" prob="0.028" />
+	<item group="treasureMaps" count="1" prob="0.028" />
+</lootcontainer>
+
+<!-- Lootcontainer 166 Feral Lumberjack Zombie Loot -->
+<lootcontainer id="166" count="1,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" prob="1" />
+	<item group="lumberjacks" prob="0.42" />
+	<item group="warmClothes" prob="1" />
+	<item group="hazmatGear" count="1" prob="0.01" />
+	<item group="rareOres" prob="0.02" />
+</lootcontainer>
+
+<!-- Lootcontainer 167 Feral Zombie Nurse Loot -->
+<lootcontainer id="167" count="1,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" prob="0.15" />
+	<item group="medicine" />
+	<item name="oldCash" count="1,20" prob="0.5" />
+	<item group="ClassFragmentsFighter" count="1" prob="0.03" />
+</lootcontainer>
+
+<!-- Lootcontainer 168 Feral Zombie Cop Loot -->
+<lootcontainer id="168" count="2,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" />
+	<item group="weaponsPistol+ammo" />
+	<item group="weaponsAnyShotguns+ammo" />
+	<item group="weaponsBasicGuns+ammo" count="1" prob="0.15" />
+	<item name="shamSandwich" count="1,5" />
+	<item group="ammo" />
+	<item group="WeaponAttachments" count="1" prob="0.15" />
+	<item group="militaryArmor" count="1" prob="0.1" />
+	<item name="militaryFiber" count="1,4" prob="0.04" />
+	<item group="QuestChain" count="1" prob="0.015" />
+	<item group="QuestChallenge" count="1" prob="0.065" />
+	<item group="ClassFragmentsFighter" count="1" prob="0.045" />
+</lootcontainer>
+
+<!-- Lootcontainer 169 Feral Zombie Utility Worker / Construction Worker Loot -->
+<lootcontainer id="169" count="1,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" prob="1" />
+	<item group="ZombieUtilityWorker" />
+</lootcontainer>
+
+<!-- Lootcontainer 170 Feral ZombieSoldier Loot -->
+<lootcontainer id="170" count="1,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" prob="2" />
+	<item group="weaponsMilitaryGuns+ammo" prob="1" />
+	<item group="weaponsMilitaryParts" prob="0.2" />
+	<item group="weaponsRocketLauncher+ammo" prob="0.1" />
+	<item group="militaryArmor" prob="1" />
+	<item name="nightvisionGoggles" prob="0.3" />
+	<item group="ClassFragmentsCovert" count="1" prob="0.045" />
+</lootcontainer>
+
+<!-- Lootcontainer 171 Feral Zombie Skateboarder Loot -->
+<lootcontainer id="171" count="1,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" prob="1" />
+	<item name="hoodedSweatshirtWhite" prob="0.75" />
+	<item name="blackDenimPants" prob="0.75" />
+	<item name="runningShoes" prob="0.75" />
+	<item name="mechanicalParts" count="1,3" prob="1.1" />
+	<item group="QuestChallenge" count="1" prob="0.028" />
+	<item group="treasureMaps" count="1" prob="0.028" />
+</lootcontainer>
+
+<!-- Lootcontainer 172 Feral Zombie Cheerleader Loot -->
+<lootcontainer id="172" count="1,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" prob="1" />
+	<item name="tshirtZUWhite" prob="1" />
+	<item name="denimShortsPantsRed" prob="0.65" />
+	<item name="runningShoes" prob="0.45" />
+	<item group="QuestChallenge" count="1" prob="0.028" />
+	<item group="treasureMaps" count="1" prob="0.028" />
+</lootcontainer>
+
+<!-- Lootcontainer 173 Feral Zombie OldTimer / Zombie Cowboy Loot -->
+<lootcontainer id="173" count="1,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" prob="10" />
+	<item group="weaponsMagnumParts" prob="1" />
+	<item group="weaponsHuntingRifleParts" prob="1.2" />
+	<item group="weaponsHuntingRifle+ammo" prob="3" />
+	<item name="dynamite" count="1,3" prob="1" />
+	<item group="cowboyHatAll" prob="1" />
+	<item group="bandanaAll" prob="1" />
+	<item name="animalHidePoncho" prob="1" />
+	<item name="denimPants" prob="1" />
+	<item name="cowboyBootsBrown" prob="1" />
+	<item name="cowboyBootsBlack" prob="1" />
+	<item name="cigar" prob="1" />
+	<item group="rareOres" prob="1" />
+	<item name="grainAlcohol" count="1,3" prob="0.7" />
+	<item group="cannedfood" count="1,2" prob="1" />
+	<item name="bottledWater" count="1,3" prob="1" />
+	<item name="oldCash" count="2,15" prob="1" />
+	<item group="treasureMaps" count="1" prob="1" />
+</lootcontainer>
+
+<!-- Lootcontainer 174 Feral Zombie Stripper Loot -->
+<lootcontainer id="174" count="1,2" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item group="ZombieJunk" prob="2" />
+	<item name="oldCash" count="4,45" prob="2" />
+	<item name="casinoCoin" count="10,30" />
+	<item name="scrapPlastics" count="2" prob="0.3" />
+	<item name="bloodDrawKit" prob="0.3" />
+	<item name="painkillers" />
+	<item name="vitamins" />
+	<item name="herbalAntibiotics" prob="0.5" />
+	<item name="feather" count="5,25" />
 </lootcontainer>
 
 </lootcontainers>

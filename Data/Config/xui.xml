@@ -210,6 +210,17 @@
 			<window name="windowCombine" />
 		</window_group>
 		
+		<window_group name="workstation_screamerBlock" controller="XUiC_WorkstationWindowGroup">
+<!--		<window name="windowMortarCraftingList"/> -->
+			<window name="SMXCraftingList" />
+			<window name="craftingInfoPanel"/>
+			<window name="SMXCraftingQueue" />
+<!--		<window name="windowCraftingQueue"/> -->
+			<window name="windowFuel" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
 		<!-- War of the Walkers Mod Custom Window Groups End -->
 		
 		<window_group name="looting" left_panel_valign_top="false" controller="XUiC_LootWindowGroup">

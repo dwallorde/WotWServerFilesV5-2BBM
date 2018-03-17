@@ -4,8 +4,8 @@
 <player
 	max_level="300"
 	exp_to_level="8750"
-	experience_multiplier="1.0149"
-	skill_points_per_level="5"
+	experience_multiplier="1.0139"
+	skill_points_per_level="6"
 	skill_point_multiplier="0"/>
 	<!-- A15: 8000 XP for level 1 and 134k for level 199, total cumulative of 9MXP; XPRequired = exp_to_level * experience_multiplier ^ level -->
 	<!-- A16: 8300 XP for level 1, total cumulative of 11MXP -->
@@ -146,6 +146,7 @@
 	
 	<perk name="covertTreasureHunting" icon="treasure" description_key="covertTreasureHuntingDesc" title_key="covertTreasureHunting" max_level="1" skill_point_cost_per_level="10" group="scavenging">
 		<requirement skill_level="1" required_skill_name="Treasure Hunter" required_skill_level="3"/>
+		<requirement skill_level="1" required_skill_name="ClassCovertMaster" required_skill_level="1"/>
 		<effect name="TreasureRadius">
 			<setvalue skill_level="1" value="3"/>
 		</effect>
@@ -1243,9 +1244,10 @@
 		<recipe name="mechanicalParts" unlock_level="1"/>
 		<recipe name="spring" unlock_level="1"/>
 		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="7"/>
-		<recipe name="insulator" unlock_level="2"/>
+		<recipe name="scrapPlastics" unlock_level="2"/>
 		<recipe name="electricParts" unlock_level="2"/>
-		<requirement skill_level="3" required_skill_name="craftSkillScience" required_skill_level="10"/>
+		<requirement skill_level="3" required_skill_name="craftSkillScience" required_skill_level="9"/>
+		<recipe name="insulator" unlock_level="3"/>
 		<recipe name="electronicParts" unlock_level="3"/>
 	</perk>
 
@@ -1589,7 +1591,6 @@
 	<requirement skill_level="1" required_player_level="100"/>
 	<requirement skill_level="1" required_skill_name="Construction" required_skill_level="8"/>
 	<recipe name="ForgedTungsten" unlock_level="1"/>
-	<recipe name="TungstenArrowHead" unlock_level="1"/>
 </perk>
 
 <perk name="Club Crafting" icon="club" description_key="ClubCraftingDesc" max_level="2" skill_point_cost_multiplier="2" skill_point_cost_per_level="1" group="weapons">
@@ -1998,6 +1999,11 @@
 	<recipe name="bed02" unlock_level="2"/>
 </perk>
 
+<perk name="screamerblockPerk" icon="ui_game_symbol_campfire" description_key="screamerblockPerkDesc" title_key="screamerblockPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="crafting">
+		<requirement skill_level="1" required_player_level="50"/>
+		<recipe name="screamerBlock" unlock_level="1"/>
+</perk>
+
 <perk name="First Aid Bandage" icon="ui_game_symbol_firstaidbandage" description_key="FirstAidBandageDesc" max_level="1" skill_point_cost_per_level="3" group="health">
 	<recipe name="firstAidBandage" unlock_level="1"/>
 </perk>
@@ -2247,28 +2253,28 @@
 	<recipe name="MortarandPestle" unlock_level="1"/>
 </perk>
 
-<perk name="ECO Auger Recipe" icon="ui_game_symbol_auger" description_key="ECOAugerRecipeDesc" title_key="ECOAugerRecipePerk" max_level="1" skill_point_cost_per_level="5" group="tools">
+<perk name="ECO Auger Recipe" icon="ui_game_symbol_auger" description_key="ECOAugerRecipeDesc" title_key="ECOAugerRecipePerk" max_level="1" skill_point_cost_per_level="6" group="tools">
 	<requirement perk_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1" />
 	<recipe name="ECOAuger" unlock_level="1"/>
 	<recipe name="ECOAuger_Parts" unlock_level="1"/>
 	<recipe name="ECOAuger_Blade" unlock_level="1"/>
 </perk>
 
-<perk name="HD Auger Recipe" icon="ui_game_symbol_auger" description_key="HDAugerRecipeDesc" title_key="HDAugerRecipePerk" max_level="1" skill_point_cost_per_level="5" group="tools">
+<perk name="HD Auger Recipe" icon="ui_game_symbol_auger" description_key="HDAugerRecipeDesc" title_key="HDAugerRecipePerk" max_level="1" skill_point_cost_per_level="10" group="tools">
 	<requirement perk_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1" />
 	<recipe name="HDAuger" unlock_level="1"/>
 	<recipe name="HDAuger_Parts" unlock_level="1"/>
 	<recipe name="HDAuger_Blade" unlock_level="1"/>
 </perk>
 
-<perk name="ECO Chainsaw Recipe" icon="ui_game_symbol_chainsaw" description_key="ECOChainsawRecipeDesc" title_key="ECOChainsawRecipePerk" max_level="1" skill_point_cost_per_level="5" group="tools">
+<perk name="ECO Chainsaw Recipe" icon="ui_game_symbol_chainsaw" description_key="ECOChainsawRecipeDesc" title_key="ECOChainsawRecipePerk" max_level="1" skill_point_cost_per_level="6" group="tools">
 	<requirement perk_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1" />
 	<recipe name="ECOChainsaw" unlock_level="1"/>
 	<recipe name="ECOChainsaw_Parts" unlock_level="1"/>
 	<recipe name="ECOChainsaw_Blade" unlock_level="1"/>
 </perk>
 
-<perk name="HD Chainsaw Recipe" icon="ui_game_symbol_chainsaw" description_key="HDChainsawRecipeDesc" title_key="HDChainsawRecipePerk" max_level="1" skill_point_cost_per_level="5" group="tools">
+<perk name="HD Chainsaw Recipe" icon="ui_game_symbol_chainsaw" description_key="HDChainsawRecipeDesc" title_key="HDChainsawRecipePerk" max_level="1" skill_point_cost_per_level="10" group="tools">
 	<requirement perk_level="1" required_skill_name="ClassTradesmanMaster" required_skill_level="1" />
 	<recipe name="HDChainsaw" unlock_level="1"/>
 	<recipe name="HDChainsaw_Parts" unlock_level="1"/>
@@ -2801,6 +2807,7 @@
 <perk name="TailoringLeatherDusterPerk" icon="ui_game_symbol_schematic" description_key="schematicClassPerkGroupDesc" title_key="TailoringLeatherDusterPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
 	<requirement skill_level="0" required_skill_name="craftSkillMiscellaneous" required_skill_level="0"/>
 		<recipe name="leatherDuster" unlock_level="1"/>
+		<recipe name="leatherDusterBlack" unlock_level="1"/>
 </perk>
 
 <!-- Class Only -->

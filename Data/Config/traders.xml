@@ -299,6 +299,24 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="TungstenGloves" prob="0.2"/>
 			<item name="TungstenHelmet" prob="0.2"/>
 		</trader_item_group>
+		
+		<trader_item_group name="ModdedArmor">
+			<item name="KevlarBoots" prob="0.2"/>
+			<item name="KevlarGloves" prob="0.2"/>
+			<item name="KevlarVest" prob="0.2"/>
+			<item name="KevlarLegArmor" prob="0.2"/>
+			<item name="KevlarHelmet" prob="0.2"/>
+			<item name="SteelBoots" prob="0.2"/>
+			<item name="SteelLegArmor" prob="0.2"/>
+			<item name="SteelChestArmor" prob="0.2"/>
+			<item name="SteelGloves" prob="0.2"/>
+			<item name="SteelHelmet" prob="0.2"/>
+			<item name="TungstenBoots" prob="0.2"/>
+			<item name="TungstenLegArmor" prob="0.2"/>
+			<item name="TungstenChestArmor" prob="0.2"/>
+			<item name="TungstenGloves" prob="0.2"/>
+			<item name="TungstenHelmet" prob="0.2"/>
+		</trader_item_group>
 
 		<trader_item_group name="Armor">
 			<item group="clothes"/>
@@ -765,6 +783,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="BaconMushroomSandwich"/>
 			<item name="strawberryJamSandwich"/>
 			<item name="strawberryJam"/>
+			<item name="energypill"/>
 		</trader_item_group>
 
 		<trader_item_group name="preparedDrink">
@@ -780,6 +799,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="GreenTea"/>
 			<item name="MossyBrew"/>
 			<item name="blackberryJuice"/>
+			<item name="megaCrush"/>
 		</trader_item_group>
 
 		<trader_item_group name="landMines" count="1">
@@ -1097,8 +1117,8 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item group="seeds" count="1,4"/>
 			<item group="cannedfood" count="1,2"/>
 			<item group="foodSupplies" count="1,4"/>
-			<item group="preparedFood" count="1,2"/>
-			<item group="preparedDrink" count="1"/>
+			<item group="preparedFood" count="1,3"/>
+			<item group="preparedDrink" count="1,2"/>
 			<item group="constructionSupplies" count="1,3" prob="0.8"/>
 			<item group="rareTools" count="1" prob="0.2"/>
 			<item group="rareMedicine" count="1" prob="0.2"/>
@@ -1557,6 +1577,8 @@ workstations
 			<item name="canMiso" count="1,2"/>
 			<item name="canPasta" count="1,2"/>
 			<item name="canSoup" count="1,2"/>
+			<item name="megaCrush" count="1,2" prob="0.25"/>
+			<item name="energypill" count="1,2" prob="0.2"/>
 		</trader_items>
 	</trader_info>
 
@@ -1606,7 +1628,9 @@ workstations
 			<item name="herbalAntibioticsRecipe" count="1" prob="0.2"/>
 			<item name="herbalAntibiotics" count="2,5"/>
 			<item name="ironArrow" count="150,250"/>
-			<item name="steelArrow" count="150,250" prob="0.1"/>
+			<item name="steelArrow" count="150,250" prob="0.3"/>
+			<item name="TungstenArrow" count="150,250" prob="0.2"/>
+			<item name="ExplodingTungstenArrow" count="50,75" prob="0.1"/>
 			<item name="TraumaFirstAidBandageSchematic" count="1" prob="0.1"/>
 			<item name="TraumaFirstAidKitSchematic" count="1" prob="0.1"/>
 			<item name="herbalAntibioticsRecipe" count="1" prob="0.1"/>
@@ -2004,6 +2028,7 @@ workstations
 			<item name="forgedSteel" count="25,50" />
 			<item name="ForgedTungsten" count="25,50" />
 			<item name="militaryFiber" count="25,50" />
+			<item group="ModdedArmor" count="1,3" prob="0.2" />
 			<item group="Armor" count="1,3" prob="0.1" />
 			<item group="hazmatGear" count="1" prob="0.1" />
 			<item group="banditArmor" count="1" prob="1" />

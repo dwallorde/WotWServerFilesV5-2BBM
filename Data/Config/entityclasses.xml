@@ -279,6 +279,7 @@
 	<property name="ArmsExplosionDamageMultiplier" value=".85"/>
 	<property name="HeadExplosionDamageMultiplier" value=".85"/>
 	<property name="ChestExplosionDamageMultiplier" value=".85"/>
+	<property name="LootListOnDeath" value="160"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 <!--
@@ -326,6 +327,7 @@
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/Z_eye1"/>
+	<property name="LootListOnDeath" value="38"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -348,6 +350,7 @@
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/Z_eye1"/>
+	<property name="LootListOnDeath" value="161"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -357,7 +360,7 @@
 	<property name="ExperienceGain" value="1556"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="161"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -373,7 +376,7 @@
 	<property name="ExperienceGain" value="1556"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="161"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -427,7 +430,7 @@
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="ExperienceGain" value="1321"/>
-	<property name="LootListOnDeath" value="78"/>
+	<property name="LootListOnDeath" value="162"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -454,7 +457,7 @@
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="ExperienceGain" value="1598"/>
-	<property name="LootListOnDeath" value="78"/>
+	<property name="LootListOnDeath" value="162"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -484,7 +487,7 @@
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="ExperienceGain" value="1921"/>
-	<property name="LootListOnDeath" value="78"/>
+	<property name="LootListOnDeath" value="162"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -532,7 +535,7 @@
 	<property name="ExperienceGain" value="2091"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="85"/>
+	<property name="LootListOnDeath" value="163"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -548,7 +551,7 @@
 	<property name="ExperienceGain" value="3125"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="85"/>
+	<property name="LootListOnDeath" value="163"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -575,6 +578,7 @@
 	<property name="WalkType" value="5"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -585,6 +589,7 @@
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -600,6 +605,7 @@
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -634,6 +640,7 @@
 	<property name="HandItem" value="handZombieStrong"/>
 	<property name="MaxHealth" value="450"/>
 	<property name="ExperienceGain" value="1789"/>
+	<property name="LootListOnDeath" value="161"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -644,6 +651,7 @@
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="161"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -658,6 +666,7 @@
 	<property name="ExperienceGain" value="3024"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
+	<property name="LootListOnDeath" value="161"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -677,7 +686,6 @@
 	<property name="CanClimbLadders" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
-	<property name="LootListOnDeath" value="38"/>
 	<property name="TintMaterial1" value="56,50,40"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -689,6 +697,7 @@
 	<property name="HandItem" value="handZombie"/>
 	<property name="MaxHealth" value="225"/>
 	<property name="ExperienceGain" value="823"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -699,6 +708,7 @@
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ReplaceMaterial2" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -713,6 +723,7 @@
 	<property name="ExperienceGain" value="1764"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -732,7 +743,6 @@
 	<property name="CanClimbLadders" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
-	<property name="LootListOnDeath" value="38"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -743,6 +753,7 @@
 	<property name="HandItem" value="handZombie"/>
 	<property name="MaxHealth" value="200"/>
 	<property name="ExperienceGain" value="891"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -753,6 +764,7 @@
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -767,6 +779,7 @@
 	<property name="ExperienceGain" value="1691"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -786,7 +799,6 @@
 	<property name="CanClimbLadders" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
-	<property name="LootListOnDeath" value="38"/>
 	<property name="TintMaterial2" value="32,24,20"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -798,6 +810,7 @@
 	<property name="HandItem" value="handZombie"/>
 	<property name="MaxHealth" value="200"/>
 	<property name="ExperienceGain" value="874"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -808,6 +821,7 @@
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -822,6 +836,7 @@
 	<property name="ExperienceGain" value="1742"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -841,7 +856,6 @@
 	<property name="CanClimbLadders" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
-	<property name="LootListOnDeath" value="38"/>
 	<property name="TintMaterial2" value="41,25,25"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -853,6 +867,7 @@
 	<property name="HandItem" value="handZombie"/>
 	<property name="MaxHealth" value="200"/>
 	<property name="ExperienceGain" value="799"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -863,6 +878,7 @@
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -877,6 +893,7 @@
 	<property name="ExperienceGain" value="1924"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -897,7 +914,7 @@
 	<property name="Buffs" value="zombieRadiatedBuff80"/> <!-- V5.2 To Do -->
 	<property name="MaxHealth" value="200"/>
 	<property name="ExperienceGain" value="902"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -907,7 +924,7 @@
 	<property name="ExperienceGain" value="1039"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="164"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -923,7 +940,7 @@
 	<property name="ExperienceGain" value="1921"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -944,7 +961,7 @@
 	<property name="Buffs" value="zombieRadiatedBuff80"/> <!-- V5.2 To Do -->
 	<property name="MaxHealth" value="200"/>
 	<property name="ExperienceGain" value="902"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -954,7 +971,7 @@
 	<property name="ExperienceGain" value="1039"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="164"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -970,7 +987,7 @@
 	<property name="ExperienceGain" value="1921"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -995,7 +1012,7 @@
 	<property name="HandItem" value="handZombie02"/>
 	<property name="MaxHealth" value="175"/>
 	<property name="ExperienceGain" value="902"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1003,7 +1020,7 @@
 	<property name="HandItem" value="handZombie02Feral"/>
 	<property name="MaxHealth" value="200"/>
 	<property name="ExperienceGain" value="1039"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="164"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -1017,7 +1034,7 @@
 	<property name="HandItem" value="handZombie02Feral"/>
 	<property name="MaxHealth" value="400"/>
 	<property name="ExperienceGain" value="1921"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1130,6 +1147,7 @@
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ReplaceMaterial2" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="165"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1164,7 +1182,7 @@
 	<property name="ExperienceGain" value="2916"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="66"/>
+	<property name="LootListOnDeath" value="166"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -1214,6 +1232,7 @@
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ApproachSpeed" value="1.1"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="164"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1225,6 +1244,7 @@
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/spider_rad"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/rad_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
+	<property name="LootListOnDeath" value="164"/>
 	<property name="Buffs" value="zombieRadiatedBuff40"/>
 </entity_class>
 
@@ -1279,7 +1299,7 @@
 	<property name="ExperienceGain" value="1039"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="167"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -1318,7 +1338,7 @@
 	<property name="ExperienceGain" value="4334"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
-	<property name="LootListOnDeath" value="38"/>
+	<property name="LootListOnDeath" value="161"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -1390,6 +1410,7 @@
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<property name="Explosion.BlockDamage" value="650"/>
 	<property name="Explosion.EntityDamage" value="200"/>
+	<property name="LootListOnDeath" value="168"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1402,6 +1423,7 @@
 	<property name="Buffs" value="zombieRadiatedBuff80"/>
 	<property name="Explosion.BlockDamage" value="750"/>
 	<property name="Explosion.EntityDamage" value="250"/>
+	<property name="LootListOnDeath" value="168"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1451,6 +1473,7 @@
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="169"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1485,6 +1508,7 @@
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="170"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1513,6 +1537,7 @@
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="171"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1548,6 +1573,7 @@
 	<property name="MaxHealth" value="200"/>
 	<property name="ExperienceGain" value="1039"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="172"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1570,7 +1596,7 @@
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="LootListOnDeath" value="38"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
-	<property name="LootListOnDeath" value="81"/>
+	<property name="LootListOnDeath" value="173"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1613,11 +1639,11 @@
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ExperienceGain" value="1556"/>
-	<property name="LootListOnDeath" value="85"/>
 	<!-- <property name="WalkType" value="6"/> -->
 	<property name="WalkType" value="7"/>
 	<property name="TintMaterial1" value="84,84,84"/>
 	<property name="ReplaceMaterial2" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="163"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1642,6 +1668,7 @@
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
+	<property name="LootListOnDeath" value="174"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1666,6 +1693,8 @@
 	<property name="WalkType" value="7"/>
 	<property name="ModelType" value="ZombieUMA"/>
 	<property name="RootMotion" value="true"/>
+	<property name="SurfaceCategory" value="organic"/>
+	<property name="DeadBodyHitPoints" value="350"/>
 
 	<property name="HasRagdoll" value="true"/>
 	<property name="AvatarController" value="AvatarZombieUMAController"/>
@@ -2832,7 +2861,7 @@
 		<property name="AIPackages" value="Human Basic, Human Melee"/>
 		<property name="NPCID" value="survivornpc"/>
 		<property name="TimeStayAfterDeath" value="10"/>
-		<property name="DeadBodyHitPoints" value="350"/>
+		<property name="DeadBodyHitPoints" value="150"/>
 		<property name="MaxHealth" value="150" />
 		<property name="MaxViewAngle" value="180" />
 		<property name="Weight" value="70" />
@@ -3011,7 +3040,7 @@
 	<property name="CorpseBlock" value="banditBackpack01"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="ExperienceGain" value="1039"/>
-	<property name="DeadBodyHitPoints" value="350"/>
+	<property name="DeadBodyHitPoints" value="150"/>
 	<property name="HasDeathAnim" value="true"/>
 	<drop event="Harvest" name="rawRedMeat" tool_category="Butcher" count="4"/>
 	<drop event="Harvest" name="animalHide" tool_category="Butcher" count="4"/>

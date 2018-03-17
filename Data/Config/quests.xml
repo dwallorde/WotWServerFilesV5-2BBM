@@ -303,20 +303,13 @@
 
 		<reward type="SkillPoints" value="3" />
 	</quest>
-
-	<quest id="challenge_thatlldopig" name_key="challenge_thatlldopig" subtitle_key="challenge_thatlldopig_subtitle" description_key="challenge_thatlldopig_offer" icon="ui_game_symbol_knife"
-	repeatable="true" category_key="challenge" offer_key="challenge_thatlldopig_offer" difficulty="easy">
-		<objective type="AnimalKill" id="animalBoar" value="5"  />
-
-		<reward type="SkillPoints" value="3" />
-	</quest>
 	
-	<!-- <quest id="challenge_thatlldopig" name_key="challenge_thatlldopig" subtitle_key="challenge_thatlldopig_subtitle" description_key="challenge_thatlldopig_offer" icon="ui_game_symbol_knife"
+	<quest id="challenge_thatlldopig" name_key="challenge_thatlldopig" subtitle_key="challenge_thatlldopig_subtitle" description_key="challenge_thatlldopig_offer" icon="ui_game_symbol_knife"
 	repeatable="true" category_key="challenge" offer_key="challenge_thatlldopig_offer" difficulty="easy">
 		<objective type="AnimalKill" id="animalPig" value="5"  />
 
 		<reward type="SkillPoints" value="3" />
-	</quest> -->
+	</quest>
 
 	<quest id="challenge_stagparty" name_key="challenge_stagparty" subtitle_key="challenge_stagparty_subtitle" description_key="challenge_stagparty_offer" icon="ui_game_symbol_knife"
 	repeatable="true" category_key="challenge" offer_key="challenge_stagparty_offer" difficulty="easy">
@@ -726,18 +719,18 @@
 	</quest>
 	
 	<quest id="challenge_meatstew"
-	name="Meat Stew Chef"
-	subtitle="Cook some Meat Stew"
-	offer="Gather the materials needed and craft 5 Meat Stews.\n\nDwall"
-	description="Gather these items:\n5 Raw Meat\n5 Potatoes\n5 Corn\n5 Bottled Water\n\nWith those ingredients cook up 5 Meat Stews."
+	name="Venison Stew Chef"
+	subtitle="Cook some Venison Stew"
+	offer="Gather the materials needed and craft 5 Venison Stews.\n\nDwall"
+	description="Gather these items:\n5 Venison Meat\n5 Potatoes\n5 Corn\n5 Bottled Water\n\nWith those ingredients cook up 5 Meat Stews."
 	icon="ui_game_symbol_spatula"
 	repeatable="true"
 	category_key="challenge"
 	difficulty="medium">
 		<objective type="Time" value="900" optional="true" />
-		<objective type="FetchKeep" id="rawRedMeat" value="5" />
-		<objective type="FetchKeep" id="potato" value="5" />
-		<objective type="FetchKeep" id="corn" value="5" />
+		<objective type="FetchKeep" id="rawRedMeat" value="10" />
+		<objective type="FetchKeep" id="potato" value="25" />
+		<objective type="FetchKeep" id="corn" value="25" />
 		<objective type="FetchKeep" id="bottledWater" value="5" />
 		<objective type="Craft" id="VenisonStew" value="5" />
 		<reward type="SkillPoints" value="3" />
@@ -756,10 +749,10 @@
 	category_key="challenge"
 	difficulty="hard">
 		<objective type="Time" value="900" optional="true" />
-		<objective type="FetchKeep" id="Apple" value="35" />
+		<objective type="FetchKeep" id="Apple" value="75" />
 		<objective type="FetchKeep" id="egg" value="5" />
 		<objective type="FetchKeep" id="Dough" value="10" />
-		<objective type="FetchKeep" id="bottledWater" value="10" />
+		<objective type="FetchKeep" id="bottledWater" value="20" />
 		<objective type="Craft" id="ApplePie" value="5" />
 		<objective type="Craft" id="AppleJuice" value="5" />
 		<reward type="SkillPoints" value="4" />
@@ -817,10 +810,10 @@
 	category_key="challenge"
 	difficulty="medium">
 		<objective type="Time" value="900" optional="true" />
-		<objective type="FetchKeep" id="potato" value="25" />
-		<objective type="FetchKeep" id="corn" value="25" />
+		<objective type="FetchKeep" id="potato" value="50" />
+		<objective type="FetchKeep" id="corn" value="50" />
 		<objective type="FetchKeep" id="mushrooms" value="25" />
-		<objective type="FetchKeep" id="bottledWater" value="5" />
+		<objective type="FetchKeep" id="bottledWater" value="15" />
 		<objective type="Craft" id="vegetableStew" value="5" />
 		<reward type="SkillPoints" value="4" />
 		<reward type="SkillPoints" value="1" optional="true" />
@@ -838,7 +831,7 @@
 	category_key="challenge"
 	difficulty="easy">
 		<objective type="Time" value="900" optional="true" />
-		<objective type="FetchKeep" id="coffeeBeans" value="10" />
+		<objective type="FetchKeep" id="coffeeBeans" value="5" />
 		<objective type="FetchKeep" id="bottledWater" value="5" />
 		<objective type="Craft" id="coffee" value="5" />
 		<reward type="SkillPoints" value="3" />
@@ -1084,14 +1077,14 @@
 	name="Crate Master"
 	subtitle="Craft all the Crates"
 	offer="Gather the materials needed to craft all the category crates.\n\nDwall"
-	description="Gather these items:\n120 Wood\n60 Nails\n\nWith those materials craft all category crates."
+	description="Gather these items:\n200 Wood\n100 Nails\n\nWith those materials craft 5 Generic Storage Containers."
 	icon="ui_game_symbol_all_blocks"
 	repeatable="true"
 	category_key="challenge"
 	difficulty="hard">
-		<objective type="FetchKeep" id="wood" value="120" />
-		<objective type="FetchKeep" id="nail" value="60" />
-		<objective type="Craft" id="GenericStorage" value="1" />
+		<objective type="FetchKeep" id="wood" value="200" />
+		<objective type="FetchKeep" id="nail" value="100" />
+		<objective type="Craft" id="GenericStorage" value="5" />
 		<reward type="SkillPoints" value="4" />
 		<reward type="Exp" value="1500" />
 	</quest>
@@ -1152,14 +1145,16 @@
 	group_name="SteelCrossbowKills"
 	subtitle="Craft a Steel Crossbow and Kill some Zombies"
 	offer="Gather the materials needed and craft a Steel Crossbow and Steel Crossbow Bolts and Kill some Zombies.\n\nDwall"
-	description="Gather these items:\n25 Wood\n2 Kevlar\n1 Forged Steel\n15 Steel Arrow Head\n15 Feathers\n\nWith those materials craft a Steel CrossBow and 15 Steel CrossBow Bolts and Kill 3 Zombies."
+	description="Gather these items:\n25 Wood\n4 Kevlar\n10 Forged Steel\n2 Twine\n2 Glue\n15 Steel Arrow Head\n15 Feathers\n\nWith those materials craft a Steel CrossBow and 15 Steel CrossBow Bolts and Kill 3 Zombies."
 	icon="ui_game_symbol_archery"
 	repeatable="true"
 	category_key="challenge"
 	difficulty="hard">
 		<objective type="FetchKeep" id="wood" value="25" />
-		<objective type="FetchKeep" id="Kevlar" value="2" />
-		<objective type="FetchKeep" id="forgedSteel" value="1" />
+		<objective type="FetchKeep" id="Kevlar" value="4" />
+		<objective type="FetchKeep" id="glue" value="2" />
+		<objective type="FetchKeep" id="Twine" value="2" />
+		<objective type="FetchKeep" id="forgedSteel" value="10" />
 		<objective type="FetchKeep" id="steelArrowHead" value="15" />
 		<objective type="FetchKeep" id="feather" value="15" />
 		<objective type="Craft" id="SteelCrossbow" value="1" />
@@ -1596,7 +1591,7 @@
 	icon="ui_game_symbol_skull"
 	repeatable="true"
 	category_key="challenge"
-	difficulty="easy">
+	difficulty="medium">
 		<objective type="ZombieKill" id="zombieFemaleFat,zombieFemaleFatRadiated,zombieFemaleFatFeral,zombieFemaleFatFeralRadiated" value="10" />
 		<reward type="Exp" value="2500" />
 		<reward type="SkillPoints" value="3" />
@@ -1610,7 +1605,7 @@
 	icon="ui_game_symbol_skull"
 	repeatable="true"
 	category_key="challenge"
-	difficulty="easy">
+	difficulty="medium">
 		<objective type="ZombieKill" id="zombieSkateboarder,zombieSkateboarderFeral" value="10" />
 		<reward type="Exp" value="2500" />
 		<reward type="SkillPoints" value="3" />
@@ -1624,11 +1619,10 @@
 	icon="ui_game_symbol_skull"
 	repeatable="true"
 	category_key="challenge"
-	difficulty="easy">
+	difficulty="medium">
 		<objective type="ZombieKill" id="zombieBiker" value="10" />
 		<objective type="ZombieKill" id="zombieStripper,zombieStripperFeral" value="10" />
 		<reward type="Exp" value="2500" />
-		<reward type="Item" id="potassiumNitratePowder" value="25" />
 		<reward type="SkillPoints" value="3" />
 	</quest>
 	
@@ -1640,10 +1634,23 @@
 	icon="ui_game_symbol_skull"
 	repeatable="true"
 	category_key="challenge"
-	difficulty="easy">
+	difficulty="medium">
 		<objective type="ZombieKill" id="zombieFarmer,zombieFarmerFeral" value="10" />
 		<reward type="Exp" value="2500" />
-		<reward type="Item" id="potassiumNitratePowder" value="25" />
+		<reward type="SkillPoints" value="3" />
+	</quest>
+	
+	<quest id="challenge_Cowboy"
+	name="Save a Horse Ride a Cowboy"
+	subtitle="Kill some Cowboys"
+	offer="Go and kill some Cowboy Zombies.\n\nDwall"
+	description="Go and kill some Old Timing Cowboy Zombies."
+	icon="ui_game_symbol_skull"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="ZombieKill" id="zombieOldTimer,zombieOldTimerFeral" value="10" />
+		<reward type="Exp" value="2500" />
 		<reward type="SkillPoints" value="3" />
 	</quest>
 	
@@ -1655,10 +1662,61 @@
 	icon="ui_game_symbol_skull"
 	repeatable="true"
 	category_key="challenge"
-	difficulty="easy">
-		<objective type="ZombieKill" id="zombieFarmer,zombieFarmerFeral" value="10" />
+	difficulty="medium">
+		<objective type="ZombieKill" id="zombieBusinessMan,zombieBusinessManFeral" value="10" />
 		<reward type="Exp" value="2500" />
-		<reward type="Item" id="potassiumNitratePowder" value="25" />
+		<reward type="SkillPoints" value="3" />
+	</quest>
+	
+	<quest id="challenge_boarmetodeath"
+	name="Boar Me To Death"
+	subtitle="Kill Some Boars"
+	offer="Go and Kill some Boars"
+	description="Go and Kill some Boars"
+	icon="ui_game_symbol_knife"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="AnimalKill" id="animalBoar" value="5"  />
+		<reward type="SkillPoints" value="3" />
+	</quest>
+	
+	<quest id="challenge_wolfhunter"
+	name="Wolf Hunter"
+	subtitle="Kill Some Wolves"
+	offer="Go and Kill some Wolves"
+	description="Go and Kill some Wolves"
+	icon="ui_game_symbol_knife"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="AnimalKill" id="animalWolf" value="5"  />
+		<reward type="SkillPoints" value="3" />
+	</quest>
+	
+	<quest id="challenge_direwolfhunter"
+	name="Dire Wolf Hunter"
+	subtitle="Kill Some Dire Wolves"
+	offer="Go and Kill some Dire Wolves"
+	description="Go and Kill some Dire Wolves"
+	icon="ui_game_symbol_knife"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="hard">
+		<objective type="AnimalKill" id="animalDireWolf" value="3"  />
+		<reward type="SkillPoints" value="5" />
+	</quest>
+	
+	<quest id="challenge_constructionworker"
+	name="Construction Laborer"
+	subtitle="Kill Some Construction Workers"
+	offer="Go and Kill some Construction Workers"
+	description="Go and Kill some Construction Workers"
+	icon="ui_game_symbol_knife"
+	repeatable="true"
+	category_key="challenge"
+	difficulty="medium">
+		<objective type="ZombieKill" id="zombieUtilityWorker,zombieUtilityWorkerFeral" value="5"  />
 		<reward type="SkillPoints" value="3" />
 	</quest>
 	

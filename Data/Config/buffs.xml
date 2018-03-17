@@ -446,6 +446,11 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 	<modify id="1" stat="coretemp" modifyValue="15"/>
 </buff>
 
+<buff id="energypill" duration="240" stack="extend" type="staminaup"
+	icon="energypillBuff" name_key="energypillBuff"  description_key="energypillBuffDesc" tooltip_key="energypillBuffTooltip" causes="energypill">
+	<modify id="0" stat="stamina" amount="2" rate="1"/>
+</buff>
+
 <buff id="eatFood_1_Trigger" duration="1" actions="increment(CTRfood, 1, 0, 0, 1)"/>
 <buff id="eatFood_2_Trigger" duration="1" actions="increment(CTRfood, 2, 0, 0, 1)"/>
 <buff id="eatFood_3_Trigger" duration="1" actions="increment(CTRfood, 3, 0, 0, 1)"/>
@@ -625,8 +630,10 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 
 <buff id="asphaltStaBoostTrigger" duration="1" actions="setvar(CTRroadrun, 10)" />
 
-<buff id="asphaltStaminaEffect" duration="0" buffif="CTRroadrun greater 0" debuffif="CTRroadrun less 1" actions="increment(CTRroadrun, -1, 1, 0, 0)" >
-	<modify id="0" stat="stamina" amount="1" rate="2"/>
+<buff id="asphaltStaminaEffect" duration="0" buffif="CTRroadrun greater 0" debuffif="CTRroadrun less 1" actions="increment(CTRroadrun, -1, 1, 0, 0)" type="speedmodifier"
+	name_key="asphaltStaminaEffect" description_key="asphaltStaminaEffectDesc" tooltip_key="asphaltStaminaEffectTooltip" icon="ui_game_symbol_run" >
+	<modify id="0" stat="stamina" amount="1" rate="1"/>
+	<modify id="1" stat="speedmodifier" setValue="1.2"/>
 </buff>
 
 <!-- GTC
@@ -772,28 +779,28 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 <!-- Rest System Buffs -->
 
 
-<buff id="sleepingBagTrigger" duration="1" actions="setvar(CTRbedroll, 12)" requires="isPlayer"/>
+<buff id="sleepingBagTrigger" duration="1" actions="increment(CTRbedroll, 1, 1, 0, 0)" requires="isPlayer"/>
 
-<buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 0" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -4, 1, 0, 0)" requires="isPlayer"
+<buff id="sleepingBagEffect" duration="0" buffif="CTRbedroll greater 1" debuffif="CTRbedroll less 1" actions="increment(CTRbedroll, -1, 1, 0, 0)" requires="isPlayer"
 	icon="SleepingBagTriggerIcon" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip">
-	<modify id="0" stat="health" amount="1" rate="30" />
+	<modify id="0" stat="health" amount="1" rate="20" />
 	<modify id="0" stat="stamina" amount="1" rate="3" />
 </buff>
 
-<buff id="sleepingBedTrigger" duration="1" actions="setvar(CTRbed, 12)" requires="isPlayer"/>
+<buff id="sleepingBedTrigger" duration="1" actions="increment(CTRbed, 1, 1, 0, 0)" requires="isPlayer"/>
 
-<buff id="sleepingBedEffect" duration="0" buffif="CTRbed greater 0" debuffif="CTRbed less 1" actions="increment(CTRbed, -4, 1, 0, 0)" requires="isPlayer"
+<buff id="sleepingBedEffect" duration="0" buffif="CTRbed greater 1" debuffif="CTRbed less 1" actions="increment(CTRbed, -1, 1, 0, 0)" requires="isPlayer"
 	icon="SleepingBedTriggerIcon" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip">
 	<modify id="0" stat="health" amount="1" rate="15" />
-	<modify id="0" stat="stamina" amount="1" rate="3" />
+	<modify id="0" stat="stamina" amount="1" rate="2" />
 </buff>
 
-<buff id="sleepingBigBedTrigger" duration="1" actions="setvar(CTRbigbed, 12)" requires="isPlayer"/>
+<buff id="sleepingBigBedTrigger" duration="1" actions="increment(CTRbigbed, 1, 1, 0, 0)" requires="isPlayer"/>
 
-<buff id="sleepingBigBedEffect" duration="0" buffif="CTRbigbed greater 0" debuffif="CTRbigbed less 1" actions="increment(CTRbigbed, -4, 1, 0, 0)" requires="isPlayer"
+<buff id="sleepingBigBedEffect" duration="0" buffif="CTRbigbed greater 1" debuffif="CTRbigbed less 1" actions="increment(CTRbigbed, -1, 1, 0, 0)" requires="isPlayer"
 	icon="SleepingBedTriggerIcon" name_key="sleepingAwesome" description_key="sleepingAwesomeDesc" tooltip_key="sleepingAwesomeTooltip">
 	<modify id="0" stat="health" amount="1" rate="5" />
-	<modify id="0" stat="stamina" amount="1" rate="3" />
+	<modify id="0" stat="stamina" amount="1" rate="1" />
 </buff>
 
 <!-- <buff id="RestFix" buffif="rest greater 100" debuffif="rest lequal 100" actions="setvar(rest, 99)" type="speedmodifier"/>

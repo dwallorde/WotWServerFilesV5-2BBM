@@ -155,9 +155,9 @@ tbnsew:
 	<property name="Mesh" value="terrain"/>
 	<property name="Texture" value="300"/>
 	<property name="DropScale" value="2"/>
-	<drop event="Harvest" name="potassiumNitratePowder" count="20" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="potassiumNitratePowder" count="40" tool_category="harvestingTools"/>
 	<drop event="Destroy" count="0"/>
-	<drop event="Fall" name="potassiumNitratePowder" count="20" prob="0.5" stick_chance="0"/>
+	<drop event="Fall" name="potassiumNitratePowder" count="40" prob="0.5" stick_chance="0"/>
 	<property name="CanMobsSpawnOn" value="true"/>
 </block>
 
@@ -301,9 +301,7 @@ tbnsew:
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 	<property name="CanMobsSpawnOn" value="true"/>
-	<!-- A15
 	<property name="BuffsWhenWalkedOn" value="asphaltStaBoostTrigger"/>
-	-->
 	<property name="EconomicValue" value="45"/>
 	<property name="EconomicBundleSize" value="20"/>
 </block>
@@ -728,9 +726,7 @@ tbnsew:
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
 	<property name="CanMobsSpawnOn" value="true"/>
-	<!-- A15
 	<property name="BuffsWhenWalkedOn" value="asphaltStaBoostTrigger"/>
-	-->
 	<property name="EconomicValue" value="45"/>
 	<property name="EconomicBundleSize" value="20"/>
 </block>
@@ -3225,7 +3221,6 @@ group desc for stuff like metal siding
 <block id="319" name="ceilingLight01">
 	<property name="Extends" value="porchLight01"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="Material" value="glass"/>
 	<property name="MaxDamage" value="150" />
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 	<property name="Model" value="Entities/Lighting/ceilingLight01Prefab"/> <property name="HandleFace" value="Top"/>
@@ -3451,7 +3446,7 @@ group desc for stuff like metal siding
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="LootContainers/trash_pile01" param1="main_mesh"/>
 	<property name="ImposterExchange" value="imposterCTREighth" param1="29"/>
-	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	<property name="Collide" value="melee"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LootList" value="2"/>
 	<drop event="Destroy" count="0"/>
@@ -4976,7 +4971,46 @@ kind of free
 	<property name="LootList" value="147"/>
 </block>
 
-<!-- 5 Free -->
+<block id="459" name="screamerBlock">
+	<property name="CustomIcon" value="screamerBlock"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Campfire"/>
+	<property name="ParticleName" value="campfire"/>
+	<property name="ParticleOffset" value="0.5,1,0.5"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="HeatMapStrength" value="50"/>
+	<property name="HeatMapTime" value="1250"/>
+	<property name="HeatMapFrequency" value="10"/>
+	<property name="BuffsWhenWalkedOn" value="blockBurn3Trigger"/>
+	<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
+	<property class="Workstation">
+		<property name="Modules" value="tools,output,fuel,input"/>
+		<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	</property>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="200"/>
+	<property name="Texture" value="547"/>
+	<property class="RepairItems">
+		<property name="forgedIron" value="50"/>
+		<property name="glue" value="4"/>
+		<property name="mechanicalParts" value="10"/>
+		<property name="wood" value="25"/>
+		<property name="spring" value="5"/>
+	</property>
+	<drop event="Harvest" name="scrapIron" count="150" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="wood" count="20" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="forgedIron" count="10" tool_category="Disassemble"/>
+	<drop event="Harvest" name="mechanicalParts" count="6" tool_category="Disassemble"/>
+	<drop event="Harvest" name="wood" count="20" tool_category="Disassemble"/>
+	<drop event="Harvest" name="spring" count="3" tool_category="Disassemble"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="Group" value="Building"/>
+	<property name="EconomicValue" value="500"/>
+</block>
+
+<!-- 4 Free -->
 
 <block id="463" name="bed01">
 	<property name="DescriptionKey" value="bedGroupDesc"/>
@@ -4991,9 +5025,7 @@ kind of free
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="FuelValue" value="6"/>
-	<!-- A15
 	<property name="BuffsWhenWalkedOn" value="sleepingBedTrigger"/>
-	-->
 	<property class="RepairItems">
 		<property name="cloth" value="20"/>
 		<property name="cottonPlant" value="20"/>
@@ -5051,9 +5083,7 @@ kind of free
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="FuelValue" value="12"/>
-	<!-- A15
 	<property name="BuffsWhenWalkedOn" value="sleepingBedTrigger"/>
-	-->
 	<drop event="Harvest" name="cottonPlant" count="2"/>
 	<drop event="Harvest" name="cloth" count="2"/>
 	<drop event="Destroy" count="0"/>
@@ -5098,7 +5128,7 @@ kind of free
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="Plants/driftwood" param1="main_mesh"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	<property name="Collide" value="melee"/>
 	<drop event="Harvest" name="wood" count="8,14" tool_category="harvestingTools"/>
 	<drop event="Destroy" name="treePlantedMaple1m" count="1" prob="0.03"/>
 	<drop event="Destroy" name="treePlantedMountainPine1m" count="1" prob="0.03"/>
@@ -8248,7 +8278,7 @@ kind of free
 
 <block id="770" name="woodLogPillar100">
 	<property name="Extends" value="woodMaster"/>
-	<property name="MaxDamage" value="400"/>
+	<property name="MaxDamage" value="200"/>
 	<property name="Class" value="Trunk"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="Pole1m"/>
@@ -13572,7 +13602,7 @@ kind of free
 <block id="1248" name="ironDoor1_v1">
 	<property name="Class" value="DoorSecure"/>
 	<property name="Material" value="Mmetal_hard"/> <!-- 2500 -->
-	<property name="PassThroughDamage" value="true"/>
+	<property name="PassThroughDamage" value="false"/>
 	<property name="LightOpacity" value="1"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Tag" value="Door"/>
@@ -14975,10 +15005,10 @@ kind of free
 	<property name="Model" value="Entities/Trees/AzaleaPrefab"/><property name="ModelOffset" value="0,0,0"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Collide" value="melee"/>
-	<drop event="Harvest" name="blackberries" count="1" prob="0.05" tool_category="HandToolHarvest"/>
-	<drop event="Harvest" name="strawberries" count="1" prob="0.05" tool_category="HandToolHarvest"/>
-	<drop event="Harvest" name="Apple" count="1" prob="0.05" tool_category="HandToolHarvest"/>
-	<drop event="Harvest" name="yuccaFibers" count="2,4" prob="0.15" tool_category="HandToolHarvest"/>
+	<drop event="Harvest" name="blackberries" count="1" prob="0.075" tool_category="HandToolHarvest"/>
+	<drop event="Harvest" name="strawberries" count="1" prob="0.075" tool_category="HandToolHarvest"/>
+	<drop event="Harvest" name="Apple" count="1" prob="0.075" tool_category="HandToolHarvest"/>
+	<drop event="Harvest" name="yuccaFibers" count="3,6" prob="0.6" tool_category="HandToolHarvest"/>
 	<drop event="Destroy" name="wood" count="1,3" prob="1"/>
 	<!-- property name="FallOver" value="false" /-->
 	<property name="EconomicValue" value="20"/> <!-- disassemble value -->
@@ -15915,9 +15945,7 @@ kind of free
 	<property name="MultiBlockDim" value="2,1,2"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="FallDamage" value="false"/>
-	<!-- A15
 	<property name="BuffsWhenWalkedOn" value="sleepingBigBedTrigger"/>
-	-->
 	<property class="RepairItems">
 		<property name="cloth" value="40"/>
 		<property name="cottonPlant" value="40"/>
@@ -16777,9 +16805,7 @@ kind of free
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="FuelValue" value="6"/>
 	<property name="CanPickup" value="true"/>
-	<!-- A15
 	<property name="BuffsWhenWalkedOn" value="sleepingBagTrigger"/>
-	-->
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Group" value="Basics,Building"/>
 	<property class="RepairItems"> <property name="yuccaFibers" value="10"/> </property>
@@ -20982,7 +21008,6 @@ kind of free
 	<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
 	<property name="CustomIcon" value="ceilingLight01"/>
 	<property name="RuntimeSwitch" value="true"/>
-	<property name="Material" value="glass"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 	<property name="Model" value="Entities/Lighting/player_ceilingLight01Prefab"/> <property name="HandleFace" value="Top"/>
 	<property name="TakeDelay" value="5"/>

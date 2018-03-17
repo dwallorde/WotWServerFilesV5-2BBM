@@ -1964,7 +1964,7 @@ Mesh files no longer used:
 	</property>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="ActionSkillGroup" value="Construction Tools"/>
-	<property name="CraftingSkillGroup" value="craftSkillScience"/>
+	<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 </item>
 
@@ -3460,7 +3460,7 @@ Mesh files no longer used:
 		<property name="DegradationMax" value="2000,4000"/>
 	</property>
 	<property name="EconomicValue" value="300"/>
-	<property name="CraftingSkillGroup" value="Mechanic"/>
+	<property name="CraftingSkillGroup" value="craftSkillTools"/>
 </item>
 <item id="277" name="partsNailgun_receiver">
 	<property name="Extends" value="partsMaster"/>
@@ -3472,7 +3472,7 @@ Mesh files no longer used:
 		<property name="DegradationMax" value="2000,4000"/>
 	</property>
 	<property name="EconomicValue" value="300"/>
-	<property name="CraftingSkillGroup" value="Mechanic"/>
+	<property name="CraftingSkillGroup" value="craftSkillTools"/>
 </item>
 <item id="278" name="partsNailgun_parts">
 	<property name="Extends" value="partsMaster"/>
@@ -3485,7 +3485,7 @@ Mesh files no longer used:
 		<property name="DegradationMax" value="2000,4000"/>
 	</property>
 	<property name="EconomicValue" value="300"/>
-	<property name="CraftingSkillGroup" value="Mechanic"/>
+	<property name="CraftingSkillGroup" value="craftSkillTools"/>
 </item>
 <item id="279" name="partsNailgun_battery">
 	<property name="Extends" value="partsMaster"/>
@@ -3497,7 +3497,7 @@ Mesh files no longer used:
 		<property name="DegradationMax" value="2000,4000"/>
 	</property>
 	<property name="EconomicValue" value="300"/>
-	<property name="CraftingSkillGroup" value="Mechanic"/>
+	<property name="CraftingSkillGroup" value="craftSkillTools"/>
 </item>
 
 <item id="280" name="partsCompoundBow_body">
@@ -6562,7 +6562,8 @@ Mesh files no longer used:
 		<property name="Gain_stamina" value="10"/>
 		<property name="Sound_start" value="player_eating"/>
 	</property>
-	<property name="Group" value="Food/Cooking"/> <!-- ,Medicine -->
+	<property name="Group" value="Food/Cooking"/> <!-- Medicine -->
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 
@@ -6586,6 +6587,7 @@ Mesh files no longer used:
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="706" name="canBeef">
@@ -6774,6 +6776,7 @@ Mesh files no longer used:
 		<property name="Buff" value="eatSnowberryExtractTrigger,gainImmunity_small_Trigger"/>
 	</property>
 	<property name="Group" value="Science"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="727" name="corn">
@@ -6827,6 +6830,7 @@ Mesh files no longer used:
 		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="729" name="cornMeal">
@@ -6848,6 +6852,7 @@ Mesh files no longer used:
 		<property name="Sound_start" value="player_eating"/>
 	</property>
 	<property name="Group" value="Resources,Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="730" name="cornBread">
@@ -6870,6 +6875,7 @@ Mesh files no longer used:
 		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="731" name="moldyBread">
@@ -6944,6 +6950,7 @@ Mesh files no longer used:
 	</property>
 	<property name="Smell" value="ExLargeSmell"/>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="736" name="rottingFlesh">
@@ -6991,6 +6998,7 @@ Mesh files no longer used:
 	</property>
 	<property name="Smell" value="largeSmell"/>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="738" name="grilledMeat">
@@ -7013,6 +7021,7 @@ Mesh files no longer used:
 	</property>
 	<property name="Smell" value="mediumSmell"/>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="739" name="boiledMeat">
@@ -7036,6 +7045,7 @@ Mesh files no longer used:
 	</property>
 	<property name="Smell" value="smallSmell"/>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="740" name="meatStew">
@@ -7059,6 +7069,7 @@ Mesh files no longer used:
 	</property>
 	<property name="Smell" value="exLargeSmell"/>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 
@@ -7106,6 +7117,7 @@ Mesh files no longer used:
 	</property>
 	<property name="DropScale" value="4"/>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="752" name="egg">
@@ -7128,6 +7140,7 @@ Mesh files no longer used:
 		<property name="Sound_start" value="player_eating"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="753" name="eggboiled">
@@ -7150,6 +7163,7 @@ Mesh files no longer used:
 		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="754" name="blueberryPie">
@@ -7171,6 +7185,7 @@ Mesh files no longer used:
 		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="755" name="bakedPotato">
@@ -7192,6 +7207,7 @@ Mesh files no longer used:
 		<property name="Sound_start" value="player_eating"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="756" name="baconAndEggs">
@@ -7213,6 +7229,7 @@ Mesh files no longer used:
 	</property>
 	<property name="Smell" value="largeSmell"/>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="757" name="mushrooms">
@@ -7237,6 +7254,7 @@ Mesh files no longer used:
 	</property>
 	<property name="DropScale" value="4"/>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="758" name="vegetableStew">
@@ -7258,6 +7276,7 @@ Mesh files no longer used:
 		<!-- jar from cooking food <property name="Create_item" value="emptyJar"/> -->
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="775" name="canMurkyWater">
@@ -7286,6 +7305,7 @@ Mesh files no longer used:
 		<property name="Create_item" value="canEmpty"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="776" name="canBoiledWater">
@@ -7309,6 +7329,7 @@ Mesh files no longer used:
 		<property name="Create_item" value="canEmpty"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="779" name="bottledRiverWater">
@@ -7337,6 +7358,7 @@ Mesh files no longer used:
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="780" name="bottledWater">
@@ -7360,6 +7382,7 @@ Mesh files no longer used:
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="781" name="snowberryJuice">
@@ -7376,6 +7399,7 @@ Mesh files no longer used:
 		<property name="Buff" value="eatsnowberryJuiceTrigger,extinguishFireBuff,gainImmunity_small_Trigger"/>
 	</property>
 	<property name="Group" value="Science"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="782" name="goldenRodTea">
@@ -7399,6 +7423,7 @@ Mesh files no longer used:
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="783" name="redTea">
@@ -7422,6 +7447,7 @@ Mesh files no longer used:
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="784" name="yuccaCocktail"> <!-- yucca yuice/drink/thing -->
@@ -7441,6 +7467,7 @@ Mesh files no longer used:
 		<property name="Gain_stamina" value="0"/>
 		<property name="Buff" value="megaCrushBuff,extinguishFireBuff"/>
 	</property>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="786" name="coffee">
@@ -7464,6 +7491,7 @@ Mesh files no longer used:
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="787" name="beer">
@@ -7486,6 +7514,7 @@ Mesh files no longer used:
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Food/Cooking"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="788" name="grainAlcohol">
@@ -7509,6 +7538,7 @@ Mesh files no longer used:
 		<property name="Create_item" value="emptyJar"/>
 	</property>
 	<property name="Group" value="Chemicals"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <!-- * * * * * * * * * * recipes, books, and schematics * * * * * * * * * * -->
@@ -12877,7 +12907,7 @@ Mesh files no longer used:
 		<property name="Class" value="Repair" />
 		<property name="Delay" value="0.15" />
 		<property name="Repair_amount" value="500" />
-		<property name="Upgrade_hit_offset" value="-5" />
+		<property name="Upgrade_hit_offset" value="-7" />
 		<property name="Repair_action_sound" value="Weapons/Motorized/Nailgun/nailgun_fire" />
 		<property name="Upgrade_action_sound" value="Weapons/Motorized/Nailgun/nailgun_fire" />
 		<property name="Allowed_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,nail,ForgedTungsten,gasCan,corn,fireLog" />
@@ -12887,7 +12917,7 @@ Mesh files no longer used:
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip" />
 	<property name="ActionSkillGroup" value="Construction Tools"/>
-	<property name="CraftingSkillGroup" value="craftSkillGuns" />
+	<property name="CraftingSkillGroup" value="craftSkillTools" />
 	<property name="EconomicValue" value="1200" />
 </item>
 
@@ -12943,7 +12973,7 @@ Mesh files no longer used:
 		<property name="DegradationMax" value="1250,5000" />
 	</property>
 	<property name="EconomicValue" value="400" />
-	<property name="CraftingSkillGroup" value="Mechanic" />
+	<property name="CraftingSkillGroup" value="craftSkillTools" />
 </item>
 
 <item id="1691" name="HDNailgun_Receiver">
@@ -12957,7 +12987,7 @@ Mesh files no longer used:
 		<property name="DegradationMax" value="1250,5000" />
 	</property>
 	<property name="EconomicValue" value="400" />
-	<property name="CraftingSkillGroup" value="Mechanic" />
+	<property name="CraftingSkillGroup" value="craftSkillTools" />
 </item>
 
 <item id="1692" name="HDNailgun_Parts">
@@ -12972,7 +13002,7 @@ Mesh files no longer used:
 		<property name="DegradationMax" value="1250,5000" />
 	</property>
 	<property name="EconomicValue" value="400" />
-	<property name="CraftingSkillGroup" value="Mechanic" />
+	<property name="CraftingSkillGroup" value="craftSkillTools" />
 </item>
 
 <item id="1693" name="HDNailgun_Battery">
@@ -12986,7 +13016,7 @@ Mesh files no longer used:
 		<property name="DegradationMax" value="1250,5000" />
 	</property>
 	<property name="EconomicValue" value="400" />
-	<property name="CraftingSkillGroup" value="Mechanic" />
+	<property name="CraftingSkillGroup" value="craftSkillTools" />
 </item>
 
 <item id="1694" name="GoldTippedMachete">
@@ -14135,6 +14165,7 @@ Mesh files no longer used:
     </property>
     <property name="CraftingIngredientTime" value="15" />
     <property name="Group" value="Food/Cooking" />
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
 <item id="1799" name="GreenTea">
@@ -14271,6 +14302,7 @@ Mesh files no longer used:
     <property name="Group" value="Medicine" />
 	<property name="ActionSkillGroup" value="Medicine" />
 	<property name="CraftingSkillGroup" value="craftSkillScience" />
+	<property name="EconomicValue" value="100"/>
 </item>
 
 <item id="1804" name="FishingPole">
@@ -14283,7 +14315,7 @@ Mesh files no longer used:
 	<property name="Weight" value="13" />
     <property name="Group" value="Tools/Traps" />
 	<property name="CraftingSkillGroup" value="craftSkillTools" />
-	<property name="EconomicValue" value="250" />
+	<property name="EconomicValue" value="150" />
 </item>
 
 <item id="1805" name="FishingPoleBated">
@@ -14297,7 +14329,7 @@ Mesh files no longer used:
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="wooddestroy1"/>
     <property name="FuelValue" value="15" />
-	<property name="EconomicValue" value="150"/>
+	<property name="EconomicValue" value="250"/>
 	<property class="Action1">
 		<property name="Class" value="MakeFertile" />
 		<property name="Delay" value="2" />
@@ -18829,6 +18861,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="socketLightBulb" />
 	<property name="Material" value="MelectricParts"/>
 	<property name="Weight" value="2"/>
+	<property name="EconomicValue" value="45"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18837,6 +18870,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="switchOld" />
 	<property name="Material" value="MelectricParts"/>
 	<property name="Weight" value="2"/>
+	<property name="EconomicValue" value="30"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18845,6 +18879,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="recepticalOld" />
 	<property name="Material" value="MelectricParts"/>
 	<property name="Weight" value="3"/>
+	<property name="EconomicValue" value="30"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18853,6 +18888,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="lightfixtureOld" />
 	<property name="Material" value="MelectricParts"/>
 	<property name="Weight" value="5"/>
+	<property name="EconomicValue" value="40"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18861,6 +18897,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="heaterBlock" />
 	<property name="Material" value="MelectricParts"/>
 	<property name="Weight" value="8"/>
+	<property name="EconomicValue" value="50"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18869,6 +18906,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="fanOscillating" />
 	<property name="Material" value="MelectricParts"/>
 	<property name="Weight" value="4"/>
+	<property name="EconomicValue" value="45"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18877,6 +18915,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="watchAnalog" />
 	<property name="Material" value="MelectricParts"/>
 	<property name="Weight" value="2"/>
+	<property name="EconomicValue" value="60"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18885,6 +18924,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="flashlightBroken" />
 	<property name="Material" value="MelectricParts"/>
 	<property name="Weight" value="2"/>
+	<property name="EconomicValue" value="35"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18893,6 +18933,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="motherboardComputer" />
 	<property name="Material" value="MelectronicParts"/>
 	<property name="Weight" value="6"/>
+	<property name="EconomicValue" value="55"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18901,6 +18942,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="phoneCorded" />
 	<property name="Material" value="MelectronicParts"/>
 	<property name="Weight" value="2"/>
+	<property name="EconomicValue" value="25"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18909,6 +18951,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="keyboardComputer" />
 	<property name="Material" value="MelectronicParts"/>
 	<property name="Weight" value="4"/>
+	<property name="EconomicValue" value="30"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18917,6 +18960,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="mouseComputer" />
 	<property name="Material" value="MelectronicParts"/>
 	<property name="Weight" value="3"/>
+	<property name="EconomicValue" value="30"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18925,6 +18969,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="radioCar" />
 	<property name="Material" value="MelectronicParts"/>
 	<property name="Weight" value="4"/>
+	<property name="EconomicValue" value="55"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18933,6 +18978,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="stickUSB" />
 	<property name="Material" value="MelectronicParts"/>
 	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="35"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18941,6 +18987,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="speakersHome" />
 	<property name="Material" value="MelectronicParts"/>
 	<property name="Weight" value="6"/>
+	<property name="EconomicValue" value="60"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18949,6 +18996,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="watchDigital" />
 	<property name="Material" value="MelectronicParts"/>
 	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="40"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18957,6 +19005,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="remoteTV" />
 	<property name="Material" value="MelectronicParts"/>
 	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18965,6 +19014,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="ampAudio" />
 	<property name="Material" value="MelectronicParts"/>
 	<property name="Weight" value="5"/>
+	<property name="EconomicValue" value="35"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18973,6 +19023,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="hinge" />
 	<property name="Material" value="MmechanicalParts"/>
 	<property name="Weight" value="2"/>
+	<property name="EconomicValue" value="25"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18981,6 +19032,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="handleDoor" />
 	<property name="Material" value="MmechanicalParts"/>
 	<property name="Weight" value="3"/>
+	<property name="EconomicValue" value="25"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18989,6 +19041,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="packofScrews" />
 	<property name="Material" value="MmechanicalParts"/>
 	<property name="Weight" value="2"/>
+	<property name="EconomicValue" value="30"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -18997,6 +19050,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="carPartsBox" />
 	<property name="Material" value="MmechanicalParts"/>
 	<property name="Weight" value="6"/>
+	<property name="EconomicValue" value="40"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -19005,6 +19059,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="cardDebit" />
 	<property name="Material" value="Mplastics"/>
 	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -19013,6 +19068,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="basketLaundry" />
 	<property name="Material" value="Mplastics"/>
 	<property name="Weight" value="4"/>
+	<property name="EconomicValue" value="20"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -19021,6 +19077,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="MacHappyToy" />
 	<property name="Material" value="Mplastics"/>
 	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="15"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -19029,6 +19086,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="coffeeMug" />
 	<property name="Material" value="Mplastics"/>
 	<property name="Weight" value="2"/>
+	<property name="EconomicValue" value="20"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -19037,6 +19095,7 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="plasticCup" />
 	<property name="Material" value="Mplastics"/>
 	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="10"/>
 	<property name="DescriptionKey" value="cosmeticItemDesc"/>
 </item>
 
@@ -19109,8 +19168,7 @@ Mesh files no longer used:
 	<property name="HoldType" value="23"/>
 	<property name="Stacknumber" value="50"/>
 	<property name="Weight" value="5"/>
-	<property name="EconomicValue" value="5"/>
-	<property name="EconomicBundleSize" value="50"/>
+	<property name="EconomicValue" value="75"/>
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -19806,6 +19864,83 @@ Mesh files no longer used:
 	<property name="Extends" value="challengeQuestMaster" />
 	<property class="Action1">
 		<property name="QuestGiven" value="challenge_BusinessMan" />
+	</property>
+	<property name="DescriptionKey" value="qc_ZombieGroupDesc" />
+</item>
+
+<item id="2152" name="Challenge_Cowboy">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="challenge_Cowboy" />
+	</property>
+	<property name="DescriptionKey" value="qc_ZombieGroupDesc" />
+</item>
+
+<item id="2153" name="energypill">
+	<property name="CustomIcon" value="energypill"/>
+	<property name="Meshfile" value="Items/Health/painkillersPrefab"/>
+	<property name="Material" value="organic"/>
+	<property name="HoldType" value="16"/>
+	<property name="EconomicValue" value="140"/>
+	<property name="Stacknumber" value="250"/> <!-- STK loot -->
+	<property class="Action0">
+		<property name="Class" value="UseOther"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Gain_health" value="0"/>
+		<property name="Gain_food" value="-5"/>
+		<property name="Gain_water" value="0"/>
+		<property name="Gain_wellness" value="0"/>
+		<property name="Gain_stamina" value="10"/>
+		<property name="Sound_start" value="player_painkillers"/>
+		<property name="Buff" value="energypill"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Gain_health" value="0"/>
+		<property name="Gain_food" value="-5"/>
+		<property name="Gain_water" value="0"/>
+		<property name="Gain_wellness" value="0"/>
+		<property name="Gain_stamina" value="10"/>
+		<property name="Sound_start" value="player_painkillers"/>
+		<property name="Buff" value="energypill"/>
+	</property>
+	<property name="ActionSkillGroup" value="Medicine"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
+	<property name="Group" value="Science"/>
+	<property name="ActionExp" value="10"/>
+</item>
+
+<item id="2154" name="Challenge_boarmetodeath">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="challenge_boarmetodeath" />
+	</property>
+	<property name="DescriptionKey" value="qc_ZombieGroupDesc" />
+</item>
+
+<item id="2155" name="Challenge_wolfhunter">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="challenge_wolfhunter" />
+	</property>
+	<property name="DescriptionKey" value="qc_ZombieGroupDesc" />
+</item>
+
+<item id="2156" name="Challenge_direwolfhunter">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="challenge_direwolfhunter" />
+	</property>
+	<property name="DescriptionKey" value="qc_ZombieGroupDesc" />
+</item>
+
+<item id="2157" name="Challenge_constructionworker">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="challenge_constructionworker" />
 	</property>
 	<property name="DescriptionKey" value="qc_ZombieGroupDesc" />
 </item>
