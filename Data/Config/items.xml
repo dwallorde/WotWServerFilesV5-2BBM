@@ -18122,7 +18122,7 @@ Mesh files no longer used:
 	<property name="HoldType" value="16"/>
 	<property name="Material" value="Miron"/>
 	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
-	<property name="EconomicValue" value="20"/>
+	<property name="EconomicValue" value="10"/>
 	<property name="Group" value="Resources"/>
 	<property name="CraftingSkillGroup" value="Construction"/>
 </item>

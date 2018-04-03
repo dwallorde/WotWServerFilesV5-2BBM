@@ -875,8 +875,8 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="scrapLead" count="5,90"/> <!-- 5 -->
 			<item name="cloth" count="5,100"/>
 			<item name="militaryFiber" count="5,20" prob="0.6"/>
-			<item name="coal" count="30,100"/> <!-- 10 -->
-			<item name="potassiumNitratePowder" count="30,100"/> <!-- 10 -->
+			<item name="coal" count="75,250"/> <!-- 10 -->
+			<item name="potassiumNitratePowder" count="75,250"/> <!-- 10 -->
 			<item name="gunPowder" count="30,100"/> <!-- 10 -->
 			<item name="oil" count="30,100"/>
 			<item name="animalFat" count="5,40"/>
@@ -1098,7 +1098,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="gunPowder" count="5,50"/> <!-- 10 -->
 			<item group="ammo" count="2,6"/>
 			<item group="ammoSupplies" count="2,6"/>
-			<item name="potassiumNitratePowder" count="10,55"/> <!-- 10 -->
+			<item name="potassiumNitratePowder" count="50,250"/> <!-- 10 -->
 		</trader_item_group>
 
 		<trader_item_group name="traderGeneral" count="1">
@@ -1900,6 +1900,10 @@ workstations
 			<item name="ExtraStrengthPainkillers" count="2,5"/>
 			<item name="GreenTea" count="5,10"/>
 			<item name="ExplosiveSpeedTrap" count="2,4"/>
+			<item name="dynamite" count="2,4"/>
+			<item name="tnt" count="2,4"/>
+			<item name="pipeBomb" count="2,4"/>
+			<item name="molotovCocktail" count="2,4"/>
 			<item name="LegBoosterShot" count="2,5"/>
 			<item name="SpeedTrap" count="2,4"/>
 			<item name="FireSpeedTrap" count="2,4"/>

@@ -6736,4 +6736,5 @@ animalDireWolf,entityclasses,Entity,KgNone,Dire Wolf,,,,
 asphaltStaminaEffect,buffs,Buff,KgNone,Road Runner,,,,
 asphaltStaminaEffectDesc,buffs,Buff,KgNone,You can run for a longer period of time when running on asphalt,,,,
 asphaltStaminaEffectTooltip,buffs,Buff,KgNone,Run Forest Run,,,,
+KevlarSchematic,items,Item,KgNone,Kevlar Schematic,,,,
 

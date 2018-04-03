@@ -155,9 +155,9 @@ tbnsew:
 	<property name="Mesh" value="terrain"/>
 	<property name="Texture" value="300"/>
 	<property name="DropScale" value="2"/>
-	<drop event="Harvest" name="potassiumNitratePowder" count="40" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="potassiumNitratePowder" count="30" tool_category="harvestingTools"/>
 	<drop event="Destroy" count="0"/>
-	<drop event="Fall" name="potassiumNitratePowder" count="40" prob="0.5" stick_chance="0"/>
+	<drop event="Fall" name="potassiumNitratePowder" count="30" prob="0.5" stick_chance="0"/>
 	<property name="CanMobsSpawnOn" value="true"/>
 </block>
 
@@ -493,9 +493,9 @@ tbnsew:
 	<property name="Mesh" value="terrain"/>
 	<property name="Texture" value="34"/>
 	<property name="DropScale" value="2"/>
-	<drop event="Harvest" name="coal" count="20" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="coal" count="25" tool_category="harvestingTools"/>
 	<drop event="Destroy" count="0"/>
-	<drop event="Fall" name="coal" count="20" prob="0.5" stick_chance="0"/>
+	<drop event="Fall" name="coal" count="25" prob="0.5" stick_chance="0"/>
 	<property name="CanMobsSpawnOn" value="true"/>
 </block>
 
@@ -5137,6 +5137,7 @@ kind of free
 <block id="469" name="driftwood2">
 	<property name="Extends" value="driftwood"/>
 	<property name="Model" value="Plants/driftwood2" param1="main_mesh"/>
+	<property name="Collide" value="melee"/>
 </block>
 
 <block id="470" name="signRoadArrowheadApache">
@@ -8082,7 +8083,7 @@ kind of free
 	<property name="Stacknumber" value="1"/>
 	<property name="DescriptionKey" value="drawBridgeGroupDesc"/>
 	<property name="ActivationDistance" value="14"/> <!-- This is how far away you can PLACE the block and how far away you can ACTIVATE it -->
-	<property name="Group" value="Science"/>
+	<property name="Group" value="Building,Science"/>
 </block>
 
 <!--<block id="750" name="metalReinforcedWoodDrawBridgeDouble">
@@ -11100,6 +11101,7 @@ kind of free
 	<property name="Model" value="Plate"/>
 	<property name="Texture" value="435" />
 	<property name="CraftingSkillGroup" value="craftSkillTools" />
+	<property name="Group" value="Tools/Traps" />
 </block>
 
 <block id="1018" name="ExplosiveSpeedTrap">
@@ -11120,6 +11122,7 @@ kind of free
 	<property name="Model" value="Plate"/>
 	<property name="Texture" value="428" />
 	<property name="CraftingSkillGroup" value="craftSkillTools" />
+	<property name="Group" value="Tools/Traps" />
 </block>
 
 <block id="1019" name="FireSpeedTrap">
@@ -11134,6 +11137,7 @@ kind of free
 	<property name="Model" value="Plate"/>
 	<property name="Texture" value="169" />
 	<property name="CraftingSkillGroup" value="craftSkillTools" />
+	<property name="Group" value="Tools/Traps" />
 </block>
 
 <block id="1020" name="HealthDeploy">
@@ -15527,7 +15531,36 @@ kind of free
 	<property name="Group" value="Tools/Traps,Science"/>
 	<property name="DescriptionKey" value="woodLogSpike1Desc"/>
 </block>
-	<!-- x Free -->
+
+<block id="1453" name="tricycle">
+	<property name="Material" value="metal"/>
+	<property name="MaxDamage" value="150" />
+	<!-- <property name="LootList" value="19"/> -->
+	<property name="Shape" value="ModelEntity"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="Model" value="Entities/Vehicles/car03_dmg0_Prefab"/>
+	<property name="MultiBlockDim" value="1,3,2"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="ShowModelOnFall" value="false"/>
+	<property name="PassThroughDamage" value="true"/>
+	<drop event="Harvest" name="leather" count="2,7" prob="0.5"/>
+	<drop event="Harvest" name="scrapIron" count="10,20"/>
+	<drop event="Harvest" name="headlight" count="1" prob="0.2" tool_category="Disassemble"/>
+	<drop event="Harvest" name="oil" count="1,3" prob="0.5" tool_category="Disassemble"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Harvest" name="mechanicalParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
+	<drop event="Harvest" name="electricParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
+	<drop event="Harvest" name="electronicParts" count="0,2" prob="0.1" tool_category="Disassemble"/>
+	<drop event="Harvest" name="radiator" count="0,1" prob="0.15" tool_category="HDDisassemble"/>
+	<drop event="Harvest" name="electronicParts" count="0,2" prob="0.2" tool_category="HDDisassemble"/>
+	<drop event="Harvest" name="oil" count="2,3" prob="0.35" tool_category="HDDisassemble"/>
+	<!-- <drop event="Fall" name="cntCar03SedanDamage1" count="1" prob="1.0" stick_chance="1"/> -->
+	<!-- <property name="DowngradeBlock" value="cntCar03SedanDamage1"/> -->
+	<property name="BigDecorationRadius" value="2"/>
+	<property name="CanDecorateOnSlopes" value="false"/>
+</block>
+	<!-- 5 Free -->
 
 <block id="1448" name="spotlightNailedDownPOI">
 	<property name="Class" value="Light"/>

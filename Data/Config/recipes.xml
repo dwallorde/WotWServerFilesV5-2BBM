@@ -758,11 +758,13 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="SteelMachete" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="150">
-	<ingredient name="forgedSteel" count="3"/>
+	<ingredient name="forgedSteel" count="10"/>
+	<ingredient name="leather" count="1"/>
 </recipe>
 
 <recipe name="TungstenMachete" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="150">
-	<ingredient name="ForgedTungsten" count="3"/>
+	<ingredient name="ForgedTungsten" count="10"/>
+	<ingredient name="leather" count="1"/>
 </recipe>
 
 <recipe name="GoldTippedMachete" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="200">
@@ -4510,11 +4512,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="IronStairsBoard" count="1">
 	<ingredient name="unit_iron" count="5"/>
 	<ingredient name="unit_clay" count="1"/>
-</recipe> -->
+</recipe>
 
 <recipe name="concreteStairs25" count="1">
 	<ingredient name="concreteMix" count="10"/>
-</recipe>
+</recipe> -->
 
 <!-- <recipe name="ConcreteStairsBoard">
 	<ingredient name="concreteMix" count="5"/>

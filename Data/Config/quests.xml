@@ -1494,7 +1494,7 @@
 	repeatable="true"
 	category_key="challenge"
 	difficulty="hard">
-		<objective type="ZombieKill" id="zombieferal" value="1" />
+		<objective type="ZombieKill" id="zombieWightFeral,zombieWightFeralRadiated" value="1" />
 			<requirement type="Holding" id="M25SniperRifle" />
 		<reward type="Exp" value="5000" />
 	</quest>
